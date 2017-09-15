@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Device Messenger</title>
+		<link rel="shortcut icon"type="image/x-icon" href="data:image/x-icon;,">
+		<style type="text/css">
+		body {text-align: center; font-size: 35px; background-color: #2A2B2F; color: rgba(255,255,255,0.85);}
+		#string, #key, #result {width: 700px; font-size: 35px; margin-top: 10px;}
+		#encrypt, #decrypt {width:1.5em; height:1.5em;}
+		#enter, #clear, #copy {background-color: rgba( 255, 255, 255, 0.85 ); font-size: 35px;}
+		#clear {margin-left: 50px;}
+		#copy {margin-top: 10px;}
+		</style>
+	</head>
+	<body>
+		<h3>Encoder/Decoder</h3>
+
+		<p><div>Enter message:</div>
+		<input type="text" id="string"></p>
+
+		<p><div>Enter key:</div>
+		<input type="password" id="key"></p>
+
+		<p><label><input type="radio" name="type" id="encrypt" checked="true">Encrypt</label>
+		<label><input type="radio" name="type" id="decrypt">Decrypt</label></p>
+
+		<p><input type="button" id="enter" value="Enter">
+		<input type="button" id="clear" value="Clear"></p>
+
+		<p><textarea rows="4" id="result" placeholder="Result will appear here" disabled></textarea>
+		</br>
+		<input type="button" id="copy" value="Copy to clipboard"></p>
+
+		<script>
+			function OTP() 
+				{
+				var string = document.getElementById("string").value;
+				var key = document.getElementById("key").value;
+				if ((key !== "") && (string !== ""))
+					{
+					if (document.getElementById("encrypt").checked == true)
+						{
+						var coded = XOR_String_Plus(string, key);
+						document.getElementById("result").value = coded;
+						}
+					else
+						{
+						var decoded = XOR_String_Minus(string, key);
+						document.getElementById("result").value = decoded;
+						}
+					document.getElementById("string").value = "";
+					document.getElementById("key").value = "";
+					}
+				
+				}
+
+			function XOR_String_Plus(string,key)
+				{
+				var key_Pos = 0;
+				var string_XOR = "";
+				for (var i = 0, len = string.length; i < len; i++) 
+					{
+					string_XOR += String.fromCharCode(((((string[i].charCodeAt(0)) ^ ((key.substring(key_Pos, (key_Pos + 1))).charCodeAt(0)))) + 50));
+					key_Pos++;
+					if (key_Pos >= key.length)
+						key_Pos = 0;
+					}
+				return string_XOR;
+				}
+
+			function XOR_String_Minus(string,key)
+				{
+				var key_Pos = 0;
+				var string_XOR = "";
+				for (var i = 0, len = string.length; i < len; i++) 
+					{
+					string_XOR += String.fromCharCode(((((string[i].charCodeAt(0)) - 50)) ^ ((key.substring(key_Pos, (key_Pos + 1))).charCodeAt(0))));
+					key_Pos++;
+					if (key_Pos >= key.length)
+						key_Pos = 0;
+					}
+				return string_XOR;
+				}
+				
+			document.body.addEventListener("keyup", function(event)
+				{
+				if(event.key === "Enter") 
+					OTP();
+				});
+				
+			document.getElementById("enter").addEventListener("click", OTP);
+
+			document.getElementById("clear").addEventListener("click", function()
+				{
+				document.getElementById("string").value = "";
+				document.getElementById("key").value = "";
+				document.getElementById("result").value = "Result will appear here";
+				});
+
+			document.getElementById("copy").addEventListener("click", function()
+				{
+				var copyText = document.getElementById("result");
+				copyText.disabled = false;
+				copyText.select();
+				document.execCommand("Copy");
+				copyText.disabled = true;
+				});
+		</script>
+	</body>
+</html>
