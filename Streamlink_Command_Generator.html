@@ -1,0 +1,305 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="theme-color" content="#2A2B2F">
+		<title>Streamlink Command Generator</title>
+		<style type="text/css">
+			body {text-align: center; font-size: 35px; background-color: #2A2B2F; color: rgba(255,255,255,0.85);}
+			#url, #channel, #game, #date, #offset, #endAt, #result {font-size: 35px;}
+			#result {width: 700px;}
+			#urlList, #entryList {width: 300px; font-size: 35px; margin-top: 10px;}
+			#enter, #clear {display: inline;}
+			#enter, #clear, #copy, #clearResults {background-color: rgba( 255, 255, 255, 0.85 ); font-size: 35px;}
+			#enter {margin-left: 20px;}
+			#clear, #clearResults {margin-left: 50px;}
+			#copy {margin-top: 10px;}
+			.inline {display: inline-block;}
+			.width-narrow {width: 200px;}
+			.width-medium {width: 350px;}
+			.width-wide {width: 490px;}
+		</style>
+	</head>
+	<body>
+		<h3>Streamlink Command Generator</h3>
+
+		<p><div class="inline width-narrow">Url:</div>
+		<input type="text" id="url" class="inline width-wide"></p>
+
+		<p><div class="inline width-narrow">Channel:</div>
+		<input type="text" id="channel" class="inline width-wide"></p>
+
+		<p><div class="inline width-narrow">Game:</div>
+		<input type="text" id="game" class="inline width-wide"></p>
+
+		<p><div class="inline width-narrow">Date:</div>
+		<input type="text" id="date" class="inline width-wide"></p>
+
+		<p><div class="inline width-narrow">Start Offset:</div>
+		<input type="text" id="offset" class="inline width-wide"></p>
+
+		<p><div class="inline width-narrow">End At:</div>
+		<input type="text" id="endAt" class="inline width-wide"></p>
+
+		<p><div class="inline width-medium"><div class="inline"><label id="phoneLabel"><input type="radio" name="type" id="phone" checked="true">Phone</label></div>
+		<div class="inline"><label id="computerLabel"><input type="radio" name="type" id="computer">Computer</label></div></div>
+		<div class="inline width-medium"><input type="button" id="enter" value="Enter">
+		<input type="button" id="clear" value="Clear"></div></p>
+
+		<p><div class="inline"><div class="width-medium">Fill From Previous</div>
+		<select class="width-narrow" id="entryList">
+			<option></option>
+			<option value="relayfm">RelayFM</option>
+		</select></div>
+		<div class="inline"><div class="width-medium">Open Site</div>
+		<select class="width-narrow" id="urlList">
+			<option></option>
+			<option value="chocotaco">ChocoTaco</option>
+			<option value="ryukahr">Ryukahr</option>
+			<option value="dgr_dave">DGR_Dave</option>
+			<option value="reid">Reid</option>
+			<option value="iamfallfromgrace">IAmFallFromGrace</option>
+			<option value="youtube">Youtube</option>
+		</select></div></p>
+
+		<p><textarea rows="10" id="result" placeholder="Command will appear here"></textarea>
+		</br>
+		<input type="button" id="copy" value="Copy to clipboard">
+		<input type="button" id="clearResults" value="Clear"></p>
+
+		<script>
+			function createCommand() 
+				{
+				var url = document.getElementById("url").value.replace(" ", "_");
+				if (url.indexOf("http") == -1)
+					{
+					alert("You must enter a full url");
+					return;
+					}
+				var channel = document.getElementById("channel").value.replace(" ", "_");
+				var game = document.getElementById("game").value.replace(" ", "_");
+				var date = document.getElementById("date").value.replace(" ", "_");
+				var offset = document.getElementById("offset").value.replace(" ", "_");
+				var endAt = document.getElementById("endAt").value.replace(" ", "_");
+				if (url.indexOf("twitch.tv") != -1)
+					{
+					url = url.replace(/\?.*/, '');
+					if ((channel == "") && (channel.indexOf("videos") == -1))
+						{
+						var foundChannel = url.match(/https:\/\/www.twitch.tv\/([^/]+)/);
+						if ((foundChannel) && (foundChannel[1]))
+							channel = foundChannel[1];
+						}
+					}
+				else if ((url.indexOf("youtu") != -1) && (url.indexOf("watch?v=") != -1))
+					url = url.replace(/\&.*/, '');
+				if ((url == "") || (channel == "") || (date == ""))
+					alert("You must fill out all fields");
+				else
+					{
+					var foundMatch = false;
+					for (var i = 0; i < entryList.length; i++)
+						{
+						if ((entryList[i].url == url) && (entryList[i].channel == channel) && (entryList[i].game == game) && (entryList[i].date == date) && (entryList[i].offset == offset) && (entryList[i].endAt == endAt))
+							foundMatch = true;
+						}
+					if (foundMatch != true)
+						{
+						var entry = {url:url,channel:channel,game:game,date:date,offset:offset,endAt:endAt};
+						entryList.push(entry);
+						var select = document.getElementById("entryList"); 
+						var text = entryList.length + "~" + channel;
+						var option = document.createElement("option");
+							option.textContent = text;
+							option.value = text;
+							select.appendChild(option);
+						}
+					if (game != "")
+						channel += "_" + game;
+					var command = "";
+					if (document.getElementById("phone").checked == true)
+						{
+						var youtubeDL = "youtube-dl";
+						var streamlink = "streamlink";
+						var folder = "/data/data/com.termux/files/home/storage/shared/Download/"
+						}
+					else
+						{
+						var youtubeDL = '"W:\\Youtube-dl\\youtube-dl.exe"';
+						var streamlink = '"W:\\Twitch Streamer\\Streamlink.exe"';
+						var folder = "Documents\\Misc\\";
+						}
+					var fileName = folder + date + "_" + channel + ".mp4";
+					if (fileNameList.includes(fileName))
+						{
+						var i = 1;
+						while (fileNameList.includes(fileName))
+							{
+							i++;
+							fileName = folder + date + "_" + channel + "-" + i + ".mp4";
+							}
+						}
+					fileNameList.push(fileName);
+					if (url.indexOf("youtu") != -1)
+						command += youtubeDL + ' "' + url + '" -o "' + fileName + '"';
+					else
+						{
+						command += streamlink + ' "' + url + '" 720p,720p30,720p60,best -o "' + fileName + '"';
+						if ((offset != "") && (offset != "00:00:00"))
+							command += " --hls-start-offset " + offset;
+						if ((endAt != "") && (endAt != "00:00:00"))
+							{
+							if ((offset != "") && (offset != "00:00:00"))
+								{
+								var offsetSplit = offset.split(":")
+								var endAtSplit = endAt.split(":")
+								var date1 = new Date(2000, 0, 1, offsetSplit[0], offsetSplit[1], offsetSplit[2]);
+								var date2 = new Date(2000, 0, 1, endAtSplit[0], endAtSplit[1], endAtSplit[2]);
+								var seconds = ((date2 - date1) / 1000);
+								var hours = Math.floor(seconds / 3600);
+								if (hours < 10)
+									hours = "0" + hours;
+								seconds = (seconds % 3600);
+								var minutes = Math.floor(seconds / 60);
+								if (minutes < 10)
+									minutes = "0" + minutes;
+								seconds = (seconds % 60);
+								if (seconds < 10)
+									seconds = "0" + seconds;
+								var duration = hours + ":" + minutes + ":" + seconds;
+								command += " --hls-duration " + duration;
+								}
+							else
+								command += " --hls-duration " + endAt;
+							}
+						}
+					var resultBox = document.getElementById("result");
+					if (resultBox.value == "Command will appear here")
+						resultBox.value = "";
+					if (resultBox.value != "")
+						resultBox.value += " && ";
+					resultBox.value += command;
+						document.getElementById("url").value = "";
+					document.getElementById("channel").value = "";
+					document.getElementById("game").value = "";
+					// document.getElementById("date").value = yesterday;
+					document.getElementById("offset").value = "00:00:00";
+					document.getElementById("endAt").value = "00:00:00";
+					}
+				}
+				
+			document.body.addEventListener("keyup", function(event)
+				{
+				if(event.key === "Enter") 
+					createCommand();
+				});
+				
+			document.getElementById("enter").addEventListener("click", createCommand);
+
+			document.getElementById("clear").addEventListener("click", function()
+				{
+				document.getElementById("url").value = "";
+				document.getElementById("channel").value = "";
+				document.getElementById("game").value = "";
+				document.getElementById("date").value = yesterday;
+				document.getElementById("offset").value = "00:00:00";
+				document.getElementById("endAt").value = "00:00:00";
+				});
+
+			document.getElementById("clearResults").addEventListener("click", function()
+				{
+				document.getElementById("result").value = "";
+				document.getElementById("result").placeholder = "Command will appear here";
+				fileNameList = []
+				});
+
+			document.getElementById("copy").addEventListener("click", function()
+				{
+				var copyText = document.getElementById("result");
+				copyText.select();
+				document.execCommand("Copy");
+				});
+			
+			document.getElementById("entryList").addEventListener("change", function()
+				{
+				var selected = document.getElementById("entryList").value
+				if (selected != "")
+					{
+					if (selected == "relayfm")
+						{
+						document.getElementById("url").value = "https://www.twitch.tv/relayfm";
+						document.getElementById("channel").value = selected;
+						}
+					else
+						{
+						selected = selected.split("~");
+						var selectedEntry = entryList[(selected[0] - 1)];
+						document.getElementById("url").value = selectedEntry.url;
+						document.getElementById("channel").value = selectedEntry.channel;
+						document.getElementById("game").value = selectedEntry.game;
+						document.getElementById("date").value = selectedEntry.date;
+						document.getElementById("offset").value = selectedEntry.offset;
+						document.getElementById("endAt").value = selectedEntry.endAt;
+						}
+					document.getElementById("entryList").selectedIndex = "0";
+					}
+				});
+			
+			document.getElementById("urlList").addEventListener("change", function()
+				{
+				var selected = document.getElementById("urlList").value;
+				document.getElementById("channel").value = selected;
+				if (selected != "")
+					{
+					if (selected == "youtube")
+						var streamURL = "https://www.youtube.com";
+					else
+						var streamURL = "https://www.twitch.tv/" + selected + "/videos?filter=all&sort=time";
+					window.open(streamURL);
+					document.getElementById("urlList").selectedIndex = "0";
+					}
+				});
+				
+			function getOS()
+				{
+				var userAgent = window.navigator.userAgent;
+				var platform = window.navigator.platform;
+				var macosPlatforms = ["Macintosh", "MacIntel", "MacPPC", "Mac68K"];
+				var windowsPlatforms = ["Win32", "Win64", "Windows", "WinCE"];
+				var iosPlatforms = ["iPhone", "iPad", "iPod"];
+				var os = "";
+				if (macosPlatforms.indexOf(platform) !== -1)
+					os = "Mac";
+				else if (iosPlatforms.indexOf(platform) !== -1)
+					os = "iOS";
+				else if (windowsPlatforms.indexOf(platform) !== -1)
+					os = "Windows";
+				else if (/Android/.test(userAgent))
+					os = "Android";
+				else if (/SamsungBrowser/.test(userAgent))
+					os = "Android";
+				else if (!os && /Linux/.test(platform))
+					os = "Linux";
+				return os;
+				}
+			
+			var entryList = [];
+			var fileNameList = [];
+			var yesterday = new Date();
+			yesterday.setDate(yesterday.getDate() - 1);
+			var month = (yesterday.getMonth() + 1).toString();
+			if (month.length < 2)
+				month = "0" + month;
+			var day = yesterday.getDate().toString();
+			if (day.length < 2)
+				day = "0" + day;
+			yesterday = yesterday.getFullYear() + "" + month + "" + day;
+			document.getElementById("date").value = yesterday;
+			document.getElementById("offset").value = "00:00:00";
+			document.getElementById("endAt").value = "00:00:00";
+			if (getOS() != "Android")
+				document.getElementById("computer").checked = true;
+			document.getElementById("url").focus();
+		</script>
+	</body>
+</html>
