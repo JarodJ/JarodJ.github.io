@@ -86,7 +86,7 @@
 					url = url.replace(/\?.*/, '');
 					if ((channel == "") && (channel.indexOf("videos") == -1))
 						{
-						var foundChannel = url.match(/https:\/\/www.twitch.tv\/([^/]+)/);
+						var foundChannel = url.match(/https?:\/\/www.twitch.tv\/([^/]+)/);
 						if ((foundChannel) && (foundChannel[1]))
 							channel = foundChannel[1];
 						}
