@@ -11,7 +11,6 @@ alert("running 7");
 	function changeSpeed()
 		{
 		var speed = document.getElementById("speedBox").value;
-		alert(speed);
 		if (document.getElementsByClassName('html5-main-video'))
 			document.getElementsByClassName('html5-main-video')[0].playbackRate = speed;
 		}
