@@ -93,6 +93,7 @@ alert("running 2");
 					searchBox = document.body;
 				*/
 				searchBox = document.body;
+				alert("searchBox not found");
 				}
 			if (searchBox)
 					addSpeedButton(searchBox);
