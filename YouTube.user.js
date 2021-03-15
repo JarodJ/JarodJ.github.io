@@ -96,4 +96,5 @@
 	else
 		document.addEventListener("visibilitychange", handleVisibilityChange, false);
 */
+waitToLoad();
 })();
