@@ -1,4 +1,100 @@
+// ==UserScript==
+// @name         YouTube
+// @match        https://www.youtube.com/watch?*
+// @match        https://gaming.youtube.com/watch?*
+// @grant        none
+// ==/UserScript==
+
 (function()
 	{
-	alert("test");
-	})();
+	var counter = 0;
+	function changeSpeed()
+		{
+		var speed = document.getElementById("speedBox").value;
+		if (document.getElementsByClassName('html5-main-video'))
+			document.getElementsByClassName('html5-main-video')[0].playbackRate = speed;
+		}
+	function pause()
+		{
+		if (document.getElementsByClassName('html5-main-video'))
+			{
+			document.getElementsByClassName('html5-main-video')[0].pause();
+			if (document.getElementsByClassName('html5-main-video')[0].playbackRate != document.getElementById("speedBox").value)
+				changeSpeed();
+			}
+		else
+			{
+			window.setTimeout(function()
+				{
+				pause();
+				}, 1000);
+			}
+		}
+	function addSpeedButton(searchBox)
+		{
+		if (!document.getElementById("speedBox"))
+			{
+			var speedLabel = document.createElement("div");
+			speedLabel.id = "speedLabel";
+			speedLabel.innerText = "Speed";
+			speedLabel.setAttribute("style", "font-size: 25px; font-weight: bold; margin: 25px; color: white; display: inline;");
+// 			searchBox.appendChild(speedLabel);
+			var speedBox = document.createElement("select");
+			speedBox.id = "speedBox";
+			speedBox.setAttribute("style", "height: 30px; margin: 20px;");
+// 			searchBox.appendChild(speedBox);
+			searchBox.insertBefore(speedBox, searchBox.firstChild);
+			searchBox.insertBefore(speedLabel, searchBox.firstChild);
+			var speeds = ["1","1.25","1.5","1.75", "2", "2", "2.25", "2.5", "2.75", "3", "3.5", "4", "4.5", "5"];
+			for (var i = 0; i < speeds.length; i++)
+				{
+				var option = document.createElement("option");
+				option.value = speeds[i];
+				option.text = speeds[i];
+				speedBox.appendChild(option);
+				}
+			document.getElementById("speedBox").addEventListener("change", changeSpeed);
+			document.getElementById("speedBox").selectedIndex = 4;
+			window.setTimeout(function()
+				{
+				//pause();
+				changeSpeed();
+				}, 500);
+			}
+		}
+	function waitToLoad()
+		{
+		window.setTimeout(function()
+			{
+			var searchBox;
+			if (document.getElementById("secondary"))
+				searchBox = document.getElementById("secondary");
+			else if (document.getElementById("search"))
+				searchBox = document.getElementById("search");
+			else if (document.getElementById("search-container"))
+				searchBox = document.getElementById("search-container");
+			if (searchBox)
+				addSpeedButton(searchBox);
+			else
+				{
+				counter += 1;
+				if (counter <= 15)
+					waitToLoad();
+				else
+					searchBox = document.body;
+				}
+			}, 500);
+		}
+/*
+	function handleVisibilityChange()
+    	{
+		if (!document.getElementById("speedBox"))
+			waitToLoad();
+    	}
+	if (document.hidden == false)
+		waitToLoad();
+	else
+		document.addEventListener("visibilitychange", handleVisibilityChange, false);
+*/
+waitToLoad();
+})();
