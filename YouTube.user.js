@@ -10,9 +10,12 @@ alert("running");
 	var counter = 0;
 	function changeSpeed()
 		{
+			alert("speed");
 		var speed = document.getElementById("speedBox").value;
+		alert(speed);
 		if (document.getElementsByClassName('html5-main-video'))
 			document.getElementsByClassName('html5-main-video')[0].playbackRate = speed;
+		alert("changed speed");
 		}
 	function pause()
 		{
@@ -32,6 +35,7 @@ alert("running");
 		}
 	function addSpeedButton(searchBox)
 		{
+			alert("add speed");
 		if (!document.getElementById("speedBox"))
 			{
 			var speedLabel = document.createElement("div");
@@ -57,6 +61,7 @@ alert("running");
 			document.getElementById("speedBox").selectedIndex = 4;
 			window.setTimeout(function()
 				{
+					alert("added speed");
 				//pause();
 				changeSpeed();
 				}, 500);
@@ -64,8 +69,10 @@ alert("running");
 		}
 	function waitToLoad()
 		{
+			alert("wait 1");
 		window.setTimeout(function()
 			{
+				alert("after timeout");
 			var searchBox;
 			if (document.getElementById("secondary"))
 				searchBox = document.getElementById("secondary");
@@ -85,9 +92,9 @@ alert("running");
 					searchBox = document.body;
 				*/
 				searchBox = document.body;
-				if (searchBox)
-					addSpeedButton(searchBox);
 				}
+			if (searchBox)
+					addSpeedButton(searchBox);
 			}, 500);
 		}
 /*
@@ -101,5 +108,6 @@ alert("running");
 	else
 		document.addEventListener("visibilitychange", handleVisibilityChange, false);
 */
+alert("wait");
 waitToLoad();
 })();
