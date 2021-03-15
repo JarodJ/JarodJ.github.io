@@ -76,6 +76,7 @@ alert("running 7");
 					if (document.getElementById("primary"))
 						searchBox = document.getElementById("primary");
 					}
+				}
 			else if (document.getElementById("search"))
 				searchBox = document.getElementById("search");
 			else if (document.getElementById("search-container"))
