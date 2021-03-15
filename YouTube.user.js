@@ -108,19 +108,19 @@ alert("running 7");
 	else
 		document.addEventListener("visibilitychange", handleVisibilityChange, false);
 */
-function isRendered(domObj) {
-    if ((domObj.nodeType != 1) || (domObj == document.body)) {
-        return true;
-    }
-    if (domObj.currentStyle && domObj.currentStyle["display"] != "none" && domObj.currentStyle["visibility"] != "hidden") {
-        return isRendered(domObj.parentNode);
-    } else if (window.getComputedStyle) {
-        var cs = document.defaultView.getComputedStyle(domObj, null);
-        if (cs.getPropertyValue("display") != "none" && cs.getPropertyValue("visibility") != "hidden") {
-            return isRendered(domObj.parentNode);
-        }
-    }
-    return false;
-}
+function isRendered(domObj) 
+	{
+	if ((domObj.nodeType != 1) || (domObj == document.body))
+		return true;
+	if (domObj.currentStyle && domObj.currentStyle["display"] != "none" && domObj.currentStyle["visibility"] != "hidden")
+		return isRendered(domObj.parentNode);
+	else if (window.getComputedStyle)
+		{
+		var cs = document.defaultView.getComputedStyle(domObj, null);
+		if (cs.getPropertyValue("display") != "none" && cs.getPropertyValue("visibility") != "hidden")
+			return isRendered(domObj.parentNode);
+		}
+	return false;
+	}
 waitToLoad();
 })();
