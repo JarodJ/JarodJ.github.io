@@ -71,7 +71,7 @@ alert("running 7");
 			if (document.getElementById("secondary"))
 				{
 				searchBox = document.getElementById("secondary");
-				if (isRendered(searchBox != true)
+				if (isRendered(searchBox) != true)
 					{
 					if (document.getElementById("primary"))
 						searchBox = document.getElementById("primary");
