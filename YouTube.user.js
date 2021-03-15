@@ -73,15 +73,18 @@
 				searchBox = document.getElementById("search");
 			else if (document.getElementById("search-container"))
 				searchBox = document.getElementById("search-container");
-			if (searchBox)
-				addSpeedButton(searchBox);
 			else
 				{
+				/*
 				counter += 1;
 				if (counter <= 15)
 					waitToLoad();
 				else
 					searchBox = document.body;
+				*/
+				searchBox = document.body;
+				if (searchBox)
+					addSpeedButton(searchBox);
 				}
 			}, 500);
 		}
