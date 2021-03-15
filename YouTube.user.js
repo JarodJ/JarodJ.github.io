@@ -73,6 +73,8 @@
 				searchBox = document.getElementById("search");
 			else if (document.getElementById("search-container"))
 				searchBox = document.getElementById("search-container");
+			else if (document.getElementById("player-container-id"))
+				searchBox = document.getElementById("player-container-id");
 			else
 				{
 				/*
