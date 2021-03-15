@@ -4,7 +4,7 @@
 // @match        https://gaming.youtube.com/watch?*
 // @grant        none
 // ==/UserScript==
-alert("running 7");
+
 (function()
 	{
 	var counter = 0;
