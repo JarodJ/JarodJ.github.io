@@ -5,7 +5,7 @@
 // @grant        none
 // ==/UserScript==
 alert("running");
-alert("running 2");
+alert("running 3");
 (function()
 	{
 	var counter = 0;
