@@ -81,8 +81,8 @@ alert("running 5");
 				searchBox = document.getElementById("search");
 			else if (document.getElementById("search-container"))
 				searchBox = document.getElementById("search-container");
-			else if (document.getElementById("player-container-id"))
-				searchBox = document.getElementById("player-container-id").parentElement;
+			else if (document.querySelector('[section-identifier="related-items"]'))
+				searchBox = document.querySelector('[section-identifier="related-items"]');
 			else
 				{
 				/*
