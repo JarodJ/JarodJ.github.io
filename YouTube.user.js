@@ -82,7 +82,7 @@ alert("running 4");
 			else if (document.getElementById("search-container"))
 				searchBox = document.getElementById("search-container");
 			else if (document.getElementById("player-container-id"))
-				searchBox = document.getElementById("player-container-id").parentElement.nextSibling;
+				searchBox = document.getElementById("player-container-id").parentElement;
 			else
 				{
 				/*
