@@ -4,19 +4,16 @@
 // @match        https://gaming.youtube.com/watch?*
 // @grant        none
 // ==/UserScript==
-alert("running");
-alert("running 6");
+alert("running 7");
 (function()
 	{
 	var counter = 0;
 	function changeSpeed()
 		{
-			alert("speed");
 		var speed = document.getElementById("speedBox").value;
 		alert(speed);
 		if (document.getElementsByClassName('html5-main-video'))
 			document.getElementsByClassName('html5-main-video')[0].playbackRate = speed;
-		alert("changed speed");
 		}
 	function pause()
 		{
@@ -36,7 +33,6 @@ alert("running 6");
 		}
 	function addSpeedButton(searchBox)
 		{
-			alert("add speed");
 		if (!document.getElementById("speedBox"))
 			{
 			var speedLabel = document.createElement("div");
@@ -62,7 +58,6 @@ alert("running 6");
 			document.getElementById("speedBox").selectedIndex = 4;
 			window.setTimeout(function()
 				{
-					alert("added speed");
 				//pause();
 				changeSpeed();
 				}, 500);
@@ -70,13 +65,17 @@ alert("running 6");
 		}
 	function waitToLoad()
 		{
-			alert("wait 1");
 		window.setTimeout(function()
 			{
-				alert("after timeout");
 			var searchBox;
 			if (document.getElementById("secondary"))
+				{
 				searchBox = document.getElementById("secondary");
+				if (isRendered(searchBox != true)
+					{
+					if (document.getElementById("primary"))
+						searchBox = document.getElementById("primary");
+					}
 			else if (document.getElementById("search"))
 				searchBox = document.getElementById("search");
 			else if (document.getElementById("search-container"))
@@ -93,7 +92,6 @@ alert("running 6");
 					searchBox = document.body;
 				*/
 				searchBox = document.body;
-				alert("searchBox not found");
 				}
 			if (searchBox)
 					addSpeedButton(searchBox);
@@ -110,6 +108,19 @@ alert("running 6");
 	else
 		document.addEventListener("visibilitychange", handleVisibilityChange, false);
 */
-alert("wait");
+function isRendered(domObj) {
+    if ((domObj.nodeType != 1) || (domObj == document.body)) {
+        return true;
+    }
+    if (domObj.currentStyle && domObj.currentStyle["display"] != "none" && domObj.currentStyle["visibility"] != "hidden") {
+        return isRendered(domObj.parentNode);
+    } else if (window.getComputedStyle) {
+        var cs = document.defaultView.getComputedStyle(domObj, null);
+        if (cs.getPropertyValue("display") != "none" && cs.getPropertyValue("visibility") != "hidden") {
+            return isRendered(domObj.parentNode);
+        }
+    }
+    return false;
+}
 waitToLoad();
 })();
