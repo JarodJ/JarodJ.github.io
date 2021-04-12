@@ -135,7 +135,7 @@
 				clearQR();
 			}
 		if ((window.location.search) && (window.location.search != ""))
-			var text = window.location.search.replace("?", "");
+			var text = decodeURI(window.location.search.replace("?", ""));
 		if ((typeof text !== "undefined") && (text))
 			createQR(text);
 		else
