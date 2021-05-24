@@ -12,7 +12,7 @@
 		.widthBox, .heightBox { display: inline-block; }
 		.textDisplay { margin-top: 1em; margin-bottom: .5em; font-size: 2em; }
 		#buttonBox { display: block; }
-		#downloadButton, clearButton { margin-top: 1em; margin-right: 1em; display: inline-block; }
+		#downloadButton, #clearButton, #copyButton { margin-top: 1em; margin-right: 1em; display: inline-block; }
 	</style>
 	<body>
 		<div class="textBox">
@@ -30,10 +30,12 @@
 			</div>
 			<div>
 				<input type="button" id="textBoxSubmit" value="Create QR Code" onclick="textBoxSubmit()">
+				<input type="file" id="decodeFile" onchange="handleFiles(files)" accept="image/*" style="display: none" multiple>
+				<input type="button" id="decodeFileSubmit" value="Decode QR Code" onclick="decodeFileSubmit()">
 			</div>
 		</div>
 		<div class="textDisplay">
-			<span id="textDisplay"></span>
+			<textarea rows="5" id="textDisplay" placeholder="" style="display: none"></textarea>
 		</div>
 		<div id="qrcode"></div>
 	</body>
@@ -82,14 +84,17 @@
 				{
 				qrContainer.removeChild(qrContainer.lastChild);
 				}
-			document.getElementById("textDisplay").textContent = "";
+			document.getElementById("textDisplay").value = "";
+			document.getElementById("textDisplay").style.display = "none";
 			}
 		function createQR(text, width=256, height=256)
 			{
+			clearQR();
 			if (document.getElementsByTagName("canvas").length > 0)
 				{
 				qrcode.makeCode(text);
-				document.getElementById("textDisplay").textContent = text;
+				document.getElementById("textDisplay").value = text;
+				document.getElementById("textDisplay").style.display = "block";
 				}
 			else
 				{
@@ -121,7 +126,8 @@
 					clearButton.value = "Clear";
 					clearButton.onclick = clearQR;
 				document.getElementById("buttonBox").appendChild(clearButton);
-				document.getElementById("textDisplay").textContent = text;
+				document.getElementById("textDisplay").value = text;
+				document.getElementById("textDisplay").style.display = "block";
 				}
 			}
 		function textBoxSubmit()
@@ -133,6 +139,76 @@
 				createQR(text, width, height);
 			else if (document.getElementsByTagName("canvas").length > 0)
 				clearQR();
+			}
+		function decodeFileSubmit()
+			{
+			document.getElementById("decodeFile").click();
+			}
+		function handleFiles(fileList)
+			{
+			clearQR();
+			if (!('BarcodeDetector' in window)) 
+				{
+				alert('BarcodeDetector is not available');
+				return;
+				}
+			const detector = new BarcodeDetector();
+			readBarcode(fileList);
+			
+			async function readBarcode(fileList)
+				{
+				let decodedText = "";
+				for (let i = 0; i < fileList.length; i++)
+					{
+					try
+						{
+						const image = await createImageBitmap(fileList[i]);
+						const results = await detector.detect(image);
+						if (results.length) 
+							{
+							results.forEach((result) => 
+								{
+								//alert(result.rawValue);
+								if (decodedText != "")
+									decodedText += "\n"
+								decodedText += result.rawValue;
+								})
+							}
+						else 
+							{
+							alert('No barcodes detected in ' + file.name);
+							}
+						}
+					catch(err)
+						{
+						alert("There was an error " + err);
+						}
+					}
+				document.getElementById("textDisplay").style.display = "block";
+				document.getElementById("textDisplay").value = decodedText;
+				var buttonBox = document.createElement("div");
+					buttonBox.id = "buttonBox";
+				document.getElementById("qrcode").appendChild(buttonBox);
+				var copyButton = document.createElement("input");
+					copyButton.type = "button";
+					copyButton.id = "copyButton";
+					copyButton.value = "Copy";
+					copyButton.onclick = copyDecodedText;
+				document.getElementById("buttonBox").appendChild(copyButton);
+				var clearButton = document.createElement("input");
+					clearButton.type = "button";
+					clearButton.id = "clearButton";
+					clearButton.value = "Clear";
+					clearButton.onclick = clearQR;
+				document.getElementById("buttonBox").appendChild(clearButton);
+				//alert(decodedText);
+				}
+			}
+		function copyDecodedText()
+			{
+			let copyText = document.getElementById("textDisplay");
+			copyText.select();
+			document.execCommand("Copy");
 			}
 		if ((window.location.search) && (window.location.search != ""))
 			var text = decodeURI(window.location.search.replace("?", ""));
