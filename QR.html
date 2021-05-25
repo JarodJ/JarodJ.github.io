@@ -108,9 +108,9 @@
 					colorLight: "#ffffff",
 					correctLevel: QRCode.CorrectLevel.M
 					});
-				createButtonBox(["download", "clear"])
 				document.getElementById("textDisplay").value = text;
 				document.getElementById("textDisplay").style.display = "block";
+				createButtonBox(["download", "clear"])
 				}
 			}
 		function textBoxSubmit()
@@ -231,6 +231,16 @@
 					clearButton.onclick = clearQR;
 				buttonBox.appendChild(clearButton);
 				}
+			let texts = document.getElementById("textDisplay").value;
+			if ((texts.indexOf("http") != -1) || (texts.indexOf("www.") != -1) || (texts.indexOf(".com") != -1))
+				{
+				var linkButton = document.createElement("input");
+					linkButton.type = "button";
+					linkButton.id = "linkButton";
+					linkButton.value = "Open Links";
+					linkButton.onclick = openLinks;
+				buttonBox.appendChild(linkButton);
+				}
 			if (!document.getElementById("buttonBox"))
 				document.getElementById("qrcode").insertBefore(buttonBox, document.getElementById("qrcode").firstChild);
 			}
@@ -265,6 +275,22 @@
 			let copyText = document.getElementById("textDisplay");
 			copyText.select();
 			document.execCommand("Copy");
+			}
+		function openLinks()
+			{
+			let texts = document.getElementById("textDisplay").value;
+			let lineArray = texts.split("\n");
+			for (let i = 0; i < lineArray.length; i++)
+				{
+				if (lineArray[i] == "")
+					continue;
+				if ((lineArray[i].indexOf("http") != -1) || (lineArray[i].indexOf("www.") != -1) || (lineArray[i].indexOf(".com") != -1))
+					{
+					if (lineArray[i].indexOf("http") == -1)
+						lineArray[i] = "https://" + lineArray[i];
+					window.open(lineArray[i], '_blank');
+					}
+				}
 			}
 		function encryptText(text, encryptionKey)
 			{
@@ -309,11 +335,11 @@
 					decodedTexts += decodedText + "\n";
 				else
 					decodedTexts += lineArray[i] + "\n";
-				createButtonBox(["copy", "clear"])
 				}
 			if (decodedTexts != "")
 				document.getElementById("textDisplay").value = decodedTexts;
 			document.getElementById("textDisplay").style.display = "block";
+			createButtonBox(["copy", "clear"])
 			}
 			
 		if ((window.location.search) && (window.location.search != ""))
