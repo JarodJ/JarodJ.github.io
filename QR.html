@@ -110,7 +110,7 @@
 					});
 				document.getElementById("textDisplay").value = text;
 				document.getElementById("textDisplay").style.display = "block";
-				createButtonBox(["download", "clear"])
+				createButtonBox(["download", "clear"]);
 				}
 			}
 		function textBoxSubmit()
@@ -118,7 +118,7 @@
 			var text = document.getElementById("textBox").value;
 			var encryptionKey = document.getElementById("encryptionBox").value;
 			if ((typeof encryptionKey !== "undefined") && (encryptionKey))
-				text = encryptText(text, encryptionKey)
+				text = encryptText(text, encryptionKey);
 			var width = document.getElementById("widthBox").value;
 			var height = document.getElementById("heightBox").value;
 			if ((typeof text !== "undefined") && (text))
@@ -159,7 +159,6 @@
 							{
 							results.forEach((result) => 
 								{
-								//alert(result.rawValue);
 								if (decodedText != "")
 									decodedText += "\n";
 								let encodedText = "";
@@ -191,7 +190,7 @@
 					}
 				document.getElementById("textDisplay").style.display = "block";
 				document.getElementById("textDisplay").value = decodedText;
-				createButtonBox(["copy", "clear"])
+				createButtonBox(["copy", "clear"]);
 				document.getElementById("buttonBox").appendChild(imgBox);
 				}
 			}
@@ -296,13 +295,13 @@
 			{
 			let encrypted = CryptoJS.AES.encrypt(text, encryptionKey); 
 			let ciphertext = encrypted.toString();
-			return ciphertext
+			return ciphertext;
 			}
 		function decryptText(ciphertext, encryptionKey)
 			{
 			let decrypted = CryptoJS.AES.decrypt(ciphertext, encryptionKey);
 			let text = decrypted.toString(CryptoJS.enc.Utf8);
-			return text
+			return text;
 			}
 		function encodeText()
 			{
@@ -316,7 +315,7 @@
 			else
 				document.getElementById("textDisplay").value = encodedText;
 			document.getElementById("textDisplay").style.display = "block";
-			createButtonBox(["copy", "clear"])
+			createButtonBox(["copy", "clear"]);
 			}
 		function decodeText()
 			{
@@ -339,7 +338,7 @@
 			if (decodedTexts != "")
 				document.getElementById("textDisplay").value = decodedTexts;
 			document.getElementById("textDisplay").style.display = "block";
-			createButtonBox(["copy", "clear"])
+			createButtonBox(["copy", "clear"]);
 			}
 			
 		if ((window.location.search) && (window.location.search != ""))
