@@ -8,11 +8,11 @@
 	</head>
 	<style>
 		body { background: #2A2B2F; color: white; font-size: 1.5rem; }
-		input { font-size: 1.5rem; }
-		#textBox, #encryptionBox, #textDisplay { width: 90%; }
+		input, textarea { font-size: 1.5rem; }
+		#textBox, #encryptionBox, #textDisplay { width: 90%; padding: 0 .25rem; }
 		.textBox * { margin-top: .5rem; }
 		#widthBox, #heightBox { width: 5rem; }
-		.widthBox, .heightBox { display: inline-block; }
+		.widthBox, .heightBox { display: inline-block; margin-right: 3.25rem; }
 		.textDisplay { margin-top: 1rem; margin-bottom: .5rem; font-size: 2rem; }
 		#textDisplay { overflow-y: scroll; }
 		#buttonBox { display: block; }
@@ -28,7 +28,7 @@
 				<input type="text" id="textBox" name="textBox"></br>
 			</div>
 			<div>
-				<label for="encryptionBox">Encryption Key</label></br>
+				<label for="encryptionBox">Encryption Key (optional)</label></br>
 				<input type="text" id="encryptionBox" name="encryptionBox"></br>
 			</div>
 			<div class="widthBox">
