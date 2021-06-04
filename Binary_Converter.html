@@ -1,0 +1,347 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<title>Binary Converter</title>
+		<meta charset="utf-8">
+		<meta name="description" content="Convert binary to and from decimal, hexadecimal, ASCII">
+		<meta name="theme-color" content="#2A2B2F">
+	</head>
+	<style>
+		body { background: #2A2B2F; color: white; font-size: 1.75rem; max-width: 90% }
+		input, textarea { font-size: 1.75rem; }
+		#textBox, #pastEntriesBox, #resultBox { width: 100%; padding: 0 .25rem; }
+		.textbox * { margin-top: .5rem; }
+		.pastEntries { margin-top: 1rem; }
+		.pastEntries * { font-size: 1rem; }
+		.to label, .from label { white-space: nowrap; }
+		.from, .to, .buttons, .result { margin-top: 2rem; }
+		.from_to_label { width: 3em; display: inline-block; }
+		.radios { display: inline-block; }
+		.buttons > input { margin-right: 1.5em; padding: .35em 1em; }
+		#resultBox { overflow-y: scroll; }
+	</style>
+	<body>
+		<h1>
+			<span>Binary Converter</span>
+		</h1>
+		<div class="textbox">
+			<label for="textBox">To be converted:</label></br>
+			<!-- <input type="text" id="textBox" name="textBox"></br> -->
+			<textarea rows="1" id="textBox"></textarea>
+		</div>
+		<div class="pastEntries">
+			<select name="pastEntriesBox" id="pastEntriesBox" onchange="pastEntriesClick()">
+				<option value="" disabled selected hidden>Past Entries...</option>
+			</select>
+		</div>
+		<div class="controls">
+			<div class="from">
+				<span class="from_to_label">From:</span>
+				<div class="radios">
+					<label for="binaryRadioFrom">
+						<input type="radio" id="binaryRadioFrom" name="fromType" value="Binary" checked=True>
+						Binary
+					</label>
+					<label for="decimalRadioFrom">
+						<input type="radio" id="decimalRadioFrom" name="fromType" value="Decimal">
+						Decimal
+					</label>
+					<label for="hexadecimalRadioFrom">
+						<input type="radio" id="hexRadioFrom" name="fromType" value="Hex">
+						Hex
+					</label>
+					<label for="asciiRadioFrom">
+						<input type="radio" id="asciiRadioFrom" name="fromType" value="ASCII">
+						ASCII Text
+					</label>
+				</div>
+			</div>
+			<div class="to">
+				<span class="from_to_label">To:</span>
+				<div class="radios">
+					<label for="binaryRadioTo">
+						<input type="radio" id="binaryRadioTo" name="toType" value="Binary">
+						Binary
+					</label>
+					<label for="decimalRadioTo">
+						<input type="radio" id="decimalRadioTo" name="toType" value="Decimal" checked=True>
+						Decimal
+					</label>
+					<label for="hexadecimalRadioTo">
+						<input type="radio" id="hexRadioTo" name="toType" value="Hex">
+						Hex
+					</label>
+					<label for="asciiRadioTo">
+						<input type="radio" id="asciiRadioTo" name="toType" value="ASCII">
+						ASCII Text
+					</label>
+				</div>
+			</div>
+			<div class="buttons">
+				<input type="button" id="convertButton" value="Convert" onclick="convert()">
+				<input type="button" id="copyButton" value="Copy Results" onclick="copyResults()">
+				<input type="button" id="clearButton" value="Clear" onclick="clearInputs()">
+			</div>
+		</div>
+		<div class="result">
+			<textarea rows="5" id="resultBox" placeholder="Result"></textarea>
+		</div>
+	</body>
+	<script>
+		let pastEntriesArray = [];
+		function binaryToDec(value)
+			{
+			let digitsSplit = value.split(" ");
+			let result = "";
+			for (let i = 0; i < digitsSplit.length; i++)
+				{
+				value = digitsSplit[i];
+				if (isNaN(parseInt(value)))
+					return "Not a valid number";
+				for (let j = 0; j < value.length; j++)
+					{
+					if (parseInt(value[j]) > 1)
+						return "Not valid binary"; 
+					}
+				let dec = addBinary(value);
+				function addBinary(value, place=0, sum=0)
+					{
+					if (place >= value.length)
+						return sum; 
+					let nextEndDigit = parseInt(value.substring((value.length - (place + 1)), (value.length - (place + 1) + 1)));
+					sum += (nextEndDigit * (Math.pow(2, place)));
+					place += 1;
+					return addBinary(value, place, sum); 
+					}
+				if (result != "")
+					result += " ";
+				result += dec;
+				}
+			return result;
+			}
+		function binaryToHex(value)
+			{
+			let dec = binaryToDec(value);
+			let result = decToHex(dec);
+			return result;
+			}
+		function binaryToASCII(value)
+			{
+			let dec = binaryToDec(value);
+			let result = decToASCII(dec);
+			return result;
+			}
+		function decToBinary(value)
+			{
+			let digitsSplit = value.split(" ");
+			let result = "";
+			for (let i = 0; i < digitsSplit.length; i++)
+				{
+				value = parseInt(digitsSplit[i]);
+				if (isNaN(value))
+					return "Not a valid number";
+				let binary = divideDecimal(digitsSplit[i])
+				function divideDecimal(value, remainder="")
+					{
+					if (value == 0)
+						return remainder;
+					remainder = (value % 2) + "" + remainder;
+					value = Math.floor(value / 2);
+					return divideDecimal(value, remainder);
+					}
+				if (result != "")
+					result += " ";
+				result += binary;
+				}
+			return result;
+			}
+		function decToHex(value)
+			{
+			let digitsSplit = value.split(" ");
+			let result = "";
+			for (let i = 0; i < digitsSplit.length; i++)
+				{
+				value = parseInt(digitsSplit[i]);
+				if (isNaN(value))
+					return "Not a valid number";
+				let binary = divideDecimal(digitsSplit[i])
+				function divideDecimal(value, remainder="")
+					{
+					if (value == 0)
+						return remainder;
+					let decRemainder = ((value % 16));
+					if (decRemainder == 10)
+						decRemainder = "A";
+					else if (decRemainder == 11)
+						decRemainder = "B";
+					else if (decRemainder == 12)
+						decRemainder = "C";
+					else if (decRemainder == 13)
+						decRemainder = "D";
+					else if (decRemainder == 14)
+						decRemainder = "E";
+					else if (decRemainder == 15)
+						decRemainder = "F";
+					remainder = decRemainder + "" + remainder;
+					value = Math.floor(value / 16);
+					return divideDecimal(value, remainder);
+					}
+				if (result != "")
+					result += " ";
+				result += binary;
+				}
+			return result;
+			}
+		function decToASCII(value)
+			{
+			let digitsSplit = value.split(" ");
+			let letters = "";
+			for (let i = 0; i < digitsSplit.length; i++)
+				{
+				if (isNaN(parseInt(digitsSplit[i])))
+					return "Not a valid number";
+				letters += String.fromCharCode(digitsSplit[i]);
+				}
+			let result = letters;
+			return result;
+			}
+		function hexToBinary(value)
+			{
+			let dec = hexToDec(value);
+			let result = decToBinary(dec);
+			return result;
+			}
+		function hexToDec(value)
+			{
+			let digitsSplit = value.split(" ");
+			let result = "";
+			for (let i = 0; i < digitsSplit.length; i++)
+				{
+				value = digitsSplit[i];
+				let hex = addHex(value);
+				function addHex(value, place=0, sum=0)
+					{
+					if (place >= value.length)
+						return sum; 
+					let nextEndDigit = value.substring((value.length - (place + 1)), (value.length - (place + 1) + 1));
+					if (nextEndDigit == "A")
+						nextEndDigit = "10";
+					else if (nextEndDigit == "B")
+						nextEndDigit = "11";
+					else if (nextEndDigit == "C")
+						nextEndDigit = "12";
+					else if (nextEndDigit == "D")
+						nextEndDigit = "13";
+					else if (nextEndDigit == "E")
+						nextEndDigit = "14";
+					else if (nextEndDigit == "F")
+						nextEndDigit = "15";
+					sum += (parseInt(nextEndDigit) * (Math.pow(16, place)));
+					place += 1;
+					return addHex(value, place, sum); 
+					}
+				if (result != "")
+					result += " ";
+				result += hex;
+				}
+			return result;
+			}
+		function hexToASCII(value)
+			{
+			let dec = hexToDec(value);
+			let result = decToASCII(dec);
+			return result;
+			}
+		function asciiToBinary(value)
+			{
+			let dec = asciiToDec(value);
+			let result = decToBinary(dec);
+			return result;
+			}
+		function asciiToDec(value)
+			{
+			let result = convertText(value);
+			function convertText(value, place=0, digits="")
+				{
+				if (place >= value.length)
+					return digits; 
+				if (digits != "")
+					digits += " ";
+				digits += value.charCodeAt(place);
+				place += 1;
+				return convertText(value, place, digits); 
+				}
+			return result;
+			}
+		function asciiToHex(value)
+			{
+			let dec = asciiToDec(value);
+			let result = decToHex(dec);
+			return result;
+			}
+		function convert()
+			{
+			let from = document.getElementById("textBox").value;
+			if (from == "")
+				return;
+			let fromType = document.querySelector('input[name="fromType"]:checked').value;
+			let toType = document.querySelector('input[name="toType"]:checked').value;
+			if (!pastEntriesArray.includes(from))
+				{
+				pastEntriesArray.push(from);
+				let option = document.createElement("option");
+					option.text = from;
+				document.getElementById("pastEntriesBox").insertBefore(option, document.getElementById("pastEntriesBox").firstChild);
+				}
+			let negativeValue = false;
+			if (from.indexOf("-") != -1)
+				{
+				negativeValue = true;
+				from = from.replace(/-/g, "");
+				}
+			let result = ""
+			if ((fromType === "Binary") && (toType === "Decimal"))
+				result = binaryToDec(from);
+			else if ((fromType === "Binary") && (toType === "Hex"))
+				result = binaryToHex(from);
+			else if ((fromType === "Binary") && (toType === "ASCII"))
+				result = binaryToASCII(from);
+			else if ((fromType === "Decimal") && (toType === "Binary"))
+				result = decToBinary(from);
+			else if ((fromType === "Decimal") && (toType === "Hex"))
+				result = decToHex(from);
+			else if ((fromType === "Decimal") && (toType === "ASCII"))
+				result = decToASCII(from);
+			else if ((fromType === "Hex") && (toType === "Binary"))
+				result = hexToBinary(from);
+			else if ((fromType === "Hex") && (toType === "Decimal"))
+				result = hexToDec(from);
+			else if ((fromType === "Hex") && (toType === "ASCII"))
+				result = hexToASCII(from);
+			else if ((fromType === "ASCII") && (toType === "Binary"))
+				result = asciiToBinary(from);
+			else if ((fromType === "ASCII") && (toType === "Decimal"))
+				result = asciiToDec(from);
+			else if ((fromType === "ASCII") && (toType === "Hex"))
+				result = asciiToHex(from);
+			if (negativeValue === true)
+				result = "-" + result;
+			document.getElementById("resultBox").value = result;
+			}
+		function clearInputs()
+			{
+			document.getElementById("textBox").value = "";
+			document.getElementById("resultBox").value = "";
+			}
+		function pastEntriesClick()
+			{
+			document.getElementById("textBox").value = document.getElementById("pastEntriesBox").value;
+			}
+		function copyResults()
+			{
+			let copyText = document.getElementById("resultBox");
+			copyText.select();
+			document.execCommand("Copy");
+			}
+	</script>
+</html>
