@@ -12,7 +12,10 @@
 		{
 		var speed = document.getElementById("speedBox").value;
 		if (document.getElementsByClassName('html5-main-video'))
+			{
 			document.getElementsByClassName('html5-main-video')[0].playbackRate = speed;
+			document.getElementsByClassName('html5-main-video')[0].focus();
+			}
 		}
 	function pause()
 		{
@@ -59,6 +62,10 @@
 				{
 				//pause();
 				changeSpeed();
+				if (document.getElementsByClassName('html5-main-video'))
+					{
+					document.getElementsByClassName('html5-main-video')[0].addEventListener("play", changeSpeed);
+					}
 				}, 500);
 			}
 		}
