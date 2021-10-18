@@ -24,7 +24,7 @@
     var currentLoading;
 alert("start2");
     /* initialize showdown markdown converter */
-    var mdConverter = new showdown.Converter();
+    // var mdConverter = new showdown.Converter();
 alert("start3");
     /* find the id of a comment */
     function getId(e, old) {
@@ -115,7 +115,8 @@ alert("start3");
         var origBody = document.createElement("p");
         origBody.className = "og";
         /* set text */
-        origBody.innerHTML = mdConverter.makeHtml("\n\n### Original "+postType+":\n\n" + body);
+        // origBody.innerHTML = mdConverter.makeHtml("\n\n### Original "+postType+":\n\n" + body);
+	origBody.innerHTML = body;
         /* paragraph styling */
         origBody.style.opacity = 0.96;
         origBody.style.fontSize = "14px";
