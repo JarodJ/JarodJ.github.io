@@ -24,7 +24,14 @@
     var currentLoading;
 
     /* initialize showdown markdown converter */
-    // var mdConverter = new showdown.Converter();
+    try { 
+    	 if ((typeof showdown === 'undefined') || (showdown === null))
+    		document.body.appendChild(document.createElement('script')).src="https://cdn.jsdelivr.net/npm/showdown@1.9.0/dist/showdown.min.js";
+        var mdConverter = new showdown.Converter();
+	} 
+    catch (err) {
+	alert("unable to load showdown.js");
+	}
 
     /* find the id of a comment */
     function getId(e, old) {
@@ -115,8 +122,10 @@
         var origBody = document.createElement("p");
         origBody.className = "og";
         /* set text */
-        // origBody.innerHTML = mdConverter.makeHtml("\n\n### Original "+postType+":\n\n" + body);
-	origBody.innerHTML = body;
+        if ((typeof mdConverter === 'undefined') || (mdConverter === null))
+       	 origBody.innerHTML = body;
+       else
+       	 origBody.innerHTML = mdConverter.makeHtml("\n\n### Original "+postType+":\n\n" + body);
         /* paragraph styling */
         origBody.style.opacity = 0.96;
         origBody.style.fontSize = "14px";
@@ -142,7 +151,7 @@
         l.style.textDecoration = "underline";
         l.style.cursor = "pointer";
         l.style.marginLeft = "6px";
-	l.style.color = "red";
+        l.style.color = "red";
         x.parentElement.appendChild(l);
         x.className += " found";
         /* click event */
@@ -219,7 +228,6 @@
     /* locate comments and call function to add links to each */
     function findEditedComments() {
         /* when function runs, cancel timeout */
-	    
         if (scriptTimeout) {
             scriptTimeout = null;
         }
@@ -260,6 +268,5 @@
     }, true);
 
     findEditedComments();
-	
-	alert("Showing Deleted Comments");
+    alert("Showing Deleted Comments");
 })();
