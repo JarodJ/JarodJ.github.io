@@ -13,7 +13,7 @@
 
 (function () {
     'use strict';
-	alert("running");
+	
     /* check if website is an old reddit url or has an old reddit image header */
     var isOldReddit = /old\.reddit/.test(window.location.href) || !!document.querySelector("#header-img");
 
@@ -217,6 +217,8 @@
     /* locate comments and call function to add links to each */
     function findEditedComments() {
         /* when function runs, cancel timeout */
+	    
+	alert("running 1");
         if (scriptTimeout) {
             scriptTimeout = null;
         }
@@ -257,4 +259,6 @@
     }, true);
 
     findEditedComments();
+	
+	alert("running still");
 })();
