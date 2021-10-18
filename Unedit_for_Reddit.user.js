@@ -13,7 +13,7 @@
 
 (function () {
     'use strict';
-	
+	alert("start");
     /* check if website is an old reddit url or has an old reddit image header */
     var isOldReddit = /old\.reddit/.test(window.location.href) || !!document.querySelector("#header-img");
 
