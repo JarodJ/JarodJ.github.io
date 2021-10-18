@@ -25,10 +25,8 @@
 
     /* initialize showdown markdown converter */
     try { 
-	    alert(typeof showdown);
     	 if ((typeof showdown === 'undefined') || (showdown === null)){
     		document.body.appendChild(document.createElement('script')).src="https://cdn.jsdelivr.net/npm/showdown@1.9.0/dist/showdown.min.js";
-		 alert("loaded showdown.js");
 	 }
         var mdConverter = new showdown.Converter();
 	} 
