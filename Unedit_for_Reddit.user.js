@@ -13,7 +13,7 @@
 
 (function () {
     'use strict';
-	alert("start1a");
+
     /* check if website is an old reddit url or has an old reddit image header */
     var isOldReddit = /old\.reddit/.test(window.location.href) || !!document.querySelector("#header-img");
 
@@ -22,10 +22,10 @@
 
     /* variable to store the element that is currently requesting content */
     var currentLoading;
-alert("start2");
+
     /* initialize showdown markdown converter */
     // var mdConverter = new showdown.Converter();
-alert("start3");
+
     /* find the id of a comment */
     function getId(e, old) {
         var id = "";
@@ -219,7 +219,6 @@ alert("start3");
     function findEditedComments() {
         /* when function runs, cancel timeout */
 	    
-	alert("running 1");
         if (scriptTimeout) {
             scriptTimeout = null;
         }
@@ -258,8 +257,8 @@ alert("start3");
             scriptTimeout = setTimeout(findEditedComments, 1000);
         }
     }, true);
-alert("start4");
+
     findEditedComments();
 	
-	alert("running still");
+	alert("Showing Deleted Comments");
 })();
