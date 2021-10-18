@@ -142,6 +142,7 @@
         l.style.textDecoration = "underline";
         l.style.cursor = "pointer";
         l.style.marginLeft = "6px";
+	l.style.color = "red";
         x.parentElement.appendChild(l);
         x.className += " found";
         /* click event */
