@@ -25,14 +25,12 @@
 
     /* initialize showdown markdown converter */
     try { 
-    	 if ((typeof showdown === 'undefined') || (showdown === null)){
+    	 if ((typeof showdown === 'undefined') || (showdown === null))
     		document.body.appendChild(document.createElement('script')).src="https://cdn.jsdelivr.net/npm/showdown@1.9.0/dist/showdown.min.js";
-	 }
-        var mdConverter = new showdown.Converter();
-	} 
-    catch (err) {
-	alert("unable to load showdown.js");
-	}
+		} 
+	catch (err) {
+		alert("unable to load showdown.js");
+		}
 
     /* find the id of a comment */
     function getId(e, old) {
@@ -123,6 +121,8 @@
         var origBody = document.createElement("p");
         origBody.className = "og";
         /* set text */
+        if ((typeof mdConverter === 'undefined') && (showdown !== 'undefined'))
+        	var mdConverter = new showdown.Converter();
         if ((typeof mdConverter === 'undefined') || (mdConverter === null))
        	 origBody.innerHTML = body;
        else
