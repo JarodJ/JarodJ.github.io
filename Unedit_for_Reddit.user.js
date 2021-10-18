@@ -121,10 +121,14 @@
         var origBody = document.createElement("p");
         origBody.className = "og";
         /* set text */
-        if ((typeof mdConverter === 'undefined') && (showdown !== 'undefined'))
+        if ((typeof mdConverter === 'undefined') && (showdown !== 'undefined')){
         	var mdConverter = new showdown.Converter();
-        if ((typeof mdConverter === 'undefined') || (mdConverter === null))
+		alert("created mdConverter");
+	}
+        if ((typeof mdConverter === 'undefined') || (mdConverter === null)){
        	 origBody.innerHTML = body;
+		alert("mdConverter doesn't exist");
+	}
        else
        	 origBody.innerHTML = mdConverter.makeHtml("\n\n### Original "+postType+":\n\n" + body);
         /* paragraph styling */
