@@ -31,6 +31,12 @@
 	catch (err) {
 		alert("unable to load showdown.js");
 		}
+	try { 
+		var mdConverter = new showdown.Converter();
+		} 
+	catch (err) {
+		
+		}
 
     /* find the id of a comment */
     function getId(e, old) {
@@ -121,14 +127,10 @@
         var origBody = document.createElement("p");
         origBody.className = "og";
         /* set text */
-        if ((typeof mdConverter === 'undefined') && (showdown !== 'undefined')){
+        if ((typeof mdConverter === 'undefined') && (showdown !== 'undefined'))
         	var mdConverter = new showdown.Converter();
-		alert("created mdConverter");
-	}
-        if ((typeof mdConverter === 'undefined') || (mdConverter === null)){
+        if ((typeof mdConverter === 'undefined') || (mdConverter === null))
        	 origBody.innerHTML = body;
-		alert("mdConverter doesn't exist");
-	}
        else
        	 origBody.innerHTML = mdConverter.makeHtml("\n\n### Original "+postType+":\n\n" + body);
         /* paragraph styling */
