@@ -33,6 +33,14 @@
 				}, 1000);
 			}
 		}
+	function pipEvent()
+		{
+		if (document.getElementsByClassName('html5-main-video'))
+			{
+			document.getElementsByClassName('html5-main-video')[0].requestPictureInPicture();
+			alert("pip");
+			}
+		}
 	function addSpeedButton(searchBox)
 		{
 		if (!document.getElementById("speedBox"))
@@ -67,6 +75,13 @@
 					document.getElementsByClassName('html5-main-video')[0].addEventListener("play", changeSpeed);
 					}
 				}, 500);
+			
+			var pipButton = document.createElement("button");
+			pipButton.id = "pipButton";
+			pipButton.innerText = "PiP";
+			pipButton.setAttribute("style", "font-size: 25px; font-weight: bold; margin: 25px; color: white; display: inline;");
+			pipButton.addEventListener("click", pipEvent);
+			searchBox.insertBefore(pipButton, searchBox.firstChild);
 			}
 		}
 	function waitToLoad()
