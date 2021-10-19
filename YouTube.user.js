@@ -35,15 +35,10 @@
 		}
 	function pipEvent()
 		{
-		alert("try pip");
 		if (document.getElementsByClassName('html5-main-video'))
 			{
 			document.getElementsByClassName('html5-main-video')[0].requestPictureInPicture();
-			alert("pip");
 			}
-		else
-			alert("couldn't find video");
-		alert("done");
 		}
 	function addSpeedButton(searchBox)
 		{
@@ -83,7 +78,6 @@
 			var pipButton = document.createElement("button");
 			pipButton.id = "pipButton";
 			pipButton.innerText = "PiP";
-			pipButton.setAttribute("style", "font-size: 25px; font-weight: bold; margin: 25px; color: white; display: inline;");
 			pipButton.addEventListener("click", pipEvent);
 			searchBox.insertBefore(pipButton, searchBox.firstChild);
 			}
@@ -148,6 +142,5 @@ function isRendered(domObj)
 		}
 	return false;
 	}
-alert("running");
 waitToLoad();
 })();
