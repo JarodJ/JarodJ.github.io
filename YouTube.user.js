@@ -37,7 +37,14 @@
 		{
 		if (document.getElementsByClassName('html5-main-video'))
 			{
-			document.getElementsByClassName('html5-main-video')[0].requestPictureInPicture();
+			try
+				{
+				document.getElementsByClassName('html5-main-video')[0].requestPictureInPicture();
+				}
+			catch(err)
+				{
+				alert("error starting pip");
+				}
 			}
 		}
 	function addSpeedButton(searchBox)
