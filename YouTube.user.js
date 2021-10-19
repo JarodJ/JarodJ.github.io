@@ -35,11 +35,15 @@
 		}
 	function pipEvent()
 		{
+		alert("try pip");
 		if (document.getElementsByClassName('html5-main-video'))
 			{
 			document.getElementsByClassName('html5-main-video')[0].requestPictureInPicture();
 			alert("pip");
 			}
+		else
+			alert("couldn't find video");
+		alert("done");
 		}
 	function addSpeedButton(searchBox)
 		{
@@ -144,5 +148,6 @@ function isRendered(domObj)
 		}
 	return false;
 	}
+alert("running");
 waitToLoad();
 })();
