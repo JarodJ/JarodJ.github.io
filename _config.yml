@@ -3,3 +3,4 @@ plugins:
   - jekyll-relative-links
 include:
   - _#action.md
+  - _action.md
