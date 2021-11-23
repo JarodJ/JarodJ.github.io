@@ -1,5 +1,6 @@
 theme: jekyll-theme-hacker
-include:
-  - "_#*.md"
 plugins:
   - jekyll-relative-links
+include:
+  - "_*.md"
+  - "_#action*.md"
