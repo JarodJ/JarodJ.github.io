@@ -2,6 +2,9 @@
 
 ### _(50 Notes_)
 
+
+[A Dark Room]({% link ./../A%20Dark%20Room.md %})
+
 [A Dark Room](./../A%20Dark%20Room.md)
 > #adventure,#co-op,#game,#owned,#role-playing,#strategy,#switch
 
