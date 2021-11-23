@@ -1,110 +1,110 @@
-#Nintendo Switch Library
+# Nintendo Switch Library
 
 ## Tag List
 
-[#action](./Tags/action.md)
+[#action](./Tags/action.html)
 > 89 Notes
 
-[#adventure](./Tags/adventure.md)
+[#adventure](./Tags/adventure.html)
 > 50 Notes
 
-[#arcade](./Tags/arcade.md)
+[#arcade](./Tags/arcade.html)
 > 68 Notes
 
-[#beat](./Tags/beat.md)
+[#beat](./Tags/beat.html)
 > 2 Notes
 
-[#boardgame](./Tags/boardgame.md)
+[#boardgame](./Tags/boardgame.html)
 > 7 Notes
 
-[#co-op](./Tags/co-op.md)
+[#co-op](./Tags/co-op.html)
 > 51 Notes
 
-[#communication](./Tags/communication.md)
+[#communication](./Tags/communication.html)
 > 1 Notes
 
-[#education](./Tags/education.md)
+[#education](./Tags/education.html)
 > 5 Notes
 
-[#fighting](./Tags/fighting.md)
+[#fighting](./Tags/fighting.html)
 > 10 Notes
 
-[#first-person](./Tags/first-person.md)
+[#first-person](./Tags/first-person.html)
 > 1 Notes
 
-[#fitness](./Tags/fitness.md)
+[#fitness](./Tags/fitness.html)
 > 1 Notes
 
-[#game](./Tags/game.md)
+[#game](./Tags/game.html)
 > 169 Notes
 
-[#hotlist](./Tags/hotlist.md)
+[#hotlist](./Tags/hotlist.html)
 > 29 Notes
 
-[#in-progress](./Tags/in-progress.md)
+[#in-progress](./Tags/in-progress.html)
 > 6 Notes
 
-[#indie](./Tags/indie.md)
+[#indie](./Tags/indie.html)
 > 15 Notes
 
-[#lifestyle](./Tags/lifestyle.md)
+[#lifestyle](./Tags/lifestyle.html)
 > 4 Notes
 
-[#multiplayer](./Tags/multiplayer.md)
+[#multiplayer](./Tags/multiplayer.html)
 > 67 Notes
 
-[#music](./Tags/music.md)
+[#music](./Tags/music.html)
 > 2 Notes
 
-[#owned](./Tags/owned.md)
+[#owned](./Tags/owned.html)
 > 166 Notes
 
-[#party](./Tags/party.md)
+[#party](./Tags/party.html)
 > 43 Notes
 
-[#physical](./Tags/physical.md)
+[#physical](./Tags/physical.html)
 > 1 Notes
 
-[#platformer](./Tags/platformer.md)
+[#platformer](./Tags/platformer.html)
 > 43 Notes
 
-[#practical](./Tags/practical.md)
+[#practical](./Tags/practical.html)
 > 1 Notes
 
-[#puzzle](./Tags/puzzle.md)
+[#puzzle](./Tags/puzzle.html)
 > 57 Notes
 
-[#racing](./Tags/racing.md)
+[#racing](./Tags/racing.html)
 > 9 Notes
 
-[#role-playing](./Tags/role-playing.md)
+[#role-playing](./Tags/role-playing.html)
 > 16 Notes
 
-[#shooter](./Tags/shooter.md)
+[#shooter](./Tags/shooter.html)
 > 1 Notes
 
-[#simulation](./Tags/simulation.md)
+[#simulation](./Tags/simulation.html)
 > 21 Notes
 
-[#solo](./Tags/solo.md)
+[#solo](./Tags/solo.html)
 > 62 Notes
 
-[#sports](./Tags/sports.md)
+[#sports](./Tags/sports.html)
 > 22 Notes
 
-[#strategy](./Tags/strategy.md)
+[#strategy](./Tags/strategy.html)
 > 23 Notes
 
-[#subscription](./Tags/subscription.md)
+[#subscription](./Tags/subscription.html)
 > 3 Notes
 
-[#switch](./Tags/switch.md)
+[#switch](./Tags/switch.html)
 > 169 Notes
 
-[#training](./Tags/training.md)
+[#training](./Tags/training.html)
 > 3 Notes
 
-[#utility](./Tags/utility.md)
+[#utility](./Tags/utility.html)
 > 1 Notes
 
 
