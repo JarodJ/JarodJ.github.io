@@ -114,3 +114,5 @@
 [action md](./Tags/action.md)
 
 [action _md](./Tags/_action.md)
+
+[adventure](./Tags/_adventure.md)
