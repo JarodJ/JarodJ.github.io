@@ -4,3 +4,4 @@ plugins:
 include:
   - _#action.md
   - _action.md
+  - _*.md
