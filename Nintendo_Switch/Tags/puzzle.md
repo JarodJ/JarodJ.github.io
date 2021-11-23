@@ -2,175 +2,175 @@
 
 ### _(57 Notes_)
 
-[2048 Battles](./../2048%20Battles.md)
+[2048 Battles](./../2048%20Battles.html)
 > #game,#multiplayer,#owned,#party,#puzzle,#strategy,#switch
 
-[Art of Balance](./../Art%20of%20Balance.md)
+[Art of Balance](./../Art%20of%20Balance.html)
 > #arcade,#game,#multiplayer,#owned,#party,#puzzle,#switch
 
-[Baba Is You](./../Baba%20Is%20You.md)
+[Baba Is You](./../Baba%20Is%20You.html)
 > #game,#hotlist,#indie,#owned,#party,#puzzle,#solo,#switch
 
-[BFF or Die](./../BFF%20or%20Die.md)
+[BFF or Die](./../BFF%20or%20Die.html)
 > #action,#arcade,#co-op,#game,#hotlist,#multiplayer,#owned,#puzzle,#switch
 
-[BOXBOY!  BOXGIRL!](./../BOXBOY!%20%20BOXGIRL!.md)
+[BOXBOY!  BOXGIRL!](./../BOXBOY!%20%20BOXGIRL!.html)
 > #beat,#co-op,#game,#owned,#platformer,#puzzle,#switch
 
-[Breakfast Bar Tycoon](./../Breakfast%20Bar%20Tycoon.md)
+[Breakfast Bar Tycoon](./../Breakfast%20Bar%20Tycoon.html)
 > #adventure,#game,#owned,#puzzle,#simulation,#solo,#strategy,#switch
 
-[Burger Chef Tycoon](./../Burger%20Chef%20Tycoon.md)
+[Burger Chef Tycoon](./../Burger%20Chef%20Tycoon.html)
 > #adventure,#game,#owned,#puzzle,#simulation,#solo,#strategy,#switch
 
-[Burnstar](./../Burnstar.md)
+[Burnstar](./../Burnstar.html)
 > #action,#co-op,#game,#owned,#puzzle,#strategy,#switch
 
-[Captain Toad Treasure Tracker](./../Captain%20Toad%20Treasure%20Tracker.md)
+[Captain Toad Treasure Tracker](./../Captain%20Toad%20Treasure%20Tracker.html)
 > #co-op,#game,#hotlist,#owned,#platformer,#puzzle,#switch
 
-[Classic Games Collection Vol.1](./../Classic%20Games%20Collection%20Vol.1.md)
+[Classic Games Collection Vol.1](./../Classic%20Games%20Collection%20Vol.1.html)
 > #boardgame,#game,#multiplayer,#owned,#party,#puzzle,#switch
 
-[Conduct Together](./../Conduct%20Together.md)
+[Conduct Together](./../Conduct%20Together.html)
 > #action,#game,#multiplayer,#owned,#party,#puzzle,#switch
 
-[Cooking Tycoons - 3 in 1 Bundle](./../Cooking%20Tycoons%20-%203%20in%201%20Bundle.md)
+[Cooking Tycoons - 3 in 1 Bundle](./../Cooking%20Tycoons%20-%203%20in%201%20Bundle.html)
 > #adventure,#game,#owned,#puzzle,#simulation,#solo,#strategy,#switch
 
-[CROSSNIQ Plus](./../CROSSNIQ%20Plus.md)
+[CROSSNIQ Plus](./../CROSSNIQ%20Plus.html)
 > #arcade,#game,#multiplayer,#owned,#puzzle,#switch
 
-[Day and Night](./../Day%20and%20Night.md)
+[Day and Night](./../Day%20and%20Night.html)
 > #game,#multiplayer,#owned,#puzzle,#switch
 
-[Death Squared](./../Death%20Squared.md)
+[Death Squared](./../Death%20Squared.html)
 > #co-op,#game,#hotlist,#multiplayer,#owned,#party,#puzzle,#switch
 
-[Deaths Hangover](./../Deaths%20Hangover.md)
+[Deaths Hangover](./../Deaths%20Hangover.html)
 > #action,#arcade,#co-op,#game,#hotlist,#owned,#platformer,#puzzle,#switch
 
-[Degrees of Separation](./../Degrees%20of%20Separation.md)
+[Degrees of Separation](./../Degrees%20of%20Separation.html)
 > #co-op,#game,#owned,#platformer,#puzzle,#switch
 
-[Diggerman](./../Diggerman.md)
+[Diggerman](./../Diggerman.html)
 > #arcade,#game,#owned,#puzzle,#solo,#switch
 
-[EQQO](./../EQQO.md)
+[EQQO](./../EQQO.html)
 > #adventure,#education,#game,#owned,#puzzle,#solo,#switch
 
-[Eyes The Horror Game](./../Eyes%20The%20Horror%20Game.md)
+[Eyes The Horror Game](./../Eyes%20The%20Horror%20Game.html)
 > #action,#adventure,#game,#owned,#puzzle,#simulation,#solo,#switch
 
-[Flowlines VS](./../Flowlines%20VS.md)
+[Flowlines VS](./../Flowlines%20VS.html)
 > #education,#game,#multiplayer,#owned,#party,#puzzle,#switch
 
-[Food Truck Tycoon - Asian Cuisine](./../Food%20Truck%20Tycoon%20-%20Asian%20Cuisine.md)
+[Food Truck Tycoon - Asian Cuisine](./../Food%20Truck%20Tycoon%20-%20Asian%20Cuisine.html)
 > #adventure,#game,#owned,#puzzle,#simulation,#solo,#strategy,#switch
 
-[Freecell Solitaire Deluxe](./../Freecell%20Solitaire%20Deluxe.md)
+[Freecell Solitaire Deluxe](./../Freecell%20Solitaire%20Deluxe.html)
 > #boardgame,#game,#owned,#puzzle,#solo,#strategy,#switch
 
-[Human Fall Flat](./../Human%20Fall%20Flat.md)
+[Human Fall Flat](./../Human%20Fall%20Flat.html)
 > #adventure,#co-op,#game,#hotlist,#owned,#platformer,#puzzle,#switch
 
-[ibb & obb](./../ibb%20&%20obb.md)
+[ibb & obb](./../ibb%20&%20obb.html)
 > #co-op,#game,#owned,#platformer,#puzzle,#switch
 
-[Jim is Moving Out!](./../Jim%20is%20Moving%20Out!.md)
+[Jim is Moving Out!](./../Jim%20is%20Moving%20Out!.html)
 > #arcade,#co-op,#game,#owned,#platformer,#puzzle,#switch
 
-[Klondike Solitaire](./../Klondike%20Solitaire.md)
+[Klondike Solitaire](./../Klondike%20Solitaire.html)
 > #adventure,#boardgame,#game,#owned,#puzzle,#solo,#strategy,#switch
 
-[Koloro](./../Koloro.md)
+[Koloro](./../Koloro.html)
 > #arcade,#co-op,#game,#owned,#platformer,#puzzle,#switch
 
-[LUMINES REMASTERED](./../LUMINES%20REMASTERED.md)
+[LUMINES REMASTERED](./../LUMINES%20REMASTERED.html)
 > #arcade,#game,#indie,#lifestyle,#multiplayer,#owned,#party,#puzzle,#switch
 
-[Mad Age & This Guy](./../Mad%20Age%20&%20This%20Guy.md)
+[Mad Age & This Guy](./../Mad%20Age%20&%20This%20Guy.html)
 > #adventure,#arcade,#game,#owned,#puzzle,#solo,#switch
 
-[MEMBRANE](./../MEMBRANE.md)
+[MEMBRANE](./../MEMBRANE.html)
 > #action,#adventure,#co-op,#game,#owned,#platformer,#puzzle,#switch
 
-[NecroWorm](./../NecroWorm.md)
+[NecroWorm](./../NecroWorm.html)
 > #action,#arcade,#game,#owned,#party,#puzzle,#solo,#switch
 
-[Not Not - A Brain Buster](./../Not%20Not%20-%20A%20Brain%20Buster.md)
+[Not Not - A Brain Buster](./../Not%20Not%20-%20A%20Brain%20Buster.html)
 > #education,#game,#hotlist,#multiplayer,#owned,#party,#puzzle,#switch,#training
 
-[PAN-PAN A tiny big adventure](./../PAN-PAN%20A%20tiny%20big%20adventure.md)
+[PAN-PAN A tiny big adventure](./../PAN-PAN%20A%20tiny%20big%20adventure.html)
 > #adventure,#game,#owned,#puzzle,#solo,#switch
 
-[Party Treats](./../Party%20Treats.md)
+[Party Treats](./../Party%20Treats.html)
 > #boardgame,#game,#multiplayer,#owned,#party,#puzzle,#switch
 
-[Pikuniku](./../Pikuniku.md)
+[Pikuniku](./../Pikuniku.html)
 > #adventure,#co-op,#game,#owned,#platformer,#puzzle,#switch
 
-[Pode](./../Pode.md)
+[Pode](./../Pode.html)
 > #adventure,#co-op,#game,#in-progress,#indie,#owned,#puzzle,#switch
 
-[Puyo PuyoTetris](./../Puyo%20PuyoTetris.md)
+[Puyo PuyoTetris](./../Puyo%20PuyoTetris.html)
 > #game,#multiplayer,#owned,#party,#puzzle,#switch
 
-[Puzzle Book](./../Puzzle%20Book.md)
+[Puzzle Book](./../Puzzle%20Book.html)
 > #co-op,#education,#game,#owned,#puzzle,#switch,#training,#utility
 
-[Seeders Puzzle Reboot](./../Seeders%20Puzzle%20Reboot.md)
+[Seeders Puzzle Reboot](./../Seeders%20Puzzle%20Reboot.html)
 > #adventure,#co-op,#game,#owned,#platformer,#puzzle,#switch
 
-[Shift Happens](./../Shift%20Happens.md)
+[Shift Happens](./../Shift%20Happens.html)
 > #action,#co-op,#game,#owned,#platformer,#puzzle,#switch
 
-[Singled Out](./../Singled%20Out.md)
+[Singled Out](./../Singled%20Out.html)
 > #action,#arcade,#game,#owned,#party,#puzzle,#solo,#switch
 
-[Spider Solitaire](./../Spider%20Solitaire.md)
+[Spider Solitaire](./../Spider%20Solitaire.html)
 > #adventure,#boardgame,#game,#owned,#puzzle,#solo,#strategy,#switch
 
-[Starman](./../Starman.md)
+[Starman](./../Starman.html)
 > #adventure,#beat,#game,#owned,#puzzle,#solo,#switch
 
-[SteamWorld Dig 2](./../SteamWorld%20Dig%202.md)
+[SteamWorld Dig 2](./../SteamWorld%20Dig%202.html)
 > #action,#adventure,#game,#indie,#owned,#platformer,#puzzle,#solo,#switch
 
-[Super Bomberman R](./../Super%20Bomberman%20R.md)
+[Super Bomberman R](./../Super%20Bomberman%20R.html)
 > #action,#co-op,#game,#multiplayer,#owned,#party,#puzzle,#switch
 
-[Tetris 99](./../Tetris%2099.md)
+[Tetris 99](./../Tetris%2099.html)
 > #game,#hotlist,#puzzle,#solo,#subscription,#switch
 
-[The Mystery of Woolley Mountain](./../The%20Mystery%20of%20Woolley%20Mountain.md)
+[The Mystery of Woolley Mountain](./../The%20Mystery%20of%20Woolley%20Mountain.html)
 > #adventure,#arcade,#game,#owned,#puzzle,#solo,#switch
 
-[Toki Tori](./../Toki%20Tori.md)
+[Toki Tori](./../Toki%20Tori.html)
 > #game,#owned,#platformer,#puzzle,#solo,#switch
 
-[Tricky Towers](./../Tricky%20Towers.md)
+[Tricky Towers](./../Tricky%20Towers.html)
 > #game,#hotlist,#multiplayer,#owned,#party,#puzzle,#switch
 
-[Tumblestone](./../Tumblestone.md)
+[Tumblestone](./../Tumblestone.html)
 > #arcade,#game,#multiplayer,#owned,#party,#puzzle,#switch
 
-[Unravel Two](./../Unravel%20Two.md)
+[Unravel Two](./../Unravel%20Two.html)
 > #adventure,#co-op,#game,#in-progress,#indie,#owned,#platformer,#puzzle,#switch
 
-[Untitled Goose Game](./../Untitled%20Goose%20Game.md)
+[Untitled Goose Game](./../Untitled%20Goose%20Game.html)
 > #action,#co-op,#game,#indie,#owned,#puzzle,#switch
 
-[Urban Flow](./../Urban%20Flow.md)
+[Urban Flow](./../Urban%20Flow.html)
 > #arcade,#game,#multiplayer,#owned,#puzzle,#simulation,#switch
 
-[Watermelon Party](./../Watermelon%20Party.md)
+[Watermelon Party](./../Watermelon%20Party.html)
 > #action,#game,#multiplayer,#owned,#party,#puzzle,#switch
 
-[Wayout](./../Wayout.md)
+[Wayout](./../Wayout.html)
 > #boardgame,#game,#owned,#puzzle,#solo,#strategy,#switch
 
-[Wreckin Ball Adventure](./../Wreckin%20Ball%20Adventure.md)
+[Wreckin Ball Adventure](./../Wreckin%20Ball%20Adventure.html)
 > #arcade,#co-op,#game,#multiplayer,#owned,#platformer,#puzzle,#switch
 
 
