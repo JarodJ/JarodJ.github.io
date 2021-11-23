@@ -1,4 +1,4 @@
 theme: jekyll-theme-hacker
-include: ["_*.md"]
+include: ["*.md"]
 plugins:
   - jekyll-relative-links
