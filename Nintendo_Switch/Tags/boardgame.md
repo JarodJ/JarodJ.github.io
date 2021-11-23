@@ -1,0 +1,26 @@
+# Notes tagged with "boardgame"
+
+### _(7 Notes_)
+
+[Classic Games Collection Vol.1](./../Classic%20Games%20Collection%20Vol.1.md)
+> #boardgame,#game,#multiplayer,#owned,#party,#puzzle,#switch
+
+[Freecell Solitaire Deluxe](./../Freecell%20Solitaire%20Deluxe.md)
+> #boardgame,#game,#owned,#puzzle,#solo,#strategy,#switch
+
+[Klondike Solitaire](./../Klondike%20Solitaire.md)
+> #adventure,#boardgame,#game,#owned,#puzzle,#solo,#strategy,#switch
+
+[Party Treats](./../Party%20Treats.md)
+> #boardgame,#game,#multiplayer,#owned,#party,#puzzle,#switch
+
+[Spider Solitaire](./../Spider%20Solitaire.md)
+> #adventure,#boardgame,#game,#owned,#puzzle,#solo,#strategy,#switch
+
+[The Warlock of Firetop Mountain Goblin Scourge Edition!](./../The%20Warlock%20of%20Firetop%20Mountain%20Goblin%20Scourge%20Edition!.md)
+> #adventure,#boardgame,#game,#hotlist,#owned,#role-playing,#solo,#switch
+
+[Wayout](./../Wayout.md)
+> #boardgame,#game,#owned,#puzzle,#solo,#strategy,#switch
+
+

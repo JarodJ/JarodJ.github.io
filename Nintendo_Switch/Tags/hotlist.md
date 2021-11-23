@@ -1,0 +1,92 @@
+# Notes tagged with "hotlist"
+
+### _(29 Notes_)
+
+[Akane](./../Akane.md)
+> #action,#arcade,#fighting,#game,#hotlist,#owned,#solo,#switch
+
+[Astro Bears](./../Astro%20Bears.md)
+> #action,#arcade,#co-op,#game,#hotlist,#multiplayer,#owned,#party,#switch
+
+[Baba Is You](./../Baba%20Is%20You.md)
+> #game,#hotlist,#indie,#owned,#party,#puzzle,#solo,#switch
+
+[BFF or Die](./../BFF%20or%20Die.md)
+> #action,#arcade,#co-op,#game,#hotlist,#multiplayer,#owned,#puzzle,#switch
+
+[Captain Toad Treasure Tracker](./../Captain%20Toad%20Treasure%20Tracker.md)
+> #co-op,#game,#hotlist,#owned,#platformer,#puzzle,#switch
+
+[Dead Cells](./../Dead%20Cells.md)
+> #action,#game,#hotlist,#owned,#platformer,#solo,#switch
+
+[Death Squared](./../Death%20Squared.md)
+> #co-op,#game,#hotlist,#multiplayer,#owned,#party,#puzzle,#switch
+
+[Deaths Hangover](./../Deaths%20Hangover.md)
+> #action,#arcade,#co-op,#game,#hotlist,#owned,#platformer,#puzzle,#switch
+
+[Golf Story](./../Golf%20Story.md)
+> #adventure,#game,#hotlist,#indie,#multiplayer,#owned,#role-playing,#sports,#switch
+
+[Human Fall Flat](./../Human%20Fall%20Flat.md)
+> #adventure,#co-op,#game,#hotlist,#owned,#platformer,#puzzle,#switch
+
+[Luigi’s Mansion 3](./../Luigi’s%20Mansion%203.md)
+> #action,#adventure,#co-op,#game,#hotlist,#owned,#switch
+
+[Mario Kart 8 Deluxe](./../Mario%20Kart%208%20Deluxe.md)
+> #game,#hotlist,#multiplayer,#owned,#party,#racing,#switch
+
+[Mario Tennis Aces](./../Mario%20Tennis%20Aces.md)
+> #game,#hotlist,#in-progress,#multiplayer,#owned,#sports,#switch
+
+[Minecraft](./../Minecraft.md)
+> #action,#adventure,#co-op,#game,#hotlist,#owned,#simulation,#strategy,#switch
+
+[Not Not - A Brain Buster](./../Not%20Not%20-%20A%20Brain%20Buster.md)
+> #education,#game,#hotlist,#multiplayer,#owned,#party,#puzzle,#switch,#training
+
+[Overcooked! 2](./../Overcooked!%202.md)
+> #co-op,#communication,#game,#hotlist,#multiplayer,#owned,#party,#simulation,#strategy,#switch
+
+[Rocket League](./../Rocket%20League.md)
+> #action,#game,#hotlist,#multiplayer,#owned,#racing,#sports,#switch
+
+[Serial Cleaner](./../Serial%20Cleaner.md)
+> #action,#game,#hotlist,#owned,#solo,#switch
+
+[Stardew Valley](./../Stardew%20Valley.md)
+> #co-op,#game,#hotlist,#indie,#owned,#role-playing,#simulation,#switch
+
+[Super Mario Maker 2](./../Super%20Mario%20Maker%202.md)
+> #action,#game,#hotlist,#multiplayer,#owned,#platformer,#switch
+
+[Super Mega Baseball 2 Ultimate Edition](./../Super%20Mega%20Baseball%202%20Ultimate%20Edition.md)
+> #arcade,#game,#hotlist,#multiplayer,#owned,#simulation,#sports,#switch
+
+[Super One More Jump](./../Super%20One%20More%20Jump.md)
+> #arcade,#game,#hotlist,#in-progress,#multiplayer,#owned,#party,#platformer,#switch
+
+[Super Smash Bros. Ultimate](./../Super%20Smash%20Bros.%20Ultimate.md)
+> #action,#fighting,#game,#hotlist,#multiplayer,#owned,#switch
+
+[Tetris 99](./../Tetris%2099.md)
+> #game,#hotlist,#puzzle,#solo,#subscription,#switch
+
+[The Escapists 2](./../The%20Escapists%202.md)
+> #co-op,#game,#hotlist,#owned,#role-playing,#simulation,#strategy,#switch
+
+[The Flame In The Flood Complete Edition](./../The%20Flame%20In%20The%20Flood%20Complete%20Edition.md)
+> #adventure,#game,#hotlist,#owned,#solo,#switch
+
+[The Warlock of Firetop Mountain Goblin Scourge Edition!](./../The%20Warlock%20of%20Firetop%20Mountain%20Goblin%20Scourge%20Edition!.md)
+> #adventure,#boardgame,#game,#hotlist,#owned,#role-playing,#solo,#switch
+
+[Tricky Towers](./../Tricky%20Towers.md)
+> #game,#hotlist,#multiplayer,#owned,#party,#puzzle,#switch
+
+[Wargroove](./../Wargroove.md)
+> #game,#hotlist,#indie,#multiplayer,#owned,#solo,#strategy,#switch
+
+
