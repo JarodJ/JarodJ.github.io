@@ -108,12 +108,3 @@
 > 1 Notes
 
 [Games to play with family](./Tags/Games_to_play_with_family.html)
-
-
-
-[action _md](./Tags/_action.md)
-
-[adventure](./Tags/_adventure.md)
-
-[co op](./Tags/_co-op.md)
-
