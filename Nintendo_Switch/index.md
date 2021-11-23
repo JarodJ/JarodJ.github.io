@@ -1,6 +1,6 @@
 # My Nintendo Switch Game Library List
 
-[#RaceDieRun](./#RaceDieRun.html)
+[RaceDieRun](./RaceDieRun.html)
 > [#solo](./Tags/solo.html),[#racing](./Tags/racing.html),[#sports](./Tags/sports.html),[#action](./Tags/action.html),[#arcade](./Tags/arcade.html)
 
 [2048 Battles](./2048 Battles.html)
