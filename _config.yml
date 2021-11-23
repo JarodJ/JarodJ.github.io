@@ -1,5 +1,3 @@
 theme: jekyll-theme-hacker
-plugins:
-  - jekyll-relative-links
-include:
-  - _*.md
+include: _*.md
+plugins: jekyll-relative-links
