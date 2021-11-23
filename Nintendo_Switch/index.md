@@ -116,3 +116,6 @@
 [action _md](./Tags/_action.md)
 
 [adventure](./Tags/_adventure.md)
+
+[co op](./Tags/_co-op.md)
+
