@@ -2,5 +2,4 @@ theme: jekyll-theme-hacker
 plugins:
   - jekyll-relative-links
 include:
-  - _*.md
   - _#action.md
