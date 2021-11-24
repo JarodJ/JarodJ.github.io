@@ -141,7 +141,7 @@
 > #action,#co-op,#game,#multiplayer,#owned,#simulation,#switch
 
 [NPLUSPLUS](./../NPLUSPLUS.html)
-> #hotlist,#multiplayer,#platformer,#action',#arcade
+> #action,#arcade,#game,#hotlist,#multiplayer,#owned,#platformer,#switch
 
 [Odium to the Core](./../Odium%20to%20the%20Core.html)
 > #action,#arcade,#game,#music,#owned,#solo,#switch
