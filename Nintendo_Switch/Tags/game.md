@@ -1,6 +1,6 @@
 # Notes tagged with "game"
 
-### _(169 Notes_)
+### _(170 Notes_)
 
 [RaceDieRun](./../RaceDieRun.html)
 > #action,#arcade,#game,#owned,#racing,#solo,#sports,#switch
@@ -268,6 +268,9 @@
 
 [Not Not - A Brain Buster](./../Not%20Not%20-%20A%20Brain%20Buster.html)
 > #education,#game,#hotlist,#multiplayer,#owned,#party,#puzzle,#switch,#training
+
+[NPLUSPLUS](./../NPLUSPLUS.html)
+> #action,#arcade,#game,#hotlist,#multiplayer,#owned,#platformer,#switch
 
 [Odium to the Core](./../Odium%20to%20the%20Core.html)
 > #action,#arcade,#game,#music,#owned,#solo,#switch
