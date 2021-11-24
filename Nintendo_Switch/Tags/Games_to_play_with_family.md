@@ -77,6 +77,8 @@
 
 [Chameleon Run Deluxe Edition](./../Chameleon%20Run%20Deluxe%20Edition.html)
 
+[NPLUSPLUS](./../NPLUSPLUS.html)
+
 
 
 ## Played before:
