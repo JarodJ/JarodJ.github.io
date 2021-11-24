@@ -68,6 +68,9 @@
 [MEMBRANE](./../MEMBRANE.html)
 > #action,#adventure,#co-op,#game,#owned,#platformer,#puzzle,#switch
 
+[NPLUSPLUS](./../NPLUSPLUS.html)
+> #action,#arcade,#game,#hotlist,#multiplayer,#owned,#platformer,#switch
+
 [Pikuniku](./../Pikuniku.html)
 > #adventure,#co-op,#game,#owned,#platformer,#puzzle,#switch
 
