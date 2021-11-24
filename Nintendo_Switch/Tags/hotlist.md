@@ -1,6 +1,6 @@
 # Notes tagged with "hotlist"
 
-### _(29 Notes_)
+### _(30 Notes_)
 
 [Akane](./../Akane.html)
 > #action,#arcade,#fighting,#game,#hotlist,#owned,#solo,#switch
