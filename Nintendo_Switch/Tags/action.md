@@ -140,6 +140,9 @@
 [No Heroes Here](./../No%20Heroes%20Here.html)
 > #action,#co-op,#game,#multiplayer,#owned,#simulation,#switch
 
+[NPLUSPLUS](./../NPLUSPLUS.html)
+> #hotlist,#multiplayer,#platformer,#action',#arcade
+
 [Odium to the Core](./../Odium%20to%20the%20Core.html)
 > #action,#arcade,#game,#music,#owned,#solo,#switch
 
