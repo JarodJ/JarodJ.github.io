@@ -47,6 +47,9 @@
 [Not Not - A Brain Buster](./../Not%20Not%20-%20A%20Brain%20Buster.html)
 > #education,#game,#hotlist,#multiplayer,#owned,#party,#puzzle,#switch,#training
 
+[NPLUSPLUS](./../NPLUSPLUS.html)
+> #action,#arcade,#game,#hotlist,#multiplayer,#owned,#platformer,#switch
+
 [Overcooked! 2](./../Overcooked!%202.html)
 > #co-op,#communication,#game,#hotlist,#multiplayer,#owned,#party,#simulation,#strategy,#switch
 
