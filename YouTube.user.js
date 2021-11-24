@@ -81,7 +81,6 @@
 					document.getElementsByClassName('html5-main-video')[0].addEventListener("play", changeSpeed);
 					}
 				}, 500);
-			
 			var pipButton = document.createElement("button");
 			pipButton.id = "pipButton";
 			pipButton.innerText = "PiP";
@@ -121,7 +120,10 @@
 				searchBox = document.body;
 				}
 			if (searchBox)
-					addSpeedButton(searchBox);
+				{
+				addSpeedButton(searchBox);
+				makeVideoFixedPos()
+				}
 			}, 500);
 		}
 /*
@@ -148,6 +150,25 @@ function isRendered(domObj)
 			return isRendered(domObj.parentNode);
 		}
 	return false;
+	}
+function makeVideoFixedPos()
+	{
+	if (document.getElementById("player-theater-container"))
+		{
+		if ((document.getElementById("player-theater-container").offsetHeight > 0) && (document.getElementById("player-theater-container").offsetHeight < (window.innerHeight / 1.5)))
+			{
+			document.getElementById("player-theater-container").style.position = "fixed";
+			document.getElementById("player-theater-container").style.zIndex = "1000";
+			if (document.getElementById("columns"))
+				document.getElementById("columns").style.marginTop = "575px";
+			}
+		else
+			{
+			document.getElementById("player-theater-container").style.position = "relative";
+			if (document.getElementById("columns"))
+				document.getElementById("columns").style.marginTop = "0";
+			}
+		}	
 	}
 waitToLoad();
 })();
