@@ -1,6 +1,6 @@
 # Notes tagged with "arcade"
 
-### _(68 Notes_)
+### _(69 Notes_)
 
 [RaceDieRun](./../RaceDieRun.html)
 > #action,#arcade,#game,#owned,#racing,#solo,#sports,#switch
