@@ -1,6 +1,6 @@
 # Notes tagged with "multiplayer"
 
-### _(67 Notes_)
+### _(68 Notes_)
 
 [2048 Battles](./../2048%20Battles.html)
 > #game,#multiplayer,#owned,#party,#puzzle,#strategy,#switch
