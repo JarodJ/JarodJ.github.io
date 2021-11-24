@@ -1,13 +1,13 @@
 # My Nintendo Switch Library Tag List
 
 [#action](./action.html)
-> 89 Notes
+> 90 Notes
 
 [#adventure](./adventure.html)
 > 50 Notes
 
 [#arcade](./arcade.html)
-> 68 Notes
+> 69 Notes
 
 [#beat](./beat.html)
 > 2 Notes
@@ -34,10 +34,10 @@
 > 1 Notes
 
 [#game](./game.html)
-> 169 Notes
+> 170 Notes
 
 [#hotlist](./hotlist.html)
-> 29 Notes
+> 30 Notes
 
 [#in-progress](./in-progress.html)
 > 6 Notes
@@ -49,13 +49,13 @@
 > 4 Notes
 
 [#multiplayer](./multiplayer.html)
-> 67 Notes
+> 68 Notes
 
 [#music](./music.html)
 > 2 Notes
 
 [#owned](./owned.html)
-> 166 Notes
+> 167 Notes
 
 [#party](./party.html)
 > 43 Notes
@@ -64,7 +64,7 @@
 > 1 Notes
 
 [#platformer](./platformer.html)
-> 43 Notes
+> 44 Notes
 
 [#practical](./practical.html)
 > 1 Notes
@@ -97,7 +97,7 @@
 > 3 Notes
 
 [#switch](./switch.html)
-> 169 Notes
+> 170 Notes
 
 [#training](./training.html)
 > 3 Notes
