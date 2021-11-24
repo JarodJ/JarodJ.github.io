@@ -266,6 +266,9 @@
 [Not Not - A Brain Buster](./../Not%20Not%20-%20A%20Brain%20Buster.html)
 > #education,#game,#hotlist,#multiplayer,#owned,#party,#puzzle,#switch,#training
 
+[NPLUSPLUS](./../NPLUSPLUS.html)
+> #action,#arcade,#game,#hotlist,#multiplayer,#owned,#platformer,#switch
+
 [Odium to the Core](./../Odium%20to%20the%20Core.html)
 > #action,#arcade,#game,#music,#owned,#solo,#switch
 
