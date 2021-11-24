@@ -92,6 +92,9 @@
 [Not Not - A Brain Buster](./../Not%20Not%20-%20A%20Brain%20Buster.html)
 > #education,#game,#hotlist,#multiplayer,#owned,#party,#puzzle,#switch,#training
 
+[NPLUSPLUS](./../NPLUSPLUS.html)
+> #action,#arcade,#game,#hotlist,#multiplayer,#owned,#platformer,#switch
+
 [OlliOlli Switch Stance](./../OlliOlli%20Switch%20Stance.html)
 > #action,#arcade,#game,#multiplayer,#multiplayer,#owned,#sports,#switch
 
