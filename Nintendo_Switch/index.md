@@ -265,7 +265,7 @@
 > #hotlist,#multiplayer,#party,#education,#puzzle,#training
 
 [NPLUSPLUS](./NPLUSPLUS.html)
-> #hotlist,#multiplayer,#platformer,#action',#arcade
+> #hotlist,#multiplayer,#platformer,#action,#arcade
 
 [OTTTD Over The Top Tower Defense](./OTTTD%20Over%20The%20Top%20Tower%20Defense.html)
 > #solo,#strategy,#action,#role-playing,#arcade
