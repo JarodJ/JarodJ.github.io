@@ -107,6 +107,9 @@
 [NecroWorm](./../NecroWorm.html)
 > #action,#arcade,#game,#owned,#party,#puzzle,#solo,#switch
 
+[NPLUSPLUS](./../NPLUSPLUS.html)
+> #action,#arcade,#game,#hotlist,#multiplayer,#owned,#platformer,#switch
+
 [Odium to the Core](./../Odium%20to%20the%20Core.html)
 > #action,#arcade,#game,#music,#owned,#solo,#switch
 
