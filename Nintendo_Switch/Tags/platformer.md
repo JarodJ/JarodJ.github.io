@@ -1,6 +1,6 @@
 # Notes tagged with "platformer"
 
-### _(43 Notes_)
+### _(44 Notes_)
 
 [A Robot Named Fight](./../A%20Robot%20Named%20Fight.html)
 > #action,#adventure,#game,#multiplayer,#owned,#platformer,#switch
