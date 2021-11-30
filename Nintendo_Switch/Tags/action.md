@@ -1,9 +1,6 @@
 # Notes tagged with "action"
 
-### _(90 Notes_)
-
-[RaceDieRun](./../RaceDieRun.html)
-> #action,#arcade,#game,#owned,#racing,#solo,#sports,#switch
+### _(91 Notes_)
 
 [A Duel Hand Disaster Trackher](./../A%20Duel%20Hand%20Disaster%20Trackher.html)
 > #action,#arcade,#game,#owned,#solo,#switch
@@ -89,6 +86,9 @@
 [Hyper Sentinel](./../Hyper%20Sentinel.html)
 > #action,#arcade,#game,#owned,#solo,#switch
 
+[Hyperforma](./../Hyperforma.html)
+> #action,#adventure,#arcade,#game,#multiplayer,#owned,#puzzle,#switch
+
 [INK](./../INK.html)
 > #action,#arcade,#co-op,#game,#owned,#platformer,#switch
 
@@ -151,6 +151,9 @@
 
 [OTTTD Over The Top Tower Defense](./../OTTTD%20Over%20The%20Top%20Tower%20Defense.html)
 > #action,#arcade,#game,#owned,#role-playing,#solo,#strategy,#switch
+
+[RaceDieRun](./../RaceDieRun.html)
+> #action,#arcade,#game,#owned,#racing,#solo,#sports,#switch
 
 [Rapala Fishing Pro Series](./../Rapala%20Fishing%20Pro%20Series.html)
 > #action,#game,#owned,#simulation,#solo,#sports,#switch

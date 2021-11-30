@@ -1,6 +1,6 @@
 # Notes tagged with "indie"
 
-### _(15 Notes_)
+### _(16 Notes_)
 
 [Baba Is You](./../Baba%20Is%20You.html)
 > #game,#hotlist,#indie,#owned,#party,#puzzle,#solo,#switch
@@ -13,6 +13,9 @@
 
 [Hotline Miami Collection](./../Hotline%20Miami%20Collection.html)
 > #action,#adventure,#arcade,#game,#indie,#owned,#solo,#switch
+
+[Into the Breach](./../Into%20the%20Breach.html)
+> #boardgame,#game,#indie,#owned,#puzzle,#role-playing,#solo,#strategy,#switch
 
 [Katana ZERO](./../Katana%20ZERO.html)
 > #action,#arcade,#game,#indie,#owned,#platformer,#solo,#strategy,#switch

@@ -1,6 +1,6 @@
 # Notes tagged with "puzzle"
 
-### _(57 Notes_)
+### _(59 Notes_)
 
 [2048 Battles](./../2048%20Battles.html)
 > #game,#multiplayer,#owned,#party,#puzzle,#strategy,#switch
@@ -74,8 +74,14 @@
 [Human Fall Flat](./../Human%20Fall%20Flat.html)
 > #adventure,#co-op,#game,#hotlist,#owned,#platformer,#puzzle,#switch
 
+[Hyperforma](./../Hyperforma.html)
+> #action,#adventure,#arcade,#game,#multiplayer,#owned,#puzzle,#switch
+
 [ibb & obb](./../ibb%20&%20obb.html)
 > #co-op,#game,#owned,#platformer,#puzzle,#switch
+
+[Into the Breach](./../Into%20the%20Breach.html)
+> #boardgame,#game,#indie,#owned,#puzzle,#role-playing,#solo,#strategy,#switch
 
 [Jim is Moving Out!](./../Jim%20is%20Moving%20Out!.html)
 > #arcade,#co-op,#game,#owned,#platformer,#puzzle,#switch

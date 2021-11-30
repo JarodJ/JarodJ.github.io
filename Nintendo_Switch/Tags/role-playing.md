@@ -1,6 +1,6 @@
 # Notes tagged with "role-playing"
 
-### _(16 Notes_)
+### _(17 Notes_)
 
 [A Dark Room](./../A%20Dark%20Room.html)
 > #adventure,#co-op,#game,#owned,#role-playing,#strategy,#switch
@@ -16,6 +16,9 @@
 
 [Hard West](./../Hard%20West.html)
 > #adventure,#game,#owned,#role-playing,#simulation,#solo,#switch
+
+[Into the Breach](./../Into%20the%20Breach.html)
+> #boardgame,#game,#indie,#owned,#puzzle,#role-playing,#solo,#strategy,#switch
 
 [Mana Spark](./../Mana%20Spark.html)
 > #action,#adventure,#game,#owned,#role-playing,#solo,#switch

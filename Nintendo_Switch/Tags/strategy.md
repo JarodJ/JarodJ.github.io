@@ -1,6 +1,6 @@
 # Notes tagged with "strategy"
 
-### _(23 Notes_)
+### _(24 Notes_)
 
 [2048 Battles](./../2048%20Battles.html)
 > #game,#multiplayer,#owned,#party,#puzzle,#strategy,#switch
@@ -37,6 +37,9 @@
 
 [Heave Ho](./../Heave%20Ho.html)
 > #action,#arcade,#co-op,#game,#multiplayer,#owned,#platformer,#strategy,#switch
+
+[Into the Breach](./../Into%20the%20Breach.html)
+> #boardgame,#game,#indie,#owned,#puzzle,#role-playing,#solo,#strategy,#switch
 
 [Katana ZERO](./../Katana%20ZERO.html)
 > #action,#arcade,#game,#indie,#owned,#platformer,#solo,#strategy,#switch

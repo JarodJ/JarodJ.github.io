@@ -1,9 +1,6 @@
 # Notes tagged with "arcade"
 
-### _(69 Notes_)
-
-[RaceDieRun](./../RaceDieRun.html)
-> #action,#arcade,#game,#owned,#racing,#solo,#sports,#switch
+### _(72 Notes_)
 
 [A Duel Hand Disaster Trackher](./../A%20Duel%20Hand%20Disaster%20Trackher.html)
 > #action,#arcade,#game,#owned,#solo,#switch
@@ -59,11 +56,20 @@
 [Heave Ho](./../Heave%20Ho.html)
 > #action,#arcade,#co-op,#game,#multiplayer,#owned,#platformer,#strategy,#switch
 
+[Horizon Chase Turbo](./../Horizon%20Chase%20Turbo.html)
+> #arcade,#game,#multiplayer,#owned,#racing,#switch
+
 [Hotline Miami Collection](./../Hotline%20Miami%20Collection.html)
 > #action,#adventure,#arcade,#game,#indie,#owned,#solo,#switch
 
+[Hotshot Racing](./../Hotshot%20Racing.html)
+> #arcade,#game,#multiplayer,#owned,#racing,#switch
+
 [Hyper Sentinel](./../Hyper%20Sentinel.html)
 > #action,#arcade,#game,#owned,#solo,#switch
+
+[Hyperforma](./../Hyperforma.html)
+> #action,#adventure,#arcade,#game,#multiplayer,#owned,#puzzle,#switch
 
 [INK](./../INK.html)
 > #action,#arcade,#co-op,#game,#owned,#platformer,#switch
@@ -130,6 +136,9 @@
 
 [Pocket Mini Golf](./../Pocket%20Mini%20Golf.html)
 > #arcade,#game,#multiplayer,#owned,#party,#sports,#switch
+
+[RaceDieRun](./../RaceDieRun.html)
+> #action,#arcade,#game,#owned,#racing,#solo,#sports,#switch
 
 [REKT! High Octane Stunts](./../REKT!%20High%20Octane%20Stunts.html)
 > #arcade,#game,#multiplayer,#owned,#party,#racing,#switch

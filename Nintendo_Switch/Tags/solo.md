@@ -1,9 +1,6 @@
 # Notes tagged with "solo"
 
-### _(62 Notes_)
-
-[RaceDieRun](./../RaceDieRun.html)
-> #action,#arcade,#game,#owned,#racing,#solo,#sports,#switch
+### _(63 Notes_)
 
 [A Duel Hand Disaster Trackher](./../A%20Duel%20Hand%20Disaster%20Trackher.html)
 > #action,#arcade,#game,#owned,#solo,#switch
@@ -80,6 +77,9 @@
 [Hyper Sentinel](./../Hyper%20Sentinel.html)
 > #action,#arcade,#game,#owned,#solo,#switch
 
+[Into the Breach](./../Into%20the%20Breach.html)
+> #boardgame,#game,#indie,#owned,#puzzle,#role-playing,#solo,#strategy,#switch
+
 [Katana ZERO](./../Katana%20ZERO.html)
 > #action,#arcade,#game,#indie,#owned,#platformer,#solo,#strategy,#switch
 
@@ -115,6 +115,9 @@
 
 [PAN-PAN A tiny big adventure](./../PAN-PAN%20A%20tiny%20big%20adventure.html)
 > #adventure,#game,#owned,#puzzle,#solo,#switch
+
+[RaceDieRun](./../RaceDieRun.html)
+> #action,#arcade,#game,#owned,#racing,#solo,#sports,#switch
 
 [Rapala Fishing Pro Series](./../Rapala%20Fishing%20Pro%20Series.html)
 > #action,#game,#owned,#simulation,#solo,#sports,#switch

@@ -1,6 +1,6 @@
 # Notes tagged with "adventure"
 
-### _(50 Notes_)
+### _(51 Notes_)
 
 [A Dark Room](./../A%20Dark%20Room.html)
 > #adventure,#co-op,#game,#owned,#role-playing,#strategy,#switch
@@ -58,6 +58,9 @@
 
 [Hunting Simulator](./../Hunting%20Simulator.html)
 > #adventure,#first-person,#game,#owned,#solo,#switch
+
+[Hyperforma](./../Hyperforma.html)
+> #action,#adventure,#arcade,#game,#multiplayer,#owned,#puzzle,#switch
 
 [Klondike Solitaire](./../Klondike%20Solitaire.html)
 > #adventure,#boardgame,#game,#owned,#puzzle,#solo,#strategy,#switch

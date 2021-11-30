@@ -1,19 +1,19 @@
-# My Nintendo Switch Library Tag List
+# Tag List
 
 [#action](./action.html)
-> 90 Notes
+> 91 Notes
 
 [#adventure](./adventure.html)
-> 50 Notes
+> 51 Notes
 
 [#arcade](./arcade.html)
-> 69 Notes
+> 72 Notes
 
 [#beat](./beat.html)
 > 2 Notes
 
 [#boardgame](./boardgame.html)
-> 7 Notes
+> 8 Notes
 
 [#co-op](./co-op.html)
 > 51 Notes
@@ -34,7 +34,7 @@
 > 1 Notes
 
 [#game](./game.html)
-> 170 Notes
+> 174 Notes
 
 [#hotlist](./hotlist.html)
 > 30 Notes
@@ -43,19 +43,19 @@
 > 6 Notes
 
 [#indie](./indie.html)
-> 15 Notes
+> 16 Notes
 
 [#lifestyle](./lifestyle.html)
 > 4 Notes
 
 [#multiplayer](./multiplayer.html)
-> 68 Notes
+> 71 Notes
 
 [#music](./music.html)
 > 2 Notes
 
 [#owned](./owned.html)
-> 167 Notes
+> 171 Notes
 
 [#party](./party.html)
 > 43 Notes
@@ -70,13 +70,13 @@
 > 1 Notes
 
 [#puzzle](./puzzle.html)
-> 57 Notes
+> 59 Notes
 
 [#racing](./racing.html)
-> 9 Notes
+> 11 Notes
 
 [#role-playing](./role-playing.html)
-> 16 Notes
+> 17 Notes
 
 [#shooter](./shooter.html)
 > 1 Notes
@@ -85,19 +85,19 @@
 > 21 Notes
 
 [#solo](./solo.html)
-> 62 Notes
+> 63 Notes
 
 [#sports](./sports.html)
 > 22 Notes
 
 [#strategy](./strategy.html)
-> 23 Notes
+> 24 Notes
 
 [#subscription](./subscription.html)
 > 3 Notes
 
 [#switch](./switch.html)
-> 170 Notes
+> 174 Notes
 
 [#training](./training.html)
 > 3 Notes
@@ -105,4 +105,4 @@
 [#utility](./utility.html)
 > 1 Notes
 
-[Games to play with family](./Games_to_play_with_family.html)
+

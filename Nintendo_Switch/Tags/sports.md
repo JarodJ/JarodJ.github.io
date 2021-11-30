@@ -2,9 +2,6 @@
 
 ### _(22 Notes_)
 
-[RaceDieRun](./../RaceDieRun.html)
-> #action,#arcade,#game,#owned,#racing,#solo,#sports,#switch
-
 [Cabelas The Hunt - Championship Edition](./../Cabelas%20The%20Hunt%20-%20Championship%20Edition.html)
 > #action,#game,#lifestyle,#owned,#simulation,#solo,#sports,#switch
 
@@ -37,6 +34,9 @@
 
 [Pocket Mini Golf](./../Pocket%20Mini%20Golf.html)
 > #arcade,#game,#multiplayer,#owned,#party,#sports,#switch
+
+[RaceDieRun](./../RaceDieRun.html)
+> #action,#arcade,#game,#owned,#racing,#solo,#sports,#switch
 
 [Rapala Fishing Pro Series](./../Rapala%20Fishing%20Pro%20Series.html)
 > #action,#game,#owned,#simulation,#solo,#sports,#switch

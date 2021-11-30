@@ -1,6 +1,6 @@
 # Notes tagged with "multiplayer"
 
-### _(68 Notes_)
+### _(71 Notes_)
 
 [2048 Battles](./../2048%20Battles.html)
 > #game,#multiplayer,#owned,#party,#puzzle,#strategy,#switch
@@ -55,6 +55,15 @@
 
 [Heave Ho](./../Heave%20Ho.html)
 > #action,#arcade,#co-op,#game,#multiplayer,#owned,#platformer,#strategy,#switch
+
+[Horizon Chase Turbo](./../Horizon%20Chase%20Turbo.html)
+> #arcade,#game,#multiplayer,#owned,#racing,#switch
+
+[Hotshot Racing](./../Hotshot%20Racing.html)
+> #arcade,#game,#multiplayer,#owned,#racing,#switch
+
+[Hyperforma](./../Hyperforma.html)
+> #action,#adventure,#arcade,#game,#multiplayer,#owned,#puzzle,#switch
 
 [INVERSUS Deluxe](./../INVERSUS%20Deluxe.html)
 > #action,#arcade,#game,#multiplayer,#owned,#party,#switch
