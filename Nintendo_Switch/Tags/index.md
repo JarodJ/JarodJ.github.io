@@ -1,4 +1,4 @@
-# Tag List
+# My Nintendo Switch Game Library Tag List
 
 [#action](./action.html)
 > 91 Notes
@@ -104,5 +104,6 @@
 
 [#utility](./utility.html)
 > 1 Notes
+
 
 [Games to play with family](./Games_to_play_with_family.html)
