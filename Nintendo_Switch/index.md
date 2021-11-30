@@ -1,4 +1,4 @@
-# Notes tagged with "switch"
+# My Nintendo Switch Game Library
 
 ### _(174 Notes_)
 
