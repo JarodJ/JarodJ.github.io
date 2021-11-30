@@ -1,238 +1,252 @@
-# My Nintendo Switch Game Library List
+# Notes tagged with "switch"
 
-[RaceDieRun](./RaceDieRun.html)
-> #solo,#racing,#sports,#action,#arcade
+### _(174 Notes_)
 
 [2048 Battles](./2048%20Battles.html)
 > #multiplayer,#party,#puzzle,#strategy
 
 [A Dark Room](./A%20Dark%20Room.html)
-> #co-op,#adventure,#strategy,#role-playing
+> #adventure,#co-op,#role-playing,#strategy
 
 [A Duel Hand Disaster Trackher](./A%20Duel%20Hand%20Disaster%20Trackher.html)
-> #solo,#action,#arcade
+> #action,#arcade,#solo
 
 [A Robot Named Fight](./A%20Robot%20Named%20Fight.html)
-> #multiplayer,#adventure,#platformer,#action
+> #action,#adventure,#multiplayer,#platformer
 
 [Aegis Defenders](./Aegis%20Defenders.html)
-> #co-op,#action,#platformer,#role-playing
+> #action,#co-op,#platformer,#role-playing
 
 [Akane](./Akane.html)
-> #hotlist,#solo,#arcade,#fighting,#action
+> #action,#arcade,#fighting,#hotlist,#solo
 
 [Art of Balance](./Art%20of%20Balance.html)
-> #multiplayer,#party,#puzzle,#arcade
+> #arcade,#multiplayer,#party,#puzzle
 
 [Astro Bears](./Astro%20Bears.html)
-> #hotlist,#co-op,#multiplayer,#party,#action,#arcade
+> #action,#arcade,#co-op,#hotlist,#multiplayer,#party
 
 [Astro Duel Deluxe](./Astro%20Duel%20Deluxe.html)
-> #multiplayer,#party,#arcade
-
-[BFF or Die](./BFF%20or%20Die.html)
-> #hotlist,#co-op,#multiplayer,#puzzle,#action,#arcade
-
-[BOXBOY!  BOXGIRL!](./BOXBOY!%20%20BOXGIRL!.html)
-> #beat,#co-op,#puzzle,#platformer
+> #arcade,#multiplayer,#party
 
 [Baba Is You](./Baba%20Is%20You.html)
-> #hotlist,#solo,#party,#puzzle,#indie
+> #hotlist,#indie,#party,#puzzle,#solo
 
 [Bastion](./Bastion.html)
-> #solo,#role-playing,#action,#adventure,#indie
+> #action,#adventure,#indie,#role-playing,#solo
+
+[BFF or Die](./BFF%20or%20Die.html)
+> #action,#arcade,#co-op,#hotlist,#multiplayer,#puzzle
 
 [Bleed 2](./Bleed%202.html)
-> #co-op,#action,#adventure,#fighting,#platformer
+> #action,#adventure,#co-op,#fighting,#platformer
 
 [Bomber Crew](./Bomber%20Crew.html)
-> #solo,#strategy,#simulation
+> #simulation,#solo,#strategy
 
 [Boomerang Fu](./Boomerang%20Fu.html)
-> #party,#action,#fighting,#arcade
+> #action,#arcade,#fighting,#party
+
+[BOXBOY!  BOXGIRL!](./BOXBOY!%20%20BOXGIRL!.html)
+> #beat,#co-op,#platformer,#puzzle
 
 [Breakfast Bar Tycoon](./Breakfast%20Bar%20Tycoon.html)
-> #solo,#adventure,#simulation,#puzzle,#strategy
+> #adventure,#puzzle,#simulation,#solo,#strategy
 
 [Burger Chef Tycoon](./Burger%20Chef%20Tycoon.html)
-> #solo,#adventure,#simulation,#puzzle,#strategy
+> #adventure,#puzzle,#simulation,#solo,#strategy
 
 [Burnstar](./Burnstar.html)
-> #co-op,#puzzle,#strategy,#action
-
-[CROSSNIQ Plus](./CROSSNIQ%20Plus.html)
-> #multiplayer,#puzzle,#arcade
+> #action,#co-op,#puzzle,#strategy
 
 [Cabelas The Hunt - Championship Edition](./Cabelas%20The%20Hunt%20-%20Championship%20Edition.html)
-> #solo,#sports,#simulation,#action,#lifestyle
+> #action,#lifestyle,#simulation,#solo,#sports
 
 [Capcom Arcade Stadium](./Capcom%20Arcade%20Stadium.html)
-> #multiplayer,#action,#arcade,#fighting
+> #action,#arcade,#fighting,#multiplayer
 
 [Captain Toad Treasure Tracker](./Captain%20Toad%20Treasure%20Tracker.html)
-> #hotlist,#co-op,#platformer,#puzzle
+> #co-op,#hotlist,#platformer,#puzzle
 
 [Celeste](./Celeste.html)
-> #solo,#platformer,#action
+> #action,#platformer,#solo
 
 [Chameleon Run Deluxe Edition](./Chameleon%20Run%20Deluxe%20Edition.html)
-> #solo,#party,#arcade,#racing,#platformer
+> #arcade,#party,#platformer,#racing,#solo
 
 [Classic Games Collection Vol.1](./Classic%20Games%20Collection%20Vol.1.html)
-> #multiplayer,#boardgame,#party,#puzzle
+> #boardgame,#multiplayer,#party,#puzzle
 
 [Conduct Together](./Conduct%20Together.html)
-> #multiplayer,#party,#puzzle,#action
+> #action,#multiplayer,#party,#puzzle
 
 [Cook Serve Delicious! 2!!](./Cook%20Serve%20Delicious!%202!!.html)
-> #co-op,#action,#simulation,#strategy
+> #action,#co-op,#simulation,#strategy
 
 [Cooking Tycoons - 3 in 1 Bundle](./Cooking%20Tycoons%20-%203%20in%201%20Bundle.html)
-> #solo,#adventure,#simulation,#puzzle,#strategy
+> #adventure,#puzzle,#simulation,#solo,#strategy
+
+[CROSSNIQ Plus](./CROSSNIQ%20Plus.html)
+> #arcade,#multiplayer,#puzzle
 
 [Day and Night](./Day%20and%20Night.html)
 > #multiplayer,#puzzle
 
 [Dead Cells](./Dead%20Cells.html)
-> #hotlist,#solo,#platformer,#action
+> #action,#hotlist,#platformer,#solo
 
 [Death Road to Canada](./Death%20Road%20to%20Canada.html)
-> #co-op,#multiplayer,#adventure,#action
+> #action,#adventure,#co-op,#multiplayer
 
 [Death Squared](./Death%20Squared.html)
-> #hotlist,#co-op,#multiplayer,#party,#puzzle
+> #co-op,#hotlist,#multiplayer,#party,#puzzle
 
 [Deaths Hangover](./Deaths%20Hangover.html)
-> #hotlist,#co-op,#platformer,#puzzle,#action,#arcade
+> #action,#arcade,#co-op,#hotlist,#platformer,#puzzle
 
 [Degrees of Separation](./Degrees%20of%20Separation.html)
 > #co-op,#platformer,#puzzle
 
 [Diggerman](./Diggerman.html)
-> #solo,#arcade,#puzzle
+> #arcade,#puzzle,#solo
 
 [Ding Dong XL](./Ding%20Dong%20XL.html)
-> #solo,#action,#arcade
+> #action,#arcade,#solo
 
 [Drawful 2](./Drawful%202.html)
 > #party
 
-[EQQO](./EQQO.html)
-> #solo,#adventure,#education,#puzzle
-
 [Enter the Gungeon](./Enter%20the%20Gungeon.html)
-> #co-op,#adventure,#action,#arcade
+> #action,#adventure,#arcade,#co-op
+
+[EQQO](./EQQO.html)
+> #adventure,#education,#puzzle,#solo
 
 [Eyes The Horror Game](./Eyes%20The%20Horror%20Game.html)
-> #solo,#adventure,#puzzle,#simulation,#action
+> #action,#adventure,#puzzle,#simulation,#solo
 
 [Flat Heroes](./Flat%20Heroes.html)
-> #multiplayer,#action,#arcade,#party,#platformer
+> #action,#arcade,#multiplayer,#party,#platformer
 
 [Flowlines VS](./Flowlines%20VS.html)
-> #multiplayer,#party,#puzzle,#education
+> #education,#multiplayer,#party,#puzzle
 
 [Food Truck Tycoon - Asian Cuisine](./Food%20Truck%20Tycoon%20-%20Asian%20Cuisine.html)
-> #solo,#adventure,#simulation,#puzzle,#strategy
+> #adventure,#puzzle,#simulation,#solo,#strategy
 
 [Fortnite](./Fortnite.html)
-> #solo,#action,#strategy
+> #action,#solo,#strategy
 
 [Freecell Solitaire Deluxe](./Freecell%20Solitaire%20Deluxe.html)
-> #solo,#puzzle,#boardgame,#strategy
+> #boardgame,#puzzle,#solo,#strategy
 
 [FutureGrind](./FutureGrind.html)
-> #solo,#racing,#sports,#platformer,#arcade
+> #arcade,#platformer,#racing,#solo,#sports
 
 [Geki Yaba Runner Anniversary Edition](./Geki%20Yaba%20Runner%20Anniversary%20Edition.html)
-> #solo,#arcade,#platformer,#adventure
+> #adventure,#arcade,#platformer,#solo
 
 [Golf Story](./Golf%20Story.html)
-> #hotlist,#multiplayer,#adventure,#role-playing,#sports,#indie
+> #adventure,#hotlist,#indie,#multiplayer,#role-playing,#sports
 
 [Gurgamoth](./Gurgamoth.html)
-> #multiplayer,#party,#action,#fighting
+> #action,#fighting,#multiplayer,#party
 
 [Hard West](./Hard%20West.html)
-> #solo,#adventure,#simulation,#role-playing
+> #adventure,#role-playing,#simulation,#solo
 
 [Heave Ho](./Heave%20Ho.html)
-> #co-op,#multiplayer,#platformer,#action,#arcade,#strategy
+> #action,#arcade,#co-op,#multiplayer,#platformer,#strategy
 
 [High Noon Revolver](./High%20Noon%20Revolver.html)
-> #co-op,#action,#adventure
+> #action,#adventure,#co-op
+
+[Horizon Chase Turbo](./Horizon%20Chase%20Turbo.html)
+> #arcade,#multiplayer,#racing
 
 [Hotline Miami Collection](./Hotline%20Miami%20Collection.html)
-> #solo,#indie,#adventure,#action,#arcade
+> #action,#adventure,#arcade,#indie,#solo
+
+[Hotshot Racing](./Hotshot%20Racing.html)
+> #arcade,#multiplayer,#racing
 
 [Human Fall Flat](./Human%20Fall%20Flat.html)
-> #hotlist,#co-op,#adventure,#platformer,#puzzle
+> #adventure,#co-op,#hotlist,#platformer,#puzzle
 
 [Hunting Simulator](./Hunting%20Simulator.html)
-> #solo,#adventure,#first-person
+> #adventure,#first-person,#solo
 
 [Hyper Sentinel](./Hyper%20Sentinel.html)
-> #solo,#arcade,#action
+> #action,#arcade,#solo
+
+[Hyperforma](./Hyperforma.html)
+> #action,#adventure,#arcade,#multiplayer,#puzzle
+
+[ibb & obb](./ibb%20&%20obb.html)
+> #co-op,#platformer,#puzzle
 
 [INK](./INK.html)
-> #co-op,#platformer,#arcade,#action
+> #action,#arcade,#co-op,#platformer
+
+[Into the Breach](./Into%20the%20Breach.html)
+> #boardgame,#indie,#puzzle,#role-playing,#solo,#strategy
 
 [INVERSUS Deluxe](./INVERSUS%20Deluxe.html)
-> #multiplayer,#party,#arcade,#action
+> #action,#arcade,#multiplayer,#party
 
 [Invisigun Reloaded](./Invisigun%20Reloaded.html)
-> #multiplayer,#party,#action,#arcade
+> #action,#arcade,#multiplayer,#party
 
 [Jim is Moving Out!](./Jim%20is%20Moving%20Out!.html)
-> #co-op,#platformer,#puzzle,#arcade
+> #arcade,#co-op,#platformer,#puzzle
 
 [Jump Rope Challenge](./Jump%20Rope%20Challenge.html)
-> #subscription,#multiplayer,#sports
+> #multiplayer,#sports,#subscription
 
 [Jumping Joe & Friends](./Jumping%20Joe%20&%20Friends.html)
-> #multiplayer,#action,#arcade,#party,#multiplayer
+> #action,#arcade,#multiplayer,#multiplayer,#party
 
 [Katana ZERO](./Katana%20ZERO.html)
-> #solo,#indie,#platformer,#action,#arcade,#strategy
+> #action,#arcade,#indie,#platformer,#solo,#strategy
 
 [Klondike Solitaire](./Klondike%20Solitaire.html)
-> #solo,#adventure,#puzzle,#boardgame,#strategy
+> #adventure,#boardgame,#puzzle,#solo,#strategy
 
 [Knight Squad](./Knight%20Squad.html)
-> #party,#action,#arcade
+> #action,#arcade,#party
 
 [Koloro](./Koloro.html)
-> #co-op,#platformer,#puzzle,#arcade
-
-[LUMINES REMASTERED](./LUMINES%20REMASTERED.html)
-> #multiplayer,#party,#puzzle,#arcade,#lifestyle,#indie
+> #arcade,#co-op,#platformer,#puzzle
 
 [Lazy Galaxy Rebel Story](./Lazy%20Galaxy%20Rebel%20Story.html)
-> #co-op,#arcade,#action
+> #action,#arcade,#co-op
 
 [Legendary Fishing](./Legendary%20Fishing.html)
-> #multiplayer,#adventure,#sports,#simulation,#lifestyle
+> #adventure,#lifestyle,#multiplayer,#simulation,#sports
 
 [Lichtspeer Double Speer Edition](./Lichtspeer%20Double%20Speer%20Edition.html)
-> #co-op,#action,#arcade,#party
+> #action,#arcade,#co-op,#party
 
 [Lovers in a Dangerous Spacetime](./Lovers%20in%20a%20Dangerous%20Spacetime.html)
-> #co-op,#party,#action,#simulation
+> #action,#co-op,#party,#simulation
 
 [Luigi’s Mansion 3](./Luigi’s%20Mansion%203.html)
-> #hotlist,#co-op,#adventure,#action
+> #action,#adventure,#co-op,#hotlist
+
+[LUMINES REMASTERED](./LUMINES%20REMASTERED.html)
+> #arcade,#indie,#lifestyle,#multiplayer,#party,#puzzle
 
 [Lydia](./Lydia.html)
-> #solo,#adventure,#education,#lifestyle
-
-[MEMBRANE](./MEMBRANE.html)
-> #co-op,#puzzle,#action,#platformer,#adventure
+> #adventure,#education,#lifestyle,#solo
 
 [Mad Age & This Guy](./Mad%20Age%20&%20This%20Guy.html)
-> #solo,#adventure,#arcade,#puzzle
+> #adventure,#arcade,#puzzle,#solo
 
 [Mana Spark](./Mana%20Spark.html)
-> #solo,#adventure,#action,#role-playing
+> #action,#adventure,#role-playing,#solo
+
+[Mario and Rabbids Kingdom Battle](./Mario%20and%20Rabbids%20Kingdom%20Battle.html)
+> #adventure,#co-op,#strategy
 
 [Mario Golf Super Rush](./Mario%20Golf%20Super%20Rush.html)
 > #multiplayer,#sports
@@ -241,272 +255,273 @@
 > #hotlist,#multiplayer,#party,#racing
 
 [Mario Tennis Aces](./Mario%20Tennis%20Aces.html)
-> #in-progress,#hotlist,#multiplayer,#sports
-
-[Mario and Rabbids Kingdom Battle](./Mario%20and%20Rabbids%20Kingdom%20Battle.html)
-> #co-op,#strategy,#adventure
+> #hotlist,#in-progress,#multiplayer,#sports
 
 [Mark of the Ninja Remastered](./Mark%20of%20the%20Ninja%20Remastered.html)
-> #solo,#action,#platformer,#indie
+> #action,#indie,#platformer,#solo
+
+[MEMBRANE](./MEMBRANE.html)
+> #action,#adventure,#co-op,#platformer,#puzzle
 
 [Minecraft](./Minecraft.html)
-> #hotlist,#co-op,#adventure,#simulation,#action,#strategy
+> #action,#adventure,#co-op,#hotlist,#simulation,#strategy
 
 [Moto Rush GT](./Moto%20Rush%20GT.html)
-> #solo,#racing,#sports,#action,#arcade
+> #action,#arcade,#racing,#solo,#sports
 
 [NecroWorm](./NecroWorm.html)
-> #solo,#puzzle,#arcade,#action,#party
+> #action,#arcade,#party,#puzzle,#solo
 
 [No Heroes Here](./No%20Heroes%20Here.html)
-> #co-op,#multiplayer,#action,#simulation
+> #action,#co-op,#multiplayer,#simulation
 
 [Not Not - A Brain Buster](./Not%20Not%20-%20A%20Brain%20Buster.html)
-> #hotlist,#multiplayer,#party,#education,#puzzle,#training
+> #education,#hotlist,#multiplayer,#party,#puzzle,#training
 
 [NPLUSPLUS](./NPLUSPLUS.html)
-> #hotlist,#multiplayer,#platformer,#action,#arcade
-
-[OTTTD Over The Top Tower Defense](./OTTTD%20Over%20The%20Top%20Tower%20Defense.html)
-> #solo,#strategy,#action,#role-playing,#arcade
+> #action,#arcade,#hotlist,#multiplayer,#platformer
 
 [Odium to the Core](./Odium%20to%20the%20Core.html)
-> #solo,#arcade,#action,#music
+> #action,#arcade,#music,#solo
 
 [OlliOlli Switch Stance](./OlliOlli%20Switch%20Stance.html)
-> #multiplayer,#arcade,#sports,#multiplayer,#action
+> #action,#arcade,#multiplayer,#multiplayer,#sports
 
 [One Strike](./One%20Strike.html)
-> #multiplayer,#fighting,#arcade
+> #arcade,#fighting,#multiplayer
+
+[OTTTD Over The Top Tower Defense](./OTTTD%20Over%20The%20Top%20Tower%20Defense.html)
+> #action,#arcade,#role-playing,#solo,#strategy
 
 [Overcooked! 2](./Overcooked!%202.html)
-> #hotlist,#co-op,#multiplayer,#party,#simulation,#strategy,#communication
+> #co-op,#communication,#hotlist,#multiplayer,#party,#simulation,#strategy
 
 [PAC-MAN 99](./PAC-MAN%2099.html)
-> #subscription,#solo,#arcade
+> #arcade,#solo,#subscription
 
 [PAN-PAN A tiny big adventure](./PAN-PAN%20A%20tiny%20big%20adventure.html)
-> #solo,#adventure,#puzzle
+> #adventure,#puzzle,#solo
 
 [Party Golf](./Party%20Golf.html)
-> #multiplayer,#party,#sports,#arcade
+> #arcade,#multiplayer,#party,#sports
 
 [Party Treats](./Party%20Treats.html)
-> #multiplayer,#puzzle,#boardgame,#party
+> #boardgame,#multiplayer,#party,#puzzle
 
 [Pikuniku](./Pikuniku.html)
-> #co-op,#adventure,#platformer,#puzzle
+> #adventure,#co-op,#platformer,#puzzle
 
 [Pocket Mini Golf](./Pocket%20Mini%20Golf.html)
-> #multiplayer,#party,#sports,#arcade
+> #arcade,#multiplayer,#party,#sports
 
 [Pode](./Pode.html)
-> #in-progress,#co-op,#indie,#adventure,#puzzle
+> #adventure,#co-op,#in-progress,#indie,#puzzle
 
 [Puyo PuyoTetris](./Puyo%20PuyoTetris.html)
 > #multiplayer,#party,#puzzle
 
 [Puzzle Book](./Puzzle%20Book.html)
-> #co-op,#puzzle,#education,#training,#utility
+> #co-op,#education,#puzzle,#training,#utility
 
-[REKT! High Octane Stunts](./REKT!%20High%20Octane%20Stunts.html)
-> #multiplayer,#party,#racing,#arcade
-
-[RIVE Ultimate Edition](./RIVE%20Ultimate%20Edition.html)
-> #co-op,#arcade,#platformer,#action
+[RaceDieRun](./RaceDieRun.html)
+> #action,#arcade,#racing,#solo,#sports
 
 [Rapala Fishing Pro Series](./Rapala%20Fishing%20Pro%20Series.html)
-> #solo,#sports,#simulation,#action
+> #action,#simulation,#solo,#sports
 
 [Rayman Legends Definitive Edition](./Rayman%20Legends%20Definitive%20Edition.html)
-> #co-op,#multiplayer,#adventure,#platformer,#action
+> #action,#adventure,#co-op,#multiplayer,#platformer
+
+[REKT! High Octane Stunts](./REKT!%20High%20Octane%20Stunts.html)
+> #arcade,#multiplayer,#party,#racing
 
 [Revenge of the Bird King](./Revenge%20of%20the%20Bird%20King.html)
-> #solo,#platformer,#action,#role-playing,#adventure
+> #action,#adventure,#platformer,#role-playing,#solo
 
 [Ring Fit Adventure](./Ring%20Fit%20Adventure.html)
-> #physical,#sports,#practical,#training,#fitness
+> #fitness,#physical,#practical,#sports,#training
 
 [Riptide GP Renegade](./Riptide%20GP%20Renegade.html)
-> #multiplayer,#racing,#action,#sports,#simulation
+> #action,#multiplayer,#racing,#simulation,#sports
+
+[RIVE Ultimate Edition](./RIVE%20Ultimate%20Edition.html)
+> #action,#arcade,#co-op,#platformer
 
 [Robonauts](./Robonauts.html)
-> #co-op,#platformer,#action,#arcade
+> #action,#arcade,#co-op,#platformer
 
 [Rocket League](./Rocket%20League.html)
-> #hotlist,#multiplayer,#racing,#sports,#action
+> #action,#hotlist,#multiplayer,#racing,#sports
 
 [Rogue Aces](./Rogue%20Aces.html)
-> #solo,#arcade,#action
+> #action,#arcade,#solo
 
 [Runner3](./Runner3.html)
-> #solo,#platformer,#music,#arcade,#action
+> #action,#arcade,#music,#platformer,#solo
 
 [Seeders Puzzle Reboot](./Seeders%20Puzzle%20Reboot.html)
-> #co-op,#puzzle,#adventure,#platformer
+> #adventure,#co-op,#platformer,#puzzle
 
 [Serial Cleaner](./Serial%20Cleaner.html)
-> #hotlist,#solo,#action
+> #action,#hotlist,#solo
 
 [Shift Happens](./Shift%20Happens.html)
-> #co-op,#platformer,#action,#puzzle
+> #action,#co-op,#platformer,#puzzle
 
 [Singled Out](./Singled%20Out.html)
-> #party,#solo,#arcade,#puzzle,#action
+> #action,#arcade,#party,#puzzle,#solo
 
 [Slime-san](./Slime-san.html)
-> #multiplayer,#platformer,#arcade,#adventure,#action
+> #action,#adventure,#arcade,#multiplayer,#platformer
 
 [Sniper Elite 3 Ultimate Edition](./Sniper%20Elite%203%20Ultimate%20Edition.html)
-> #in-progress,#solo,#co-op,#multiplayer,#action,#adventure
+> #action,#adventure,#co-op,#in-progress,#multiplayer,#solo
 
 [Snowboarding The Next Phase](./Snowboarding%20The%20Next%20Phase.html)
-> #multiplayer,#sports,#action,#arcade
+> #action,#arcade,#multiplayer,#sports
 
 [Soul Searching](./Soul%20Searching.html)
-> #multiplayer,#adventure,#role-playing
+> #adventure,#multiplayer,#role-playing
 
 [Space Pioneer](./Space%20Pioneer.html)
-> #co-op,#action,#role-playing
+> #action,#co-op,#role-playing
 
 [Space Ribbon](./Space%20Ribbon.html)
-> #multiplayer,#racing,#sports,#arcade,#action
+> #action,#arcade,#multiplayer,#racing,#sports
 
 [Spider Solitaire](./Spider%20Solitaire.html)
-> #solo,#adventure,#puzzle,#boardgame,#strategy
+> #adventure,#boardgame,#puzzle,#solo,#strategy
 
 [SpiritSphere DX](./SpiritSphere%20DX.html)
-> #multiplayer,#arcade,#action,#sports
+> #action,#arcade,#multiplayer,#sports
 
 [Star Ghost](./Star%20Ghost.html)
-> #solo,#shooter,#action,#arcade
+> #action,#arcade,#shooter,#solo
 
 [Stardew Valley](./Stardew%20Valley.html)
-> #hotlist,#co-op,#indie,#simulation,#role-playing
+> #co-op,#hotlist,#indie,#role-playing,#simulation
 
 [Starman](./Starman.html)
-> #beat,#solo,#puzzle,#adventure
+> #adventure,#beat,#puzzle,#solo
 
 [SteamWorld Dig 2](./SteamWorld%20Dig%202.html)
-> #solo,#action,#platformer,#adventure,#puzzle,#indie
+> #action,#adventure,#indie,#platformer,#puzzle,#solo
 
 [SteamWorld Heist Ultimate Edition](./SteamWorld%20Heist%20Ultimate%20Edition.html)
-> #solo,#action,#strategy,#role-playing
+> #action,#role-playing,#solo,#strategy
 
 [Street Basketball](./Street%20Basketball.html)
-> #multiplayer,#sports,#action
+> #action,#multiplayer,#sports
 
 [Super Bit Blaster XL](./Super%20Bit%20Blaster%20XL.html)
-> #arcade,#action,#multiplayer
+> #action,#arcade,#multiplayer
 
 [Super Bomberman R](./Super%20Bomberman%20R.html)
-> #co-op,#multiplayer,#party,#puzzle,#action
+> #action,#co-op,#multiplayer,#party,#puzzle
 
 [Super Chariot](./Super%20Chariot.html)
-> #co-op,#platformer,#adventure,#action
+> #action,#adventure,#co-op,#platformer
 
 [Super Hero Fight Club Reloaded](./Super%20Hero%20Fight%20Club%20Reloaded.html)
-> #multiplayer,#party,#action,#arcade,#fighting
+> #action,#arcade,#fighting,#multiplayer,#party
 
 [Super Jumpy Ball](./Super%20Jumpy%20Ball.html)
-> #multiplayer,#party,#platformer,#action,#arcade
+> #action,#arcade,#multiplayer,#party,#platformer
 
 [Super Mario Maker 2](./Super%20Mario%20Maker%202.html)
-> #hotlist,#multiplayer,#platformer,#action
+> #action,#hotlist,#multiplayer,#platformer
 
 [Super Mario Odyssey](./Super%20Mario%20Odyssey.html)
-> #in-progress,#co-op,#platformer,#action
+> #action,#co-op,#in-progress,#platformer
 
 [Super Mega Baseball 2 Ultimate Edition](./Super%20Mega%20Baseball%202%20Ultimate%20Edition.html)
-> #hotlist,#multiplayer,#sports,#simulation,#arcade
+> #arcade,#hotlist,#multiplayer,#simulation,#sports
 
 [Super One More Jump](./Super%20One%20More%20Jump.html)
-> #in-progress,#hotlist,#multiplayer,#party,#arcade,#platformer
+> #arcade,#hotlist,#in-progress,#multiplayer,#party,#platformer
 
 [Super Smash Bros. Ultimate](./Super%20Smash%20Bros.%20Ultimate.html)
-> #hotlist,#multiplayer,#action,#fighting
+> #action,#fighting,#hotlist,#multiplayer
 
 [Switch 'N' Shoot](./Switch%20'N'%20Shoot.html)
-> #solo,#party,#arcade,#action
+> #action,#arcade,#party,#solo
 
 [Tetris 99](./Tetris%2099.html)
-> #hotlist,#subscription,#solo,#puzzle
+> #hotlist,#puzzle,#solo,#subscription
 
 [The Binding of Isaac Afterbirth](./The%20Binding%20of%20Isaac%20Afterbirth.html)
-> #co-op,#action,#adventure
+> #action,#adventure,#co-op
 
 [The Escapists 2](./The%20Escapists%202.html)
-> #hotlist,#co-op,#role-playing,#simulation,#strategy
+> #co-op,#hotlist,#role-playing,#simulation,#strategy
 
 [The Flame In The Flood Complete Edition](./The%20Flame%20In%20The%20Flood%20Complete%20Edition.html)
-> #hotlist,#solo,#adventure
+> #adventure,#hotlist,#solo
 
 [The Legend of Zelda Breath of the Wild](./The%20Legend%20of%20Zelda%20Breath%20of%20the%20Wild.html)
-> #solo,#adventure,#action,#role-playing
+> #action,#adventure,#role-playing,#solo
 
 [The Mystery of Woolley Mountain](./The%20Mystery%20of%20Woolley%20Mountain.html)
-> #solo,#adventure,#puzzle,#arcade
+> #adventure,#arcade,#puzzle,#solo
 
 [The Warlock of Firetop Mountain Goblin Scourge Edition!](./The%20Warlock%20of%20Firetop%20Mountain%20Goblin%20Scourge%20Edition!.html)
-> #hotlist,#solo,#role-playing,#boardgame,#adventure
+> #adventure,#boardgame,#hotlist,#role-playing,#solo
 
 [Timberman VS](./Timberman%20VS.html)
-> #multiplayer,#party,#sports,#arcade
+> #arcade,#multiplayer,#party,#sports
 
 [Toki Tori](./Toki%20Tori.html)
-> #solo,#puzzle,#platformer
+> #platformer,#puzzle,#solo
 
 [TowerFall](./TowerFall.html)
-> #multiplayer,#party,#action,#platformer,#fighting,#indie
+> #action,#fighting,#indie,#multiplayer,#party,#platformer
 
 [Transistor](./Transistor.html)
-> #solo,#indie,#adventure,#action,#role-playing
+> #action,#adventure,#indie,#role-playing,#solo
 
 [Tricky Towers](./Tricky%20Towers.html)
 > #hotlist,#multiplayer,#party,#puzzle
 
 [Tumblestone](./Tumblestone.html)
-> #multiplayer,#party,#puzzle,#arcade
+> #arcade,#multiplayer,#party,#puzzle
 
 [Ultimate Chicken Horse](./Ultimate%20Chicken%20Horse.html)
-> #multiplayer,#party,#platformer,#arcade
+> #arcade,#multiplayer,#party,#platformer
 
 [Ultimate Fishing Simulator](./Ultimate%20Fishing%20Simulator.html)
-> #solo,#adventure,#simulation
+> #adventure,#simulation,#solo
 
 [Ultra Foodmess](./Ultra%20Foodmess.html)
-> #multiplayer,#party,#action,#arcade
+> #action,#arcade,#multiplayer,#party
 
 [Unravel Two](./Unravel%20Two.html)
-> #in-progress,#co-op,#indie,#adventure,#platformer,#puzzle
+> #adventure,#co-op,#in-progress,#indie,#platformer,#puzzle
 
 [Untitled Goose Game](./Untitled%20Goose%20Game.html)
-> #co-op,#indie,#puzzle,#action
+> #action,#co-op,#indie,#puzzle
 
 [Urban Flow](./Urban%20Flow.html)
-> #multiplayer,#puzzle,#simulation,#arcade
+> #arcade,#multiplayer,#puzzle,#simulation
 
 [VVVVVV](./VVVVVV.html)
 > #co-op,#platformer
 
 [Wargroove](./Wargroove.html)
-> #hotlist,#solo,#multiplayer,#indie,#strategy
+> #hotlist,#indie,#multiplayer,#solo,#strategy
 
 [Watermelon Party](./Watermelon%20Party.html)
-> #multiplayer,#party,#puzzle,#action
+> #action,#multiplayer,#party,#puzzle
 
 [Wayout](./Wayout.html)
-> #solo,#puzzle,#boardgame,#strategy
+> #boardgame,#puzzle,#solo,#strategy
 
 [Wreckin Ball Adventure](./Wreckin%20Ball%20Adventure.html)
-> #co-op,#multiplayer,#arcade,#puzzle,#platformer
+> #arcade,#co-op,#multiplayer,#platformer,#puzzle
 
 [Wulverblade](./Wulverblade.html)
-> #co-op,#fighting,#action,#arcade
+> #action,#arcade,#co-op,#fighting
 
 [Zombie Blast Crew](./Zombie%20Blast%20Crew.html)
-> #solo,#adventure,#action,#arcade
+> #action,#adventure,#arcade,#solo
 
-[ibb & obb](./ibb%20&%20obb.html)
-> #co-op,#puzzle,#platformer
 
