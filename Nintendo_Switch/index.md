@@ -99,7 +99,7 @@
 > #action,#adventure,#co-op,#multiplayer
 
 [Death Squared](./Death%20Squared.html)
-> #co-op,#hotlist,#multiplayer,#party,#puzzle
+> #co-op,#multiplayer,#party,#puzzle
 
 [Deaths Hangover](./Deaths%20Hangover.html)
 > #action,#arcade,#co-op,#hotlist,#platformer,#puzzle
@@ -504,7 +504,7 @@
 > #arcade,#multiplayer,#puzzle,#simulation
 
 [VVVVVV](./VVVVVV.html)
-> #co-op,#platformer
+> #beat,#co-op,#platformer
 
 [Wargroove](./Wargroove.html)
 > #hotlist,#indie,#multiplayer,#solo,#strategy
@@ -523,5 +523,4 @@
 
 [Zombie Blast Crew](./Zombie%20Blast%20Crew.html)
 > #action,#adventure,#arcade,#solo
-
 
