@@ -17,4 +17,3 @@
 [Puzzle Book](./../Puzzle%20Book.html)
 > #co-op,#education,#game,#owned,#puzzle,#switch,#training,#utility
 
-

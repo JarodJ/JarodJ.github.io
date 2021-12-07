@@ -32,4 +32,3 @@
 [Wulverblade](./../Wulverblade.html)
 > #action,#arcade,#co-op,#fighting,#game,#owned,#switch
 
-

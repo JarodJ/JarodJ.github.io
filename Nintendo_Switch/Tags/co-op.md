@@ -33,7 +33,7 @@
 > #action,#adventure,#co-op,#game,#multiplayer,#owned,#switch
 
 [Death Squared](./../Death%20Squared.html)
-> #co-op,#game,#hotlist,#multiplayer,#owned,#party,#puzzle,#switch
+> #co-op,#game,#multiplayer,#owned,#party,#puzzle,#switch
 
 [Deaths Hangover](./../Deaths%20Hangover.html)
 > #action,#arcade,#co-op,#game,#hotlist,#owned,#platformer,#puzzle,#switch
@@ -147,12 +147,11 @@
 > #action,#co-op,#game,#indie,#owned,#puzzle,#switch
 
 [VVVVVV](./../VVVVVV.html)
-> #co-op,#game,#owned,#platformer,#switch
+> #beat,#co-op,#game,#owned,#platformer,#switch
 
 [Wreckin Ball Adventure](./../Wreckin%20Ball%20Adventure.html)
 > #arcade,#co-op,#game,#multiplayer,#owned,#platformer,#puzzle,#switch
 
 [Wulverblade](./../Wulverblade.html)
 > #action,#arcade,#co-op,#fighting,#game,#owned,#switch
-
 

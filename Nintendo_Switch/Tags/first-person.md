@@ -5,4 +5,3 @@
 [Hunting Simulator](./../Hunting%20Simulator.html)
 > #adventure,#first-person,#game,#owned,#solo,#switch
 
-

@@ -26,4 +26,3 @@
 [Wayout](./../Wayout.html)
 > #boardgame,#game,#owned,#puzzle,#solo,#strategy,#switch
 
-
