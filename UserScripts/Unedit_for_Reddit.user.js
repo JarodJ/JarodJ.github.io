@@ -11,6 +11,8 @@
 // @require      https://cdn.jsdelivr.net/npm/showdown@1.9.0/dist/showdown.min.js
 // ==/UserScript==
 
+// javascript:(function(){document.body.appendChild(document.createElement('script')).src='https://JarodJ.github.io/UserScripts/Unedit_for_Reddit.user.js?v=1';})();
+
 (function () {
     'use strict';
 
