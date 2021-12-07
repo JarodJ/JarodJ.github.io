@@ -6,6 +6,8 @@
 // @run-at          document-start
 // ==/UserScript==
 
+// javascript:(function(){document.body.appendChild(document.createElement('script')).src='https://JarodJ.github.io/UserScripts/Feedly.user.js';})();
+
 (function() {
 	if (typeof GM_addStyle != "function")
 		{
