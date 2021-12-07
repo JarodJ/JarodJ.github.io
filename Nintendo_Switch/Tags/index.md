@@ -10,7 +10,7 @@
 > 72 Notes
 
 [#beat](./beat.html)
-> 2 Notes
+> 3 Notes
 
 [#boardgame](./boardgame.html)
 > 8 Notes
@@ -37,7 +37,7 @@
 > 174 Notes
 
 [#hotlist](./hotlist.html)
-> 30 Notes
+> 29 Notes
 
 [#in-progress](./in-progress.html)
 > 6 Notes
@@ -104,6 +104,5 @@
 
 [#utility](./utility.html)
 > 1 Notes
-
 
 [Games to play with family](./Games_to_play_with_family.html)

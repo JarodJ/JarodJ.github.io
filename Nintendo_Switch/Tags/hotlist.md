@@ -1,6 +1,6 @@
 # Notes tagged with "hotlist"
 
-### _(30 Notes_)
+### _(29 Notes_)
 
 [Akane](./../Akane.html)
 > #action,#arcade,#fighting,#game,#hotlist,#owned,#solo,#switch
@@ -19,9 +19,6 @@
 
 [Dead Cells](./../Dead%20Cells.html)
 > #action,#game,#hotlist,#owned,#platformer,#solo,#switch
-
-[Death Squared](./../Death%20Squared.html)
-> #co-op,#game,#hotlist,#multiplayer,#owned,#party,#puzzle,#switch
 
 [Deaths Hangover](./../Deaths%20Hangover.html)
 > #action,#arcade,#co-op,#game,#hotlist,#owned,#platformer,#puzzle,#switch
@@ -91,5 +88,4 @@
 
 [Wargroove](./../Wargroove.html)
 > #game,#hotlist,#indie,#multiplayer,#owned,#solo,#strategy,#switch
-
 

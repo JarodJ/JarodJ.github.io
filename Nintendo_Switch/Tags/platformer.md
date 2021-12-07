@@ -129,9 +129,8 @@
 > #adventure,#co-op,#game,#in-progress,#indie,#owned,#platformer,#puzzle,#switch
 
 [VVVVVV](./../VVVVVV.html)
-> #co-op,#game,#owned,#platformer,#switch
+> #beat,#co-op,#game,#owned,#platformer,#switch
 
 [Wreckin Ball Adventure](./../Wreckin%20Ball%20Adventure.html)
 > #arcade,#co-op,#game,#multiplayer,#owned,#platformer,#puzzle,#switch
-
 

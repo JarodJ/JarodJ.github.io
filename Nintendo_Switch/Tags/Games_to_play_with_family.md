@@ -132,5 +132,3 @@
 
 [Shift Happens](./../Shift%20Happens.html)
 
-[VVVVVV](./../VVVVVV.html)
-

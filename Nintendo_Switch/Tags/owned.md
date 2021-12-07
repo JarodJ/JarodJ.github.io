@@ -99,7 +99,7 @@
 > #action,#adventure,#co-op,#game,#multiplayer,#owned,#switch
 
 [Death Squared](./../Death%20Squared.html)
-> #co-op,#game,#hotlist,#multiplayer,#owned,#party,#puzzle,#switch
+> #co-op,#game,#multiplayer,#owned,#party,#puzzle,#switch
 
 [Deaths Hangover](./../Deaths%20Hangover.html)
 > #action,#arcade,#co-op,#game,#hotlist,#owned,#platformer,#puzzle,#switch
@@ -495,7 +495,7 @@
 > #arcade,#game,#multiplayer,#owned,#puzzle,#simulation,#switch
 
 [VVVVVV](./../VVVVVV.html)
-> #co-op,#game,#owned,#platformer,#switch
+> #beat,#co-op,#game,#owned,#platformer,#switch
 
 [Wargroove](./../Wargroove.html)
 > #game,#hotlist,#indie,#multiplayer,#owned,#solo,#strategy,#switch
@@ -514,5 +514,4 @@
 
 [Zombie Blast Crew](./../Zombie%20Blast%20Crew.html)
 > #action,#adventure,#arcade,#game,#owned,#solo,#switch
-
 
