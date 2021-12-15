@@ -6,6 +6,12 @@
 [My Nintendo Switch Game Library](./Nintendo_Switch/index.html)
 > All the games I own listed with details
 
+[My PC Game Library Tag List](./PC_Games/Tags/index.html)
+> All the games I own categorized by tags
+
+[My PC Game Library](./PC_Games/index.html)
+> All the games I own listed with details
+
 [Binary_Converter](./Binary_Converter.html)
 > Convert to and from binary
 
