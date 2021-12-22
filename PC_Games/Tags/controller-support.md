@@ -1,6 +1,6 @@
 # Notes tagged with "controller-support"
 
-### _(33 Notes_)
+### _(34 Notes_)
 
 [3 out of 10 Season Two](./../3%20out%20of%2010%20Season%20Two.html)
 > #adventure,#comedy,#controller-support,#epic,#game,#owned,#pc,#single-player
@@ -43,6 +43,9 @@
 
 [My Time At Portia](./../My%20Time%20At%20Portia.html)
 > #controller-support,#epic,#game,#open-world,#owned,#pc,#rpg,#simulation,#single-player
+
+[Neon Abyss](./../Neon%20Abyss.html)
+> #controller-support,#epic,#game,#owned,#pc,#platformer,#shooter
 
 [Never Alone Kisima Ingitchuna](./../Never%20Alone%20Kisima%20Ingitchuna.html)
 > #co-op,#controller-support,#epic,#game,#indie,#owned,#pc,#platformer

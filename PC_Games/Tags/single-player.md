@@ -1,6 +1,6 @@
 # Notes tagged with "single-player"
 
-### _(99 Notes_)
+### _(103 Notes_)
 
 [3 out of 10 Season Two](./../3%20out%20of%2010%20Season%20Two.html)
 > #adventure,#comedy,#controller-support,#epic,#game,#owned,#pc,#single-player
@@ -134,6 +134,9 @@
 [Kingdom New Lands](./../Kingdom%20New%20Lands.html)
 > #controller-support,#epic,#game,#owned,#pc,#simulation,#single-player,#strategy,#survival
 
+[Loop Hero](./../Loop%20Hero.html)
+> #card-game,#epic,#game,#indie,#owned,#pc,#single-player
+
 [Mable And The Wood](./../Mable%20And%20The%20Wood.html)
 > #action,#adventure,#game,#gog,#indie,#owned,#pc,#single-player
 
@@ -151,6 +154,9 @@
 
 [MudRunner](./../MudRunner.html)
 > #epic,#game,#owned,#pc,#simulation,#single-player
+
+[Mutant Year Zero Road to Eden](./../Mutant%20Year%20Zero%20Road%20to%20Eden.html)
+> #epic,#game,#owned,#pc,#rpg,#single-player,#strategy,#turn-based
 
 [My Time At Portia](./../My%20Time%20At%20Portia.html)
 > #controller-support,#epic,#game,#open-world,#owned,#pc,#rpg,#simulation,#single-player
@@ -199,6 +205,9 @@
 
 [Sheltered](./../Sheltered.html)
 > #epic,#game,#owned,#pc,#rpg,#single-player,#strategy
+
+[Shenmue 3](./../Shenmue%203.html)
+> #action,#adventure,#epic,#game,#owned,#pc,#rpg,#single-player
 
 [Sid Meier’s Civilization VI](./../Sid%20Meier’s%20Civilization%20VI.html)
 > #epic,#game,#multiplayer,#owned,#pc,#single-player,#strategy,#turn-based
@@ -253,6 +262,9 @@
 
 [The Spectrum Retreat](./../The%20Spectrum%20Retreat.html)
 > #adventure,#controller-support,#epic,#game,#owned,#pc,#puzzle,#single-player,#strategy
+
+[The Vanishing of Ethan Carter](./../The%20Vanishing%20of%20Ethan%20Carter.html)
+> #epic,#exploration,#game,#owned,#pc,#single-player
 
 [The World Next Door](./../The%20World%20Next%20Door.html)
 > #action,#adventure,#epic,#game,#indie,#owned,#pc,#single-player

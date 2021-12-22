@@ -1,6 +1,6 @@
 # Notes tagged with "adventure"
 
-### _(52 Notes_)
+### _(53 Notes_)
 
 [3 out of 10 Season Two](./../3%20out%20of%2010%20Season%20Two.html)
 > #adventure,#comedy,#controller-support,#epic,#game,#owned,#pc,#single-player
@@ -94,6 +94,9 @@
 
 [Pine](./../Pine.html)
 > #action,#adventure,#controller-support,#epic,#game,#open-world,#owned,#pc,#single-player
+
+[Shenmue 3](./../Shenmue%203.html)
+> #action,#adventure,#epic,#game,#owned,#pc,#rpg,#single-player
 
 [Sludge Life](./../Sludge%20Life.html)
 > #adventure,#epic,#game,#owned,#pc

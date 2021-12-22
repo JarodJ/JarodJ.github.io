@@ -1,6 +1,6 @@
 # Notes tagged with "shooter"
 
-### _(22 Notes_)
+### _(24 Notes_)
 
 [Apex Legends](./../Apex%20Legends.html)
 > #action,#game,#origin,#owned,#pc,#shooter
@@ -47,6 +47,9 @@
 [Mothergunship](./../Mothergunship.html)
 > #action,#co-op,#epic,#game,#multiplayer,#owned,#pc,#shooter,#single-player
 
+[Neon Abyss](./../Neon%20Abyss.html)
+> #controller-support,#epic,#game,#owned,#pc,#platformer,#shooter
+
 [Paladins](./../Paladins.html)
 > #competitive,#epic,#game,#multiplayer,#owned,#pc,#shooter
 
@@ -55,6 +58,9 @@
 
 [Rogue Company](./../Rogue%20Company.html)
 > #action,#co-op,#competitive,#controller-support,#epic,#game,#multiplayer,#owned,#pc,#shooter,#single-player
+
+[Second Extinction](./../Second%20Extinction.html)
+> #action,#co-op,#epic,#first-person,#game,#multiplayer,#owned,#pc,#shooter
 
 [STAR WARS Battlefront II Celebration Edition](./../STAR%20WARS%20Battlefront%20II%20Celebration%20Edition.html)
 > #action,#adventure,#co-op,#epic,#game,#multiplayer,#owned,#pc,#shooter,#single-player

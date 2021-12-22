@@ -1,6 +1,6 @@
 # Notes tagged with "pc"
 
-### _(171 Notes_)
+### _(177 Notes_)
 
 [20XX](./../20XX.html)
 > #co-op,#epic,#game,#owned,#pc,#platformer,#rogue-lite
@@ -242,6 +242,9 @@
 [Lifeless Planet Premier Edition](./../Lifeless%20Planet%20Premier%20Edition.html)
 > #action,#adventure,#epic,#game,#indie,#owned,#pc
 
+[Loop Hero](./../Loop%20Hero.html)
+> #card-game,#epic,#game,#indie,#owned,#pc,#single-player
+
 [Mable And The Wood](./../Mable%20And%20The%20Wood.html)
 > #action,#adventure,#game,#gog,#indie,#owned,#pc,#single-player
 
@@ -269,6 +272,9 @@
 [MudRunner](./../MudRunner.html)
 > #epic,#game,#owned,#pc,#simulation,#single-player
 
+[Mutant Year Zero Road to Eden](./../Mutant%20Year%20Zero%20Road%20to%20Eden.html)
+> #epic,#game,#owned,#pc,#rpg,#single-player,#strategy,#turn-based
+
 [My Time At Portia](./../My%20Time%20At%20Portia.html)
 > #controller-support,#epic,#game,#open-world,#owned,#pc,#rpg,#simulation,#single-player
 
@@ -277,6 +283,9 @@
 
 [Need for Speed Hot Pursuit Remastered](./../Need%20for%20Speed%20Hot%20Pursuit%20Remastered.html)
 > #game,#origin,#owned,#pc,#racing
+
+[Neon Abyss](./../Neon%20Abyss.html)
+> #controller-support,#epic,#game,#owned,#pc,#platformer,#shooter
 
 [Never Alone Kisima Ingitchuna](./../Never%20Alone%20Kisima%20Ingitchuna.html)
 > #co-op,#controller-support,#epic,#game,#indie,#owned,#pc,#platformer
@@ -362,6 +371,9 @@
 [SAMURAI SHODOWN NEOGEO COLLECTION](./../SAMURAI%20SHODOWN%20NEOGEO%20COLLECTION.html)
 > #epic,#fighting,#game,#multiplayer,#owned,#pc
 
+[Second Extinction](./../Second%20Extinction.html)
+> #action,#co-op,#epic,#first-person,#game,#multiplayer,#owned,#pc,#shooter
+
 [Shadow Tactics](./../Shadow%20Tactics.html)
 > #game,#gog,#owned,#pc,#single-player,#stealth,#strategy
 
@@ -370,6 +382,9 @@
 
 [Sheltered](./../Sheltered.html)
 > #epic,#game,#owned,#pc,#rpg,#single-player,#strategy
+
+[Shenmue 3](./../Shenmue%203.html)
+> #action,#adventure,#epic,#game,#owned,#pc,#rpg,#single-player
 
 [Sid Meier’s Civilization VI](./../Sid%20Meier’s%20Civilization%20VI.html)
 > #epic,#game,#multiplayer,#owned,#pc,#single-player,#strategy,#turn-based
@@ -463,6 +478,9 @@
 
 [The Textorcist The Story of Ray Bibbia](./../The%20Textorcist%20The%20Story%20of%20Ray%20Bibbia.html)
 > #action,#epic,#game,#indie,#owned,#pc
+
+[The Vanishing of Ethan Carter](./../The%20Vanishing%20of%20Ethan%20Carter.html)
+> #epic,#exploration,#game,#owned,#pc,#single-player
 
 [The World Next Door](./../The%20World%20Next%20Door.html)
 > #action,#adventure,#epic,#game,#indie,#owned,#pc,#single-player

@@ -1,6 +1,6 @@
 # Notes tagged with "rpg"
 
-### _(25 Notes_)
+### _(27 Notes_)
 
 [ARK Survival Evolved](./../ARK%20Survival%20Evolved.html)
 > #adventure,#epic,#game,#owned,#pc,#rpg,#single-player,#survival
@@ -29,6 +29,9 @@
 [Ironcast](./../Ironcast.html)
 > #controller-support,#epic,#game,#indie,#owned,#pc,#rpg,#single-player,#strategy
 
+[Mutant Year Zero Road to Eden](./../Mutant%20Year%20Zero%20Road%20to%20Eden.html)
+> #epic,#game,#owned,#pc,#rpg,#single-player,#strategy,#turn-based
+
 [My Time At Portia](./../My%20Time%20At%20Portia.html)
 > #controller-support,#epic,#game,#open-world,#owned,#pc,#rpg,#simulation,#single-player
 
@@ -52,6 +55,9 @@
 
 [Sheltered](./../Sheltered.html)
 > #epic,#game,#owned,#pc,#rpg,#single-player,#strategy
+
+[Shenmue 3](./../Shenmue%203.html)
+> #action,#adventure,#epic,#game,#owned,#pc,#rpg,#single-player
 
 [Spellbreak](./../Spellbreak.html)
 > #action,#epic,#game,#multiplayer,#owned,#pc,#rpg

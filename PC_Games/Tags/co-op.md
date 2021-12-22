@@ -1,6 +1,6 @@
 # Notes tagged with "co-op"
 
-### _(30 Notes_)
+### _(31 Notes_)
 
 [20XX](./../20XX.html)
 > #co-op,#epic,#game,#owned,#pc,#platformer,#rogue-lite
@@ -55,6 +55,9 @@
 
 [Rogue Company](./../Rogue%20Company.html)
 > #action,#co-op,#competitive,#controller-support,#epic,#game,#multiplayer,#owned,#pc,#shooter,#single-player
+
+[Second Extinction](./../Second%20Extinction.html)
+> #action,#co-op,#epic,#first-person,#game,#multiplayer,#owned,#pc,#shooter
 
 [Sonic Mania](./../Sonic%20Mania.html)
 > #action,#co-op,#controller-support,#epic,#game,#owned,#pc,#platformer,#single-player

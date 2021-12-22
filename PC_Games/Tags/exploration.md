@@ -1,6 +1,6 @@
 # Notes tagged with "exploration"
 
-### _(6 Notes_)
+### _(7 Notes_)
 
 [ABZU](./../ABZU.html)
 > #adventure,#controller-support,#epic,#exploration,#game,#owned,#pc,#single-player
@@ -19,4 +19,7 @@
 
 [The First Tree](./../The%20First%20Tree.html)
 > #adventure,#controller-support,#epic,#exploration,#game,#indie,#owned,#pc
+
+[The Vanishing of Ethan Carter](./../The%20Vanishing%20of%20Ethan%20Carter.html)
+> #epic,#exploration,#game,#owned,#pc,#single-player
 

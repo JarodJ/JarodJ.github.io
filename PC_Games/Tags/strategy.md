@@ -1,6 +1,6 @@
 # Notes tagged with "strategy"
 
-### _(37 Notes_)
+### _(38 Notes_)
 
 [A Total War Saga TROY](./../A%20Total%20War%20Saga%20TROY.html)
 > #epic,#game,#multiplayer,#owned,#pc,#single-player,#strategy
@@ -61,6 +61,9 @@
 
 [Might and Magic Chess Royale](./../Might%20and%20Magic%20Chess%20Royale.html)
 > #epic,#game,#owned,#pc,#strategy
+
+[Mutant Year Zero Road to Eden](./../Mutant%20Year%20Zero%20Road%20to%20Eden.html)
+> #epic,#game,#owned,#pc,#rpg,#single-player,#strategy,#turn-based
 
 [Offworld Trading Company](./../Offworld%20Trading%20Company.html)
 > #competitive,#epic,#game,#indie,#owned,#pc,#strategy

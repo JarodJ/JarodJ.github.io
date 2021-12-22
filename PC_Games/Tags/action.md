@@ -1,6 +1,6 @@
 # Notes tagged with "action"
 
-### _(64 Notes_)
+### _(66 Notes_)
 
 [A Plague Tale Innocence](./../A%20Plague%20Tale%20Innocence.html)
 > #action,#adventure,#epic,#game,#owned,#pc,#single-player
@@ -136,6 +136,12 @@
 
 [Saints Row The Third  Remastered](./../Saints%20Row%20The%20Third%20%20Remastered.html)
 > #action,#epic,#game,#multiplayer,#owned,#pc
+
+[Second Extinction](./../Second%20Extinction.html)
+> #action,#co-op,#epic,#first-person,#game,#multiplayer,#owned,#pc,#shooter
+
+[Shenmue 3](./../Shenmue%203.html)
+> #action,#adventure,#epic,#game,#owned,#pc,#rpg,#single-player
 
 [Sonic Mania](./../Sonic%20Mania.html)
 > #action,#co-op,#controller-support,#epic,#game,#owned,#pc,#platformer,#single-player

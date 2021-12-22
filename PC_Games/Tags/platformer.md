@@ -1,6 +1,6 @@
 # Notes tagged with "platformer"
 
-### _(12 Notes_)
+### _(13 Notes_)
 
 [20XX](./../20XX.html)
 > #co-op,#epic,#game,#owned,#pc,#platformer,#rogue-lite
@@ -16,6 +16,9 @@
 
 [Hue](./../Hue.html)
 > #adventure,#epic,#game,#owned,#pc,#platformer,#puzzle,#single-player
+
+[Neon Abyss](./../Neon%20Abyss.html)
+> #controller-support,#epic,#game,#owned,#pc,#platformer,#shooter
 
 [Never Alone Kisima Ingitchuna](./../Never%20Alone%20Kisima%20Ingitchuna.html)
 > #co-op,#controller-support,#epic,#game,#indie,#owned,#pc,#platformer

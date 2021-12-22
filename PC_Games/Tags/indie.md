@@ -1,6 +1,6 @@
 # Notes tagged with "indie"
 
-### _(34 Notes_)
+### _(35 Notes_)
 
 [Absolute Drift](./../Absolute%20Drift.html)
 > #epic,#game,#indie,#owned,#pc,#racing,#single-player
@@ -40,6 +40,9 @@
 
 [Lifeless Planet Premier Edition](./../Lifeless%20Planet%20Premier%20Edition.html)
 > #action,#adventure,#epic,#game,#indie,#owned,#pc
+
+[Loop Hero](./../Loop%20Hero.html)
+> #card-game,#epic,#game,#indie,#owned,#pc,#single-player
 
 [Mable And The Wood](./../Mable%20And%20The%20Wood.html)
 > #action,#adventure,#game,#gog,#indie,#owned,#pc,#single-player

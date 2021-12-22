@@ -1,6 +1,6 @@
 # Notes tagged with "multiplayer"
 
-### _(41 Notes_)
+### _(42 Notes_)
 
 [A Total War Saga TROY](./../A%20Total%20War%20Saga%20TROY.html)
 > #epic,#game,#multiplayer,#owned,#pc,#single-player,#strategy
@@ -79,6 +79,9 @@
 
 [SAMURAI SHODOWN NEOGEO COLLECTION](./../SAMURAI%20SHODOWN%20NEOGEO%20COLLECTION.html)
 > #epic,#fighting,#game,#multiplayer,#owned,#pc
+
+[Second Extinction](./../Second%20Extinction.html)
+> #action,#co-op,#epic,#first-person,#game,#multiplayer,#owned,#pc,#shooter
 
 [Sid Meier’s Civilization VI](./../Sid%20Meier’s%20Civilization%20VI.html)
 > #epic,#game,#multiplayer,#owned,#pc,#single-player,#strategy,#turn-based
