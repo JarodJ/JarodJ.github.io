@@ -1,6 +1,6 @@
 # My PC Game Library
 
-### _(177 Notes_)
+### _(187 Notes_)
 
 [20XX](./20XX.html)
 > #co-op,#platformer,#rogue-lite
@@ -248,6 +248,9 @@
 [Mable And The Wood](./Mable%20And%20The%20Wood.html)
 > #action,#adventure,#gog,#indie,#single-player
 
+[Mages of Mystralia](./Mages%20of%20Mystralia.html)
+> #action,#adventure,#indie,#single-player
+
 [Magic Legends](./Magic%20Legends.html)
 > 
 
@@ -268,6 +271,9 @@
 
 [Mothergunship](./Mothergunship.html)
 > #action,#co-op,#multiplayer,#shooter,#single-player
+
+[Moving Out](./Moving%20Out.html)
+> #casual,#co-op,#party,#single-player
 
 [MudRunner](./MudRunner.html)
 > #simulation,#single-player
@@ -320,6 +326,9 @@
 [Path of Exile](./Path%20of%20Exile.html)
 > #action,#co-op,#multiplayer,#rpg,#single-player
 
+[Pathfinder Kingmaker - Enhanced Plus Edition](./Pathfinder%20Kingmaker%20-%20Enhanced%20Plus%20Edition.html)
+> #action,#rpg,#single-player
+
 [Pathway](./Pathway.html)
 > #rogue-lite,#single-player,#strategy,#turn-based
 
@@ -334,6 +343,9 @@
 
 [Pine](./Pine.html)
 > #action,#adventure,#controller-support,#open-world,#single-player
+
+[Prey](./Prey.html)
+> #action,#action-adventure,#adventure,#first-person,#shooter,#single-player
 
 [Primordials Battle of Gods](./Primordials%20Battle%20of%20Gods.html)
 > #action,#multiplayer,#strategy
@@ -353,6 +365,9 @@
 [Remnant From the Ashes](./Remnant%20From%20the%20Ashes.html)
 > #action,#co-op,#shooter
 
+[Rise of the Tomb Raider 20 Year Celebration](./Rise%20of%20the%20Tomb%20Raider%2020%20Year%20Celebration.html)
+> #action,#action-adventure,#adventure,#controller-support,#multiplayer,#single-player
+
 [Rising Storm 2 Vietnam](./Rising%20Storm%202%20Vietnam.html)
 > 
 
@@ -368,11 +383,17 @@
 [Saints Row The Third  Remastered](./Saints%20Row%20The%20Third%20%20Remastered.html)
 > #action,#multiplayer
 
+[Salt and Sanctuary](./Salt%20and%20Sanctuary.html)
+> 
+
 [SAMURAI SHODOWN NEOGEO COLLECTION](./SAMURAI%20SHODOWN%20NEOGEO%20COLLECTION.html)
 > #fighting,#multiplayer
 
 [Second Extinction](./Second%20Extinction.html)
 > #action,#co-op,#first-person,#multiplayer,#shooter
+
+[Shadow of the Tomb Raider Definitive Edition](./Shadow%20of%20the%20Tomb%20Raider%20Definitive%20Edition.html)
+> #action,#adventure,#controller-support,#single-player
 
 [Shadow Tactics](./Shadow%20Tactics.html)
 > #gog,#single-player,#stealth,#strategy
@@ -491,6 +512,9 @@
 [Tiny Tinas Assault on Dragon Keep A Wonderlands One-shot Adventure](./Tiny%20Tinas%20Assault%20on%20Dragon%20Keep%20A%20Wonderlands%20One-shot%20Adventure.html)
 > #action,#adventure,#co-op,#multiplayer,#rpg,#single-player
 
+[Tomb Raider GOTY](./Tomb%20Raider%20GOTY.html)
+> #action,#adventure,#controller-support,#single-player
+
 [Torchlight II](./Torchlight%20II.html)
 > #action,#adventure,#co-op,#dungeon-crawler,#rpg
 
@@ -502,6 +526,9 @@
 
 [Tyranny - Gold Edition](./Tyranny%20-%20Gold%20Edition.html)
 > #action,#adventure,#rpg
+
+[Vampyr](./Vampyr.html)
+> #action,#controller-support,#rpg,#single-player
 
 [Verdun](./Verdun.html)
 > #action,#co-op,#controller-support,#multiplayer,#shooter,#single-player
@@ -526,6 +553,9 @@
 
 [Wilmots Warehouse](./Wilmots%20Warehouse.html)
 > #co-op,#controller-support,#indie,#puzzle,#single-player
+
+[X-Morph Defense](./X-Morph%20Defense.html)
+> #action,#co-op,#controller-support,#gog,#indie,#single-player,#strategy
 
 [Yokus Island Express](./Yokus%20Island%20Express.html)
 > #action,#adventure,#indie,#single-player
