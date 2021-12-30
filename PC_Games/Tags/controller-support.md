@@ -1,6 +1,6 @@
 # Notes tagged with "controller-support"
 
-### _(34 Notes_)
+### _(39 Notes_)
 
 [3 out of 10 Season Two](./../3%20out%20of%2010%20Season%20Two.html)
 > #adventure,#comedy,#controller-support,#epic,#game,#owned,#pc,#single-player
@@ -65,8 +65,14 @@
 [Rebel Galaxy](./../Rebel%20Galaxy.html)
 > #controller-support,#epic,#game,#open-world,#owned,#pc,#rpg,#single-player
 
+[Rise of the Tomb Raider 20 Year Celebration](./../Rise%20of%20the%20Tomb%20Raider%2020%20Year%20Celebration.html)
+> #action,#action-adventure,#adventure,#controller-support,#epic,#game,#multiplayer,#owned,#pc,#single-player
+
 [Rogue Company](./../Rogue%20Company.html)
 > #action,#co-op,#competitive,#controller-support,#epic,#game,#multiplayer,#owned,#pc,#shooter,#single-player
+
+[Shadow of the Tomb Raider Definitive Edition](./../Shadow%20of%20the%20Tomb%20Raider%20Definitive%20Edition.html)
+> #action,#adventure,#controller-support,#epic,#game,#owned,#pc,#single-player
 
 [Sonic Mania](./../Sonic%20Mania.html)
 > #action,#co-op,#controller-support,#epic,#game,#owned,#pc,#platformer,#single-player
@@ -86,8 +92,14 @@
 [The Spectrum Retreat](./../The%20Spectrum%20Retreat.html)
 > #adventure,#controller-support,#epic,#game,#owned,#pc,#puzzle,#single-player,#strategy
 
+[Tomb Raider GOTY](./../Tomb%20Raider%20GOTY.html)
+> #action,#adventure,#controller-support,#epic,#game,#owned,#pc,#single-player
+
 [Train Sim World 2](./../Train%20Sim%20World%202.html)
 > #controller-support,#epic,#game,#owned,#pc,#simulation,#single-player
+
+[Vampyr](./../Vampyr.html)
+> #action,#controller-support,#epic,#game,#owned,#pc,#rpg,#single-player
 
 [Verdun](./../Verdun.html)
 > #action,#co-op,#controller-support,#epic,#game,#multiplayer,#owned,#pc,#shooter,#single-player
@@ -100,6 +112,9 @@
 
 [Wilmots Warehouse](./../Wilmots%20Warehouse.html)
 > #co-op,#controller-support,#epic,#game,#indie,#owned,#pc,#puzzle,#single-player
+
+[X-Morph Defense](./../X-Morph%20Defense.html)
+> #action,#co-op,#controller-support,#game,#gog,#indie,#owned,#pc,#single-player,#strategy
 
 [Yooka-Laylee](./../Yooka-Laylee.html)
 > #adventure,#controller-support,#epic,#game,#indie,#multiplayer,#owned,#pc,#platformer,#single-player

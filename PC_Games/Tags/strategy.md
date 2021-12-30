@@ -1,6 +1,6 @@
 # Notes tagged with "strategy"
 
-### _(38 Notes_)
+### _(39 Notes_)
 
 [A Total War Saga TROY](./../A%20Total%20War%20Saga%20TROY.html)
 > #epic,#game,#multiplayer,#owned,#pc,#single-player,#strategy
@@ -115,4 +115,7 @@
 
 [Wargame Red Dragon](./../Wargame%20Red%20Dragon.html)
 > #co-op,#epic,#game,#multiplayer,#owned,#pc,#simulation,#single-player,#strategy
+
+[X-Morph Defense](./../X-Morph%20Defense.html)
+> #action,#co-op,#controller-support,#game,#gog,#indie,#owned,#pc,#single-player,#strategy
 

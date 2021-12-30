@@ -1,6 +1,6 @@
 # Notes tagged with "multiplayer"
 
-### _(42 Notes_)
+### _(43 Notes_)
 
 [A Total War Saga TROY](./../A%20Total%20War%20Saga%20TROY.html)
 > #epic,#game,#multiplayer,#owned,#pc,#single-player,#strategy
@@ -67,6 +67,9 @@
 
 [Primordials Battle of Gods](./../Primordials%20Battle%20of%20Gods.html)
 > #action,#epic,#game,#multiplayer,#owned,#pc,#strategy
+
+[Rise of the Tomb Raider 20 Year Celebration](./../Rise%20of%20the%20Tomb%20Raider%2020%20Year%20Celebration.html)
+> #action,#action-adventure,#adventure,#controller-support,#epic,#game,#multiplayer,#owned,#pc,#single-player
 
 [Rocket League](./../Rocket%20League.html)
 > #co-op,#competitive,#epic,#game,#multiplayer,#owned,#pc,#racing,#single-player,#sports

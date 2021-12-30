@@ -1,16 +1,19 @@
 # My PC Game Library Tag List
 
 [#action](./action.html)
-> 66 Notes
+> 74 Notes
+
+[#action-adventure](./action-adventure.html)
+> 2 Notes
 
 [#adventure](./adventure.html)
-> 53 Notes
+> 58 Notes
 
 [#card-game](./card-game.html)
 > 5 Notes
 
 [#casual](./casual.html)
-> 2 Notes
+> 3 Notes
 
 [#choices-matter](./choices-matter.html)
 > 1 Notes
@@ -19,7 +22,7 @@
 > 4 Notes
 
 [#co-op](./co-op.html)
-> 31 Notes
+> 33 Notes
 
 [#comedy](./comedy.html)
 > 2 Notes
@@ -28,13 +31,13 @@
 > 7 Notes
 
 [#controller-support](./controller-support.html)
-> 34 Notes
+> 39 Notes
 
 [#dungeon-crawler](./dungeon-crawler.html)
 > 3 Notes
 
 [#epic](./epic.html)
-> 164 Notes
+> 173 Notes
 
 [#exploration](./exploration.html)
 > 7 Notes
@@ -43,28 +46,28 @@
 > 2 Notes
 
 [#first-person](./first-person.html)
-> 14 Notes
+> 15 Notes
 
 [#fps](./fps.html)
 > 1 Notes
 
 [#game](./game.html)
-> 177 Notes
+> 187 Notes
 
 [#gog](./gog.html)
-> 6 Notes
+> 7 Notes
 
 [#horror](./horror.html)
 > 6 Notes
 
 [#indie](./indie.html)
-> 35 Notes
+> 37 Notes
 
 [#management](./management.html)
 > 1 Notes
 
 [#multiplayer](./multiplayer.html)
-> 42 Notes
+> 43 Notes
 
 [#narration](./narration.html)
 > 4 Notes
@@ -76,10 +79,13 @@
 > 7 Notes
 
 [#owned](./owned.html)
-> 177 Notes
+> 187 Notes
+
+[#party](./party.html)
+> 1 Notes
 
 [#pc](./pc.html)
-> 177 Notes
+> 187 Notes
 
 [#platformer](./platformer.html)
 > 13 Notes
@@ -97,16 +103,16 @@
 > 1 Notes
 
 [#rpg](./rpg.html)
-> 27 Notes
+> 29 Notes
 
 [#shooter](./shooter.html)
-> 24 Notes
+> 25 Notes
 
 [#simulation](./simulation.html)
 > 22 Notes
 
 [#single-player](./single-player.html)
-> 103 Notes
+> 112 Notes
 
 [#soccer](./soccer.html)
 > 1 Notes
@@ -124,7 +130,7 @@
 > 2 Notes
 
 [#strategy](./strategy.html)
-> 38 Notes
+> 39 Notes
 
 [#survival](./survival.html)
 > 8 Notes

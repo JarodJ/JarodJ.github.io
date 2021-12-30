@@ -1,6 +1,6 @@
 # Notes tagged with "adventure"
 
-### _(53 Notes_)
+### _(58 Notes_)
 
 [3 out of 10 Season Two](./../3%20out%20of%2010%20Season%20Two.html)
 > #adventure,#comedy,#controller-support,#epic,#game,#owned,#pc,#single-player
@@ -80,6 +80,9 @@
 [Mable And The Wood](./../Mable%20And%20The%20Wood.html)
 > #action,#adventure,#game,#gog,#indie,#owned,#pc,#single-player
 
+[Mages of Mystralia](./../Mages%20of%20Mystralia.html)
+> #action,#adventure,#epic,#game,#indie,#owned,#pc,#single-player
+
 [Minit](./../Minit.html)
 > #adventure,#controller-support,#epic,#game,#indie,#owned,#pc,#puzzle,#single-player
 
@@ -94,6 +97,15 @@
 
 [Pine](./../Pine.html)
 > #action,#adventure,#controller-support,#epic,#game,#open-world,#owned,#pc,#single-player
+
+[Prey](./../Prey.html)
+> #action,#action-adventure,#adventure,#epic,#first-person,#game,#owned,#pc,#shooter,#single-player
+
+[Rise of the Tomb Raider 20 Year Celebration](./../Rise%20of%20the%20Tomb%20Raider%2020%20Year%20Celebration.html)
+> #action,#action-adventure,#adventure,#controller-support,#epic,#game,#multiplayer,#owned,#pc,#single-player
+
+[Shadow of the Tomb Raider Definitive Edition](./../Shadow%20of%20the%20Tomb%20Raider%20Definitive%20Edition.html)
+> #action,#adventure,#controller-support,#epic,#game,#owned,#pc,#single-player
 
 [Shenmue 3](./../Shenmue%203.html)
 > #action,#adventure,#epic,#game,#owned,#pc,#rpg,#single-player
@@ -142,6 +154,9 @@
 
 [Tiny Tinas Assault on Dragon Keep A Wonderlands One-shot Adventure](./../Tiny%20Tinas%20Assault%20on%20Dragon%20Keep%20A%20Wonderlands%20One-shot%20Adventure.html)
 > #action,#adventure,#co-op,#epic,#game,#multiplayer,#owned,#pc,#rpg,#single-player
+
+[Tomb Raider GOTY](./../Tomb%20Raider%20GOTY.html)
+> #action,#adventure,#controller-support,#epic,#game,#owned,#pc,#single-player
 
 [Torchlight II](./../Torchlight%20II.html)
 > #action,#adventure,#co-op,#dungeon-crawler,#epic,#game,#owned,#pc,#rpg

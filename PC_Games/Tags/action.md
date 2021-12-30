@@ -1,6 +1,6 @@
 # Notes tagged with "action"
 
-### _(66 Notes_)
+### _(74 Notes_)
 
 [A Plague Tale Innocence](./../A%20Plague%20Tale%20Innocence.html)
 > #action,#adventure,#epic,#game,#owned,#pc,#single-player
@@ -98,6 +98,9 @@
 [Mable And The Wood](./../Mable%20And%20The%20Wood.html)
 > #action,#adventure,#game,#gog,#indie,#owned,#pc,#single-player
 
+[Mages of Mystralia](./../Mages%20of%20Mystralia.html)
+> #action,#adventure,#epic,#game,#indie,#owned,#pc,#single-player
+
 [Metro 2033 Redux](./../Metro%202033%20Redux.html)
 > #action,#epic,#first-person,#game,#owned,#pc,#shooter,#single-player
 
@@ -119,8 +122,14 @@
 [Path of Exile](./../Path%20of%20Exile.html)
 > #action,#co-op,#epic,#game,#multiplayer,#owned,#pc,#rpg,#single-player
 
+[Pathfinder Kingmaker - Enhanced Plus Edition](./../Pathfinder%20Kingmaker%20-%20Enhanced%20Plus%20Edition.html)
+> #action,#epic,#game,#owned,#pc,#rpg,#single-player
+
 [Pine](./../Pine.html)
 > #action,#adventure,#controller-support,#epic,#game,#open-world,#owned,#pc,#single-player
+
+[Prey](./../Prey.html)
+> #action,#action-adventure,#adventure,#epic,#first-person,#game,#owned,#pc,#shooter,#single-player
 
 [Primordials Battle of Gods](./../Primordials%20Battle%20of%20Gods.html)
 > #action,#epic,#game,#multiplayer,#owned,#pc,#strategy
@@ -131,6 +140,9 @@
 [Remnant From the Ashes](./../Remnant%20From%20the%20Ashes.html)
 > #action,#co-op,#epic,#game,#owned,#pc,#shooter
 
+[Rise of the Tomb Raider 20 Year Celebration](./../Rise%20of%20the%20Tomb%20Raider%2020%20Year%20Celebration.html)
+> #action,#action-adventure,#adventure,#controller-support,#epic,#game,#multiplayer,#owned,#pc,#single-player
+
 [Rogue Company](./../Rogue%20Company.html)
 > #action,#co-op,#competitive,#controller-support,#epic,#game,#multiplayer,#owned,#pc,#shooter,#single-player
 
@@ -139,6 +151,9 @@
 
 [Second Extinction](./../Second%20Extinction.html)
 > #action,#co-op,#epic,#first-person,#game,#multiplayer,#owned,#pc,#shooter
+
+[Shadow of the Tomb Raider Definitive Edition](./../Shadow%20of%20the%20Tomb%20Raider%20Definitive%20Edition.html)
+> #action,#adventure,#controller-support,#epic,#game,#owned,#pc,#single-player
 
 [Shenmue 3](./../Shenmue%203.html)
 > #action,#adventure,#epic,#game,#owned,#pc,#rpg,#single-player
@@ -179,11 +194,17 @@
 [Tiny Tinas Assault on Dragon Keep A Wonderlands One-shot Adventure](./../Tiny%20Tinas%20Assault%20on%20Dragon%20Keep%20A%20Wonderlands%20One-shot%20Adventure.html)
 > #action,#adventure,#co-op,#epic,#game,#multiplayer,#owned,#pc,#rpg,#single-player
 
+[Tomb Raider GOTY](./../Tomb%20Raider%20GOTY.html)
+> #action,#adventure,#controller-support,#epic,#game,#owned,#pc,#single-player
+
 [Torchlight II](./../Torchlight%20II.html)
 > #action,#adventure,#co-op,#dungeon-crawler,#epic,#game,#owned,#pc,#rpg
 
 [Tyranny - Gold Edition](./../Tyranny%20-%20Gold%20Edition.html)
 > #action,#adventure,#epic,#game,#owned,#pc,#rpg
+
+[Vampyr](./../Vampyr.html)
+> #action,#controller-support,#epic,#game,#owned,#pc,#rpg,#single-player
 
 [Verdun](./../Verdun.html)
 > #action,#co-op,#controller-support,#epic,#game,#multiplayer,#owned,#pc,#shooter,#single-player
@@ -196,6 +217,9 @@
 
 [Watch Dogs 2](./../Watch%20Dogs%202.html)
 > #action,#adventure,#co-op,#epic,#game,#owned,#pc,#single-player
+
+[X-Morph Defense](./../X-Morph%20Defense.html)
+> #action,#co-op,#controller-support,#game,#gog,#indie,#owned,#pc,#single-player,#strategy
 
 [Yokus Island Express](./../Yokus%20Island%20Express.html)
 > #action,#adventure,#epic,#game,#indie,#owned,#pc,#single-player

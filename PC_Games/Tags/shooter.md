@@ -1,6 +1,6 @@
 # Notes tagged with "shooter"
 
-### _(24 Notes_)
+### _(25 Notes_)
 
 [Apex Legends](./../Apex%20Legends.html)
 > #action,#game,#origin,#owned,#pc,#shooter
@@ -52,6 +52,9 @@
 
 [Paladins](./../Paladins.html)
 > #competitive,#epic,#game,#multiplayer,#owned,#pc,#shooter
+
+[Prey](./../Prey.html)
+> #action,#action-adventure,#adventure,#epic,#first-person,#game,#owned,#pc,#shooter,#single-player
 
 [Remnant From the Ashes](./../Remnant%20From%20the%20Ashes.html)
 > #action,#co-op,#epic,#game,#owned,#pc,#shooter

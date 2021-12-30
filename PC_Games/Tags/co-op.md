@@ -1,6 +1,6 @@
 # Notes tagged with "co-op"
 
-### _(31 Notes_)
+### _(33 Notes_)
 
 [20XX](./../20XX.html)
 > #co-op,#epic,#game,#owned,#pc,#platformer,#rogue-lite
@@ -28,6 +28,9 @@
 
 [Mothergunship](./../Mothergunship.html)
 > #action,#co-op,#epic,#game,#multiplayer,#owned,#pc,#shooter,#single-player
+
+[Moving Out](./../Moving%20Out.html)
+> #casual,#co-op,#epic,#game,#owned,#party,#pc,#single-player
 
 [NBA 2K21](./../NBA%202K21.html)
 > #co-op,#epic,#game,#multiplayer,#owned,#pc,#single-player,#sports
@@ -94,4 +97,7 @@
 
 [Wilmots Warehouse](./../Wilmots%20Warehouse.html)
 > #co-op,#controller-support,#epic,#game,#indie,#owned,#pc,#puzzle,#single-player
+
+[X-Morph Defense](./../X-Morph%20Defense.html)
+> #action,#co-op,#controller-support,#game,#gog,#indie,#owned,#pc,#single-player,#strategy
 

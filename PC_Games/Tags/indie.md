@@ -1,6 +1,6 @@
 # Notes tagged with "indie"
 
-### _(35 Notes_)
+### _(37 Notes_)
 
 [Absolute Drift](./../Absolute%20Drift.html)
 > #epic,#game,#indie,#owned,#pc,#racing,#single-player
@@ -46,6 +46,9 @@
 
 [Mable And The Wood](./../Mable%20And%20The%20Wood.html)
 > #action,#adventure,#game,#gog,#indie,#owned,#pc,#single-player
+
+[Mages of Mystralia](./../Mages%20of%20Mystralia.html)
+> #action,#adventure,#epic,#game,#indie,#owned,#pc,#single-player
 
 [Minit](./../Minit.html)
 > #adventure,#controller-support,#epic,#game,#indie,#owned,#pc,#puzzle,#single-player
@@ -100,6 +103,9 @@
 
 [Wilmots Warehouse](./../Wilmots%20Warehouse.html)
 > #co-op,#controller-support,#epic,#game,#indie,#owned,#pc,#puzzle,#single-player
+
+[X-Morph Defense](./../X-Morph%20Defense.html)
+> #action,#co-op,#controller-support,#game,#gog,#indie,#owned,#pc,#single-player,#strategy
 
 [Yokus Island Express](./../Yokus%20Island%20Express.html)
 > #action,#adventure,#epic,#game,#indie,#owned,#pc,#single-player

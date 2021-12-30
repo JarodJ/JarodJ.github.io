@@ -1,6 +1,6 @@
 # Notes tagged with "epic"
 
-### _(164 Notes_)
+### _(173 Notes_)
 
 [20XX](./../20XX.html)
 > #co-op,#epic,#game,#owned,#pc,#platformer,#rogue-lite
@@ -221,6 +221,9 @@
 [Loop Hero](./../Loop%20Hero.html)
 > #card-game,#epic,#game,#indie,#owned,#pc,#single-player
 
+[Mages of Mystralia](./../Mages%20of%20Mystralia.html)
+> #action,#adventure,#epic,#game,#indie,#owned,#pc,#single-player
+
 [Magic Legends](./../Magic%20Legends.html)
 > #epic,#game,#owned,#pc
 
@@ -241,6 +244,9 @@
 
 [Mothergunship](./../Mothergunship.html)
 > #action,#co-op,#epic,#game,#multiplayer,#owned,#pc,#shooter,#single-player
+
+[Moving Out](./../Moving%20Out.html)
+> #casual,#co-op,#epic,#game,#owned,#party,#pc,#single-player
 
 [MudRunner](./../MudRunner.html)
 > #epic,#game,#owned,#pc,#simulation,#single-player
@@ -290,6 +296,9 @@
 [Path of Exile](./../Path%20of%20Exile.html)
 > #action,#co-op,#epic,#game,#multiplayer,#owned,#pc,#rpg,#single-player
 
+[Pathfinder Kingmaker - Enhanced Plus Edition](./../Pathfinder%20Kingmaker%20-%20Enhanced%20Plus%20Edition.html)
+> #action,#epic,#game,#owned,#pc,#rpg,#single-player
+
 [Pathway](./../Pathway.html)
 > #epic,#game,#owned,#pc,#rogue-lite,#single-player,#strategy,#turn-based
 
@@ -304,6 +313,9 @@
 
 [Pine](./../Pine.html)
 > #action,#adventure,#controller-support,#epic,#game,#open-world,#owned,#pc,#single-player
+
+[Prey](./../Prey.html)
+> #action,#action-adventure,#adventure,#epic,#first-person,#game,#owned,#pc,#shooter,#single-player
 
 [Primordials Battle of Gods](./../Primordials%20Battle%20of%20Gods.html)
 > #action,#epic,#game,#multiplayer,#owned,#pc,#strategy
@@ -323,6 +335,9 @@
 [Remnant From the Ashes](./../Remnant%20From%20the%20Ashes.html)
 > #action,#co-op,#epic,#game,#owned,#pc,#shooter
 
+[Rise of the Tomb Raider 20 Year Celebration](./../Rise%20of%20the%20Tomb%20Raider%2020%20Year%20Celebration.html)
+> #action,#action-adventure,#adventure,#controller-support,#epic,#game,#multiplayer,#owned,#pc,#single-player
+
 [Rising Storm 2 Vietnam](./../Rising%20Storm%202%20Vietnam.html)
 > #epic,#game,#owned,#pc
 
@@ -338,11 +353,17 @@
 [Saints Row The Third  Remastered](./../Saints%20Row%20The%20Third%20%20Remastered.html)
 > #action,#epic,#game,#multiplayer,#owned,#pc
 
+[Salt and Sanctuary](./../Salt%20and%20Sanctuary.html)
+> #epic,#game,#owned,#pc
+
 [SAMURAI SHODOWN NEOGEO COLLECTION](./../SAMURAI%20SHODOWN%20NEOGEO%20COLLECTION.html)
 > #epic,#fighting,#game,#multiplayer,#owned,#pc
 
 [Second Extinction](./../Second%20Extinction.html)
 > #action,#co-op,#epic,#first-person,#game,#multiplayer,#owned,#pc,#shooter
+
+[Shadow of the Tomb Raider Definitive Edition](./../Shadow%20of%20the%20Tomb%20Raider%20Definitive%20Edition.html)
+> #action,#adventure,#controller-support,#epic,#game,#owned,#pc,#single-player
 
 [Shadowrun Returns](./../Shadowrun%20Returns.html)
 > #epic,#game,#owned,#pc,#rpg,#turn-based
@@ -452,6 +473,9 @@
 [Tiny Tinas Assault on Dragon Keep A Wonderlands One-shot Adventure](./../Tiny%20Tinas%20Assault%20on%20Dragon%20Keep%20A%20Wonderlands%20One-shot%20Adventure.html)
 > #action,#adventure,#co-op,#epic,#game,#multiplayer,#owned,#pc,#rpg,#single-player
 
+[Tomb Raider GOTY](./../Tomb%20Raider%20GOTY.html)
+> #action,#adventure,#controller-support,#epic,#game,#owned,#pc,#single-player
+
 [Torchlight II](./../Torchlight%20II.html)
 > #action,#adventure,#co-op,#dungeon-crawler,#epic,#game,#owned,#pc,#rpg
 
@@ -463,6 +487,9 @@
 
 [Tyranny - Gold Edition](./../Tyranny%20-%20Gold%20Edition.html)
 > #action,#adventure,#epic,#game,#owned,#pc,#rpg
+
+[Vampyr](./../Vampyr.html)
+> #action,#controller-support,#epic,#game,#owned,#pc,#rpg,#single-player
 
 [Verdun](./../Verdun.html)
 > #action,#co-op,#controller-support,#epic,#game,#multiplayer,#owned,#pc,#shooter,#single-player

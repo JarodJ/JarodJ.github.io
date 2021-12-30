@@ -1,6 +1,6 @@
 # Notes tagged with "first-person"
 
-### _(14 Notes_)
+### _(15 Notes_)
 
 [Amnesia A Machine for Pigs](./../Amnesia%20A%20Machine%20for%20Pigs.html)
 > #epic,#first-person,#game,#horror,#indie,#owned,#pc,#single-player
@@ -34,6 +34,9 @@
 
 [Metro Last Light Redux](./../Metro%20Last%20Light%20Redux.html)
 > #action,#epic,#first-person,#game,#owned,#pc,#shooter,#single-player
+
+[Prey](./../Prey.html)
+> #action,#action-adventure,#adventure,#epic,#first-person,#game,#owned,#pc,#shooter,#single-player
 
 [Second Extinction](./../Second%20Extinction.html)
 > #action,#co-op,#epic,#first-person,#game,#multiplayer,#owned,#pc,#shooter

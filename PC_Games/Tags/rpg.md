@@ -1,6 +1,6 @@
 # Notes tagged with "rpg"
 
-### _(27 Notes_)
+### _(29 Notes_)
 
 [ARK Survival Evolved](./../ARK%20Survival%20Evolved.html)
 > #adventure,#epic,#game,#owned,#pc,#rpg,#single-player,#survival
@@ -44,6 +44,9 @@
 [Path of Exile](./../Path%20of%20Exile.html)
 > #action,#co-op,#epic,#game,#multiplayer,#owned,#pc,#rpg,#single-player
 
+[Pathfinder Kingmaker - Enhanced Plus Edition](./../Pathfinder%20Kingmaker%20-%20Enhanced%20Plus%20Edition.html)
+> #action,#epic,#game,#owned,#pc,#rpg,#single-player
+
 [Pillars of Eternity - Definitive Edition](./../Pillars%20of%20Eternity%20-%20Definitive%20Edition.html)
 > #epic,#game,#owned,#pc,#rpg,#single-player
 
@@ -82,4 +85,7 @@
 
 [Tyranny - Gold Edition](./../Tyranny%20-%20Gold%20Edition.html)
 > #action,#adventure,#epic,#game,#owned,#pc,#rpg
+
+[Vampyr](./../Vampyr.html)
+> #action,#controller-support,#epic,#game,#owned,#pc,#rpg,#single-player
 

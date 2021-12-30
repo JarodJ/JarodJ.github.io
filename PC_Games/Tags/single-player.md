@@ -1,6 +1,6 @@
 # Notes tagged with "single-player"
 
-### _(103 Notes_)
+### _(112 Notes_)
 
 [3 out of 10 Season Two](./../3%20out%20of%2010%20Season%20Two.html)
 > #adventure,#comedy,#controller-support,#epic,#game,#owned,#pc,#single-player
@@ -140,6 +140,9 @@
 [Mable And The Wood](./../Mable%20And%20The%20Wood.html)
 > #action,#adventure,#game,#gog,#indie,#owned,#pc,#single-player
 
+[Mages of Mystralia](./../Mages%20of%20Mystralia.html)
+> #action,#adventure,#epic,#game,#indie,#owned,#pc,#single-player
+
 [Metro 2033 Redux](./../Metro%202033%20Redux.html)
 > #action,#epic,#first-person,#game,#owned,#pc,#shooter,#single-player
 
@@ -151,6 +154,9 @@
 
 [Mothergunship](./../Mothergunship.html)
 > #action,#co-op,#epic,#game,#multiplayer,#owned,#pc,#shooter,#single-player
+
+[Moving Out](./../Moving%20Out.html)
+> #casual,#co-op,#epic,#game,#owned,#party,#pc,#single-player
 
 [MudRunner](./../MudRunner.html)
 > #epic,#game,#owned,#pc,#simulation,#single-player
@@ -173,6 +179,9 @@
 [Path of Exile](./../Path%20of%20Exile.html)
 > #action,#co-op,#epic,#game,#multiplayer,#owned,#pc,#rpg,#single-player
 
+[Pathfinder Kingmaker - Enhanced Plus Edition](./../Pathfinder%20Kingmaker%20-%20Enhanced%20Plus%20Edition.html)
+> #action,#epic,#game,#owned,#pc,#rpg,#single-player
+
 [Pathway](./../Pathway.html)
 > #epic,#game,#owned,#pc,#rogue-lite,#single-player,#strategy,#turn-based
 
@@ -188,17 +197,26 @@
 [Pine](./../Pine.html)
 > #action,#adventure,#controller-support,#epic,#game,#open-world,#owned,#pc,#single-player
 
+[Prey](./../Prey.html)
+> #action,#action-adventure,#adventure,#epic,#first-person,#game,#owned,#pc,#shooter,#single-player
+
 [Railway Empire](./../Railway%20Empire.html)
 > #controller-support,#epic,#game,#owned,#pc,#simulation,#single-player,#strategy
 
 [Rebel Galaxy](./../Rebel%20Galaxy.html)
 > #controller-support,#epic,#game,#open-world,#owned,#pc,#rpg,#single-player
 
+[Rise of the Tomb Raider 20 Year Celebration](./../Rise%20of%20the%20Tomb%20Raider%2020%20Year%20Celebration.html)
+> #action,#action-adventure,#adventure,#controller-support,#epic,#game,#multiplayer,#owned,#pc,#single-player
+
 [Rocket League](./../Rocket%20League.html)
 > #co-op,#competitive,#epic,#game,#multiplayer,#owned,#pc,#racing,#single-player,#sports
 
 [Rogue Company](./../Rogue%20Company.html)
 > #action,#co-op,#competitive,#controller-support,#epic,#game,#multiplayer,#owned,#pc,#shooter,#single-player
+
+[Shadow of the Tomb Raider Definitive Edition](./../Shadow%20of%20the%20Tomb%20Raider%20Definitive%20Edition.html)
+> #action,#adventure,#controller-support,#epic,#game,#owned,#pc,#single-player
 
 [Shadow Tactics](./../Shadow%20Tactics.html)
 > #game,#gog,#owned,#pc,#single-player,#stealth,#strategy
@@ -275,11 +293,17 @@
 [Tiny Tinas Assault on Dragon Keep A Wonderlands One-shot Adventure](./../Tiny%20Tinas%20Assault%20on%20Dragon%20Keep%20A%20Wonderlands%20One-shot%20Adventure.html)
 > #action,#adventure,#co-op,#epic,#game,#multiplayer,#owned,#pc,#rpg,#single-player
 
+[Tomb Raider GOTY](./../Tomb%20Raider%20GOTY.html)
+> #action,#adventure,#controller-support,#epic,#game,#owned,#pc,#single-player
+
 [Train Sim World 2](./../Train%20Sim%20World%202.html)
 > #controller-support,#epic,#game,#owned,#pc,#simulation,#single-player
 
 [Tropico 5](./../Tropico%205.html)
 > #epic,#game,#multiplayer,#owned,#pc,#rpg,#simulation,#single-player,#strategy
+
+[Vampyr](./../Vampyr.html)
+> #action,#controller-support,#epic,#game,#owned,#pc,#rpg,#single-player
 
 [Verdun](./../Verdun.html)
 > #action,#co-op,#controller-support,#epic,#game,#multiplayer,#owned,#pc,#shooter,#single-player
@@ -304,6 +328,9 @@
 
 [Wilmots Warehouse](./../Wilmots%20Warehouse.html)
 > #co-op,#controller-support,#epic,#game,#indie,#owned,#pc,#puzzle,#single-player
+
+[X-Morph Defense](./../X-Morph%20Defense.html)
+> #action,#co-op,#controller-support,#game,#gog,#indie,#owned,#pc,#single-player,#strategy
 
 [Yokus Island Express](./../Yokus%20Island%20Express.html)
 > #action,#adventure,#epic,#game,#indie,#owned,#pc,#single-player
