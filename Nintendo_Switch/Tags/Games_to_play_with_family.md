@@ -1,7 +1,5 @@
 ## 4 player:
 
-[Death Squared](./../Death%20Squared.html)
-
 [Astro Bears](./../Astro%20Bears.html)
 
 [Jumping Joe & Friends](./../Jumping%20Joe%20&%20Friends.html)
@@ -14,10 +12,6 @@
 
 [Tumblestone](./../Tumblestone.html)
 
-[Urban Flow](./../Urban%20Flow.html)
-
-[Conduct Together](./../Conduct%20Together.html)
-
 [Super Jumpy Ball](./../Super%20Jumpy%20Ball.html)
 
 [Flat Heroes](./../Flat%20Heroes.html)
@@ -27,8 +21,6 @@
 
 
 ## 4 player Co-op:
-
-[BFF or Die](./../BFF%20or%20Die.html)
 
 [Soul Searching](./../Soul%20Searching.html)
 
@@ -87,6 +79,14 @@
 
 
 ## Played before:
+
+[Death Squared](./../Death%20Squared.html)
+
+[BFF or Die](./../BFF%20or%20Die.html)
+
+[Urban Flow](./../Urban%20Flow.html)
+
+[Conduct Together](./../Conduct%20Together.html)
 
 [Party Treats](./../Party%20Treats.html)
 
