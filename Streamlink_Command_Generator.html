@@ -55,17 +55,16 @@
 		<select class="width-narrow" id="urlList">
 			<option></option>
 			<option value="chocotaco">ChocoTaco</option>
-			<option value="runmannyrun">Manny</option>
-			<option value="karenhoneybee">HoneyBee</option>
 			<option value="ryukahr">Ryukahr</option>
 			<option value="dgr_dave">DGR_Dave</option>
-			<option value="thedragonfeeney">TheDragonFeeney</option>
 			<option value="reid">Reid</option>
+			<option value="reid">thedragonfeeney</option>
+			<option value="reid">krucifries</option>
+			<option value="reid">one_shot_gurl</option>
+			<option value="reid">julien</option>
+			<option value="reid">mykehurley</option>
+			<option value="reid">relayfm</option>
 			<option value="iamfallfromgrace">IAmFallFromGrace</option>
-			<option value="lil_lexi">Lil Lexi</option>
-			<option value="willshayhan">Will Shayhan</option>
-			<option value="mykehurley">Myke Hurley</option>
-			<option value="ismh">Stephen Hackett</option>
 			<option value="youtube">Youtube</option>
 		</select></div></p>
 
@@ -90,6 +89,31 @@
 				var endAt = document.getElementById("endAt").value.replace(" ", "_");
 				if (url.indexOf("twitch.tv") != -1)
 					{
+					if (url.indexOf("/videos/") == -1)
+						{
+						if (confirm("This is not a video url\n\nAre you sure this is correct?") != true)
+							return;
+						}
+					if (((offset == "") || (offset == "00:00:00") || (endAt == "") || (endAt == "00:00:00")) && (url.indexOf("t=") != -1))
+						{
+						var timeStamp = url.match(/t=(\d+)h(\d+)m(\d+)s/);
+						if ((timeStamp) && (timeStamp.length > 2) && (timeStamp[1] != "") && (timeStamp[2] != "") && (timeStamp[3] != ""))
+							{
+							if (confirm("Use timeStamp from url?\n\n" + timeStamp[1] + ":" + timeStamp[2] + ":" + timeStamp[3]) == true)
+								{
+								if (timeStamp[1] < 10)
+									timeStamp[1] = "0" + timeStamp[1]
+								if (timeStamp[2] < 10)
+									timeStamp[2] = "0" + timeStamp[2]
+								if (timeStamp[3] < 10)
+									timeStamp[3] = "0" + timeStamp[3]
+								if (confirm("Choose 'Yes' to use as start offset\n\nChoose 'Cancel' to use as end at time") == true)
+									offset = timeStamp[1] + ":" + timeStamp[2] + ":" + timeStamp[3];
+								else
+									endAt = timeStamp[1] + ":" + timeStamp[2] + ":" + timeStamp[3];
+								}
+							}
+						}
 					url = url.replace(/\?.*/, '');
 					if ((channel == "") && (channel.indexOf("videos") == -1))
 						{
@@ -132,9 +156,9 @@
 						}
 					else
 						{
-						var youtubeDL = '"W:\\Youtube-dl\\youtube-dl.exe"';
-						var streamlink = '"W:\\Twitch Streamer\\Streamlink.exe"';
-						var folder = "Documents\\Misc\\";
+						var youtubeDL = "yt-dlp";
+						var streamlink = "streamlink";
+						var folder = "/run/media/pi/Pi_256/Twitch";
 						}
 					var fileName = folder + date + "_" + channel + ".mp4";
 					if (fileNameList.includes(fileName))
