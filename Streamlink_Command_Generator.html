@@ -158,7 +158,7 @@
 						{
 						var youtubeDL = "yt-dlp";
 						var streamlink = "streamlink";
-						var folder = "/run/media/pi/Pi_256/Twitch";
+						var folder = "/run/media/pi/Pi_256/Twitch/";
 						}
 					var fileName = folder + date + "_" + channel + ".mp4";
 					if (fileNameList.includes(fileName))
@@ -175,7 +175,7 @@
 						command += youtubeDL + ' "' + url + '" -o "' + fileName + '"';
 					else
 						{
-						command += streamlink + ' "' + url + '" 720p,720p30,720p60,best -o "' + fileName + '"';
+						command += streamlink + ' "' + url + '" 720p,720p30,720p60,best,source -o "' + fileName + '"';
 						if ((offset != "") && (offset != "00:00:00"))
 							command += " --hls-start-offset " + offset;
 						if ((endAt != "") && (endAt != "00:00:00"))
