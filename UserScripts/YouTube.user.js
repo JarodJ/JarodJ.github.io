@@ -1,11 +1,8 @@
 // ==UserScript==
 // @name         YouTube
 // @match        https://www.youtube.com/watch?*
-// @match        https://gaming.youtube.com/watch?*
 // @grant        none
 // ==/UserScript==
-
-// javascript:(function(){document.body.appendChild(document.createElement('script')).src='https://JarodJ.github.io/UserScripts/YouTube.user.js?v=3';})();
 
 (function()
 	{
@@ -51,6 +48,7 @@
 		}
 	function addSpeedButton(searchBox)
 		{
+		// console.log("adding");
 		if (!document.getElementById("speedBox"))
 			{
 			var speedLabel = document.createElement("div");
@@ -88,6 +86,7 @@
 			pipButton.innerText = "PiP";
 			pipButton.addEventListener("click", pipEvent);
 			searchBox.insertBefore(pipButton, searchBox.firstChild);
+			// console.log("added");
 			}
 		}
 	function waitToLoad()
@@ -104,27 +103,27 @@
 						searchBox = document.getElementById("primary");
 					}
 				}
-			else if (document.getElementById("search"))
-				searchBox = document.getElementById("search");
-			else if (document.getElementById("search-container"))
-				searchBox = document.getElementById("search-container");
-			else if (document.querySelector('[section-identifier="related-items"]'))
-				searchBox = document.querySelector('[section-identifier="related-items"]');
+			// else if (document.getElementById("search"))
+				// searchBox = document.getElementById("search");
+			// else if (document.getElementById("search-container"))
+				// searchBox = document.getElementById("search-container");
+			// else if (document.querySelector('[section-identifier="related-items"]'))
+				// searchBox = document.querySelector('[section-identifier="related-items"]');
 			else
 				{
-				/*
 				counter += 1;
 				if (counter <= 15)
 					waitToLoad();
 				else
 					searchBox = document.body;
-				*/
-				searchBox = document.body;
+				// searchBox = document.body;
 				}
 			if (searchBox)
 				{
+				// console.log(searchBox);
 				addSpeedButton(searchBox);
-				makeVideoFixedPos()
+                setResolution()
+				makeVideoFixedPos();
 				}
 			}, 500);
 		}
@@ -139,7 +138,7 @@
 	else
 		document.addEventListener("visibilitychange", handleVisibilityChange, false);
 */
-function isRendered(domObj) 
+function isRendered(domObj)
 	{
 	if ((domObj.nodeType != 1) || (domObj == document.body))
 		return true;
@@ -170,7 +169,21 @@ function makeVideoFixedPos()
 			if (document.getElementById("columns"))
 				document.getElementById("columns").style.marginTop = "0";
 			}
-		}	
+		}
 	}
+function setResolution()
+    {
+    if ((document.getElementsByClassName("html5-video-player")) && (document.getElementsByClassName("html5-video-player")[0].wrappedJSObject))
+        {
+        // const resolutions = ['highres', 'hd2880', 'hd2160', 'hd1440', 'hd1080', 'hd720', 'large', 'medium', 'small', 'tiny'];
+        // const heights = [4320, 2880, 2160, 1440, 1080, 720, 480, 360, 270, 270];
+        // var availableResolutions = document.getElementsByClassName("html5-video-player")[0].wrappedJSObject.getAvailableQualityLevels();
+        var quality = "large"
+        var currentQuality = document.getElementsByClassName("html5-video-player")[0].wrappedJSObject.getPlaybackQuality();
+        if ((currentQuality != "") && (currentQuality != quality))
+            document.getElementsByClassName("html5-video-player")[0].wrappedJSObject.setPlaybackQualityRange(quality);
+        }
+    }
+// console.log("running");
 waitToLoad();
 })();
