@@ -1,6 +1,6 @@
 # Notes tagged with "hotlist"
 
-### _(29 Notes_)
+### _(32 Notes_)
 
 [Akane](./../Akane.html)
 > #action,#arcade,#fighting,#game,#hotlist,#owned,#solo,#switch
@@ -28,6 +28,9 @@
 
 [Human Fall Flat](./../Human%20Fall%20Flat.html)
 > #adventure,#co-op,#game,#hotlist,#owned,#platformer,#puzzle,#switch
+
+[Into the Breach](./../Into%20the%20Breach.html)
+> #boardgame,#game,#hotlist,#indie,#owned,#puzzle,#role-playing,#solo,#strategy,#switch
 
 [Luigi’s Mansion 3](./../Luigi’s%20Mansion%203.html)
 > #action,#adventure,#co-op,#game,#hotlist,#owned,#switch
@@ -83,9 +86,15 @@
 [The Warlock of Firetop Mountain Goblin Scourge Edition!](./../The%20Warlock%20of%20Firetop%20Mountain%20Goblin%20Scourge%20Edition!.html)
 > #adventure,#boardgame,#game,#hotlist,#owned,#role-playing,#solo,#switch
 
+[Thief Simulator](./../Thief%20Simulator.html)
+> #adventure,#game,#hotlist,#owned,#simulation,#solo,#strategy,#switch
+
 [Tricky Towers](./../Tricky%20Towers.html)
 > #game,#hotlist,#multiplayer,#owned,#party,#puzzle,#switch
 
 [Wargroove](./../Wargroove.html)
 > #game,#hotlist,#indie,#multiplayer,#owned,#solo,#strategy,#switch
+
+[Warlocks Tower](./../Warlocks%20Tower.html)
+> #adventure,#arcade,#game,#hotlist,#owned,#puzzle,#strategy,#switch
 

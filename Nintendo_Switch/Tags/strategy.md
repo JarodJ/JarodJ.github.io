@@ -1,6 +1,6 @@
 # Notes tagged with "strategy"
 
-### _(24 Notes_)
+### _(26 Notes_)
 
 [2048 Battles](./../2048%20Battles.html)
 > #game,#multiplayer,#owned,#party,#puzzle,#strategy,#switch
@@ -39,7 +39,7 @@
 > #action,#arcade,#co-op,#game,#multiplayer,#owned,#platformer,#strategy,#switch
 
 [Into the Breach](./../Into%20the%20Breach.html)
-> #boardgame,#game,#indie,#owned,#puzzle,#role-playing,#solo,#strategy,#switch
+> #boardgame,#game,#hotlist,#indie,#owned,#puzzle,#role-playing,#solo,#strategy,#switch
 
 [Katana ZERO](./../Katana%20ZERO.html)
 > #action,#arcade,#game,#indie,#owned,#platformer,#solo,#strategy,#switch
@@ -68,10 +68,15 @@
 [The Escapists 2](./../The%20Escapists%202.html)
 > #co-op,#game,#hotlist,#owned,#role-playing,#simulation,#strategy,#switch
 
+[Thief Simulator](./../Thief%20Simulator.html)
+> #adventure,#game,#hotlist,#owned,#simulation,#solo,#strategy,#switch
+
 [Wargroove](./../Wargroove.html)
 > #game,#hotlist,#indie,#multiplayer,#owned,#solo,#strategy,#switch
 
+[Warlocks Tower](./../Warlocks%20Tower.html)
+> #adventure,#arcade,#game,#hotlist,#owned,#puzzle,#strategy,#switch
+
 [Wayout](./../Wayout.html)
 > #boardgame,#game,#owned,#puzzle,#solo,#strategy,#switch
-
 

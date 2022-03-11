@@ -1,6 +1,6 @@
 # Notes tagged with "simulation"
 
-### _(21 Notes_)
+### _(22 Notes_)
 
 [Bomber Crew](./../Bomber%20Crew.html)
 > #game,#owned,#simulation,#solo,#strategy,#switch
@@ -59,10 +59,12 @@
 [The Escapists 2](./../The%20Escapists%202.html)
 > #co-op,#game,#hotlist,#owned,#role-playing,#simulation,#strategy,#switch
 
+[Thief Simulator](./../Thief%20Simulator.html)
+> #adventure,#game,#hotlist,#owned,#simulation,#solo,#strategy,#switch
+
 [Ultimate Fishing Simulator](./../Ultimate%20Fishing%20Simulator.html)
 > #adventure,#game,#owned,#simulation,#solo,#switch
 
 [Urban Flow](./../Urban%20Flow.html)
 > #arcade,#game,#multiplayer,#owned,#puzzle,#simulation,#switch
-
 

@@ -1,6 +1,6 @@
 # Notes tagged with "solo"
 
-### _(63 Notes_)
+### _(64 Notes_)
 
 [A Duel Hand Disaster Trackher](./../A%20Duel%20Hand%20Disaster%20Trackher.html)
 > #action,#arcade,#game,#owned,#solo,#switch
@@ -78,7 +78,7 @@
 > #action,#arcade,#game,#owned,#solo,#switch
 
 [Into the Breach](./../Into%20the%20Breach.html)
-> #boardgame,#game,#indie,#owned,#puzzle,#role-playing,#solo,#strategy,#switch
+> #boardgame,#game,#hotlist,#indie,#owned,#puzzle,#role-playing,#solo,#strategy,#switch
 
 [Katana ZERO](./../Katana%20ZERO.html)
 > #action,#arcade,#game,#indie,#owned,#platformer,#solo,#strategy,#switch
@@ -173,6 +173,9 @@
 [The Warlock of Firetop Mountain Goblin Scourge Edition!](./../The%20Warlock%20of%20Firetop%20Mountain%20Goblin%20Scourge%20Edition!.html)
 > #adventure,#boardgame,#game,#hotlist,#owned,#role-playing,#solo,#switch
 
+[Thief Simulator](./../Thief%20Simulator.html)
+> #adventure,#game,#hotlist,#owned,#simulation,#solo,#strategy,#switch
+
 [Toki Tori](./../Toki%20Tori.html)
 > #game,#owned,#platformer,#puzzle,#solo,#switch
 
@@ -190,5 +193,4 @@
 
 [Zombie Blast Crew](./../Zombie%20Blast%20Crew.html)
 > #action,#adventure,#arcade,#game,#owned,#solo,#switch
-
 

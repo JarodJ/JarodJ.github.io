@@ -1,6 +1,6 @@
 # Notes tagged with "arcade"
 
-### _(72 Notes_)
+### _(73 Notes_)
 
 [A Duel Hand Disaster Trackher](./../A%20Duel%20Hand%20Disaster%20Trackher.html)
 > #action,#arcade,#game,#owned,#solo,#switch
@@ -208,6 +208,9 @@
 
 [Urban Flow](./../Urban%20Flow.html)
 > #arcade,#game,#multiplayer,#owned,#puzzle,#simulation,#switch
+
+[Warlocks Tower](./../Warlocks%20Tower.html)
+> #adventure,#arcade,#game,#hotlist,#owned,#puzzle,#strategy,#switch
 
 [Wreckin Ball Adventure](./../Wreckin%20Ball%20Adventure.html)
 > #arcade,#co-op,#game,#multiplayer,#owned,#platformer,#puzzle,#switch

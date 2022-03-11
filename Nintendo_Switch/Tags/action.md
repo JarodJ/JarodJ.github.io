@@ -1,6 +1,6 @@
 # Notes tagged with "action"
 
-### _(91 Notes_)
+### _(92 Notes_)
 
 [A Duel Hand Disaster Trackher](./../A%20Duel%20Hand%20Disaster%20Trackher.html)
 > #action,#arcade,#game,#owned,#solo,#switch
@@ -109,6 +109,9 @@
 
 [Lazy Galaxy Rebel Story](./../Lazy%20Galaxy%20Rebel%20Story.html)
 > #action,#arcade,#co-op,#game,#owned,#switch
+
+[LEGO CITY Undercover](./../LEGO%20CITY%20Undercover.html)
+> #action,#co-op,#game,#owned,#switch
 
 [Lichtspeer Double Speer Edition](./../Lichtspeer%20Double%20Speer%20Edition.html)
 > #action,#arcade,#co-op,#game,#owned,#party,#switch

@@ -76,6 +76,8 @@
 
 [Seeders Puzzle Reboot](./../Seeders%20Puzzle%20Reboot.html)
 
+[Warlocks Tower](./../Warlocks%20Tower.html)
+
 
 
 ## Played before:
@@ -112,11 +114,11 @@
 
 [Human Fall Flat](./../Human%20Fall%20Flat.html)
 
-[ibb & obb](./../ibb%20&%20obb.html)
-
 [Jim is Moving Out!](./../Jim%20is%20Moving%20Out!.html)
 
 [Koloro](./../Koloro.html)
+
+[LEGO CITY Undercover](./../LEGO%20CITY%20Undercover.html)
 
 [Luigi’s Mansion 3](./../Luigi’s%20Mansion%203.html)
 

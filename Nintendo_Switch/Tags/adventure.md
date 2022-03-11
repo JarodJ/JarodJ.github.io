@@ -1,6 +1,6 @@
 # Notes tagged with "adventure"
 
-### _(51 Notes_)
+### _(53 Notes_)
 
 [A Dark Room](./../A%20Dark%20Room.html)
 > #adventure,#co-op,#game,#owned,#role-playing,#strategy,#switch
@@ -143,6 +143,9 @@
 [The Warlock of Firetop Mountain Goblin Scourge Edition!](./../The%20Warlock%20of%20Firetop%20Mountain%20Goblin%20Scourge%20Edition!.html)
 > #adventure,#boardgame,#game,#hotlist,#owned,#role-playing,#solo,#switch
 
+[Thief Simulator](./../Thief%20Simulator.html)
+> #adventure,#game,#hotlist,#owned,#simulation,#solo,#strategy,#switch
+
 [Transistor](./../Transistor.html)
 > #action,#adventure,#game,#indie,#owned,#role-playing,#solo,#switch
 
@@ -151,6 +154,9 @@
 
 [Unravel Two](./../Unravel%20Two.html)
 > #adventure,#co-op,#game,#in-progress,#indie,#owned,#platformer,#puzzle,#switch
+
+[Warlocks Tower](./../Warlocks%20Tower.html)
+> #adventure,#arcade,#game,#hotlist,#owned,#puzzle,#strategy,#switch
 
 [Zombie Blast Crew](./../Zombie%20Blast%20Crew.html)
 > #action,#adventure,#arcade,#game,#owned,#solo,#switch

@@ -48,7 +48,7 @@
 > #adventure,#co-op,#game,#hotlist,#owned,#platformer,#puzzle,#switch
 
 [ibb & obb](./../ibb%20&%20obb.html)
-> #co-op,#game,#owned,#platformer,#puzzle,#switch
+> #co-op,#game,#in-progress,#owned,#platformer,#puzzle,#switch
 
 [INK](./../INK.html)
 > #action,#arcade,#co-op,#game,#owned,#platformer,#switch

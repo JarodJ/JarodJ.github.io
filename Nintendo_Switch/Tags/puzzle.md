@@ -1,6 +1,6 @@
 # Notes tagged with "puzzle"
 
-### _(59 Notes_)
+### _(60 Notes_)
 
 [2048 Battles](./../2048%20Battles.html)
 > #game,#multiplayer,#owned,#party,#puzzle,#strategy,#switch
@@ -45,7 +45,7 @@
 > #game,#multiplayer,#owned,#puzzle,#switch
 
 [Death Squared](./../Death%20Squared.html)
-> #co-op,#game,#hotlist,#multiplayer,#owned,#party,#puzzle,#switch
+> #co-op,#game,#multiplayer,#owned,#party,#puzzle,#switch
 
 [Deaths Hangover](./../Deaths%20Hangover.html)
 > #action,#arcade,#co-op,#game,#hotlist,#owned,#platformer,#puzzle,#switch
@@ -78,10 +78,10 @@
 > #action,#adventure,#arcade,#game,#multiplayer,#owned,#puzzle,#switch
 
 [ibb & obb](./../ibb%20&%20obb.html)
-> #co-op,#game,#owned,#platformer,#puzzle,#switch
+> #co-op,#game,#in-progress,#owned,#platformer,#puzzle,#switch
 
 [Into the Breach](./../Into%20the%20Breach.html)
-> #boardgame,#game,#indie,#owned,#puzzle,#role-playing,#solo,#strategy,#switch
+> #boardgame,#game,#hotlist,#indie,#owned,#puzzle,#role-playing,#solo,#strategy,#switch
 
 [Jim is Moving Out!](./../Jim%20is%20Moving%20Out!.html)
 > #arcade,#co-op,#game,#owned,#platformer,#puzzle,#switch
@@ -170,6 +170,9 @@
 [Urban Flow](./../Urban%20Flow.html)
 > #arcade,#game,#multiplayer,#owned,#puzzle,#simulation,#switch
 
+[Warlocks Tower](./../Warlocks%20Tower.html)
+> #adventure,#arcade,#game,#hotlist,#owned,#puzzle,#strategy,#switch
+
 [Watermelon Party](./../Watermelon%20Party.html)
 > #action,#game,#multiplayer,#owned,#party,#puzzle,#switch
 
@@ -178,5 +181,4 @@
 
 [Wreckin Ball Adventure](./../Wreckin%20Ball%20Adventure.html)
 > #arcade,#co-op,#game,#multiplayer,#owned,#platformer,#puzzle,#switch
-
 
