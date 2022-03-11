@@ -1,6 +1,6 @@
 ---
 tags: [#survival,#city-builder,#strategy,#controller-support,#single-player,#epic,#game,#owned,#pc]
-created: '2021-03-11'
+created: '2022-03-04'
 title: 'Surviving Mars'
 ---
 # Surviving Mars

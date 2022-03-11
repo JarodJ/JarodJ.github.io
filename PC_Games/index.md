@@ -1,6 +1,6 @@
 # My PC Game Library
 
-### _(187 Notes_)
+### _(204 Notes_)
 
 [20XX](./20XX.html)
 > #co-op,#platformer,#rogue-lite
@@ -65,6 +65,9 @@
 [Battlefield V](./Battlefield%20V.html)
 > #action,#adventure,#first-person,#origin,#shooter
 
+[Black Widow Recharged](./Black%20Widow%20Recharged.html)
+> #action,#controller-support,#shooter
+
 [Blair Witch](./Blair%20Witch.html)
 > #first-person,#horror
 
@@ -77,11 +80,20 @@
 [Bridge Constructor The Walking Dead](./Bridge%20Constructor%20The%20Walking%20Dead.html)
 > #puzzle,#simulation,#single-player,#strategy
 
+[Brothers - A Tale of Two Sons](./Brothers%20-%20A%20Tale%20of%20Two%20Sons.html)
+> #adventure,#single-player
+
 [Call of Juarez Gunslinger](./Call%20of%20Juarez%20Gunslinger.html)
 > #action,#fps,#steam,#story-rich,#western
 
 [Cave Story](./Cave%20Story.html)
 > #action,#adventure,#controller-support,#platformer
+
+[Centipede Recharged](./Centipede%20Recharged.html)
+> #action,#co-op,#shooter,#single-player
+
+[Century Age of Ashes](./Century%20Age%20of%20Ashes.html)
+> #action,#competitive,#multiplayer
 
 [Cities Skylines](./Cities%20Skylines.html)
 > #city-builder,#simulation,#single-player
@@ -101,11 +113,17 @@
 [Creature in the Well](./Creature%20in%20the%20Well.html)
 > #action,#indie,#single-player
 
+[Cris Tales](./Cris%20Tales.html)
+> #indie,#rpg,#single-player,#turn-based
+
 [CRSED FOAD](./CRSED%20FOAD.html)
 > #action,#co-op,#competitive,#multiplayer
 
 [Crying Suns](./Crying%20Suns.html)
 > #rpg,#single-player,#strategy
+
+[DAEMON X MACHINA](./DAEMON%20X%20MACHINA.html)
+> #action,#co-op,#competitive,#multiplayer,#single-player
 
 [Dandara Trials of Fear Edition](./Dandara%20Trials%20of%20Fear%20Edition.html)
 > #action,#platformer
@@ -121,6 +139,9 @@
 
 [Dead by Daylight](./Dead%20by%20Daylight.html)
 > #action,#multiplayer,#survival
+
+[Dear Esther](./Dear%20Esther.html)
+> #atmospheric,#exploration,#indie,#single-player,#steam,#walking-simulator
 
 [Defense Grid The Awakening](./Defense%20Grid%20The%20Awakening.html)
 > #simulation,#strategy
@@ -142,6 +163,9 @@
 
 [Enter the Gungeon](./Enter%20the%20Gungeon.html)
 > #action,#adventure,#controller-support,#indie,#single-player
+
+[Epic Slayer Kit](./Epic%20Slayer%20Kit.html)
+> 
 
 [Europa Universalis IV](./Europa%20Universalis%20IV.html)
 > #multiplayer,#simulation,#single-player,#strategy
@@ -175,6 +199,9 @@
 
 [Gods Trigger](./Gods%20Trigger.html)
 > #action,#indie
+
+[Gods Will Fall](./Gods%20Will%20Fall.html)
+> #action-adventure
 
 [Grand Theft Auto V](./Grand%20Theft%20Auto%20V.html)
 > #action,#adventure
@@ -247,6 +274,9 @@
 
 [Mable And The Wood](./Mable%20And%20The%20Wood.html)
 > #action,#adventure,#gog,#indie,#single-player
+
+[Madden NFL 22](./Madden%20NFL%2022.html)
+> #multiplayer,#origin,#sports
 
 [Mages of Mystralia](./Mages%20of%20Mystralia.html)
 > #action,#adventure,#indie,#single-player
@@ -362,6 +392,9 @@
 [Rebel Galaxy](./Rebel%20Galaxy.html)
 > #controller-support,#open-world,#rpg,#single-player
 
+[Relicta](./Relicta.html)
+> #narration,#puzzle,#single-player
+
 [Remnant From the Ashes](./Remnant%20From%20the%20Ashes.html)
 > #action,#co-op,#shooter
 
@@ -437,8 +470,14 @@
 [STAR WARS Battlefront II Celebration Edition](./STAR%20WARS%20Battlefront%20II%20Celebration%20Edition.html)
 > #action,#adventure,#co-op,#multiplayer,#shooter,#single-player
 
+[STAR WARS Jedi Fallen Order](./STAR%20WARS%20Jedi%20Fallen%20Order.html)
+> #action,#adventure,#controller-support,#origin,#single-player
+
 [STAR WARS Squadrons](./STAR%20WARS%20Squadrons.html)
 > #action,#multiplayer,#origin,#single-player
+
+[Stellaris](./Stellaris.html)
+> #gog,#multiplayer,#scr-fi,#single-player,#space,#strategy
 
 [Stick It To The Man](./Stick%20It%20To%20The%20Man.html)
 > #action,#adventure,#platformer
@@ -518,6 +557,9 @@
 [Torchlight II](./Torchlight%20II.html)
 > #action,#adventure,#co-op,#dungeon-crawler,#rpg
 
+[Total War WARHAMMER](./Total%20War%20WARHAMMER.html)
+> #action,#co-op,#multiplayer,#single-player,#strategy
+
 [Train Sim World 2](./Train%20Sim%20World%202.html)
 > #controller-support,#simulation,#single-player
 
@@ -554,11 +596,20 @@
 [Wilmots Warehouse](./Wilmots%20Warehouse.html)
 > #co-op,#controller-support,#indie,#puzzle,#single-player
 
+[Windbound](./Windbound.html)
+> #action,#action-adventure,#adventure,#indie,#rpg,#single-player,#survival
+
+[World War Z Aftermath](./World%20War%20Z%20Aftermath.html)
+> #action,#co-op,#controller-support,#multiplayer,#shooter,#single-player,#survival
+
 [X-Morph Defense](./X-Morph%20Defense.html)
 > #action,#co-op,#controller-support,#gog,#indie,#single-player,#strategy
 
 [Yokus Island Express](./Yokus%20Island%20Express.html)
 > #action,#adventure,#indie,#single-player
+
+[Yooka-Laylee and the Impossible Lair](./Yooka-Laylee%20and%20the%20Impossible%20Lair.html)
+> #adventure,#controller-support,#platformer,#single-player
 
 [Yooka-Laylee](./Yooka-Laylee.html)
 > #adventure,#controller-support,#indie,#multiplayer,#platformer,#single-player
