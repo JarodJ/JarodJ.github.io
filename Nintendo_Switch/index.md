@@ -1,6 +1,6 @@
 # My Nintendo Switch Game Library
 
-### _(174 Notes_)
+### _(177 Notes_)
 
 [2048 Battles](./2048%20Battles.html)
 > #multiplayer,#party,#puzzle,#strategy
@@ -183,13 +183,13 @@
 > #action,#adventure,#arcade,#multiplayer,#puzzle
 
 [ibb & obb](./ibb%20&%20obb.html)
-> #co-op,#platformer,#puzzle
+> #co-op,#in-progress,#platformer,#puzzle
 
 [INK](./INK.html)
 > #action,#arcade,#co-op,#platformer
 
 [Into the Breach](./Into%20the%20Breach.html)
-> #boardgame,#indie,#puzzle,#role-playing,#solo,#strategy
+> #boardgame,#hotlist,#indie,#puzzle,#role-playing,#solo,#strategy
 
 [INVERSUS Deluxe](./INVERSUS%20Deluxe.html)
 > #action,#arcade,#multiplayer,#party
@@ -223,6 +223,9 @@
 
 [Legendary Fishing](./Legendary%20Fishing.html)
 > #adventure,#lifestyle,#multiplayer,#simulation,#sports
+
+[LEGO CITY Undercover](./LEGO%20CITY%20Undercover.html)
+> #action,#co-op
 
 [Lichtspeer Double Speer Edition](./Lichtspeer%20Double%20Speer%20Edition.html)
 > #action,#arcade,#co-op,#party
@@ -467,6 +470,9 @@
 [The Warlock of Firetop Mountain Goblin Scourge Edition!](./The%20Warlock%20of%20Firetop%20Mountain%20Goblin%20Scourge%20Edition!.html)
 > #adventure,#boardgame,#hotlist,#role-playing,#solo
 
+[Thief Simulator](./Thief%20Simulator.html)
+> #adventure,#hotlist,#simulation,#solo,#strategy
+
 [Timberman VS](./Timberman%20VS.html)
 > #arcade,#multiplayer,#party,#sports
 
@@ -508,6 +514,9 @@
 
 [Wargroove](./Wargroove.html)
 > #hotlist,#indie,#multiplayer,#solo,#strategy
+
+[Warlocks Tower](./Warlocks%20Tower.html)
+> #adventure,#arcade,#hotlist,#puzzle,#strategy
 
 [Watermelon Party](./Watermelon%20Party.html)
 > #action,#multiplayer,#party,#puzzle

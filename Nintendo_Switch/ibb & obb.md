@@ -1,5 +1,5 @@
 ---
-tags: ['#switch','#game','#owned','#co-op','#puzzle','#platformer']
+tags: ['#co-op','#game','#in-progress','#owned','#platformer','#puzzle','#switch']
 created: '2020-12-08'
 title: 'ibb & obb'
 ---
