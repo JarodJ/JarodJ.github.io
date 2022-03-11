@@ -1,6 +1,6 @@
 # Notes tagged with "strategy"
 
-### _(39 Notes_)
+### _(41 Notes_)
 
 [A Total War Saga TROY](./../A%20Total%20War%20Saga%20TROY.html)
 > #epic,#game,#multiplayer,#owned,#pc,#single-player,#strategy
@@ -95,6 +95,9 @@
 [SpellForce 3 Versus Edition](./../SpellForce%203%20Versus%20Edition.html)
 > #epic,#game,#multiplayer,#owned,#pc,#rpg,#single-player,#strategy
 
+[Stellaris](./../Stellaris.html)
+> #game,#gog,#multiplayer,#owned,#pc,#scr-fi,#single-player,#space,#strategy
+
 [Surviving Mars](./../Surviving%20Mars.html)
 > #city-builder,#controller-support,#epic,#game,#owned,#pc,#single-player,#strategy,#survival
 
@@ -109,6 +112,9 @@
 
 [The Spectrum Retreat](./../The%20Spectrum%20Retreat.html)
 > #adventure,#controller-support,#epic,#game,#owned,#pc,#puzzle,#single-player,#strategy
+
+[Total War WARHAMMER](./../Total%20War%20WARHAMMER.html)
+> #action,#co-op,#epic,#game,#multiplayer,#owned,#pc,#single-player,#strategy
 
 [Tropico 5](./../Tropico%205.html)
 > #epic,#game,#multiplayer,#owned,#pc,#rpg,#simulation,#single-player,#strategy

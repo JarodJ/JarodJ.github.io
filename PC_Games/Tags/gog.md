@@ -1,6 +1,6 @@
 # Notes tagged with "gog"
 
-### _(7 Notes_)
+### _(8 Notes_)
 
 [Control](./../Control.html)
 > #action,#adventure,#epic,#game,#gog,#owned,#pc,#single-player
@@ -19,6 +19,9 @@
 
 [Shadow Tactics](./../Shadow%20Tactics.html)
 > #game,#gog,#owned,#pc,#single-player,#stealth,#strategy
+
+[Stellaris](./../Stellaris.html)
+> #game,#gog,#multiplayer,#owned,#pc,#scr-fi,#single-player,#space,#strategy
 
 [X-Morph Defense](./../X-Morph%20Defense.html)
 > #action,#co-op,#controller-support,#game,#gog,#indie,#owned,#pc,#single-player,#strategy

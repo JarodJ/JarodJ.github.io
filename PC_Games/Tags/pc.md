@@ -1,6 +1,6 @@
 # Notes tagged with "pc"
 
-### _(187 Notes_)
+### _(204 Notes_)
 
 [20XX](./../20XX.html)
 > #co-op,#epic,#game,#owned,#pc,#platformer,#rogue-lite
@@ -65,6 +65,9 @@
 [Battlefield V](./../Battlefield%20V.html)
 > #action,#adventure,#first-person,#game,#origin,#owned,#pc,#shooter
 
+[Black Widow Recharged](./../Black%20Widow%20Recharged.html)
+> #action,#controller-support,#epic,#game,#owned,#pc,#shooter
+
 [Blair Witch](./../Blair%20Witch.html)
 > #epic,#first-person,#game,#horror,#owned,#pc
 
@@ -77,11 +80,20 @@
 [Bridge Constructor The Walking Dead](./../Bridge%20Constructor%20The%20Walking%20Dead.html)
 > #epic,#game,#owned,#pc,#puzzle,#simulation,#single-player,#strategy
 
+[Brothers - A Tale of Two Sons](./../Brothers%20-%20A%20Tale%20of%20Two%20Sons.html)
+> #adventure,#epic,#game,#owned,#pc,#single-player
+
 [Call of Juarez Gunslinger](./../Call%20of%20Juarez%20Gunslinger.html)
 > #action,#fps,#game,#owned,#pc,#steam,#story-rich,#western
 
 [Cave Story](./../Cave%20Story.html)
 > #action,#adventure,#controller-support,#epic,#game,#owned,#pc,#platformer
+
+[Centipede Recharged](./../Centipede%20Recharged.html)
+> #action,#co-op,#epic,#game,#owned,#pc,#shooter,#single-player
+
+[Century Age of Ashes](./../Century%20Age%20of%20Ashes.html)
+> #action,#competitive,#epic,#game,#multiplayer,#owned,#pc
 
 [Cities Skylines](./../Cities%20Skylines.html)
 > #city-builder,#epic,#game,#owned,#pc,#simulation,#single-player
@@ -101,11 +113,17 @@
 [Creature in the Well](./../Creature%20in%20the%20Well.html)
 > #action,#epic,#game,#indie,#owned,#pc,#single-player
 
+[Cris Tales](./../Cris%20Tales.html)
+> #epic,#game,#indie,#owned,#pc,#rpg,#single-player,#turn-based
+
 [CRSED FOAD](./../CRSED%20FOAD.html)
 > #action,#co-op,#competitive,#epic,#game,#multiplayer,#owned,#pc
 
 [Crying Suns](./../Crying%20Suns.html)
 > #epic,#game,#owned,#pc,#rpg,#single-player,#strategy
+
+[DAEMON X MACHINA](./../DAEMON%20X%20MACHINA.html)
+> #action,#co-op,#competitive,#epic,#game,#multiplayer,#owned,#pc,#single-player
 
 [Dandara Trials of Fear Edition](./../Dandara%20Trials%20of%20Fear%20Edition.html)
 > #action,#epic,#game,#owned,#pc,#platformer
@@ -121,6 +139,9 @@
 
 [Dead by Daylight](./../Dead%20by%20Daylight.html)
 > #action,#epic,#game,#multiplayer,#owned,#pc,#survival
+
+[Dear Esther](./../Dear%20Esther.html)
+> #atmospheric,#exploration,#game,#indie,#owned,#pc,#single-player,#steam,#walking-simulator
 
 [Defense Grid The Awakening](./../Defense%20Grid%20The%20Awakening.html)
 > #epic,#game,#owned,#pc,#simulation,#strategy
@@ -142,6 +163,9 @@
 
 [Enter the Gungeon](./../Enter%20the%20Gungeon.html)
 > #action,#adventure,#controller-support,#epic,#game,#indie,#owned,#pc,#single-player
+
+[Epic Slayer Kit](./../Epic%20Slayer%20Kit.html)
+> #epic,#game,#owned,#pc
 
 [Europa Universalis IV](./../Europa%20Universalis%20IV.html)
 > #epic,#game,#multiplayer,#owned,#pc,#simulation,#single-player,#strategy
@@ -175,6 +199,9 @@
 
 [Gods Trigger](./../Gods%20Trigger.html)
 > #action,#epic,#game,#indie,#owned,#pc
+
+[Gods Will Fall](./../Gods%20Will%20Fall.html)
+> #action-adventure,#epic,#game,#owned,#pc
 
 [Grand Theft Auto V](./../Grand%20Theft%20Auto%20V.html)
 > #action,#adventure,#epic,#game,#owned,#pc
@@ -247,6 +274,9 @@
 
 [Mable And The Wood](./../Mable%20And%20The%20Wood.html)
 > #action,#adventure,#game,#gog,#indie,#owned,#pc,#single-player
+
+[Madden NFL 22](./../Madden%20NFL%2022.html)
+> #game,#multiplayer,#origin,#owned,#pc,#sports
 
 [Mages of Mystralia](./../Mages%20of%20Mystralia.html)
 > #action,#adventure,#epic,#game,#indie,#owned,#pc,#single-player
@@ -362,6 +392,9 @@
 [Rebel Galaxy](./../Rebel%20Galaxy.html)
 > #controller-support,#epic,#game,#open-world,#owned,#pc,#rpg,#single-player
 
+[Relicta](./../Relicta.html)
+> #epic,#game,#narration,#owned,#pc,#puzzle,#single-player
+
 [Remnant From the Ashes](./../Remnant%20From%20the%20Ashes.html)
 > #action,#co-op,#epic,#game,#owned,#pc,#shooter
 
@@ -437,8 +470,14 @@
 [STAR WARS Battlefront II Celebration Edition](./../STAR%20WARS%20Battlefront%20II%20Celebration%20Edition.html)
 > #action,#adventure,#co-op,#epic,#game,#multiplayer,#owned,#pc,#shooter,#single-player
 
+[STAR WARS Jedi Fallen Order](./../STAR%20WARS%20Jedi%20Fallen%20Order.html)
+> #action,#adventure,#controller-support,#game,#origin,#owned,#pc,#single-player
+
 [STAR WARS Squadrons](./../STAR%20WARS%20Squadrons.html)
 > #action,#game,#multiplayer,#origin,#owned,#pc,#single-player
+
+[Stellaris](./../Stellaris.html)
+> #game,#gog,#multiplayer,#owned,#pc,#scr-fi,#single-player,#space,#strategy
 
 [Stick It To The Man](./../Stick%20It%20To%20The%20Man.html)
 > #action,#adventure,#epic,#game,#owned,#pc,#platformer
@@ -518,6 +557,9 @@
 [Torchlight II](./../Torchlight%20II.html)
 > #action,#adventure,#co-op,#dungeon-crawler,#epic,#game,#owned,#pc,#rpg
 
+[Total War WARHAMMER](./../Total%20War%20WARHAMMER.html)
+> #action,#co-op,#epic,#game,#multiplayer,#owned,#pc,#single-player,#strategy
+
 [Train Sim World 2](./../Train%20Sim%20World%202.html)
 > #controller-support,#epic,#game,#owned,#pc,#simulation,#single-player
 
@@ -554,11 +596,20 @@
 [Wilmots Warehouse](./../Wilmots%20Warehouse.html)
 > #co-op,#controller-support,#epic,#game,#indie,#owned,#pc,#puzzle,#single-player
 
+[Windbound](./../Windbound.html)
+> #action,#action-adventure,#adventure,#epic,#game,#indie,#owned,#pc,#rpg,#single-player,#survival
+
+[World War Z Aftermath](./../World%20War%20Z%20Aftermath.html)
+> #action,#co-op,#controller-support,#epic,#game,#multiplayer,#owned,#pc,#shooter,#single-player,#survival
+
 [X-Morph Defense](./../X-Morph%20Defense.html)
 > #action,#co-op,#controller-support,#game,#gog,#indie,#owned,#pc,#single-player,#strategy
 
 [Yokus Island Express](./../Yokus%20Island%20Express.html)
 > #action,#adventure,#epic,#game,#indie,#owned,#pc,#single-player
+
+[Yooka-Laylee and the Impossible Lair](./../Yooka-Laylee%20and%20the%20Impossible%20Lair.html)
+> #adventure,#controller-support,#epic,#game,#owned,#pc,#platformer,#single-player
 
 [Yooka-Laylee](./../Yooka-Laylee.html)
 > #adventure,#controller-support,#epic,#game,#indie,#multiplayer,#owned,#pc,#platformer,#single-player

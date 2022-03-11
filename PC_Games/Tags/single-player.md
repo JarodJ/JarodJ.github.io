@@ -1,6 +1,6 @@
 # Notes tagged with "single-player"
 
-### _(112 Notes_)
+### _(124 Notes_)
 
 [3 out of 10 Season Two](./../3%20out%20of%2010%20Season%20Two.html)
 > #adventure,#comedy,#controller-support,#epic,#game,#owned,#pc,#single-player
@@ -44,6 +44,12 @@
 [Bridge Constructor The Walking Dead](./../Bridge%20Constructor%20The%20Walking%20Dead.html)
 > #epic,#game,#owned,#pc,#puzzle,#simulation,#single-player,#strategy
 
+[Brothers - A Tale of Two Sons](./../Brothers%20-%20A%20Tale%20of%20Two%20Sons.html)
+> #adventure,#epic,#game,#owned,#pc,#single-player
+
+[Centipede Recharged](./../Centipede%20Recharged.html)
+> #action,#co-op,#epic,#game,#owned,#pc,#shooter,#single-player
+
 [Cities Skylines](./../Cities%20Skylines.html)
 > #city-builder,#epic,#game,#owned,#pc,#simulation,#single-player
 
@@ -56,11 +62,20 @@
 [Creature in the Well](./../Creature%20in%20the%20Well.html)
 > #action,#epic,#game,#indie,#owned,#pc,#single-player
 
+[Cris Tales](./../Cris%20Tales.html)
+> #epic,#game,#indie,#owned,#pc,#rpg,#single-player,#turn-based
+
 [Crying Suns](./../Crying%20Suns.html)
 > #epic,#game,#owned,#pc,#rpg,#single-player,#strategy
 
+[DAEMON X MACHINA](./../DAEMON%20X%20MACHINA.html)
+> #action,#co-op,#competitive,#epic,#game,#multiplayer,#owned,#pc,#single-player
+
 [DARQ Complete Edition](./../DARQ%20Complete%20Edition.html)
 > #adventure,#epic,#game,#horror,#owned,#pc,#puzzle,#single-player
+
+[Dear Esther](./../Dear%20Esther.html)
+> #atmospheric,#exploration,#game,#indie,#owned,#pc,#single-player,#steam,#walking-simulator
 
 [Dungeons 3](./../Dungeons%203.html)
 > #epic,#game,#multiplayer,#owned,#pc,#single-player,#strategy
@@ -206,6 +221,9 @@
 [Rebel Galaxy](./../Rebel%20Galaxy.html)
 > #controller-support,#epic,#game,#open-world,#owned,#pc,#rpg,#single-player
 
+[Relicta](./../Relicta.html)
+> #epic,#game,#narration,#owned,#pc,#puzzle,#single-player
+
 [Rise of the Tomb Raider 20 Year Celebration](./../Rise%20of%20the%20Tomb%20Raider%2020%20Year%20Celebration.html)
 > #action,#action-adventure,#adventure,#controller-support,#epic,#game,#multiplayer,#owned,#pc,#single-player
 
@@ -245,8 +263,14 @@
 [STAR WARS Battlefront II Celebration Edition](./../STAR%20WARS%20Battlefront%20II%20Celebration%20Edition.html)
 > #action,#adventure,#co-op,#epic,#game,#multiplayer,#owned,#pc,#shooter,#single-player
 
+[STAR WARS Jedi Fallen Order](./../STAR%20WARS%20Jedi%20Fallen%20Order.html)
+> #action,#adventure,#controller-support,#game,#origin,#owned,#pc,#single-player
+
 [STAR WARS Squadrons](./../STAR%20WARS%20Squadrons.html)
 > #action,#game,#multiplayer,#origin,#owned,#pc,#single-player
+
+[Stellaris](./../Stellaris.html)
+> #game,#gog,#multiplayer,#owned,#pc,#scr-fi,#single-player,#space,#strategy
 
 [Stubbs the Zombie in Rebel Without a Pulse](./../Stubbs%20the%20Zombie%20in%20Rebel%20Without%20a%20Pulse.html)
 > #action,#co-op,#epic,#game,#owned,#pc,#single-player
@@ -296,6 +320,9 @@
 [Tomb Raider GOTY](./../Tomb%20Raider%20GOTY.html)
 > #action,#adventure,#controller-support,#epic,#game,#owned,#pc,#single-player
 
+[Total War WARHAMMER](./../Total%20War%20WARHAMMER.html)
+> #action,#co-op,#epic,#game,#multiplayer,#owned,#pc,#single-player,#strategy
+
 [Train Sim World 2](./../Train%20Sim%20World%202.html)
 > #controller-support,#epic,#game,#owned,#pc,#simulation,#single-player
 
@@ -329,11 +356,20 @@
 [Wilmots Warehouse](./../Wilmots%20Warehouse.html)
 > #co-op,#controller-support,#epic,#game,#indie,#owned,#pc,#puzzle,#single-player
 
+[Windbound](./../Windbound.html)
+> #action,#action-adventure,#adventure,#epic,#game,#indie,#owned,#pc,#rpg,#single-player,#survival
+
+[World War Z Aftermath](./../World%20War%20Z%20Aftermath.html)
+> #action,#co-op,#controller-support,#epic,#game,#multiplayer,#owned,#pc,#shooter,#single-player,#survival
+
 [X-Morph Defense](./../X-Morph%20Defense.html)
 > #action,#co-op,#controller-support,#game,#gog,#indie,#owned,#pc,#single-player,#strategy
 
 [Yokus Island Express](./../Yokus%20Island%20Express.html)
 > #action,#adventure,#epic,#game,#indie,#owned,#pc,#single-player
+
+[Yooka-Laylee and the Impossible Lair](./../Yooka-Laylee%20and%20the%20Impossible%20Lair.html)
+> #adventure,#controller-support,#epic,#game,#owned,#pc,#platformer,#single-player
 
 [Yooka-Laylee](./../Yooka-Laylee.html)
 > #adventure,#controller-support,#epic,#game,#indie,#multiplayer,#owned,#pc,#platformer,#single-player

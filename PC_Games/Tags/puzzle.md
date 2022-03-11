@@ -1,6 +1,6 @@
 # Notes tagged with "puzzle"
 
-### _(14 Notes_)
+### _(15 Notes_)
 
 [Bridge Constructor The Walking Dead](./../Bridge%20Constructor%20The%20Walking%20Dead.html)
 > #epic,#game,#owned,#pc,#puzzle,#simulation,#single-player,#strategy
@@ -28,6 +28,9 @@
 
 [Oddworld New n Tasty](./../Oddworld%20New%20n%20Tasty.html)
 > #action,#epic,#game,#owned,#pc,#platformer,#puzzle
+
+[Relicta](./../Relicta.html)
+> #epic,#game,#narration,#owned,#pc,#puzzle,#single-player
 
 [Tales of the Neon Sea](./../Tales%20of%20the%20Neon%20Sea.html)
 > #adventure,#controller-support,#epic,#game,#owned,#pc,#puzzle,#single-player

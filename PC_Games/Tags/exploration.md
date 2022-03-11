@@ -1,12 +1,15 @@
 # Notes tagged with "exploration"
 
-### _(7 Notes_)
+### _(8 Notes_)
 
 [ABZU](./../ABZU.html)
 > #adventure,#controller-support,#epic,#exploration,#game,#owned,#pc,#single-player
 
 [AER](./../AER.html)
 > #adventure,#epic,#exploration,#game,#open-world,#owned,#pc,#single-player
+
+[Dear Esther](./../Dear%20Esther.html)
+> #atmospheric,#exploration,#game,#indie,#owned,#pc,#single-player,#steam,#walking-simulator
 
 [Journey to the Savage Planet](./../Journey%20to%20the%20Savage%20Planet.html)
 > #action,#exploration,#game,#gog,#owned,#pc,#single-player

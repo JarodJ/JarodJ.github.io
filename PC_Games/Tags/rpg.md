@@ -1,12 +1,15 @@
 # Notes tagged with "rpg"
 
-### _(29 Notes_)
+### _(31 Notes_)
 
 [ARK Survival Evolved](./../ARK%20Survival%20Evolved.html)
 > #adventure,#epic,#game,#owned,#pc,#rpg,#single-player,#survival
 
 [Core](./../Core.html)
 > #action,#epic,#game,#owned,#pc,#rpg,#shooter
+
+[Cris Tales](./../Cris%20Tales.html)
+> #epic,#game,#indie,#owned,#pc,#rpg,#single-player,#turn-based
 
 [Crying Suns](./../Crying%20Suns.html)
 > #epic,#game,#owned,#pc,#rpg,#single-player,#strategy
@@ -88,4 +91,7 @@
 
 [Vampyr](./../Vampyr.html)
 > #action,#controller-support,#epic,#game,#owned,#pc,#rpg,#single-player
+
+[Windbound](./../Windbound.html)
+> #action,#action-adventure,#adventure,#epic,#game,#indie,#owned,#pc,#rpg,#single-player,#survival
 

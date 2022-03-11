@@ -1,13 +1,16 @@
 # My PC Game Library Tag List
 
 [#action](./action.html)
-> 74 Notes
+> 82 Notes
 
 [#action-adventure](./action-adventure.html)
-> 2 Notes
+> 4 Notes
 
 [#adventure](./adventure.html)
-> 58 Notes
+> 62 Notes
+
+[#atmospheric](./atmospheric.html)
+> 1 Notes
 
 [#card-game](./card-game.html)
 > 5 Notes
@@ -22,25 +25,25 @@
 > 4 Notes
 
 [#co-op](./co-op.html)
-> 33 Notes
+> 37 Notes
 
 [#comedy](./comedy.html)
 > 2 Notes
 
 [#competitive](./competitive.html)
-> 7 Notes
+> 9 Notes
 
 [#controller-support](./controller-support.html)
-> 39 Notes
+> 43 Notes
 
 [#dungeon-crawler](./dungeon-crawler.html)
 > 3 Notes
 
 [#epic](./epic.html)
-> 173 Notes
+> 186 Notes
 
 [#exploration](./exploration.html)
-> 7 Notes
+> 8 Notes
 
 [#fighting](./fighting.html)
 > 2 Notes
@@ -52,46 +55,46 @@
 > 1 Notes
 
 [#game](./game.html)
-> 187 Notes
+> 204 Notes
 
 [#gog](./gog.html)
-> 7 Notes
+> 8 Notes
 
 [#horror](./horror.html)
 > 6 Notes
 
 [#indie](./indie.html)
-> 37 Notes
+> 40 Notes
 
 [#management](./management.html)
 > 1 Notes
 
 [#multiplayer](./multiplayer.html)
-> 43 Notes
+> 49 Notes
 
 [#narration](./narration.html)
-> 4 Notes
+> 5 Notes
 
 [#open-world](./open-world.html)
 > 8 Notes
 
 [#origin](./origin.html)
-> 7 Notes
+> 9 Notes
 
 [#owned](./owned.html)
-> 187 Notes
+> 204 Notes
 
 [#party](./party.html)
 > 1 Notes
 
 [#pc](./pc.html)
-> 187 Notes
+> 204 Notes
 
 [#platformer](./platformer.html)
-> 13 Notes
+> 14 Notes
 
 [#puzzle](./puzzle.html)
-> 14 Notes
+> 15 Notes
 
 [#racing](./racing.html)
 > 4 Notes
@@ -103,40 +106,49 @@
 > 1 Notes
 
 [#rpg](./rpg.html)
-> 29 Notes
+> 31 Notes
+
+[#scr-fi](./scr-fi.html)
+> 1 Notes
 
 [#shooter](./shooter.html)
-> 25 Notes
+> 28 Notes
 
 [#simulation](./simulation.html)
 > 22 Notes
 
 [#single-player](./single-player.html)
-> 112 Notes
+> 124 Notes
 
 [#soccer](./soccer.html)
 > 1 Notes
 
+[#space](./space.html)
+> 1 Notes
+
 [#sports](./sports.html)
-> 3 Notes
+> 4 Notes
 
 [#stealth](./stealth.html)
 > 2 Notes
 
 [#steam](./steam.html)
-> 2 Notes
+> 3 Notes
 
 [#story-rich](./story-rich.html)
 > 2 Notes
 
 [#strategy](./strategy.html)
-> 39 Notes
+> 41 Notes
 
 [#survival](./survival.html)
-> 8 Notes
+> 10 Notes
 
 [#turn-based](./turn-based.html)
-> 9 Notes
+> 10 Notes
+
+[#walking-simulator](./walking-simulator.html)
+> 1 Notes
 
 [#western](./western.html)
 > 1 Notes

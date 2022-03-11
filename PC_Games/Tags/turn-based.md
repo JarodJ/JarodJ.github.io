@@ -1,9 +1,12 @@
 # Notes tagged with "turn-based"
 
-### _(9 Notes_)
+### _(10 Notes_)
 
 [Costume Quest 2](./../Costume%20Quest%202.html)
 > #action,#adventure,#epic,#game,#owned,#pc,#single-player,#turn-based
+
+[Cris Tales](./../Cris%20Tales.html)
+> #epic,#game,#indie,#owned,#pc,#rpg,#single-player,#turn-based
 
 [Darkest Dungeon](./../Darkest%20Dungeon.html)
 > #epic,#game,#owned,#pc,#rpg,#strategy,#turn-based

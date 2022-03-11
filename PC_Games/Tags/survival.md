@@ -1,6 +1,6 @@
 # Notes tagged with "survival"
 
-### _(8 Notes_)
+### _(10 Notes_)
 
 [ARK Survival Evolved](./../ARK%20Survival%20Evolved.html)
 > #adventure,#epic,#game,#owned,#pc,#rpg,#single-player,#survival
@@ -25,4 +25,10 @@
 
 [The Long Dark](./../The%20Long%20Dark.html)
 > #adventure,#epic,#game,#owned,#pc,#single-player,#survival
+
+[Windbound](./../Windbound.html)
+> #action,#action-adventure,#adventure,#epic,#game,#indie,#owned,#pc,#rpg,#single-player,#survival
+
+[World War Z Aftermath](./../World%20War%20Z%20Aftermath.html)
+> #action,#co-op,#controller-support,#epic,#game,#multiplayer,#owned,#pc,#shooter,#single-player,#survival
 

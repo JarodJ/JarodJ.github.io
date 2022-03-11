@@ -1,6 +1,6 @@
 # Notes tagged with "indie"
 
-### _(37 Notes_)
+### _(40 Notes_)
 
 [Absolute Drift](./../Absolute%20Drift.html)
 > #epic,#game,#indie,#owned,#pc,#racing,#single-player
@@ -16,6 +16,12 @@
 
 [Creature in the Well](./../Creature%20in%20the%20Well.html)
 > #action,#epic,#game,#indie,#owned,#pc,#single-player
+
+[Cris Tales](./../Cris%20Tales.html)
+> #epic,#game,#indie,#owned,#pc,#rpg,#single-player,#turn-based
+
+[Dear Esther](./../Dear%20Esther.html)
+> #atmospheric,#exploration,#game,#indie,#owned,#pc,#single-player,#steam,#walking-simulator
 
 [Enter the Gungeon](./../Enter%20the%20Gungeon.html)
 > #action,#adventure,#controller-support,#epic,#game,#indie,#owned,#pc,#single-player
@@ -103,6 +109,9 @@
 
 [Wilmots Warehouse](./../Wilmots%20Warehouse.html)
 > #co-op,#controller-support,#epic,#game,#indie,#owned,#pc,#puzzle,#single-player
+
+[Windbound](./../Windbound.html)
+> #action,#action-adventure,#adventure,#epic,#game,#indie,#owned,#pc,#rpg,#single-player,#survival
 
 [X-Morph Defense](./../X-Morph%20Defense.html)
 > #action,#co-op,#controller-support,#game,#gog,#indie,#owned,#pc,#single-player,#strategy

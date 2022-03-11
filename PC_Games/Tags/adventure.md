@@ -1,6 +1,6 @@
 # Notes tagged with "adventure"
 
-### _(58 Notes_)
+### _(62 Notes_)
 
 [3 out of 10 Season Two](./../3%20out%20of%2010%20Season%20Two.html)
 > #adventure,#comedy,#controller-support,#epic,#game,#owned,#pc,#single-player
@@ -25,6 +25,9 @@
 
 [Battlefield V](./../Battlefield%20V.html)
 > #action,#adventure,#first-person,#game,#origin,#owned,#pc,#shooter
+
+[Brothers - A Tale of Two Sons](./../Brothers%20-%20A%20Tale%20of%20Two%20Sons.html)
+> #adventure,#epic,#game,#owned,#pc,#single-player
 
 [Cave Story](./../Cave%20Story.html)
 > #action,#adventure,#controller-support,#epic,#game,#owned,#pc,#platformer
@@ -116,6 +119,9 @@
 [STAR WARS Battlefront II Celebration Edition](./../STAR%20WARS%20Battlefront%20II%20Celebration%20Edition.html)
 > #action,#adventure,#co-op,#epic,#game,#multiplayer,#owned,#pc,#shooter,#single-player
 
+[STAR WARS Jedi Fallen Order](./../STAR%20WARS%20Jedi%20Fallen%20Order.html)
+> #action,#adventure,#controller-support,#game,#origin,#owned,#pc,#single-player
+
 [Stick It To The Man](./../Stick%20It%20To%20The%20Man.html)
 > #action,#adventure,#epic,#game,#owned,#pc,#platformer
 
@@ -170,8 +176,14 @@
 [Where The Water Tastes Like Wine](./../Where%20The%20Water%20Tastes%20Like%20Wine.html)
 > #adventure,#epic,#game,#narration,#owned,#pc,#single-player
 
+[Windbound](./../Windbound.html)
+> #action,#action-adventure,#adventure,#epic,#game,#indie,#owned,#pc,#rpg,#single-player,#survival
+
 [Yokus Island Express](./../Yokus%20Island%20Express.html)
 > #action,#adventure,#epic,#game,#indie,#owned,#pc,#single-player
+
+[Yooka-Laylee and the Impossible Lair](./../Yooka-Laylee%20and%20the%20Impossible%20Lair.html)
+> #adventure,#controller-support,#epic,#game,#owned,#pc,#platformer,#single-player
 
 [Yooka-Laylee](./../Yooka-Laylee.html)
 > #adventure,#controller-support,#epic,#game,#indie,#multiplayer,#owned,#pc,#platformer,#single-player

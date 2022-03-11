@@ -1,6 +1,6 @@
 # Notes tagged with "controller-support"
 
-### _(39 Notes_)
+### _(43 Notes_)
 
 [3 out of 10 Season Two](./../3%20out%20of%2010%20Season%20Two.html)
 > #adventure,#comedy,#controller-support,#epic,#game,#owned,#pc,#single-player
@@ -10,6 +10,9 @@
 
 [Among the Sleep - Enhanced Edition](./../Among%20the%20Sleep%20-%20Enhanced%20Edition.html)
 > #adventure,#controller-support,#epic,#game,#horror,#indie,#owned,#pc
+
+[Black Widow Recharged](./../Black%20Widow%20Recharged.html)
+> #action,#controller-support,#epic,#game,#owned,#pc,#shooter
 
 [Cave Story](./../Cave%20Story.html)
 > #action,#adventure,#controller-support,#epic,#game,#owned,#pc,#platformer
@@ -80,6 +83,9 @@
 [Speed Brawl](./../Speed%20Brawl.html)
 > #action,#co-op,#controller-support,#epic,#fighting,#game,#multiplayer,#owned,#pc,#platformer,#single-player
 
+[STAR WARS Jedi Fallen Order](./../STAR%20WARS%20Jedi%20Fallen%20Order.html)
+> #action,#adventure,#controller-support,#game,#origin,#owned,#pc,#single-player
+
 [Surviving Mars](./../Surviving%20Mars.html)
 > #city-builder,#controller-support,#epic,#game,#owned,#pc,#single-player,#strategy,#survival
 
@@ -113,8 +119,14 @@
 [Wilmots Warehouse](./../Wilmots%20Warehouse.html)
 > #co-op,#controller-support,#epic,#game,#indie,#owned,#pc,#puzzle,#single-player
 
+[World War Z Aftermath](./../World%20War%20Z%20Aftermath.html)
+> #action,#co-op,#controller-support,#epic,#game,#multiplayer,#owned,#pc,#shooter,#single-player,#survival
+
 [X-Morph Defense](./../X-Morph%20Defense.html)
 > #action,#co-op,#controller-support,#game,#gog,#indie,#owned,#pc,#single-player,#strategy
+
+[Yooka-Laylee and the Impossible Lair](./../Yooka-Laylee%20and%20the%20Impossible%20Lair.html)
+> #adventure,#controller-support,#epic,#game,#owned,#pc,#platformer,#single-player
 
 [Yooka-Laylee](./../Yooka-Laylee.html)
 > #adventure,#controller-support,#epic,#game,#indie,#multiplayer,#owned,#pc,#platformer,#single-player

@@ -1,6 +1,6 @@
 # Notes tagged with "multiplayer"
 
-### _(43 Notes_)
+### _(49 Notes_)
 
 [A Total War Saga TROY](./../A%20Total%20War%20Saga%20TROY.html)
 > #epic,#game,#multiplayer,#owned,#pc,#single-player,#strategy
@@ -11,11 +11,17 @@
 [Auto Chess](./../Auto%20Chess.html)
 > #epic,#game,#multiplayer,#owned,#pc,#strategy
 
+[Century Age of Ashes](./../Century%20Age%20of%20Ashes.html)
+> #action,#competitive,#epic,#game,#multiplayer,#owned,#pc
+
 [Crayta](./../Crayta.html)
 > #action,#epic,#game,#multiplayer,#owned,#pc
 
 [CRSED FOAD](./../CRSED%20FOAD.html)
 > #action,#co-op,#competitive,#epic,#game,#multiplayer,#owned,#pc
+
+[DAEMON X MACHINA](./../DAEMON%20X%20MACHINA.html)
+> #action,#co-op,#competitive,#epic,#game,#multiplayer,#owned,#pc,#single-player
 
 [Dauntless](./../Dauntless.html)
 > #action,#controller-support,#epic,#game,#multiplayer,#owned,#pc,#rpg
@@ -46,6 +52,9 @@
 
 [Killing Floor 2](./../Killing%20Floor%202.html)
 > #action,#co-op,#epic,#first-person,#game,#horror,#multiplayer,#owned,#pc,#shooter,#survival
+
+[Madden NFL 22](./../Madden%20NFL%2022.html)
+> #game,#multiplayer,#origin,#owned,#pc,#sports
 
 [Magic The Gathering Arena](./../Magic%20The%20Gathering%20Arena.html)
 > #card-game,#epic,#game,#multiplayer,#owned,#pc,#strategy
@@ -110,11 +119,17 @@
 [STAR WARS Squadrons](./../STAR%20WARS%20Squadrons.html)
 > #action,#game,#multiplayer,#origin,#owned,#pc,#single-player
 
+[Stellaris](./../Stellaris.html)
+> #game,#gog,#multiplayer,#owned,#pc,#scr-fi,#single-player,#space,#strategy
+
 [theHunter Call of the Wild](./../theHunter%20Call%20of%20the%20Wild.html)
 > #co-op,#epic,#first-person,#game,#multiplayer,#open-world,#owned,#pc,#simulation,#single-player
 
 [Tiny Tinas Assault on Dragon Keep A Wonderlands One-shot Adventure](./../Tiny%20Tinas%20Assault%20on%20Dragon%20Keep%20A%20Wonderlands%20One-shot%20Adventure.html)
 > #action,#adventure,#co-op,#epic,#game,#multiplayer,#owned,#pc,#rpg,#single-player
+
+[Total War WARHAMMER](./../Total%20War%20WARHAMMER.html)
+> #action,#co-op,#epic,#game,#multiplayer,#owned,#pc,#single-player,#strategy
 
 [Tropico 5](./../Tropico%205.html)
 > #epic,#game,#multiplayer,#owned,#pc,#rpg,#simulation,#single-player,#strategy
@@ -127,6 +142,9 @@
 
 [Wargame Red Dragon](./../Wargame%20Red%20Dragon.html)
 > #co-op,#epic,#game,#multiplayer,#owned,#pc,#simulation,#single-player,#strategy
+
+[World War Z Aftermath](./../World%20War%20Z%20Aftermath.html)
+> #action,#co-op,#controller-support,#epic,#game,#multiplayer,#owned,#pc,#shooter,#single-player,#survival
 
 [Yooka-Laylee](./../Yooka-Laylee.html)
 > #adventure,#controller-support,#epic,#game,#indie,#multiplayer,#owned,#pc,#platformer,#single-player

@@ -1,6 +1,6 @@
 # Notes tagged with "platformer"
 
-### _(13 Notes_)
+### _(14 Notes_)
 
 [20XX](./../20XX.html)
 > #co-op,#epic,#game,#owned,#pc,#platformer,#rogue-lite
@@ -37,6 +37,9 @@
 
 [Stick It To The Man](./../Stick%20It%20To%20The%20Man.html)
 > #action,#adventure,#epic,#game,#owned,#pc,#platformer
+
+[Yooka-Laylee and the Impossible Lair](./../Yooka-Laylee%20and%20the%20Impossible%20Lair.html)
+> #adventure,#controller-support,#epic,#game,#owned,#pc,#platformer,#single-player
 
 [Yooka-Laylee](./../Yooka-Laylee.html)
 > #adventure,#controller-support,#epic,#game,#indie,#multiplayer,#owned,#pc,#platformer,#single-player

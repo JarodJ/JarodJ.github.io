@@ -1,6 +1,6 @@
 # Notes tagged with "action"
 
-### _(74 Notes_)
+### _(82 Notes_)
 
 [A Plague Tale Innocence](./../A%20Plague%20Tale%20Innocence.html)
 > #action,#adventure,#epic,#game,#owned,#pc,#single-player
@@ -20,11 +20,20 @@
 [Battlefield V](./../Battlefield%20V.html)
 > #action,#adventure,#first-person,#game,#origin,#owned,#pc,#shooter
 
+[Black Widow Recharged](./../Black%20Widow%20Recharged.html)
+> #action,#controller-support,#epic,#game,#owned,#pc,#shooter
+
 [Call of Juarez Gunslinger](./../Call%20of%20Juarez%20Gunslinger.html)
 > #action,#fps,#game,#owned,#pc,#steam,#story-rich,#western
 
 [Cave Story](./../Cave%20Story.html)
 > #action,#adventure,#controller-support,#epic,#game,#owned,#pc,#platformer
+
+[Centipede Recharged](./../Centipede%20Recharged.html)
+> #action,#co-op,#epic,#game,#owned,#pc,#shooter,#single-player
+
+[Century Age of Ashes](./../Century%20Age%20of%20Ashes.html)
+> #action,#competitive,#epic,#game,#multiplayer,#owned,#pc
 
 [Control](./../Control.html)
 > #action,#adventure,#epic,#game,#gog,#owned,#pc,#single-player
@@ -43,6 +52,9 @@
 
 [CRSED FOAD](./../CRSED%20FOAD.html)
 > #action,#co-op,#competitive,#epic,#game,#multiplayer,#owned,#pc
+
+[DAEMON X MACHINA](./../DAEMON%20X%20MACHINA.html)
+> #action,#co-op,#competitive,#epic,#game,#multiplayer,#owned,#pc,#single-player
 
 [Dandara Trials of Fear Edition](./../Dandara%20Trials%20of%20Fear%20Edition.html)
 > #action,#epic,#game,#owned,#pc,#platformer
@@ -170,6 +182,9 @@
 [STAR WARS Battlefront II Celebration Edition](./../STAR%20WARS%20Battlefront%20II%20Celebration%20Edition.html)
 > #action,#adventure,#co-op,#epic,#game,#multiplayer,#owned,#pc,#shooter,#single-player
 
+[STAR WARS Jedi Fallen Order](./../STAR%20WARS%20Jedi%20Fallen%20Order.html)
+> #action,#adventure,#controller-support,#game,#origin,#owned,#pc,#single-player
+
 [STAR WARS Squadrons](./../STAR%20WARS%20Squadrons.html)
 > #action,#game,#multiplayer,#origin,#owned,#pc,#single-player
 
@@ -200,6 +215,9 @@
 [Torchlight II](./../Torchlight%20II.html)
 > #action,#adventure,#co-op,#dungeon-crawler,#epic,#game,#owned,#pc,#rpg
 
+[Total War WARHAMMER](./../Total%20War%20WARHAMMER.html)
+> #action,#co-op,#epic,#game,#multiplayer,#owned,#pc,#single-player,#strategy
+
 [Tyranny - Gold Edition](./../Tyranny%20-%20Gold%20Edition.html)
 > #action,#adventure,#epic,#game,#owned,#pc,#rpg
 
@@ -217,6 +235,12 @@
 
 [Watch Dogs 2](./../Watch%20Dogs%202.html)
 > #action,#adventure,#co-op,#epic,#game,#owned,#pc,#single-player
+
+[Windbound](./../Windbound.html)
+> #action,#action-adventure,#adventure,#epic,#game,#indie,#owned,#pc,#rpg,#single-player,#survival
+
+[World War Z Aftermath](./../World%20War%20Z%20Aftermath.html)
+> #action,#co-op,#controller-support,#epic,#game,#multiplayer,#owned,#pc,#shooter,#single-player,#survival
 
 [X-Morph Defense](./../X-Morph%20Defense.html)
 > #action,#co-op,#controller-support,#game,#gog,#indie,#owned,#pc,#single-player,#strategy

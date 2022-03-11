@@ -1,6 +1,6 @@
 # Notes tagged with "co-op"
 
-### _(33 Notes_)
+### _(37 Notes_)
 
 [20XX](./../20XX.html)
 > #co-op,#epic,#game,#owned,#pc,#platformer,#rogue-lite
@@ -11,8 +11,14 @@
 [Barony](./../Barony.html)
 > #co-op,#dungeon-crawler,#epic,#first-person,#game,#owned,#pc,#single-player
 
+[Centipede Recharged](./../Centipede%20Recharged.html)
+> #action,#co-op,#epic,#game,#owned,#pc,#shooter,#single-player
+
 [CRSED FOAD](./../CRSED%20FOAD.html)
 > #action,#co-op,#competitive,#epic,#game,#multiplayer,#owned,#pc
+
+[DAEMON X MACHINA](./../DAEMON%20X%20MACHINA.html)
+> #action,#co-op,#competitive,#epic,#game,#multiplayer,#owned,#pc,#single-player
 
 [For The King](./../For%20The%20King.html)
 > #adventure,#co-op,#epic,#game,#owned,#pc,#turn-based
@@ -83,6 +89,9 @@
 [Torchlight II](./../Torchlight%20II.html)
 > #action,#adventure,#co-op,#dungeon-crawler,#epic,#game,#owned,#pc,#rpg
 
+[Total War WARHAMMER](./../Total%20War%20WARHAMMER.html)
+> #action,#co-op,#epic,#game,#multiplayer,#owned,#pc,#single-player,#strategy
+
 [Verdun](./../Verdun.html)
 > #action,#co-op,#controller-support,#epic,#game,#multiplayer,#owned,#pc,#shooter,#single-player
 
@@ -97,6 +106,9 @@
 
 [Wilmots Warehouse](./../Wilmots%20Warehouse.html)
 > #co-op,#controller-support,#epic,#game,#indie,#owned,#pc,#puzzle,#single-player
+
+[World War Z Aftermath](./../World%20War%20Z%20Aftermath.html)
+> #action,#co-op,#controller-support,#epic,#game,#multiplayer,#owned,#pc,#shooter,#single-player,#survival
 
 [X-Morph Defense](./../X-Morph%20Defense.html)
 > #action,#co-op,#controller-support,#game,#gog,#indie,#owned,#pc,#single-player,#strategy

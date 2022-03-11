@@ -1,6 +1,6 @@
 # Notes tagged with "shooter"
 
-### _(25 Notes_)
+### _(28 Notes_)
 
 [Apex Legends](./../Apex%20Legends.html)
 > #action,#game,#origin,#owned,#pc,#shooter
@@ -13,6 +13,12 @@
 
 [Battlefield V](./../Battlefield%20V.html)
 > #action,#adventure,#first-person,#game,#origin,#owned,#pc,#shooter
+
+[Black Widow Recharged](./../Black%20Widow%20Recharged.html)
+> #action,#controller-support,#epic,#game,#owned,#pc,#shooter
+
+[Centipede Recharged](./../Centipede%20Recharged.html)
+> #action,#co-op,#epic,#game,#owned,#pc,#shooter,#single-player
 
 [Core](./../Core.html)
 > #action,#epic,#game,#owned,#pc,#rpg,#shooter
@@ -76,4 +82,7 @@
 
 [Warframe](./../Warframe.html)
 > #action,#co-op,#controller-support,#epic,#game,#multiplayer,#owned,#pc,#shooter,#single-player
+
+[World War Z Aftermath](./../World%20War%20Z%20Aftermath.html)
+> #action,#co-op,#controller-support,#epic,#game,#multiplayer,#owned,#pc,#shooter,#single-player,#survival
 

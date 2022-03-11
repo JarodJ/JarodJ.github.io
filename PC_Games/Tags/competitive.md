@@ -1,9 +1,15 @@
 # Notes tagged with "competitive"
 
-### _(7 Notes_)
+### _(9 Notes_)
+
+[Century Age of Ashes](./../Century%20Age%20of%20Ashes.html)
+> #action,#competitive,#epic,#game,#multiplayer,#owned,#pc
 
 [CRSED FOAD](./../CRSED%20FOAD.html)
 > #action,#co-op,#competitive,#epic,#game,#multiplayer,#owned,#pc
+
+[DAEMON X MACHINA](./../DAEMON%20X%20MACHINA.html)
+> #action,#co-op,#competitive,#epic,#game,#multiplayer,#owned,#pc,#single-player
 
 [Diabotical](./../Diabotical.html)
 > #adventure,#competitive,#epic,#game,#multiplayer,#owned,#pc,#shooter
