@@ -27,20 +27,15 @@ All the medication is stored in the kitchen cabinet in the leftmost upper cabine
 ### Bacon Phenobarbital
 Bacon gets phenobarbital twice a day at 5:15. It is critical that he gets it every day and within a half hour or so of that time. Long term the time could be slowly changed to another time but then it would need to stay consistent at 12 hours apart.
 
-Currently he gets two different pills of different dosages at each time. So he gets one ____mg pill and one ____mg pill in the morning and evening.
+Currently he gets two different pills of different dosages at each time. So he gets one 32.4 mg pill and one 16.2 mg pill in the morning and evening.
 
-He takes them without a problem hidden in food. He will eat most anything so there are tons of options. Usually what I do is buy bags of frozen mixed vegetables from the grocery store and then keep some in a bowl in the fridge that I add to his meals. I've found it's pretty easy to hide the pills in either green beans or broccoli or cauliflower depending on the mix of vegetables. He never really spits pills out but occasionally they might fall out as he's chewing so what I do is put the pills in whatever and then hand them to him first and make sure he eats them and then I will give him the rest of his food. But you can also use any other kind of food from peanut butter to mashed potatoes to leftovers to most anything. The pills are pretty small and don't seem to have much taste so it's really not much of a problem.
+I don't like getting pills out of the full bottles every day and risk spilling all the pills. So I'll separate out a week or so worth into an old pill bottle and just add more as needed. So each dosage is normally spilt between two bottles if you are looking for them. They are all in that cabinet though and not too difficult to figure out with some looking. 
+
+He takes them without a problem hidden in food. He will eat most anything so there are tons of options. Usually what I do is buy bags of frozen mixed vegetables from the grocery store and then keep some in a bowl in the fridge that I add to his meals. I've found it's pretty easy to hide the pills in either green beans or brocolli or cauliflower depending on the mix of vegetables. He never really spits pills out but occasionally they might fall out as he's chewing so what I do is put the pills in whatever and then hand them to him first and make sure he eats them and then I will give him the rest of his food. But you can also use any other kind of food from peanut butter to mashed potatoes to leftovers to most anything. The pills are pretty small and don't seem to have much taste so it's really not much of a problem.
 
 They pills don't necessarily need to be given with food. In the morning I always just feed them at the same time but in the afternoon I will sometimes have fed them earlier or later depending on what's going on and it's fine. As long as the pills are given at the right time that's the only thing that matters. 
 
-They are refilled at:
-
-CVS Store #4285  
-21550 TIMBERLAKE RD.  
-LYNCHBURG, VA 24502  
-434-239-0311  
-
-### Heartworm and Flea/Tick
+### Heartwom and Flea/Tick
 They both get [Inteceptor Plus](https://www.chewy.com/interceptor-plus-chew-dogs-501-100/dp/172984) for heartworm prevention on the 15th of every month.
 
 And they get [Simparica](https://www.chewy.com/simparica-chewable-tablet-dogs-441-88/dp/173129) for flea/ticks on the 1st of every month.
@@ -83,7 +78,7 @@ Kix just goes to the vet once a year for a checkup and heartworm check.
 
 Bacon needs to go every 4 months for a phenobarbital check and every 6 months for a general checkup.
 
-### Links to Rabies Certificates and Dog Licenses
+### Links to Rabies Certificates and Dog Licesnses
 [Bacon's rabies](https://drive.google.com/file/d/1saDtCGlEQC-CG74eKzZaACxxhQpjRhmA/view?usp=sharing)
 
 [Kix's rabies](https://drive.google.com/file/d/1nz3TS-kLoCS_wxudkQM_DayK4HvgQRus/view?usp=sharing)
@@ -97,7 +92,10 @@ If needed their breeder could find new homes for them.
 Katie Belz  
 Kamar Ibizans  
 http://www.kamaribizans.com  
-[Contact info](https://drive.google.com/file/d/1qVyqL9BYJ8hMexqNcduY8OCzgo_XnMBB/view?usp=sharing)
-
+https://www.facebook.com/katie.belz.9  
+kamaribizans@hotmail.com  
+4960 Grady Smith Rd  
+Loganville, GA 30052  
+(979) 676-1567  
 
 
