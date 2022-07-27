@@ -1,6 +1,6 @@
 # My Nintendo Switch Game Library
 
-### _(177 Notes_)
+### _(184 Notes_)
 
 [2048 Battles](./2048%20Battles.html)
 > #multiplayer,#party,#puzzle,#strategy
@@ -65,6 +65,9 @@
 [Capcom Arcade Stadium](./Capcom%20Arcade%20Stadium.html)
 > #action,#arcade,#fighting,#multiplayer
 
+[Capcom Arcade Stadium：STREET FIGHTER II - The World Warrior -](./Capcom%20Arcade%20Stadium：STREET%20FIGHTER%20II%20-%20The%20World%20Warrior%20-.html)
+> #arcade,#multiplayer
+
 [Captain Toad Treasure Tracker](./Captain%20Toad%20Treasure%20Tracker.html)
 > #co-op,#hotlist,#platformer,#puzzle
 
@@ -113,6 +116,9 @@
 [Ding Dong XL](./Ding%20Dong%20XL.html)
 > #action,#arcade,#solo
 
+[Do Not Feed the Monkeys](./Do%20Not%20Feed%20the%20Monkeys.html)
+> #adventure,#puzzle,#simulation,#solo,#strategy
+
 [Drawful 2](./Drawful%202.html)
 > #party
 
@@ -124,6 +130,9 @@
 
 [Eyes The Horror Game](./Eyes%20The%20Horror%20Game.html)
 > #action,#adventure,#puzzle,#simulation,#solo
+
+[Fall Guys](./Fall%20Guys.html)
+> #multiplayer,#party
 
 [Flat Heroes](./Flat%20Heroes.html)
 > #action,#arcade,#multiplayer,#party,#platformer
@@ -145,6 +154,9 @@
 
 [Geki Yaba Runner Anniversary Edition](./Geki%20Yaba%20Runner%20Anniversary%20Edition.html)
 > #adventure,#arcade,#platformer,#solo
+
+[Goblin Sword](./Goblin%20Sword.html)
+> #action,#adventure,#hotlist,#platformer,#role-playing
 
 [Golf Story](./Golf%20Story.html)
 > #adventure,#hotlist,#indie,#multiplayer,#role-playing,#sports
@@ -326,6 +338,9 @@
 [Puzzle Book](./Puzzle%20Book.html)
 > #co-op,#education,#puzzle,#training,#utility
 
+[Q.U.B.E. 2](./Q.U.B.E.%202.html)
+> #adventure,#platformer,#puzzle
+
 [RaceDieRun](./RaceDieRun.html)
 > #action,#arcade,#racing,#solo,#sports
 
@@ -470,8 +485,14 @@
 [The Warlock of Firetop Mountain Goblin Scourge Edition!](./The%20Warlock%20of%20Firetop%20Mountain%20Goblin%20Scourge%20Edition!.html)
 > #adventure,#boardgame,#hotlist,#role-playing,#solo
 
+[The Witcher 3 Wild Hunt — Complete Edition](./The%20Witcher%203%20Wild%20Hunt%20—%20Complete%20Edition.html)
+> #solo,role-playing
+
 [Thief Simulator](./Thief%20Simulator.html)
 > #adventure,#hotlist,#simulation,#solo,#strategy
+
+[Thomas Was Alone](./Thomas%20Was%20Alone.html)
+> #adventure,#platformer,#puzzle
 
 [Timberman VS](./Timberman%20VS.html)
 > #arcade,#multiplayer,#party,#sports
