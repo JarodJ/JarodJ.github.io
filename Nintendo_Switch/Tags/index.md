@@ -1,13 +1,13 @@
 # My Nintendo Switch Game Library Tag List
 
 [#action](./action.html)
-> 92 Notes
+> 93 Notes
 
 [#adventure](./adventure.html)
-> 53 Notes
+> 57 Notes
 
 [#arcade](./arcade.html)
-> 73 Notes
+> 74 Notes
 
 [#beat](./beat.html)
 > 3 Notes
@@ -34,10 +34,10 @@
 > 1 Notes
 
 [#game](./game.html)
-> 177 Notes
+> 184 Notes
 
 [#hotlist](./hotlist.html)
-> 32 Notes
+> 33 Notes
 
 [#in-progress](./in-progress.html)
 > 7 Notes
@@ -49,55 +49,55 @@
 > 4 Notes
 
 [#multiplayer](./multiplayer.html)
-> 71 Notes
+> 73 Notes
 
 [#music](./music.html)
 > 2 Notes
 
 [#owned](./owned.html)
-> 174 Notes
+> 181 Notes
 
 [#party](./party.html)
-> 43 Notes
+> 44 Notes
 
 [#physical](./physical.html)
 > 1 Notes
 
 [#platformer](./platformer.html)
-> 44 Notes
+> 47 Notes
 
 [#practical](./practical.html)
 > 1 Notes
 
 [#puzzle](./puzzle.html)
-> 60 Notes
+> 63 Notes
 
 [#racing](./racing.html)
 > 11 Notes
 
 [#role-playing](./role-playing.html)
-> 17 Notes
+> 19 Notes
 
 [#shooter](./shooter.html)
 > 1 Notes
 
 [#simulation](./simulation.html)
-> 22 Notes
+> 23 Notes
 
 [#solo](./solo.html)
-> 64 Notes
+> 66 Notes
 
 [#sports](./sports.html)
 > 22 Notes
 
 [#strategy](./strategy.html)
-> 26 Notes
+> 27 Notes
 
 [#subscription](./subscription.html)
 > 3 Notes
 
 [#switch](./switch.html)
-> 177 Notes
+> 184 Notes
 
 [#training](./training.html)
 > 3 Notes

@@ -1,6 +1,6 @@
 # Notes tagged with "solo"
 
-### _(64 Notes_)
+### _(66 Notes_)
 
 [A Duel Hand Disaster Trackher](./../A%20Duel%20Hand%20Disaster%20Trackher.html)
 > #action,#arcade,#game,#owned,#solo,#switch
@@ -43,6 +43,9 @@
 
 [Ding Dong XL](./../Ding%20Dong%20XL.html)
 > #action,#arcade,#game,#owned,#solo,#switch
+
+[Do Not Feed the Monkeys](./../Do%20Not%20Feed%20the%20Monkeys.html)
+> #adventure,#game,#owned,#puzzle,#simulation,#solo,#strategy,#switch
 
 [EQQO](./../EQQO.html)
 > #adventure,#education,#game,#owned,#puzzle,#solo,#switch
@@ -172,6 +175,9 @@
 
 [The Warlock of Firetop Mountain Goblin Scourge Edition!](./../The%20Warlock%20of%20Firetop%20Mountain%20Goblin%20Scourge%20Edition!.html)
 > #adventure,#boardgame,#game,#hotlist,#owned,#role-playing,#solo,#switch
+
+[The Witcher 3 Wild Hunt — Complete Edition](./../The%20Witcher%203%20Wild%20Hunt%20—%20Complete%20Edition.html)
+> #game,#owned,#solo,#switch,role-playing
 
 [Thief Simulator](./../Thief%20Simulator.html)
 > #adventure,#game,#hotlist,#owned,#simulation,#solo,#strategy,#switch

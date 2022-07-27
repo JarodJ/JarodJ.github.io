@@ -1,6 +1,6 @@
 # Notes tagged with "switch"
 
-### _(177 Notes_)
+### _(184 Notes_)
 
 [2048 Battles](./../2048%20Battles.html)
 > #game,#multiplayer,#owned,#party,#puzzle,#strategy,#switch
@@ -65,6 +65,9 @@
 [Capcom Arcade Stadium](./../Capcom%20Arcade%20Stadium.html)
 > #action,#arcade,#fighting,#game,#multiplayer,#owned,#switch
 
+[Capcom Arcade Stadium：STREET FIGHTER II - The World Warrior -](./../Capcom%20Arcade%20Stadium：STREET%20FIGHTER%20II%20-%20The%20World%20Warrior%20-.html)
+> #arcade,#game,#multiplayer,#owned,#switch
+
 [Captain Toad Treasure Tracker](./../Captain%20Toad%20Treasure%20Tracker.html)
 > #co-op,#game,#hotlist,#owned,#platformer,#puzzle,#switch
 
@@ -113,6 +116,9 @@
 [Ding Dong XL](./../Ding%20Dong%20XL.html)
 > #action,#arcade,#game,#owned,#solo,#switch
 
+[Do Not Feed the Monkeys](./../Do%20Not%20Feed%20the%20Monkeys.html)
+> #adventure,#game,#owned,#puzzle,#simulation,#solo,#strategy,#switch
+
 [Drawful 2](./../Drawful%202.html)
 > #game,#owned,#party,#switch
 
@@ -124,6 +130,9 @@
 
 [Eyes The Horror Game](./../Eyes%20The%20Horror%20Game.html)
 > #action,#adventure,#game,#owned,#puzzle,#simulation,#solo,#switch
+
+[Fall Guys](./../Fall%20Guys.html)
+> #game,#multiplayer,#owned,#party,#switch
 
 [Flat Heroes](./../Flat%20Heroes.html)
 > #action,#arcade,#game,#multiplayer,#owned,#party,#platformer,#switch
@@ -145,6 +154,9 @@
 
 [Geki Yaba Runner Anniversary Edition](./../Geki%20Yaba%20Runner%20Anniversary%20Edition.html)
 > #adventure,#arcade,#game,#owned,#platformer,#solo,#switch
+
+[Goblin Sword](./../Goblin%20Sword.html)
+> #action,#adventure,#game,#hotlist,#owned,#platformer,#role-playing,#switch
 
 [Golf Story](./../Golf%20Story.html)
 > #adventure,#game,#hotlist,#indie,#multiplayer,#owned,#role-playing,#sports,#switch
@@ -326,6 +338,9 @@
 [Puzzle Book](./../Puzzle%20Book.html)
 > #co-op,#education,#game,#owned,#puzzle,#switch,#training,#utility
 
+[Q.U.B.E. 2](./../Q.U.B.E.%202.html)
+> #adventure,#game,#owned,#platformer,#puzzle,#switch
+
 [RaceDieRun](./../RaceDieRun.html)
 > #action,#arcade,#game,#owned,#racing,#solo,#sports,#switch
 
@@ -470,8 +485,14 @@
 [The Warlock of Firetop Mountain Goblin Scourge Edition!](./../The%20Warlock%20of%20Firetop%20Mountain%20Goblin%20Scourge%20Edition!.html)
 > #adventure,#boardgame,#game,#hotlist,#owned,#role-playing,#solo,#switch
 
+[The Witcher 3 Wild Hunt — Complete Edition](./../The%20Witcher%203%20Wild%20Hunt%20—%20Complete%20Edition.html)
+> #game,#owned,#solo,#switch,role-playing
+
 [Thief Simulator](./../Thief%20Simulator.html)
 > #adventure,#game,#hotlist,#owned,#simulation,#solo,#strategy,#switch
+
+[Thomas Was Alone](./../Thomas%20Was%20Alone.html)
+> #adventure,#game,#owned,#platformer,#puzzle,#switch
 
 [Timberman VS](./../Timberman%20VS.html)
 > #arcade,#game,#multiplayer,#owned,#party,#sports,#switch

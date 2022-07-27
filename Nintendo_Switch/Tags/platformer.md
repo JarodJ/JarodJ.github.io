@@ -1,6 +1,6 @@
 # Notes tagged with "platformer"
 
-### _(44 Notes_)
+### _(47 Notes_)
 
 [A Robot Named Fight](./../A%20Robot%20Named%20Fight.html)
 > #action,#adventure,#game,#multiplayer,#owned,#platformer,#switch
@@ -41,6 +41,9 @@
 [Geki Yaba Runner Anniversary Edition](./../Geki%20Yaba%20Runner%20Anniversary%20Edition.html)
 > #adventure,#arcade,#game,#owned,#platformer,#solo,#switch
 
+[Goblin Sword](./../Goblin%20Sword.html)
+> #action,#adventure,#game,#hotlist,#owned,#platformer,#role-playing,#switch
+
 [Heave Ho](./../Heave%20Ho.html)
 > #action,#arcade,#co-op,#game,#multiplayer,#owned,#platformer,#strategy,#switch
 
@@ -73,6 +76,9 @@
 
 [Pikuniku](./../Pikuniku.html)
 > #adventure,#co-op,#game,#owned,#platformer,#puzzle,#switch
+
+[Q.U.B.E. 2](./../Q.U.B.E.%202.html)
+> #adventure,#game,#owned,#platformer,#puzzle,#switch
 
 [Rayman Legends Definitive Edition](./../Rayman%20Legends%20Definitive%20Edition.html)
 > #action,#adventure,#co-op,#game,#multiplayer,#owned,#platformer,#switch
@@ -115,6 +121,9 @@
 
 [Super One More Jump](./../Super%20One%20More%20Jump.html)
 > #arcade,#game,#hotlist,#in-progress,#multiplayer,#owned,#party,#platformer,#switch
+
+[Thomas Was Alone](./../Thomas%20Was%20Alone.html)
+> #adventure,#game,#owned,#platformer,#puzzle,#switch
 
 [Toki Tori](./../Toki%20Tori.html)
 > #game,#owned,#platformer,#puzzle,#solo,#switch

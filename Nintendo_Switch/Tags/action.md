@@ -1,6 +1,6 @@
 # Notes tagged with "action"
 
-### _(92 Notes_)
+### _(93 Notes_)
 
 [A Duel Hand Disaster Trackher](./../A%20Duel%20Hand%20Disaster%20Trackher.html)
 > #action,#arcade,#game,#owned,#solo,#switch
@@ -70,6 +70,9 @@
 
 [Fortnite](./../Fortnite.html)
 > #action,#game,#owned,#solo,#strategy,#switch
+
+[Goblin Sword](./../Goblin%20Sword.html)
+> #action,#adventure,#game,#hotlist,#owned,#platformer,#role-playing,#switch
 
 [Gurgamoth](./../Gurgamoth.html)
 > #action,#fighting,#game,#multiplayer,#owned,#party,#switch

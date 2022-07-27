@@ -1,6 +1,6 @@
 # Notes tagged with "multiplayer"
 
-### _(71 Notes_)
+### _(73 Notes_)
 
 [2048 Battles](./../2048%20Battles.html)
 > #game,#multiplayer,#owned,#party,#puzzle,#strategy,#switch
@@ -23,6 +23,9 @@
 [Capcom Arcade Stadium](./../Capcom%20Arcade%20Stadium.html)
 > #action,#arcade,#fighting,#game,#multiplayer,#owned,#switch
 
+[Capcom Arcade Stadium：STREET FIGHTER II - The World Warrior -](./../Capcom%20Arcade%20Stadium：STREET%20FIGHTER%20II%20-%20The%20World%20Warrior%20-.html)
+> #arcade,#game,#multiplayer,#owned,#switch
+
 [Classic Games Collection Vol.1](./../Classic%20Games%20Collection%20Vol.1.html)
 > #boardgame,#game,#multiplayer,#owned,#party,#puzzle,#switch
 
@@ -39,7 +42,10 @@
 > #action,#adventure,#co-op,#game,#multiplayer,#owned,#switch
 
 [Death Squared](./../Death%20Squared.html)
-> #co-op,#game,#hotlist,#multiplayer,#owned,#party,#puzzle,#switch
+> #co-op,#game,#multiplayer,#owned,#party,#puzzle,#switch
+
+[Fall Guys](./../Fall%20Guys.html)
+> #game,#multiplayer,#owned,#party,#switch
 
 [Flat Heroes](./../Flat%20Heroes.html)
 > #action,#arcade,#game,#multiplayer,#owned,#party,#platformer,#switch
@@ -214,5 +220,4 @@
 
 [Wreckin Ball Adventure](./../Wreckin%20Ball%20Adventure.html)
 > #arcade,#co-op,#game,#multiplayer,#owned,#platformer,#puzzle,#switch
-
 

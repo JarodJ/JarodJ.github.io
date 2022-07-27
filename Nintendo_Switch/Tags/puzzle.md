@@ -1,6 +1,6 @@
 # Notes tagged with "puzzle"
 
-### _(60 Notes_)
+### _(63 Notes_)
 
 [2048 Battles](./../2048%20Battles.html)
 > #game,#multiplayer,#owned,#party,#puzzle,#strategy,#switch
@@ -55,6 +55,9 @@
 
 [Diggerman](./../Diggerman.html)
 > #arcade,#game,#owned,#puzzle,#solo,#switch
+
+[Do Not Feed the Monkeys](./../Do%20Not%20Feed%20the%20Monkeys.html)
+> #adventure,#game,#owned,#puzzle,#simulation,#solo,#strategy,#switch
 
 [EQQO](./../EQQO.html)
 > #adventure,#education,#game,#owned,#puzzle,#solo,#switch
@@ -125,6 +128,9 @@
 [Puzzle Book](./../Puzzle%20Book.html)
 > #co-op,#education,#game,#owned,#puzzle,#switch,#training,#utility
 
+[Q.U.B.E. 2](./../Q.U.B.E.%202.html)
+> #adventure,#game,#owned,#platformer,#puzzle,#switch
+
 [Seeders Puzzle Reboot](./../Seeders%20Puzzle%20Reboot.html)
 > #adventure,#co-op,#game,#owned,#platformer,#puzzle,#switch
 
@@ -151,6 +157,9 @@
 
 [The Mystery of Woolley Mountain](./../The%20Mystery%20of%20Woolley%20Mountain.html)
 > #adventure,#arcade,#game,#owned,#puzzle,#solo,#switch
+
+[Thomas Was Alone](./../Thomas%20Was%20Alone.html)
+> #adventure,#game,#owned,#platformer,#puzzle,#switch
 
 [Toki Tori](./../Toki%20Tori.html)
 > #game,#owned,#platformer,#puzzle,#solo,#switch

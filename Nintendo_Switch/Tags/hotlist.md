@@ -1,6 +1,6 @@
 # Notes tagged with "hotlist"
 
-### _(32 Notes_)
+### _(33 Notes_)
 
 [Akane](./../Akane.html)
 > #action,#arcade,#fighting,#game,#hotlist,#owned,#solo,#switch
@@ -22,6 +22,9 @@
 
 [Deaths Hangover](./../Deaths%20Hangover.html)
 > #action,#arcade,#co-op,#game,#hotlist,#owned,#platformer,#puzzle,#switch
+
+[Goblin Sword](./../Goblin%20Sword.html)
+> #action,#adventure,#game,#hotlist,#owned,#platformer,#role-playing,#switch
 
 [Golf Story](./../Golf%20Story.html)
 > #adventure,#game,#hotlist,#indie,#multiplayer,#owned,#role-playing,#sports,#switch

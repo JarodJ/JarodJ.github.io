@@ -1,6 +1,6 @@
 # Notes tagged with "adventure"
 
-### _(53 Notes_)
+### _(57 Notes_)
 
 [A Dark Room](./../A%20Dark%20Room.html)
 > #adventure,#co-op,#game,#owned,#role-playing,#strategy,#switch
@@ -26,6 +26,9 @@
 [Death Road to Canada](./../Death%20Road%20to%20Canada.html)
 > #action,#adventure,#co-op,#game,#multiplayer,#owned,#switch
 
+[Do Not Feed the Monkeys](./../Do%20Not%20Feed%20the%20Monkeys.html)
+> #adventure,#game,#owned,#puzzle,#simulation,#solo,#strategy,#switch
+
 [Enter the Gungeon](./../Enter%20the%20Gungeon.html)
 > #action,#adventure,#arcade,#co-op,#game,#owned,#switch
 
@@ -40,6 +43,9 @@
 
 [Geki Yaba Runner Anniversary Edition](./../Geki%20Yaba%20Runner%20Anniversary%20Edition.html)
 > #adventure,#arcade,#game,#owned,#platformer,#solo,#switch
+
+[Goblin Sword](./../Goblin%20Sword.html)
+> #action,#adventure,#game,#hotlist,#owned,#platformer,#role-playing,#switch
 
 [Golf Story](./../Golf%20Story.html)
 > #adventure,#game,#hotlist,#indie,#multiplayer,#owned,#role-playing,#sports,#switch
@@ -98,6 +104,9 @@
 [Pode](./../Pode.html)
 > #adventure,#co-op,#game,#in-progress,#indie,#owned,#puzzle,#switch
 
+[Q.U.B.E. 2](./../Q.U.B.E.%202.html)
+> #adventure,#game,#owned,#platformer,#puzzle,#switch
+
 [Rayman Legends Definitive Edition](./../Rayman%20Legends%20Definitive%20Edition.html)
 > #action,#adventure,#co-op,#game,#multiplayer,#owned,#platformer,#switch
 
@@ -145,6 +154,9 @@
 
 [Thief Simulator](./../Thief%20Simulator.html)
 > #adventure,#game,#hotlist,#owned,#simulation,#solo,#strategy,#switch
+
+[Thomas Was Alone](./../Thomas%20Was%20Alone.html)
+> #adventure,#game,#owned,#platformer,#puzzle,#switch
 
 [Transistor](./../Transistor.html)
 > #action,#adventure,#game,#indie,#owned,#role-playing,#solo,#switch

@@ -1,6 +1,6 @@
 # Notes tagged with "party"
 
-### _(43 Notes_)
+### _(44 Notes_)
 
 [2048 Battles](./../2048%20Battles.html)
 > #game,#multiplayer,#owned,#party,#puzzle,#strategy,#switch
@@ -30,10 +30,13 @@
 > #action,#game,#multiplayer,#owned,#party,#puzzle,#switch
 
 [Death Squared](./../Death%20Squared.html)
-> #co-op,#game,#hotlist,#multiplayer,#owned,#party,#puzzle,#switch
+> #co-op,#game,#multiplayer,#owned,#party,#puzzle,#switch
 
 [Drawful 2](./../Drawful%202.html)
 > #game,#owned,#party,#switch
+
+[Fall Guys](./../Fall%20Guys.html)
+> #game,#multiplayer,#owned,#party,#switch
 
 [Flat Heroes](./../Flat%20Heroes.html)
 > #action,#arcade,#game,#multiplayer,#owned,#party,#platformer,#switch
@@ -130,5 +133,4 @@
 
 [Watermelon Party](./../Watermelon%20Party.html)
 > #action,#game,#multiplayer,#owned,#party,#puzzle,#switch
-
 

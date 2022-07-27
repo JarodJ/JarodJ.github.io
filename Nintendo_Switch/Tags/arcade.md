@@ -1,6 +1,6 @@
 # Notes tagged with "arcade"
 
-### _(73 Notes_)
+### _(74 Notes_)
 
 [A Duel Hand Disaster Trackher](./../A%20Duel%20Hand%20Disaster%20Trackher.html)
 > #action,#arcade,#game,#owned,#solo,#switch
@@ -25,6 +25,9 @@
 
 [Capcom Arcade Stadium](./../Capcom%20Arcade%20Stadium.html)
 > #action,#arcade,#fighting,#game,#multiplayer,#owned,#switch
+
+[Capcom Arcade Stadium：STREET FIGHTER II - The World Warrior -](./../Capcom%20Arcade%20Stadium：STREET%20FIGHTER%20II%20-%20The%20World%20Warrior%20-.html)
+> #arcade,#game,#multiplayer,#owned,#switch
 
 [Chameleon Run Deluxe Edition](./../Chameleon%20Run%20Deluxe%20Edition.html)
 > #arcade,#game,#owned,#party,#platformer,#racing,#solo,#switch

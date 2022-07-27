@@ -1,6 +1,6 @@
 # Notes tagged with "simulation"
 
-### _(22 Notes_)
+### _(23 Notes_)
 
 [Bomber Crew](./../Bomber%20Crew.html)
 > #game,#owned,#simulation,#solo,#strategy,#switch
@@ -18,6 +18,9 @@
 > #action,#co-op,#game,#owned,#simulation,#strategy,#switch
 
 [Cooking Tycoons - 3 in 1 Bundle](./../Cooking%20Tycoons%20-%203%20in%201%20Bundle.html)
+> #adventure,#game,#owned,#puzzle,#simulation,#solo,#strategy,#switch
+
+[Do Not Feed the Monkeys](./../Do%20Not%20Feed%20the%20Monkeys.html)
 > #adventure,#game,#owned,#puzzle,#simulation,#solo,#strategy,#switch
 
 [Eyes The Horror Game](./../Eyes%20The%20Horror%20Game.html)
