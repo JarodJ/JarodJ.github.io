@@ -1,6 +1,9 @@
 # Notes tagged with "card-game"
 
-### _(5 Notes_)
+### _(6 Notes_)
+
+[Ancient Enemy](./../Ancient%20Enemy.html)
+> #card-game,#epic,#game,#indie,#owned,#pc
 
 [Animation Throwdown The Quest for Cards](./../Animation%20Throwdown%20The%20Quest%20for%20Cards.html)
 > #adventure,#card-game,#epic,#game,#owned,#pc,#single-player,#strategy

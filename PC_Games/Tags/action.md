@@ -1,6 +1,6 @@
 # Notes tagged with "action"
 
-### _(82 Notes_)
+### _(96 Notes_)
 
 [A Plague Tale Innocence](./../A%20Plague%20Tale%20Innocence.html)
 > #action,#adventure,#epic,#game,#owned,#pc,#single-player
@@ -20,6 +20,9 @@
 [Battlefield V](./../Battlefield%20V.html)
 > #action,#adventure,#first-person,#game,#origin,#owned,#pc,#shooter
 
+[BioShock The Collection](./../BioShock%20The%20Collection.html)
+> #action,#epic,#game,#horror,#owned,#pc
+
 [Black Widow Recharged](./../Black%20Widow%20Recharged.html)
 > #action,#controller-support,#epic,#game,#owned,#pc,#shooter
 
@@ -34,6 +37,9 @@
 
 [Century Age of Ashes](./../Century%20Age%20of%20Ashes.html)
 > #action,#competitive,#epic,#game,#multiplayer,#owned,#pc
+
+[City of Brass](./../City%20of%20Brass.html)
+> #action,#controller-support,#epic,#first-person,#game,#owned,#pc,#rogue-lite,#single-player
 
 [Control](./../Control.html)
 > #action,#adventure,#epic,#game,#gog,#owned,#pc,#single-player
@@ -65,6 +71,12 @@
 [Dead by Daylight](./../Dead%20by%20Daylight.html)
 > #action,#epic,#game,#multiplayer,#owned,#pc,#survival
 
+[Dead Space 2](./../Dead%20Space%202.html)
+> #action,#game,#origin,#owned,#pc,#shooter
+
+[DEMONS TILT](./../DEMONS%20TILT.html)
+> #action,#epic,#game,#horror,#owned,#pc,#single-player
+
 [Elite Dangerous](./../Elite%20Dangerous.html)
 > #action,#epic,#game,#multiplayer,#owned,#pc,#single-player
 
@@ -73,6 +85,9 @@
 
 [EVE Online](./../EVE%20Online.html)
 > #action,#epic,#game,#multiplayer,#open-world,#owned,#pc,#rpg
+
+[FAR CRY 4](./../FAR%20CRY%204.html)
+> #action,#adventure,#first-person,#game,#open-world,#owned,#pc,#prime-gaming,#shooter
 
 [Ghostbusters The Video Game Remastered](./../Ghostbusters%20The%20Video%20Game%20Remastered.html)
 > #action,#adventure,#epic,#game,#owned,#pc,#single-player
@@ -98,6 +113,12 @@
 [HITMAN](./../HITMAN.html)
 > #action,#adventure,#epic,#game,#owned,#pc,#shooter,#single-player,#stealth
 
+[Hood Outlaws and Legends](./../Hood%20Outlaws%20and%20Legends.html)
+> #action,#adventure,#epic,#game,#owned,#pc,#stealth
+
+[Jotun Valhalla Edition](./../Jotun%20Valhalla%20Edition.html)
+> #action,#adventure,#controller-support,#epic,#game,#indie,#owned,#pc
+
 [Journey to the Savage Planet](./../Journey%20to%20the%20Savage%20Planet.html)
 > #action,#exploration,#game,#gog,#owned,#pc,#single-player
 
@@ -112,6 +133,12 @@
 
 [Mages of Mystralia](./../Mages%20of%20Mystralia.html)
 > #action,#adventure,#epic,#game,#indie,#owned,#pc,#single-player
+
+[Maneater](./../Maneater.html)
+> #action,#epic,#game,#owned,#pc,#rpg,#single-player
+
+[Mass Effect Legendary Edition](./../Mass%20Effect%20Legendary%20Edition.html)
+> #action,#game,#origin,#owned,#pc,#role-playing,#shooter
 
 [Metro 2033 Redux](./../Metro%202033%20Redux.html)
 > #action,#epic,#first-person,#game,#owned,#pc,#shooter,#single-player
@@ -140,6 +167,9 @@
 [Pine](./../Pine.html)
 > #action,#adventure,#controller-support,#epic,#game,#open-world,#owned,#pc,#single-player
 
+[Plants vs Zombies - Battle for Neighborville](./../Plants%20vs%20Zombies%20-%20Battle%20for%20Neighborville.html)
+> #action,#game,#origin,#owned,#pc,#shooter,#single-player
+
 [Prey](./../Prey.html)
 > #action,#action-adventure,#adventure,#epic,#first-person,#game,#owned,#pc,#shooter,#single-player
 
@@ -157,6 +187,9 @@
 
 [Rogue Company](./../Rogue%20Company.html)
 > #action,#co-op,#competitive,#controller-support,#epic,#game,#multiplayer,#owned,#pc,#shooter,#single-player
+
+[Rogue Legacy](./../Rogue%20Legacy.html)
+> #action,#epic,#game,#indie,#owned,#pc,#single-player
 
 [Saints Row The Third  Remastered](./../Saints%20Row%20The%20Third%20%20Remastered.html)
 > #action,#epic,#game,#multiplayer,#owned,#pc
@@ -185,6 +218,9 @@
 [STAR WARS Jedi Fallen Order](./../STAR%20WARS%20Jedi%20Fallen%20Order.html)
 > #action,#adventure,#controller-support,#game,#origin,#owned,#pc,#single-player
 
+[STAR WARS Republic Commando](./../STAR%20WARS%20Republic%20Commando.html)
+> #action,#first-person,#game,#origin,#owned,#pc,#shooter
+
 [STAR WARS Squadrons](./../STAR%20WARS%20Squadrons.html)
 > #action,#game,#multiplayer,#origin,#owned,#pc,#single-player
 
@@ -193,6 +229,9 @@
 
 [Stubbs the Zombie in Rebel Without a Pulse](./../Stubbs%20the%20Zombie%20in%20Rebel%20Without%20a%20Pulse.html)
 > #action,#co-op,#epic,#game,#owned,#pc,#single-player
+
+[Tannenberg](./../Tannenberg.html)
+> #action,#epic,#game,#owned,#pc,#shooter
 
 [The Escapists](./../The%20Escapists.html)
 > #action,#epic,#game,#owned,#pc,#single-player,#strategy
@@ -238,6 +277,9 @@
 
 [Windbound](./../Windbound.html)
 > #action,#action-adventure,#adventure,#epic,#game,#indie,#owned,#pc,#rpg,#single-player,#survival
+
+[Wolfenstein The New Order](./../Wolfenstein%20The%20New%20Order.html)
+> #action,#epic,#first-person,#game,#owned,#pc,#shooter
 
 [World War Z Aftermath](./../World%20War%20Z%20Aftermath.html)
 > #action,#co-op,#controller-support,#epic,#game,#multiplayer,#owned,#pc,#shooter,#single-player,#survival

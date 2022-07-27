@@ -1,6 +1,6 @@
 # Notes tagged with "multiplayer"
 
-### _(49 Notes_)
+### _(51 Notes_)
 
 [A Total War Saga TROY](./../A%20Total%20War%20Saga%20TROY.html)
 > #epic,#game,#multiplayer,#owned,#pc,#single-player,#strategy
@@ -50,6 +50,9 @@
 [Heroes and Generals WWII](./../Heroes%20and%20Generals%20WWII.html)
 > #action,#co-op,#epic,#game,#multiplayer,#owned,#pc,#shooter
 
+[Just Die Already](./../Just%20Die%20Already.html)
+> #adventure,#co-op,#comedy,#epic,#game,#multiplayer,#open-world,#owned,#pc,#single-player
+
 [Killing Floor 2](./../Killing%20Floor%202.html)
 > #action,#co-op,#epic,#first-person,#game,#horror,#multiplayer,#owned,#pc,#shooter,#survival
 
@@ -76,6 +79,9 @@
 
 [Primordials Battle of Gods](./../Primordials%20Battle%20of%20Gods.html)
 > #action,#epic,#game,#multiplayer,#owned,#pc,#strategy
+
+[Redout Enhanced Edition](./../Redout%20Enhanced%20Edition.html)
+> #achievements,#co-op,#controller-support,#epic,#game,#multiplayer,#owned,#pc,#racing,#single-player
 
 [Rise of the Tomb Raider 20 Year Celebration](./../Rise%20of%20the%20Tomb%20Raider%2020%20Year%20Celebration.html)
 > #action,#action-adventure,#adventure,#controller-support,#epic,#game,#multiplayer,#owned,#pc,#single-player

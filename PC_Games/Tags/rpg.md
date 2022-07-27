@@ -1,9 +1,12 @@
 # Notes tagged with "rpg"
 
-### _(31 Notes_)
+### _(37 Notes_)
 
 [ARK Survival Evolved](./../ARK%20Survival%20Evolved.html)
 > #adventure,#epic,#game,#owned,#pc,#rpg,#single-player,#survival
+
+[Borderlands 3](./../Borderlands%203.html)
+> #epic,#first-person,#game,#owned,#pc,#rpg,#shooter
 
 [Core](./../Core.html)
 > #action,#epic,#game,#owned,#pc,#rpg,#shooter
@@ -23,14 +26,23 @@
 [EVE Online](./../EVE%20Online.html)
 > #action,#epic,#game,#multiplayer,#open-world,#owned,#pc,#rpg
 
+[Geneforge 1 - Mutagen](./../Geneforge%201%20-%20Mutagen.html)
+> #epic,#game,#indie,#owned,#pc,#rpg
+
 [Genshin Impact](./../Genshin%20Impact.html)
 > #adventure,#epic,#game,#multiplayer,#open-world,#owned,#pc,#rpg
 
 [Halcyon 6 Starbase Commander](./../Halcyon%206%20Starbase%20Commander.html)
 > #epic,#game,#indie,#owned,#pc,#rpg,#single-player,#strategy
 
+[Iratus Lord of the Dead](./../Iratus%20Lord%20of%20the%20Dead.html)
+> #epic,#game,#owned,#pc,#rpg,#strategy,#turn-based
+
 [Ironcast](./../Ironcast.html)
 > #controller-support,#epic,#game,#indie,#owned,#pc,#rpg,#single-player,#strategy
+
+[Maneater](./../Maneater.html)
+> #action,#epic,#game,#owned,#pc,#rpg,#single-player
 
 [Mutant Year Zero Road to Eden](./../Mutant%20Year%20Zero%20Road%20to%20Eden.html)
 > #epic,#game,#owned,#pc,#rpg,#single-player,#strategy,#turn-based
@@ -65,6 +77,9 @@
 [Shenmue 3](./../Shenmue%203.html)
 > #action,#adventure,#epic,#game,#owned,#pc,#rpg,#single-player
 
+[Shop Titans](./../Shop%20Titans.html)
+> #adventure,#casual,#epic,#game,#owned,#pc,#rpg
+
 [Spellbreak](./../Spellbreak.html)
 > #action,#epic,#game,#multiplayer,#owned,#pc,#rpg
 
@@ -76,6 +91,9 @@
 
 [Sunless Sea](./../Sunless%20Sea.html)
 > #adventure,#epic,#game,#indie,#owned,#pc,#rpg
+
+[The Elder Scrolls IV - Oblivion Game of the Year Edition Deluxe](./../The%20Elder%20Scrolls%20IV%20-%20Oblivion%20Game%20of%20the%20Year%20Edition%20Deluxe.html)
+> #game,#gog,#open-world,#owned,#pc,#rpg,#single-player
 
 [Tiny Tinas Assault on Dragon Keep A Wonderlands One-shot Adventure](./../Tiny%20Tinas%20Assault%20on%20Dragon%20Keep%20A%20Wonderlands%20One-shot%20Adventure.html)
 > #action,#adventure,#co-op,#epic,#game,#multiplayer,#owned,#pc,#rpg,#single-player

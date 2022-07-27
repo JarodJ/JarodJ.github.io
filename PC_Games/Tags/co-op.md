@@ -1,6 +1,6 @@
 # Notes tagged with "co-op"
 
-### _(37 Notes_)
+### _(40 Notes_)
 
 [20XX](./../20XX.html)
 > #co-op,#epic,#game,#owned,#pc,#platformer,#rogue-lite
@@ -29,6 +29,9 @@
 [Heroes and Generals WWII](./../Heroes%20and%20Generals%20WWII.html)
 > #action,#co-op,#epic,#game,#multiplayer,#owned,#pc,#shooter
 
+[Just Die Already](./../Just%20Die%20Already.html)
+> #adventure,#co-op,#comedy,#epic,#game,#multiplayer,#open-world,#owned,#pc,#single-player
+
 [Killing Floor 2](./../Killing%20Floor%202.html)
 > #action,#co-op,#epic,#first-person,#game,#horror,#multiplayer,#owned,#pc,#shooter,#survival
 
@@ -56,8 +59,14 @@
 [Pikuniku](./../Pikuniku.html)
 > #adventure,#casual,#co-op,#epic,#game,#indie,#owned,#pc,#single-player
 
+[Redout Enhanced Edition](./../Redout%20Enhanced%20Edition.html)
+> #achievements,#co-op,#controller-support,#epic,#game,#multiplayer,#owned,#pc,#racing,#single-player
+
 [Remnant From the Ashes](./../Remnant%20From%20the%20Ashes.html)
 > #action,#co-op,#epic,#game,#owned,#pc,#shooter
+
+[Riverbond](./../Riverbond.html)
+> #action-adventure,#co-op,#controller-support,#epic,#game,#indie,#owned,#pc,#single-player
 
 [Rocket League](./../Rocket%20League.html)
 > #co-op,#competitive,#epic,#game,#multiplayer,#owned,#pc,#racing,#single-player,#sports

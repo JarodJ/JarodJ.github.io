@@ -1,6 +1,6 @@
 # Notes tagged with "survival"
 
-### _(10 Notes_)
+### _(11 Notes_)
 
 [ARK Survival Evolved](./../ARK%20Survival%20Evolved.html)
 > #adventure,#epic,#game,#owned,#pc,#rpg,#single-player,#survival
@@ -10,6 +10,9 @@
 
 [Frostpunk](./../Frostpunk.html)
 > #city-builder,#epic,#game,#gog,#owned,#pc,#single-player,#strategy,#survival
+
+[Insurmountable](./../Insurmountable.html)
+> #epic,#game,#owned,#pc,#rogue-lite,#single-player,#strategy,#survival
 
 [Killing Floor 2](./../Killing%20Floor%202.html)
 > #action,#co-op,#epic,#first-person,#game,#horror,#multiplayer,#owned,#pc,#shooter,#survival

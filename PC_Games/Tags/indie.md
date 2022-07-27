@@ -1,6 +1,6 @@
 # Notes tagged with "indie"
 
-### _(40 Notes_)
+### _(46 Notes_)
 
 [Absolute Drift](./../Absolute%20Drift.html)
 > #epic,#game,#indie,#owned,#pc,#racing,#single-player
@@ -10,6 +10,9 @@
 
 [Among the Sleep - Enhanced Edition](./../Among%20the%20Sleep%20-%20Enhanced%20Edition.html)
 > #adventure,#controller-support,#epic,#game,#horror,#indie,#owned,#pc
+
+[Ancient Enemy](./../Ancient%20Enemy.html)
+> #card-game,#epic,#game,#indie,#owned,#pc
 
 [Automachef](./../Automachef.html)
 > #epic,#game,#indie,#owned,#pc,#simulation,#single-player
@@ -26,6 +29,9 @@
 [Enter the Gungeon](./../Enter%20the%20Gungeon.html)
 > #action,#adventure,#controller-support,#epic,#game,#indie,#owned,#pc,#single-player
 
+[Geneforge 1 - Mutagen](./../Geneforge%201%20-%20Mutagen.html)
+> #epic,#game,#indie,#owned,#pc,#rpg
+
 [Gods Trigger](./../Gods%20Trigger.html)
 > #action,#epic,#game,#indie,#owned,#pc
 
@@ -40,6 +46,9 @@
 
 [Ironcast](./../Ironcast.html)
 > #controller-support,#epic,#game,#indie,#owned,#pc,#rpg,#single-player,#strategy
+
+[Jotun Valhalla Edition](./../Jotun%20Valhalla%20Edition.html)
+> #action,#adventure,#controller-support,#epic,#game,#indie,#owned,#pc
 
 [Layers of Fear 2](./../Layers%20of%20Fear%202.html)
 > #epic,#game,#horror,#indie,#owned,#pc
@@ -77,6 +86,12 @@
 [Pikuniku](./../Pikuniku.html)
 > #adventure,#casual,#co-op,#epic,#game,#indie,#owned,#pc,#single-player
 
+[Riverbond](./../Riverbond.html)
+> #action-adventure,#co-op,#controller-support,#epic,#game,#indie,#owned,#pc,#single-player
+
+[Rogue Legacy](./../Rogue%20Legacy.html)
+> #action,#epic,#game,#indie,#owned,#pc,#single-player
+
 [Solitairica](./../Solitairica.html)
 > #card-game,#epic,#game,#indie,#owned,#pc,#rogue-lite
 
@@ -112,6 +127,9 @@
 
 [Windbound](./../Windbound.html)
 > #action,#action-adventure,#adventure,#epic,#game,#indie,#owned,#pc,#rpg,#single-player,#survival
+
+[Wonder Boy The Dragons Trap](./../Wonder%20Boy%20The%20Dragons%20Trap.html)
+> #action-adventure,#epic,#game,#indie,#owned,#pc,#platformer
 
 [X-Morph Defense](./../X-Morph%20Defense.html)
 > #action,#co-op,#controller-support,#game,#gog,#indie,#owned,#pc,#single-player,#strategy

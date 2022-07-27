@@ -1,6 +1,6 @@
 # Notes tagged with "gog"
 
-### _(8 Notes_)
+### _(9 Notes_)
 
 [Control](./../Control.html)
 > #action,#adventure,#epic,#game,#gog,#owned,#pc,#single-player
@@ -22,6 +22,9 @@
 
 [Stellaris](./../Stellaris.html)
 > #game,#gog,#multiplayer,#owned,#pc,#scr-fi,#single-player,#space,#strategy
+
+[The Elder Scrolls IV - Oblivion Game of the Year Edition Deluxe](./../The%20Elder%20Scrolls%20IV%20-%20Oblivion%20Game%20of%20the%20Year%20Edition%20Deluxe.html)
+> #game,#gog,#open-world,#owned,#pc,#rpg,#single-player
 
 [X-Morph Defense](./../X-Morph%20Defense.html)
 > #action,#co-op,#controller-support,#game,#gog,#indie,#owned,#pc,#single-player,#strategy

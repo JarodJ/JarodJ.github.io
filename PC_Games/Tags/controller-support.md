@@ -1,6 +1,6 @@
 # Notes tagged with "controller-support"
 
-### _(43 Notes_)
+### _(47 Notes_)
 
 [3 out of 10 Season Two](./../3%20out%20of%2010%20Season%20Two.html)
 > #adventure,#comedy,#controller-support,#epic,#game,#owned,#pc,#single-player
@@ -17,6 +17,9 @@
 [Cave Story](./../Cave%20Story.html)
 > #action,#adventure,#controller-support,#epic,#game,#owned,#pc,#platformer
 
+[City of Brass](./../City%20of%20Brass.html)
+> #action,#controller-support,#epic,#first-person,#game,#owned,#pc,#rogue-lite,#single-player
+
 [Dauntless](./../Dauntless.html)
 > #action,#controller-support,#epic,#game,#multiplayer,#owned,#pc,#rpg
 
@@ -31,6 +34,9 @@
 
 [Ironcast](./../Ironcast.html)
 > #controller-support,#epic,#game,#indie,#owned,#pc,#rpg,#single-player,#strategy
+
+[Jotun Valhalla Edition](./../Jotun%20Valhalla%20Edition.html)
+> #action,#adventure,#controller-support,#epic,#game,#indie,#owned,#pc
 
 [Ken Folletts The Pillars of the Earth](./../Ken%20Folletts%20The%20Pillars%20of%20the%20Earth.html)
 > #adventure,#controller-support,#epic,#game,#narration,#owned,#pc,#puzzle,#single-player
@@ -68,8 +74,14 @@
 [Rebel Galaxy](./../Rebel%20Galaxy.html)
 > #controller-support,#epic,#game,#open-world,#owned,#pc,#rpg,#single-player
 
+[Redout Enhanced Edition](./../Redout%20Enhanced%20Edition.html)
+> #achievements,#co-op,#controller-support,#epic,#game,#multiplayer,#owned,#pc,#racing,#single-player
+
 [Rise of the Tomb Raider 20 Year Celebration](./../Rise%20of%20the%20Tomb%20Raider%2020%20Year%20Celebration.html)
 > #action,#action-adventure,#adventure,#controller-support,#epic,#game,#multiplayer,#owned,#pc,#single-player
+
+[Riverbond](./../Riverbond.html)
+> #action-adventure,#co-op,#controller-support,#epic,#game,#indie,#owned,#pc,#single-player
 
 [Rogue Company](./../Rogue%20Company.html)
 > #action,#co-op,#competitive,#controller-support,#epic,#game,#multiplayer,#owned,#pc,#shooter,#single-player

@@ -1,6 +1,6 @@
 # Notes tagged with "adventure"
 
-### _(62 Notes_)
+### _(69 Notes_)
 
 [3 out of 10 Season Two](./../3%20out%20of%2010%20Season%20Two.html)
 > #adventure,#comedy,#controller-support,#epic,#game,#owned,#pc,#single-player
@@ -13,6 +13,9 @@
 
 [AER](./../AER.html)
 > #adventure,#epic,#exploration,#game,#open-world,#owned,#pc,#single-player
+
+[Amnesia Rebirth](./../Amnesia%20Rebirth.html)
+> #adventure,#epic,#game,#horror,#owned,#pc,#single-player,#stealth
 
 [Among the Sleep - Enhanced Edition](./../Among%20the%20Sleep%20-%20Enhanced%20Edition.html)
 > #adventure,#controller-support,#epic,#game,#horror,#indie,#owned,#pc
@@ -50,6 +53,9 @@
 [Enter the Gungeon](./../Enter%20the%20Gungeon.html)
 > #action,#adventure,#controller-support,#epic,#game,#indie,#owned,#pc,#single-player
 
+[FAR CRY 4](./../FAR%20CRY%204.html)
+> #action,#adventure,#first-person,#game,#open-world,#owned,#pc,#prime-gaming,#shooter
+
 [For The King](./../For%20The%20King.html)
 > #adventure,#co-op,#epic,#game,#owned,#pc,#turn-based
 
@@ -68,11 +74,23 @@
 [HITMAN](./../HITMAN.html)
 > #action,#adventure,#epic,#game,#owned,#pc,#shooter,#single-player,#stealth
 
+[Hood Outlaws and Legends](./../Hood%20Outlaws%20and%20Legends.html)
+> #action,#adventure,#epic,#game,#owned,#pc,#stealth
+
 [Hue](./../Hue.html)
 > #adventure,#epic,#game,#owned,#pc,#platformer,#puzzle,#single-player
 
+[In Sound Mind](./../In%20Sound%20Mind.html)
+> #adventure,#epic,#game,#horror,#owned,#pc,#single-player
+
 [Inside](./../Inside.html)
 > #adventure,#controller-support,#epic,#game,#indie,#owned,#pc,#puzzle,#single-player
+
+[Jotun Valhalla Edition](./../Jotun%20Valhalla%20Edition.html)
+> #action,#adventure,#controller-support,#epic,#game,#indie,#owned,#pc
+
+[Just Die Already](./../Just%20Die%20Already.html)
+> #adventure,#co-op,#comedy,#epic,#game,#multiplayer,#open-world,#owned,#pc,#single-player
 
 [Ken Folletts The Pillars of the Earth](./../Ken%20Folletts%20The%20Pillars%20of%20the%20Earth.html)
 > #adventure,#controller-support,#epic,#game,#narration,#owned,#pc,#puzzle,#single-player
@@ -112,6 +130,9 @@
 
 [Shenmue 3](./../Shenmue%203.html)
 > #action,#adventure,#epic,#game,#owned,#pc,#rpg,#single-player
+
+[Shop Titans](./../Shop%20Titans.html)
+> #adventure,#casual,#epic,#game,#owned,#pc,#rpg
 
 [Sludge Life](./../Sludge%20Life.html)
 > #adventure,#epic,#game,#owned,#pc

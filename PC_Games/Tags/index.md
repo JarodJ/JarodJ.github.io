@@ -1,22 +1,25 @@
 # My PC Game Library Tag List
 
+[#achievements](./achievements.html)
+> 1 Notes
+
 [#action](./action.html)
-> 82 Notes
+> 96 Notes
 
 [#action-adventure](./action-adventure.html)
-> 4 Notes
+> 6 Notes
 
 [#adventure](./adventure.html)
-> 62 Notes
+> 69 Notes
 
 [#atmospheric](./atmospheric.html)
 > 1 Notes
 
 [#card-game](./card-game.html)
-> 5 Notes
+> 6 Notes
 
 [#casual](./casual.html)
-> 3 Notes
+> 4 Notes
 
 [#choices-matter](./choices-matter.html)
 > 1 Notes
@@ -25,100 +28,106 @@
 > 4 Notes
 
 [#co-op](./co-op.html)
-> 37 Notes
+> 40 Notes
 
 [#comedy](./comedy.html)
-> 2 Notes
+> 4 Notes
 
 [#competitive](./competitive.html)
 > 9 Notes
 
 [#controller-support](./controller-support.html)
-> 43 Notes
+> 47 Notes
 
 [#dungeon-crawler](./dungeon-crawler.html)
 > 3 Notes
 
 [#epic](./epic.html)
-> 186 Notes
+> 213 Notes
 
 [#exploration](./exploration.html)
-> 8 Notes
+> 9 Notes
 
 [#fighting](./fighting.html)
 > 2 Notes
 
 [#first-person](./first-person.html)
-> 15 Notes
+> 22 Notes
 
 [#fps](./fps.html)
 > 1 Notes
 
 [#game](./game.html)
-> 204 Notes
+> 241 Notes
 
 [#gog](./gog.html)
-> 8 Notes
+> 9 Notes
 
 [#horror](./horror.html)
-> 6 Notes
+> 10 Notes
 
 [#indie](./indie.html)
-> 40 Notes
+> 46 Notes
 
 [#management](./management.html)
 > 1 Notes
 
 [#multiplayer](./multiplayer.html)
-> 49 Notes
+> 51 Notes
 
 [#narration](./narration.html)
 > 5 Notes
 
 [#open-world](./open-world.html)
-> 8 Notes
+> 11 Notes
 
 [#origin](./origin.html)
-> 9 Notes
+> 17 Notes
 
 [#owned](./owned.html)
-> 204 Notes
+> 241 Notes
 
 [#party](./party.html)
-> 1 Notes
+> 2 Notes
 
 [#pc](./pc.html)
-> 204 Notes
+> 241 Notes
 
 [#platformer](./platformer.html)
-> 14 Notes
-
-[#puzzle](./puzzle.html)
 > 15 Notes
 
-[#racing](./racing.html)
-> 4 Notes
-
-[#rogue-lite](./rogue-lite.html)
-> 5 Notes
-
-[#role-playing](./role-playing.html)
+[#prime-gaming](./prime-gaming.html)
 > 1 Notes
 
+[#puzzle](./puzzle.html)
+> 16 Notes
+
+[#racing](./racing.html)
+> 7 Notes
+
+[#rogue-lite](./rogue-lite.html)
+> 7 Notes
+
+[#role-playing](./role-playing.html)
+> 2 Notes
+
 [#rpg](./rpg.html)
-> 31 Notes
+> 37 Notes
+
+[#sci-fi](./sci-fi.html)
+> 2 Notes
 
 [#scr-fi](./scr-fi.html)
 > 1 Notes
 
 [#shooter](./shooter.html)
-> 28 Notes
+> 38 Notes
 
 [#simulation](./simulation.html)
-> 22 Notes
+> 23 Notes
 
 [#single-player](./single-player.html)
-> 124 Notes
+> 138 Notes
 
 [#soccer](./soccer.html)
 > 1 Notes
@@ -130,7 +139,7 @@
 > 4 Notes
 
 [#stealth](./stealth.html)
-> 2 Notes
+> 4 Notes
 
 [#steam](./steam.html)
 > 3 Notes
@@ -139,13 +148,13 @@
 > 2 Notes
 
 [#strategy](./strategy.html)
-> 41 Notes
+> 45 Notes
 
 [#survival](./survival.html)
-> 10 Notes
+> 11 Notes
 
 [#turn-based](./turn-based.html)
-> 10 Notes
+> 11 Notes
 
 [#walking-simulator](./walking-simulator.html)
 > 1 Notes

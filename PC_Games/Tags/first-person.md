@@ -1,6 +1,6 @@
 # Notes tagged with "first-person"
 
-### _(15 Notes_)
+### _(22 Notes_)
 
 [Amnesia A Machine for Pigs](./../Amnesia%20A%20Machine%20for%20Pigs.html)
 > #epic,#first-person,#game,#horror,#indie,#owned,#pc,#single-player
@@ -19,6 +19,15 @@
 
 [Blair Witch](./../Blair%20Witch.html)
 > #epic,#first-person,#game,#horror,#owned,#pc
+
+[Borderlands 3](./../Borderlands%203.html)
+> #epic,#first-person,#game,#owned,#pc,#rpg,#shooter
+
+[City of Brass](./../City%20of%20Brass.html)
+> #action,#controller-support,#epic,#first-person,#game,#owned,#pc,#rogue-lite,#single-player
+
+[FAR CRY 4](./../FAR%20CRY%204.html)
+> #action,#adventure,#first-person,#game,#open-world,#owned,#pc,#prime-gaming,#shooter
 
 [HYPER SCAPE](./../HYPER%20SCAPE.html)
 > #controller-support,#epic,#first-person,#game,#owned,#pc,#shooter
@@ -41,9 +50,21 @@
 [Second Extinction](./../Second%20Extinction.html)
 > #action,#co-op,#epic,#first-person,#game,#multiplayer,#owned,#pc,#shooter
 
+[STAR WARS Jedi Knight - Jedi Academy](./../STAR%20WARS%20Jedi%20Knight%20-%20Jedi%20Academy.html)
+> #first-person,#game,#origin,#owned,#pc,#sci-fi,#shooter
+
+[STAR WARS Jedi Knight II - Jedi Outcast](./../STAR%20WARS%20Jedi%20Knight%20II%20-%20Jedi%20Outcast.html)
+> #first-person,#game,#origin,#owned,#pc,#sci-fi,#shooter
+
+[STAR WARS Republic Commando](./../STAR%20WARS%20Republic%20Commando.html)
+> #action,#first-person,#game,#origin,#owned,#pc,#shooter
+
 [Tacoma](./../Tacoma.html)
 > #adventure,#epic,#first-person,#game,#indie,#owned,#pc
 
 [theHunter Call of the Wild](./../theHunter%20Call%20of%20the%20Wild.html)
 > #co-op,#epic,#first-person,#game,#multiplayer,#open-world,#owned,#pc,#simulation,#single-player
+
+[Wolfenstein The New Order](./../Wolfenstein%20The%20New%20Order.html)
+> #action,#epic,#first-person,#game,#owned,#pc,#shooter
 

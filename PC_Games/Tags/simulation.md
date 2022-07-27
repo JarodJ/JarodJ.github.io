@@ -1,6 +1,6 @@
 # Notes tagged with "simulation"
 
-### _(22 Notes_)
+### _(23 Notes_)
 
 [Automachef](./../Automachef.html)
 > #epic,#game,#indie,#owned,#pc,#simulation,#single-player
@@ -10,6 +10,9 @@
 
 [Bridge Constructor The Walking Dead](./../Bridge%20Constructor%20The%20Walking%20Dead.html)
 > #epic,#game,#owned,#pc,#puzzle,#simulation,#single-player,#strategy
+
+[Car Mechanic Simulator 2018](./../Car%20Mechanic%20Simulator%202018.html)
+> #epic,#game,#owned,#pc,#simulation
 
 [Cities Skylines](./../Cities%20Skylines.html)
 > #city-builder,#epic,#game,#owned,#pc,#simulation,#single-player

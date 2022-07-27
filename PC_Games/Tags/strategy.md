@@ -1,6 +1,9 @@
 # Notes tagged with "strategy"
 
-### _(41 Notes_)
+### _(45 Notes_)
+
+[A Game Of Thrones The Board Game Digital Edition](./../A%20Game%20Of%20Thrones%20The%20Board%20Game%20Digital%20Edition.html)
+> #epic,#game,#owned,#pc,#strategy
 
 [A Total War Saga TROY](./../A%20Total%20War%20Saga%20TROY.html)
 > #epic,#game,#multiplayer,#owned,#pc,#single-player,#strategy
@@ -44,8 +47,14 @@
 [Idle Champions of the Forgotten Realms](./../Idle%20Champions%20of%20the%20Forgotten%20Realms.html)
 > #epic,#game,#owned,#pc,#single-player,#strategy
 
+[Insurmountable](./../Insurmountable.html)
+> #epic,#game,#owned,#pc,#rogue-lite,#single-player,#strategy,#survival
+
 [Into The Breach](./../Into%20The%20Breach.html)
 > #epic,#game,#owned,#pc,#rogue-lite,#single-player,#strategy,#turn-based
+
+[Iratus Lord of the Dead](./../Iratus%20Lord%20of%20the%20Dead.html)
+> #epic,#game,#owned,#pc,#rpg,#strategy,#turn-based
 
 [Ironcast](./../Ironcast.html)
 > #controller-support,#epic,#game,#indie,#owned,#pc,#rpg,#single-player,#strategy
@@ -124,4 +133,7 @@
 
 [X-Morph Defense](./../X-Morph%20Defense.html)
 > #action,#co-op,#controller-support,#game,#gog,#indie,#owned,#pc,#single-player,#strategy
+
+[XCOM 2](./../XCOM%202.html)
+> #epic,#game,#owned,#pc,#single-player,#strategy
 

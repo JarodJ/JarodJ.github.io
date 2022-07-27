@@ -1,6 +1,6 @@
 # Notes tagged with "exploration"
 
-### _(8 Notes_)
+### _(9 Notes_)
 
 [ABZU](./../ABZU.html)
 > #adventure,#controller-support,#epic,#exploration,#game,#owned,#pc,#single-player
@@ -19,6 +19,9 @@
 
 [Star Trek Online](./../Star%20Trek%20Online.html)
 > #epic,#exploration,#game,#multiplayer,#owned,#pc,#rpg
+
+[Supraland](./../Supraland.html)
+> #epic,#exploration,#game,#owned,#pc,#puzzle
 
 [The First Tree](./../The%20First%20Tree.html)
 > #adventure,#controller-support,#epic,#exploration,#game,#indie,#owned,#pc
