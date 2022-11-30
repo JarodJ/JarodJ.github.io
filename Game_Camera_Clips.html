@@ -8,18 +8,19 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <style>
-		body { background: #2A2B2F; color: white; font-size: 1.75rem; max-width: 90%; margin: auto; }
-		.container { max-width: 1200px; margin: auto; text-align: center; }
+		html, body { width: 100%; height: 100%; margin: 0px; padding: 0px; overflow-x: hidden; }
+		body { background: #2A2B2F; color: white; font-size: 1.75rem; margin: auto; }
+		.container { max-width: 1200px; margin: auto; text-align: center; width: 95%; }
 		.title { font-size: 2.75em; }
 		.buttons { margin-top: 1.5em; }
 		.radios { margin-top: 1em; }
 		.radio_box { margin-top: .5em; }
 		.ytplayer { margin-top: 1.5em; position: relative; width: 100%; height: 0; padding-bottom: 56.25%; }
 		.ytplayer_frame { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
-		.tier, .filter { margin-top: 1.5em; margin-right: 1.5em; display: inline-block; }
+		.tier, .filter { margin-top: 1.5em; display: inline-block; }
 		.tier > * { display: inline-block; }
 		.dropdowns { margin-top: 1.5em; }
-		.radio_box { margin-right: 1.5em; display: inline-block; }
+		.radio_box { padding-left: .5em; display: inline-block; }
 		.label { font-size: 1.75rem; }
 		.small_label { font-size: .75rem; }
 		.input { font-size: 1.75rem; display: block; margin-top: .25em; margin-left: auto; margin-right: auto; }
@@ -27,15 +28,16 @@
 		.checkboxes_box { border:2px solid #ccc; height: 20em; overflow-y: scroll; display: inline-block; }
 		.checkbox { display: block; font-size: 1.75rem; }
 		.button { font-size: 1.75rem; margin-top: 1em; margin-right: .5em; }
+		.video_chooser .dropdown, .video_chooser .checkbox { font-size: 1.43rem; }
 		#custom_filter { width: 7em; display: none; }
 		.filter_dropdowns > * { display: inline-block; }
-		#temp_playlist_url { width: 100%; }
+		#temp_playlist_url { width: 90%; }
 		.temp_playlist_button_box { margin-bottom: 1.5em; }
 		.sort_box .button, .sort_box .label { font-size: .5em; }
 		.sort_label_box { display: inline-block; }
 		.footer { margin-bottom: 5em; }
 		.tooltip { position: relative; display: inline-block; }
-		.tooltip .tooltiptext { visibility: hidden; width: 10em; background-color: black; color: #fff; text-align: center; border-radius: 6px; padding: 5px 0; position: absolute; z-index: 1; }
+		.tooltip .tooltiptext { visibility: hidden; width: 10em; background-color: black; color: #fff; text-align: center; border-radius: 6px; padding: 5px 0; position: absolute; z-index: 1; left: -8em; top: 2em; }
 		.tooltip:hover .tooltiptext { visibility: visible; }
 	</style>
 <body>
@@ -49,11 +51,11 @@
 			<div class="radios">
 				<div class="radio_box">
 					<label for="play_video_here" class="label">Play Videos Here</label>
-					<input type="radio" id="play_video_here" name="play_type" value="play_video_here" class="radio">
+					<input type="radio" id="play_video_here" name="play_type" value="play_video_here" class="radio" checked=True>
 				</div>
 				<div class="radio_box">
 					<label for="play_on_yt" class="label">Open Videos on YouTube</label>
-					<input type="radio" id="play_on_yt" name="play_type" value="play_on_yt" checked=True class="radio">
+					<input type="radio" id="play_on_yt" name="play_type" value="play_on_yt" class="radio">
 				</div>
 			</div>
 			<div class="radios">
@@ -143,26 +145,26 @@
 						<input type="button" id="clear_all_checkboxes_button" class="button" value="Clear All">
 					</div>
 				</div>
-			</div>
-			<div class="sort_box">
-				<div class="sort_label_box">		
-					<span id="sort_label" class="label">Current Sort: name decending</span>
-				</div>
-				<div class="tooltip">
-					<input type="button" id="sort_decending" class="button" value="v">
-					<span class="tooltiptext">Sort Decending</span>
-				</div>
-				<div class="tooltip">
-					<input type="button" id="sort_ascending" class="button" value="^">
-					<span class="tooltiptext">Sort Ascending</span>
-				</div>
-				<div class="tooltip">
-					<input type="button" id="sort_name" class="button" value="A">
-					<span class="tooltiptext">Sort by Name</span>
-				</div>
-				<div class="tooltip">		
-					<input type="button" id="sort_date" class="button" value="1">
-					<span class="tooltiptext">Sort by Date</span>
+				<div class="sort_box">
+					<div class="sort_label_box">		
+						<span id="sort_label" class="label">Current Sort: name decending</span>
+					</div>
+					<div class="tooltip">
+						<input type="button" id="sort_decending" class="button" value="v">
+						<span class="tooltiptext">Sort Decending</span>
+					</div>
+					<div class="tooltip">
+						<input type="button" id="sort_ascending" class="button" value="^">
+						<span class="tooltiptext">Sort Ascending</span>
+					</div>
+					<div class="tooltip">
+						<input type="button" id="sort_name" class="button" value="A">
+						<span class="tooltiptext">Sort by Name</span>
+					</div>
+					<div class="tooltip">		
+						<input type="button" id="sort_date" class="button" value="1">
+						<span class="tooltiptext">Sort by Date</span>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -319,7 +321,7 @@
 								date_formatted += "-"
 							date_formatted += date_section;
 							}
-						date_formatted = new Date(date_formatted + " 00:00:00").toLocaleDateString('en-us', { year:"numeric", month:"short"});
+						date_formatted = new Date(date_formatted + " 00:00:00").toLocaleDateString('en-us', { year:"numeric", month:"2-digit"});
 						}
 					else
 						{
