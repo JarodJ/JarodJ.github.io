@@ -1,0 +1,756 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+	<meta charset="utf-8">
+	<title>Boom Detector</title>
+	<meta name="description" content="Boom Detector Game">
+	<meta name="theme-color" content="#2A2B2F">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<style>
+    body { 
+    	background: #2A2B2F;
+    	color: rgba(255,255,255,0.85); 
+    	font-size: 1.75rem; 
+    	}
+    .container { 
+    	width: 90%; 
+    	margin: auto; 
+    	display: grid; 
+    	grid-template-columns: 
+    		[canvas_area-start left_column-start] 1fr 
+    		[left_column-end middle_column-start] 2fr 
+    		[middle_column-end right_column-start] 1fr 
+    		[right_column-end canvas_area-end]; 
+    	grid-template-rows: 
+    		[canvas_area-start] 1fr 
+    		[canvas_area-end score_area-start] 2em 
+    		[score_area-end button_box-start] 5em 
+    		[button_box-end options-start] 40em 
+    		[options-end]; 
+    	}
+    .canvas_area { 
+    	grid-area: canvas_area; 
+    	margin: auto; 
+    	}
+    .score_area { 
+    	grid-column-start: middle_column-start; 
+    	grid-column-end: middle_column-end; 
+    	grid-row-start: score_area-start; 
+    	grid-row-end: score_area-end; 
+    	margin: auto; 
+    	}
+    .button_box { 
+    	grid-column-start: middle_column-start; 
+    	grid-column-end: middle_column-end; 
+    	grid-row-start: button_box-start; 
+    	grid-row-end: button_box-end; 
+    	margin: auto;
+    	text-align: center;
+    	}
+    .options { 
+    	grid-column-start: middle_column-start; 
+    	grid-column-end: middle_column-end; 
+    	grid-row-start: options-start; 
+    	grid-row-end: options-end; 
+    	margin: auto; 
+    	/*text-align: center; */
+    	border-top: 2px solid black;
+    	padding-top: 1em;
+    	padding-bottom: 5em;
+    	}
+    canvas { 
+    	border: 3px solid silver; 
+    	}
+    .button_box > div { 
+    	margin-bottom: 1em; 
+    	}    
+    .button_box > .button { 
+    	display: inline-block; 
+    	}
+    .options_div { 
+    	margin-bottom: 1em; 
+    	}
+    .options_sub_div { 
+    	margin-bottom: .5em; 
+    	display: inline-block; 
+    	margin-right: .5em; 
+    	}
+    input { 
+    	font-size: 1.75rem; 
+    	}
+    .num_input { 
+    	width: 6rem; 
+    	}
+    .hotkeysList {
+    	max-width: 20em;
+    	}
+    .hotkeyTitle {
+    	text-align: center;
+    	border-bottom: 2px solid black;
+    	margin-bottom: 1em;
+    	padding-bottom: .5em;
+    	}
+    .hotkeyText {
+    	float: right;
+    	}
+    @media screen and (max-width:40em) {
+        .container { 
+        	grid-template-columns: 
+        		[canvas_area-start left_column-start middle_column-start right_column-start] 1fr 
+        		[left_column-end middle_column-end right_column-end canvas_area-end]; }
+    	}
+</style>
+<body>
+	<div class="container">
+		<div class="canvas_area">
+			<canvas id="canvas" width="300" height="600"></canvas>
+		</div>
+		<div class="score_area">
+			<div>
+			    <span class="text" id="score"></span>
+			</div>
+		</div>
+		<div class="button_box">
+			<div class="radios">
+			    <div class="options_sub_div">
+					<label for="selectingModeReveal">Reveal</label>
+					<input type="radio" id="selectingModeReveal" name="selectingMode" value="selectingModeReveal" checked=True>
+				</div>
+			    <div class="options_sub_div">
+					<label for="selectingModeMark">Mark</label>
+					<input type="radio" id="selectingModeMark" name="selectingMode" value="selectingModeMark">
+				</div>
+			    <div class="options_sub_div">
+					<label for="selectingModeQuestion">Question</label>
+					<input type="radio" id="selectingModeQuestion" name="selectingMode" value="selectingModeQuestion">
+				</div>
+			</div>
+			<div class="button">
+			    <input type="button" id="resetButton" value="Reset">
+			</div>
+			<div class="optionsButtonBox">
+			    <span class="text" id="optionsButton">Options (click to toggle)</span>
+			</div>
+		</div>
+		<div class="options" id="options">
+			<div class="options_div">
+			    <div class="options_sub_div">
+			        <label for="boomPercent">Percentage of squares with boom:</label>
+			        <input class="input num_input" type="number" id="boomPercent" min="1">
+			    </div>
+		    </div>
+		    <div class="options_div">
+			    <div class="options_sub_div">
+			        <label for="gridSizeX">Grid Size X:</label>
+			        <input class="input num_input" type="number" id="gridSizeX" min="1">
+			    </div>
+			    <div class="options_sub_div">
+			        <label for="gridSizeY">Grid Size Y:</label>
+			        <input class="input num_input" type="number" id="gridSizeY" min="1">
+			    </div>
+		    </div>
+		    <div class="options_div">
+			    <div class="options_sub_div">
+			        <label for="canvasWidth">Canvas Width:</label>
+			        <input class="input num_input" type="number" id="canvasWidth" min="10">
+			    </div>
+			    <div class="options_sub_div">
+			        <label for="canvasWidth">Canvas Height:</label>
+			        <input class="input num_input" type="number" id="canvasHeight" min="10">
+			    </div>
+		    </div>
+		    <div class="options_div">
+		        <label for="revealBlanks">Reveal Blanks on Start:</label>
+		        <input class="input" type="checkbox" id="revealBlanks" checked="true">
+			</div>
+		    <div class="options_div">
+		        <label for="markCompletedSquares">Use Helpful Colors:</label>
+		        <input class="input" type="checkbox" id="markCompletedSquares" checked="true">
+			</div>
+			<div class="button options_div">
+			    <input type="button" id="clearSavedSettings" value="Clear Saved Settings">
+			</div>
+			<div class="hotkeysList" id="hotkeysList">
+				<div class="hotkeyTitle">
+					<span>HotKeys List</span>
+				</div>
+				<div>
+					<span class="hotkeyLabel">Reveal</span>
+					<span class="hotkeyText">Left Click</span>
+				</div>
+				<div>
+					<span class="hotkeyLabel">Mark</span>
+					<span class="hotkeyText">Right Click</span>
+				</div>
+				<div>
+					<span class="hotkeyLabel">Move</span>
+					<span class="hotkeyText">Arrows</span>
+				</div>
+				<div>
+					<span class="hotkeyLabel">Move</span>
+					<span class="hotkeyText">WASD</span>
+				</div>
+				<div>
+					<span class="hotkeyLabel">Reveal</span>
+					<span class="hotkeyText">Enter</span>
+				</div>
+				<div>
+					<span class="hotkeyLabel">Mark</span>
+					<span class="hotkeyText">Space</span>
+				</div>
+				<div>
+					<span class="hotkeyLabel">Reset</span>
+					<span class="hotkeyText">R</span>
+				</div>
+			</div>
+		</div>
+	</div>
+<script>
+    let canvas, ctx, canvasRect, canvasRectOffset, gridSizeX, gridSizeY, canvasGridSizeX, canvasGridSizeY, pieceSquareSizeX, pieceSquareSizeY, boomPercent, boomCount, board, scoreElement, selectedSquareX, selectedSquareY, markSelectedSquare, xCheckList, yCheckList, revealBlanks, selectingMode, markCompletedSquares;
+    function load(){
+    	gridSizeX = saveSetting("gridSizeX");
+    	if (gridSizeX == null){
+        	gridSizeX = 10;}
+    	gridSizeY = saveSetting("gridSizeY");
+    	if (gridSizeY == null){
+        	gridSizeY = 10;}
+    	boomPercent = saveSetting("boomPercent");
+    	if (boomPercent == null){
+        	boomPercent = 30;}
+    	revealBlanks = saveSetting("revealBlanks");
+    	if (revealBlanks == null){
+        	revealBlanks = true;}
+    	markCompletedSquares = saveSetting("markCompletedSquares");
+    	if (markCompletedSquares == null){
+        	markCompletedSquares = true;}
+		xCheckList = [-1, 0, 1, 1, 1, 0, -1, -1];
+		yCheckList = [-1, -1, -1, 0, 1, 1, 1, 0];
+        canvas = document.getElementById("canvas");
+        if (!canvas.getContext) {
+            alert("Canvas not */supported by browser\n\nPlease try another browser");
+        	return;
+        	}
+        ctx = canvas.getContext("2d", { alpha: false });
+        changeCanvasSize();
+        let optionsDisplay = saveSetting("optionsDisplay");
+        if (optionsDisplay == null){
+        	optionsDisplay = "none";}
+        document.getElementById("options").style.display = optionsDisplay;
+        document.getElementById("boomPercent").value = boomPercent;
+        document.getElementById("gridSizeX").value = gridSizeX;
+        document.getElementById("gridSizeY").value = gridSizeY;
+        document.getElementById("revealBlanks").checked = revealBlanks;
+        document.getElementById("markCompletedSquares").checked = markCompletedSquares;
+        scoreElement = document.getElementById("score");
+        setEventListeners();
+        reset();
+        }
+    function reset(){
+    	playingState = "playing";
+    	selectedSquareX = 0;
+    	selectedSquareY = 0;
+    	markSelectedSquare = false;
+    	createBoard();
+    	if (revealBlanks == true){
+			revealAllBlanks();}
+    	redrawBoard();
+        }
+    function changeCanvasSize(width="", height="", height_multiplier=1.09, width_multiplier=.87){
+    	if (isNaN(width)){
+    		width = "";}
+    	if (isNaN(height)){
+    		height = "";}
+    	if ((width == "") && (height == "")){
+			let window_height = (window.innerHeight / height_multiplier);
+			let window_width = (window.innerWidth * width_multiplier);
+	    	if (window_width < window_height){
+	    		width = window_width;}
+	    	else{
+	    		height = window_height;}
+    		}
+    	if ((width == "") && (height != "")){
+    		width = (height / (gridSizeY / gridSizeX));}
+    	if ((height == "") && (width != "")){
+    		height = (width * (gridSizeY / gridSizeX));}
+    	canvas.width = Math.round(width);
+    	canvas.height = Math.round(height);
+    	canvasRect = canvas.getBoundingClientRect();
+    	canvasRectOffset = document.documentElement.getBoundingClientRect();
+    	document.getElementById("canvasWidth").value = canvas.width;
+    	document.getElementById("canvasHeight").value = canvas.height;
+    	changePieceSize();
+    	if (board){
+			redrawBoard();}
+    	}
+    function changePieceSize(){
+    	if (gridSizeX < gridSizeY){
+			pieceSquareSizeX = Math.round(canvas.width / gridSizeX);
+			pieceSquareSizeY = pieceSquareSizeX;
+	    	}
+	    else{
+			pieceSquareSizeY = Math.round(canvas.height / gridSizeY);
+			pieceSquareSizeX = pieceSquareSizeY;
+	    	}
+	    let width = (pieceSquareSizeX * gridSizeX);
+	    let height = (pieceSquareSizeY * gridSizeY);
+		if ((width != canvas.width) || (height != canvas.height)){
+	    	changeCanvasSize(width=width, height=height);
+			return;
+			}
+    	}
+    function createBoard(){
+		board = {}
+		let boomPositions = [];
+    	boomCount = Math.round((gridSizeX * gridSizeY) / (100 / boomPercent));
+    	while (boomPositions.length < boomCount){
+			let randomPositionX = Math.round(Math.random() * (gridSizeX - 1));
+			let randomPositionY = Math.round(Math.random() * (gridSizeY - 1));
+			if (boomPositions.includes(randomPositionX + "," + randomPositionY)){
+				continue;}
+			boomPositions.push(randomPositionX + "," + randomPositionY);
+			}
+		for (let y = 0; y < gridSizeY; y++){
+    		for (let x = 0; x < gridSizeX; x++){
+				let contents = "";
+				let isBoom = false;
+				if (boomPositions.includes(x + "," + y)){
+					isBoom = true;
+					contents = "B";
+					}
+    			let square = {positionX: x, positionY: y, contents: contents, isBoom: isBoom, boomTouchingCount: 0, isRevealed: false, isMarked: false, isQuestion: false};
+    			board[x + "," + y] = square;
+    			}
+    		}
+    	calculateSquaresContents();
+		}
+	function calculateSquaresContents(){
+		for (let y = 0; y < gridSizeY; y++){
+    		for (let x = 0; x < gridSizeX; x++){
+    			let square = board[x + "," + y];
+    			if (square.isBoom == true){
+					square.boomTouchingCount = 100;
+					continue;
+					}
+    			[boomTouchingCount, notRevealedTouchingCount] = calculateBoomTouchingCount(square);
+    			square.boomTouchingCount = boomTouchingCount;
+    			if (boomTouchingCount > 0){
+					square.contents = boomTouchingCount;}
+    			}
+    		}
+		}
+	function calculateBoomTouchingCount(square, checkBoom=true, checkMarked=false){
+		let boomTouchingCount = 0;
+		let notRevealedTouchingCount = 0;
+		for (let i = 0; i < xCheckList.length; i++){
+			let checkPositionX = (square.positionX + xCheckList[i]);
+			let checkPositionY = (square.positionY + yCheckList[i]);
+			if ((checkPositionX < 0) || (checkPositionX > (gridSizeX - 1)) || (checkPositionY < 0) || (checkPositionY > (gridSizeY - 1))){
+				continue;}
+			let checkPosition = checkPositionX + "," + checkPositionY;
+			if (!board.hasOwnProperty(checkPosition)){
+				continue;}
+			let checkSquare = board[checkPosition];
+			if (((checkBoom == true) && (checkSquare.isBoom == true)) || ((checkMarked == true) && (checkSquare.isMarked == true))){
+				boomTouchingCount++;}
+			if ((checkSquare.isRevealed != true) && (checkSquare.isMarked != true)){
+				notRevealedTouchingCount++;}
+			}
+		return [boomTouchingCount, notRevealedTouchingCount];
+		}
+	function checkForCompletedTouchingSquares(square){
+		let touchingCompletedSquare = false
+		for (let i = 0; i < xCheckList.length; i++){
+			let checkPositionX = (square.positionX + xCheckList[i]);
+			let checkPositionY = (square.positionY + yCheckList[i]);
+			if ((checkPositionX < 0) || (checkPositionX > (gridSizeX - 1)) || (checkPositionY < 0) || (checkPositionY > (gridSizeY - 1))){
+				continue;}
+			let checkPosition = checkPositionX + "," + checkPositionY;
+			if (!board.hasOwnProperty(checkPosition)){
+				continue;}
+			let checkSquare = board[checkPosition];
+			if (checkSquare.isRevealed == true){
+				[boomTouchingCount, notRevealedTouchingCount] = calculateBoomTouchingCount(checkSquare, false, true);
+				if (boomTouchingCount == checkSquare.boomTouchingCount){
+					touchingCompletedSquare = true;}
+				}
+			}
+		return touchingCompletedSquare;
+		}
+	function revealAllBlanks(){
+		for (let [position, square] of Object.entries(board)){
+			if ((square.isBoom != true) && (square.boomTouchingCount == 0)){
+				square.isRevealed = true;
+				revealTouchingBlanks(square);
+				}
+			}
+		}
+    function redrawBoard(){
+		let markedCount = 0;
+		let revealedCount = 0;
+		let coveredCount = 0;
+		let fillColor = "grey";
+		let textColor = "black";
+    	ctx.clearRect(0, 0, canvas.width, canvas.height);
+    	ctx.fillStyle = "#2A2B2F"
+    	ctx.fillRect(0, 0, canvas.width, canvas.height);
+  		ctx.fillStyle = fillColor
+  		let fontSize = (pieceSquareSizeX / 2.5);
+  		ctx.font = `${fontSize}px Arial`;
+    	for (let y = 0; y < gridSizeY; y++){
+    		for (let x = 0; x < gridSizeX; x++){
+    			fillX = (x * pieceSquareSizeX);
+		        fillY = (y * pieceSquareSizeY);
+    			ctx.strokeRect(fillX, fillY, pieceSquareSizeX, pieceSquareSizeY);
+    			if (!board.hasOwnProperty(x + "," + y)){
+					continue;}
+    			let square = board[x + "," + y];
+    			if ((markSelectedSquare == true) && (selectedSquareX == x) && (selectedSquareY == y)){
+					fillColor = "silver";}
+				else{
+					fillColor = "grey";}
+    			if (square.isRevealed == true){
+					if ((markSelectedSquare == true) && (selectedSquareX == x) && (selectedSquareY == y)){
+						fillColor = "rgb(60 61 65)";
+						ctx.fillStyle = fillColor;
+						ctx.fillRect(fillX, fillY, pieceSquareSizeX, pieceSquareSizeY);
+						}
+					if (square.isBoom == true){
+						textColor = "red";}
+					else{
+						if (markCompletedSquares == true){
+							let [boomTouchingCount, notRevealedTouchingCount] = calculateBoomTouchingCount(square, false, true);
+							if (boomTouchingCount == square.boomTouchingCount){
+								textColor = "darkgreen";}
+							else{
+								textColor = "black";
+								ctx.fillStyle = textColor;
+								ctx.font = `${(fontSize / 2)}px Arial`;
+								ctx.fillText((square.boomTouchingCount - boomTouchingCount), (fillX + ((pieceSquareSizeX / 2) - ((fontSize / 2) / 4)) - (pieceSquareSizeX / 4)), (fillY + ((pieceSquareSizeY / 2) + ((fontSize / 2) / 4)) + (pieceSquareSizeY / 4)));
+								// if (((boomTouchingCount == 0) && (notRevealedTouchingCount == square.boomTouchingCount)) || ((boomTouchingCount > 0) && (notRevealedTouchingCount == boomTouchingCount))){
+								if (notRevealedTouchingCount == (square.boomTouchingCount - boomTouchingCount)){
+									textColor = "gold";}
+								ctx.fillStyle = textColor;
+								ctx.fillText(notRevealedTouchingCount, (fillX + ((pieceSquareSizeX / 2) - ((fontSize / 2) / 4)) + (pieceSquareSizeX / 4)), (fillY + ((pieceSquareSizeY / 2) + ((fontSize / 2) / 4)) + (pieceSquareSizeY / 4)));
+								ctx.font = `${fontSize}px Arial`;
+								textColor = "black";
+								}
+							}
+						else{
+							textColor = "black";}
+						}
+					ctx.fillStyle = textColor;
+					ctx.fillText(square.contents, (fillX + ((pieceSquareSizeX / 2) - (fontSize / 4))), (fillY + ((pieceSquareSizeY / 2) + (fontSize / 4))));
+					revealedCount++;
+					}
+				else if (playingState == "lost")
+					{
+					fillColor = "dimgrey";
+					ctx.fillStyle = fillColor;
+					ctx.fillRect(fillX, fillY, pieceSquareSizeX, pieceSquareSizeY);
+					revealedCount++;
+					if (square.isBoom == true){
+						if (square.isMarked == true){
+							textColor = "limegreen";}
+						else if (square.isQuestion == true){
+							textColor = "blue";}
+						else{
+							textColor = "firebrick";}
+						}
+					else{
+						if (square.isMarked == true){
+							textColor = "red";}
+						else if (square.isQuestion == true){
+							textColor = "blue";}
+						else{
+							textColor = "black";}
+						}
+					ctx.fillStyle = textColor;
+					ctx.fillText(square.contents, (fillX + ((pieceSquareSizeX / 2) - (fontSize / 4))), (fillY + ((pieceSquareSizeY / 2) + (fontSize / 4))));
+					}
+				else if (square.isMarked == true){
+					ctx.fillStyle = fillColor;
+					ctx.fillRect(fillX, fillY, pieceSquareSizeX, pieceSquareSizeY);
+					textColor = "limegreen";
+					ctx.fillStyle = textColor;
+					ctx.fillText("B", (fillX + ((pieceSquareSizeX / 2) - (fontSize / 4))), (fillY + ((pieceSquareSizeY / 2) + (fontSize / 4))));
+					markedCount++;
+					}
+				else if (square.isQuestion == true){
+					ctx.fillStyle = fillColor;
+					ctx.fillRect(fillX, fillY, pieceSquareSizeX, pieceSquareSizeY);
+					textColor = "blue";
+					ctx.fillStyle = textColor;
+					ctx.fillText("?", (fillX + ((pieceSquareSizeX / 2) - (fontSize / 4))), (fillY + ((pieceSquareSizeY / 2) + (fontSize / 4))));
+					coveredCount++;
+					}
+				else{
+					if (markCompletedSquares == true){
+						let touchingCompletedSquare = checkForCompletedTouchingSquares(square);
+						if (touchingCompletedSquare == true){
+							fillColor = "rgb(100,100,100)";}
+						}
+					ctx.fillStyle = fillColor;
+					ctx.fillRect(fillX, fillY, pieceSquareSizeX, pieceSquareSizeY);
+					coveredCount++;
+					}
+    			}
+    		}
+    	if (revealedCount == ((gridSizeX * gridSizeY) - boomCount)){
+			scoreElement.innerText = "You Won!";}
+		else if (playingState != "lost"){
+			scoreElement.innerText = `${markedCount} marked out of ${boomCount} (${(boomCount - markedCount)} left of ${coveredCount} squares)`;}
+    	}
+    function gameOver(){
+    	playingState = "lost"
+   // 	for (let [position, square] of Object.entries(board)){
+			// square.isRevealed = true;}
+    	redrawBoard();
+		}
+	function pieceClicked(piecePosition, button){
+		if (!board.hasOwnProperty(piecePosition)){
+			return;}
+		let clickedSquare = board[piecePosition];
+		if (clickedSquare.isRevealed == true){
+			return;}
+		if ((button == 0) && (selectingMode == "mark")){
+			button = 2;}
+		else if ((button == 0) && (selectingMode == "question")){
+			button = 1;}
+		if (button == 0){
+			if (clickedSquare.isMarked == true){
+				clickedSquare.isMarked = false;}
+			else if (clickedSquare.isQuestion == true){
+				clickedSquare.isQuestion = false;}
+			else if (clickedSquare.isBoom == true){
+				clickedSquare.isRevealed = true;
+				gameOver();
+				return;
+				}
+			else{
+				clickedSquare.isRevealed = true;
+				if (clickedSquare.boomTouchingCount == 0){
+					revealTouchingBlanks(clickedSquare);}
+				}
+			}
+		else if (button == 1){
+			if (clickedSquare.isQuestion == true){
+				clickedSquare.isQuestion = false;}
+			else{
+				if (clickedSquare.isMarked == true){
+					clickedSquare.isMarked = false;}
+				clickedSquare.isQuestion = true;}
+			}
+		else{
+			if (clickedSquare.isMarked == true){
+				clickedSquare.isMarked = false;}
+			else{
+				if (clickedSquare.isQuestion == true){
+					clickedSquare.isQuestion = false;}
+				clickedSquare.isMarked = true;
+				}
+			}
+		redrawBoard();
+		}
+	function revealTouchingBlanks(square){
+		for (let i = 0; i < xCheckList.length; i++){
+			let checkPositionX = (square.positionX + xCheckList[i]);
+			let checkPositionY = (square.positionY + yCheckList[i]);
+			if ((checkPositionX < 0) || (checkPositionX > (gridSizeX - 1)) || (checkPositionY < 0) || (checkPositionY > (gridSizeY - 1))){
+				continue;}
+			let checkPosition = checkPositionX + "," + checkPositionY;
+			if (!board.hasOwnProperty(checkPosition)){
+				continue;}
+			let checkSquare = board[checkPosition];
+			if (checkSquare.isRevealed != true){
+				checkSquare.isRevealed = true;
+				if (checkSquare.boomTouchingCount == 0){
+					revealTouchingBlanks(checkSquare);}
+				}
+			}
+		}
+	function move(direction){
+		if (direction == "down"){
+			selectedSquareY++;}
+		else if (direction == "up"){
+			selectedSquareY--;}
+		else if (direction == "right"){
+			selectedSquareX++;}
+		else if (direction == "left"){
+			selectedSquareX--;}
+		if (selectedSquareX < 0){
+			selectedSquareX = 0;}
+		else if (selectedSquareX > (gridSizeX - 1)){
+			selectedSquareX = (gridSizeX - 1);}
+		if (selectedSquareY < 0){
+			selectedSquareY = 0;}
+		else if (selectedSquareY > (gridSizeY - 1)){
+			selectedSquareY = (gridSizeY - 1);}
+		markSelectedSquare = true;
+		redrawBoard();
+		}
+    function setEventListeners(){
+		canvas.addEventListener('pointerdown', function(event){
+			event.preventDefault();
+			let clickedX = Math.floor(((event.pageX - (canvasRect.left - canvasRectOffset.left)) / pieceSquareSizeX) - .03);
+			let clickedY = Math.floor(((event.pageY - (canvasRect.top - canvasRectOffset.top)) / pieceSquareSizeY) - .03);
+			let piecePosition = clickedX + "," + clickedY;
+			pieceClicked(piecePosition, event.button);
+			});
+		canvas.addEventListener('contextmenu', function(event) {event.preventDefault();}, false);
+    	document.getElementById("optionsButton").addEventListener("click", function(event){
+            if (document.getElementById("options").style.display != "block"){
+                document.getElementById("options").style.display = "block";
+                saveSetting("optionsDisplay", "block");
+                }
+            else{
+                document.getElementById("options").style.display = "none";
+            	saveSetting("optionsDisplay", "none");
+            	}
+    		});
+    	document.getElementById("selectingModeReveal").addEventListener("change", function(event){
+            if (document.getElementById("selectingModeReveal").checked == true){
+            	selectingMode = "reveal";}
+    		});
+    	document.getElementById("selectingModeMark").addEventListener("change", function(event){
+            if (document.getElementById("selectingModeMark").checked == true){
+            	selectingMode = "mark";}
+    		});
+    	document.getElementById("selectingModeQuestion").addEventListener("change", function(event){
+            if (document.getElementById("selectingModeQuestion").checked == true){
+            	selectingMode = "question";}
+    		});
+        document.getElementById("resetButton").addEventListener("click", function(event){
+            reset();
+    		});
+    	document.getElementById("clearSavedSettings").addEventListener("click", function(event){
+            clearSavedSettings();
+    		});
+    	document.getElementById("gridSizeX").addEventListener("change", function(event){
+    		if (!isNaN(parseFloat(document.getElementById("gridSizeX").value))){
+	            gridSizeX = parseFloat(document.getElementById("gridSizeX").value);
+	            saveSetting("gridSizeX", gridSizeX);
+	            changeCanvasSize();
+	            reset();
+	    		}
+    		});
+    	document.getElementById("gridSizeY").addEventListener("change", function(event){
+    		if (!isNaN(parseFloat(document.getElementById("gridSizeY").value))){
+	            gridSizeY = parseFloat(document.getElementById("gridSizeY").value);
+	            saveSetting("gridSizeY", gridSizeY);
+	            changeCanvasSize();
+	            reset();
+    			}
+	    	});
+    	document.getElementById("boomPercent").addEventListener("change", function(event){
+    		if (!isNaN(parseFloat(document.getElementById("boomPercent").value))){
+            	boomPercent = parseFloat(document.getElementById("boomPercent").value);
+    			saveSetting("boomPercent", boomPercent);
+    			}
+            });
+    	document.getElementById("canvasWidth").addEventListener("change", function(event){
+    		if (!isNaN(parseFloat(document.getElementById("canvasWidth").value))){
+	    		let width = parseFloat(document.getElementById("canvasWidth").value);
+	    		let height = "";
+	            changeCanvasSize(width, height);
+    			}
+    		});
+    	document.getElementById("canvasHeight").addEventListener("change", function(event){
+    		if (!isNaN(parseFloat(document.getElementById("canvasHeight").value))){
+	    		let height = parseFloat(document.getElementById("canvasHeight").value);
+	            let width = "";
+	            changeCanvasSize(width, height);
+	    		}
+    		});
+    	document.getElementById("revealBlanks").addEventListener("change", function(event){
+            revealBlanks = document.getElementById("revealBlanks").checked;
+    		saveSetting("revealBlanks", revealBlanks);
+    		});
+    	document.getElementById("markCompletedSquares").addEventListener("change", function(event){
+            markCompletedSquares = document.getElementById("markCompletedSquares").checked;
+            console.log(markCompletedSquares);
+    		saveSetting("markCompletedSquares", markCompletedSquares);
+    		});
+        document.addEventListener('keydown', function(event){
+			if (event.key == "ArrowUp") {
+				event.preventDefault();
+				move("up");
+				}
+			else if (event.key == "ArrowDown") {
+				event.preventDefault();
+				move("down");
+				}
+			else if (event.key == "ArrowLeft") {
+				event.preventDefault();
+				move("left");
+				}
+			else if (event.key == "ArrowRight") {
+				event.preventDefault();
+				move("right");
+				}			
+			else if ((event.key == "w") || (event.key == "W")) {
+				event.preventDefault();
+				move("up");
+				}
+			else if ((event.key == "s") || (event.key == "S")) {
+				event.preventDefault();
+				move("down");
+				}
+			else if ((event.key == "a") || (event.key == "A")) {
+				event.preventDefault();
+				move("left");
+				}
+			else if ((event.key == "d") || (event.key == "D")) {
+				event.preventDefault();
+				move("right");
+				}			
+			else if (event.key == " ") {
+				event.preventDefault();
+				let piecePosition = selectedSquareX + "," + selectedSquareY;
+				pieceClicked(piecePosition, 2);
+				}
+			else if ((event.key == "r") || (event.key == "R")) {
+				event.preventDefault();
+				reset();
+				}
+			else if ((event.key == "q") || (event.key == "Q")) {
+				event.preventDefault();
+				let piecePosition = selectedSquareX + "," + selectedSquareY;
+				pieceClicked(piecePosition, 1);
+				}
+			else if (event.key == "Enter") {
+				event.preventDefault();
+				let piecePosition = selectedSquareX + "," + selectedSquareY;
+				pieceClicked(piecePosition, 0);
+				}
+			// else{
+			// 	console.log(event.key);}
+			});
+    	}
+    function saveSetting(key, value=null, clearKey=false){
+		try{
+			if (value != null){
+				localStorage.setItem(key, JSON.stringify(value));}
+			else if (clearKey == true){
+				localStorage.removeItem(key);}
+			else{
+				value = JSON.parse(localStorage.getItem(key));}
+			// console.log("saved " + key + " : " + value);
+			// console.log(localStorage)
+			}
+		catch(e){
+			console.error(e)};
+		return value;
+		}
+	function clearSavedSettings(){
+		for (let i = (localStorage.length - 1); i >= 0; i--){
+			try{
+				localStorage.removeItem(localStorage.key(i));}
+			catch(e){
+				console.error(e)};
+			}
+		}
+    window.addEventListener("load", load);
+</script>
+</body>
+</html>

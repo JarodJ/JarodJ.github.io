@@ -1,0 +1,864 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+	<meta charset="utf-8">
+	<title>Brick Breaker</title>
+	<meta name="description" content="Brick Breaker Game">
+	<meta name="theme-color" content="#2A2B2F">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<style>
+    body { 
+    	background: #2A2B2F;
+    	color: rgba(255,255,255,0.85); 
+    	font-size: 1.75rem; 
+    	}
+    .container { 
+    	width: 90%; 
+    	margin: auto; 
+    	display: grid; 
+    	grid-template-columns: 
+    		[canvas_area-start left_column-start] 1fr 
+    		[left_column-end middle_column-start] 2fr 
+    		[middle_column-end right_column-start] 1fr 
+    		[right_column-end canvas_area-end]; 
+    	grid-template-rows: 
+    		[canvas_area-start] 1fr 
+    		[canvas_area-end controls-start] 10em 
+    		[controls-end button_box-start] 4em 
+    		[button_box-end controls-start] 2em 
+    		[controls-end options-start] 1em
+    		[options-end]; 
+    	}
+    .canvas_area { 
+    	grid-area: canvas_area; 
+    	margin: auto; 
+    	}
+    .main_canvas_area {
+    	grid-area: main_canvas_area;
+    	}
+    .controls { 
+    	grid-column-start: middle_column-start; 
+    	grid-column-end: middle_column-end; 
+    	grid-row-start: controls-start; 
+    	grid-row-end: controls-end; 
+    	margin: auto; 
+    	font-size: 2em; 
+    	display: grid; 
+    	grid-template-columns: 
+    		[left_button-start] 1fr 
+    		[left_button-end middle_button-start] 1fr 
+    		[middle_button-end right_button-start] 1fr 
+    		[right_button-end]; 
+    	grid-template-rows: 
+    		[top_button-start] 1fr 
+    		[top_button-end middle_button-start] 1fr 
+    		[middle_button-end bottom_button-start] 1fr 
+    		[bottom_button-end]; 
+    	}
+    .button_box { 
+    	grid-column-start: middle_column-start; 
+    	grid-column-end: middle_column-end; 
+    	grid-row-start: button_box-start; 
+    	grid-row-end: button_box-end; 
+    	margin: auto; 
+    	}
+    .options { 
+    	grid-column-start: middle_column-start; 
+    	grid-column-end: middle_column-end; 
+    	grid-row-start: options-start; 
+    	grid-row-end: options-end; 
+    	margin: auto; 
+    	/*text-align: center; */
+    	border-top: 2px solid black;
+    	padding-top: 1em;
+    	padding-bottom: 5em;
+    	margin-top: 2em;
+    	}
+    canvas { 
+    	border: 3px solid red; 
+    	}
+    .left_box, .right_box, .up_box, .down_box { 
+    	width: 1.5em; 
+    	}
+    .left_box { 
+    	grid-column-start: left_button-start; 
+    	grid-column-end: left_button-end; 
+    	grid-row-start: middle_button-start; 
+    	grid-row-end: middle_button-end; 
+    	}
+    .right_box { 
+    	grid-column-start: right_button-start; 
+    	grid-column-end: right_button-end; 
+    	grid-row-start: middle_button-start; 
+    	grid-row-end: middle_button-end; 
+    	}
+    .up_box { 
+    	grid-column-start: middle_button-start; 
+    	grid-column-end: middle_button-end; 
+    	grid-row-start: top_button-start; 
+    	grid-row-end: top_button-end; 
+    	}
+    .down_box { 
+    	grid-column-start: middle_button-start; 
+    	grid-column-end: middle_button-end; 
+    	grid-row-start: bottom_button-start; 
+    	grid-row-end: bottom_button-end; 
+    	}
+    .middle_box { 
+    	grid-column-start: middle_button-start; 
+    	grid-column-end: middle_button-end; 
+    	grid-row-start: middle_button-start; 
+    	grid-row-end: middle_button-end; 
+    	}
+    .up_down_text { 
+    	padding-left: .2em; 
+    	}
+    .left_right_text { 
+    	padding-left: .5em; 
+    	}
+    .middle_text { 
+    	padding-left: .385em; 
+    	}
+    .button_box > div { 
+    	margin-bottom: 1em; 
+    	}    
+    .button_box > .button { 
+    	display: inline-block; 
+    	}
+    .up_down_text { 
+    	writing-mode: vertical-rl; 
+    	}
+    .control_button_box { 
+    	background: #3F3F3F; 
+    	width: 1.5em; 
+    	cursor: pointer;
+    	user-select: none;
+    	}
+    .options_div { 
+    	margin-bottom: 1em; 
+    	}
+    .options_sub_div { 
+    	margin-bottom: .5em; 
+    	display: inline-block; 
+    	margin-right: .5em; 
+    	}
+    input { 
+    	font-size: 1.75rem; 
+    	}
+    .num_input { 
+    	width: 4rem; 
+    	}
+    .hotkeysList {
+    	max-width: 20em;
+    	}
+    .hotkeyTitle {
+    	text-align: center;
+    	border-bottom: 2px solid black;
+    	margin-bottom: 1em;
+    	}
+    .hotkeyText {
+    	float: right;
+    	}
+    @media screen and (max-width:40em) {
+        .container { 
+        	grid-template-columns: 
+        		[canvas_area-start left_column-start middle_column-start right_column-start] 1fr 
+        		[left_column-end middle_column-end right_column-end canvas_area-end]; }
+    	}
+</style>
+<body>
+	<div class="container">
+		<div class="score_area">
+			<div>
+			    <span class="text" id="score"></span>
+			</div>
+		</div>
+		<div class="canvas_area">
+			<div class="main_canvas_area">
+			    <canvas id="canvas" width="300" height="600"></canvas>
+			</div>
+		</div>
+		<div class="controls" id="controls">
+			<div class="up_box">
+				<div class="control_button_box" id="upButton">
+		    		<span class="control_button up_down_text"><</span>
+				</div>
+			</div>
+			<div class="left_box">
+		    	<div class="control_button_box" id="leftButton">
+		    		<span class="control_button left_right_text"><</span>
+		    	</div>
+			</div>
+			<div class="right_box">
+		    	<div class="control_button_box" id="rightButton">
+		    		<span class="control_button left_right_text">></span>
+		    	</div>
+			</div>
+			<div class="down_box">
+		    	<div class="control_button_box" id="downButton">
+		    		<span class="control_button up_down_text">></span>
+		    	</div>
+			</div>
+			<div class="middle_box">
+		    	<div class="control_button_box" id="holdButton">
+		    		<span class="control_button middle_text">H</span>
+		    	</div>
+			</div>
+		</div>
+		<div class="button_box">
+			<div class="button">
+			    <input type="button" id="startButton" value="Start/Stop Game">
+			</div>
+			<div class="button">
+			    <input type="button" id="resetButton" value="Reset">
+			</div>
+			<div class="optionsButtonBox">
+			    <span class="text" id="optionsButton">Options (click to toggle)</span>
+			</div>
+		</div>
+		<div class="options" id="options">
+			<div class="options_div">
+			    <div class="options_sub_div">
+			        <label for="availableBallsCount">Starting Balls Count:</label>
+			        <input class="input num_input" type="number" id="availableBallsCount" min="1">
+			    </div>
+		    </div>
+			<div class="options_div">
+			    <div class="options_sub_div">
+					<label for="angleOnPosition">Angle Ball Based on Bumper Position</label>
+					<input type="radio" id="angleOnPosition" name="angleSetting" value="angleOnPosition" checked=True>
+				</div>
+			    <div class="options_sub_div">
+					<label for="angleOnDirection">Angle Ball Based on Bumper Movement</label>
+					<input type="radio" id="angleOnDirection" name="angleSetting" value="angleOnDirection">
+				</div>
+			</div>
+		    <div class="options_div">
+			    <div class="options_sub_div">
+			        <label for="speedMin">Minimum Speed:</label>
+			        <input class="input num_input" type="number" id="speedMin" min="1">
+			    </div>
+			    <div class="options_sub_div">
+			        <label for="speedMax">Maximum Speed:</label>
+			        <input class="input num_input" type="number" id="speedMax" min="1">
+			    </div>
+		    </div>
+		    <div class="options_div">
+			    <div class="options_sub_div">
+			        <label for="gridSizeX">Grid Size X:</label>
+			        <input class="input num_input" type="number" id="gridSizeX" min="1">
+			    </div>
+			    <div class="options_sub_div">
+			        <label for="gridSizeY">Grid Size Y:</label>
+			        <input class="input num_input" type="number" id="gridSizeY" min="1">
+			    </div>
+		    </div>
+		    <div class="options_div">
+			    <div class="options_sub_div">
+			        <label for="canvasWidth">Canvas Width:</label>
+			        <input class="input num_input" type="number" id="canvasWidth" min="10">
+			    </div>
+			    <div class="options_sub_div">
+			        <label for="canvasWidth">Canvas Height:</label>
+			        <input class="input num_input" type="number" id="canvasHeight" min="10">
+			    </div>
+			    <div class="options_sub_div">
+			        <label for="keepAspectRatio">Keep Aspect Ratio:</label>
+			        <input class="input" type="checkbox" id="keepAspectRatio" checked="True">
+			    </div>
+		    </div>
+			<div class="hotkeysList" id="hotkeysList">
+				<div class="hotkeyTitle">
+					<span>HotKeys List</span>
+				</div>
+				<div>
+					<span class="hotkeyLabel">Move Bumper</span>
+					<span class="hotkeyText">Arrows</span>
+				</div>
+				<div>
+					<span class="hotkeyLabel">Move Bumper</span>
+					<span class="hotkeyText">WASD</span>
+				</div>
+				<div>
+					<span class="hotkeyLabel">Launch New Ball</span>
+					<span class="hotkeyText">Space</span>
+				</div>
+				<div>
+					<span class="hotkeyLabel">Launch New Ball</span>
+					<span class="hotkeyText">Up</span>
+				</div>
+				<div>
+					<span class="hotkeyLabel">Pause</span>
+					<span class="hotkeyText">Enter</span>
+				</div>
+				<div>
+					<span class="hotkeyLabel">Pause</span>
+					<span class="hotkeyText">Q</span>
+				</div>
+				<div>
+					<span class="hotkeyLabel">Reset</span>
+					<span class="hotkeyText">R</span>
+				</div>
+			</div>
+		</div>
+	</div>
+<script>
+    let canvas, ctx, animating, frameRate, gridSizeX, gridSizeY, canvasGridSizeX, canvasGridSizeY, speedMin, speedMax, angleOnDirection, angleOnPosition, level, animationTimeout, doingAnimation, availableBallsCount, bumperDirectionTimeout, scoreBox, bumpers=[], balls=[], bricks=[], powerups=[];
+    function load() {
+        frameRate = 30;
+        gridSizeX = 40;
+        gridSizeY = 20;
+        speedMin = 1;
+        angleOnPosition = true;
+        availableBallsCount = 3;
+        canvas = document.getElementById("canvas");
+        if (!canvas.getContext) {
+            alert("Canvas not */supported by browser\n\nPlease try another browser");
+        	return;
+        	}
+        ctx = canvas.getContext("2d", { alpha: false });
+        changeCanvasSize();
+        document.getElementById("options").style.display = "none";
+        document.getElementById("availableBallsCount").value = availableBallsCount;
+        document.getElementById("gridSizeX").value = gridSizeX;
+        document.getElementById("gridSizeY").value = gridSizeY;
+        scoreBox = document.getElementById("score");
+        setEventListeners();
+        reset();
+        }
+    function reset() {
+    	bumpers = [];
+        balls = [];
+        bricks = [];
+        powerups = [];
+        animating = false;
+    	bricksBroken = 0;
+    	level = 0;
+    	updateScore();
+    	createBumper();
+    	createBall();
+    	createBricks((level + 2));
+    	redrawBoard();
+        }
+    function changeCanvasSize(width="", height=""){
+    	if (isNaN(width)){
+    		width = "";}
+    	if (isNaN(height)){
+    		height = "";}
+    	if ((width == "") && (height == "")){
+			let window_height = (window.innerHeight / 1.05);
+			let window_width = (window.innerWidth * .9);
+	    	if (window_width < window_height){
+	    		width = window_width;}
+	    	else{
+	    		height = window_height;}
+    		}
+    	if ((width == "") && (height != "")){
+    		width = (height / (gridSizeY / gridSizeX));}
+    	if ((height == "") && (width != "")){
+    		height = (width * (gridSizeY / gridSizeX));}
+    	[width, height] = checkCanvasSize(width, height);
+    	canvas.width = width;
+    	canvas.height = height;
+    	document.getElementById("canvasWidth").value = canvas.width;
+    	document.getElementById("canvasHeight").value = canvas.height;
+    	canvasGridSizeX = Math.round(canvas.width / gridSizeX);
+    	canvasGridSizeY = Math.round(canvas.height / gridSizeY);
+    	}
+    function checkCanvasSize(width, height){
+    	let window_height = (window.innerHeight / 1.05);
+		let window_width = (window.innerWidth * .9);
+		if (height > window_height){
+    		let difference = (window_height / height);
+    		height = (height * difference);
+    		width = (width * difference);
+    		}
+    	if (width > window_width){
+    		let difference = (window_width / width);
+    		height = (height * difference);
+    		width = (width * difference);
+    		}
+    	return [Math.round(width), Math.round(height)];
+    	}
+    function animate() {
+        if (animating == true) {
+        	if (doingAnimation != true){
+	        	doingAnimation = true;
+	        	calculateBallsMovement();
+	        	redrawBoard();
+	        	doingAnimation = false;
+        		}
+            let delay = (1000 / frameRate);
+            animationTimeout = setTimeout(animate, delay);
+            }
+        }
+    function drawBrick(brick) {
+        ctx.fillStyle = brick.color;
+        ctx.fillRect(((brick.points[0] * canvasGridSizeX) + 5), ((brick.points[1] * canvasGridSizeY) + 5), (canvasGridSizeX - 5), (canvasGridSizeY - 5));
+        }
+    function drawBumper(bumper) {
+        ctx.fillStyle = bumper.color;
+        ctx.fillRect(((bumper.center - (bumper.width / 2)) * canvasGridSizeX), (canvas.height - canvasGridSizeY), (bumper.width * canvasGridSizeX), canvasGridSizeY);
+        }
+    function drawBall(ball) {
+        ctx.beginPath();
+        ctx.arc(ball.centerX, ball.centerY, ball.radius, 0, (Math.PI * 2));
+        ctx.closePath();
+        ctx.fillStyle = ball.color;
+        ctx.fill();
+        }
+    function redrawBoard(){
+    	ctx.clearRect(0, 0, canvas.width, canvas.height);
+    	ctx.fillStyle = "#2A2B2F"
+    	ctx.fillRect(0, 0, canvas.width, canvas.height);
+  		for (let bumper of bumpers){
+  			drawBumper(bumper);}
+    	for (let brick of bricks){
+			drawBrick(brick);}
+    	for (let ball of balls){
+			drawBall(ball);}
+    	}
+    function calculateBallsMovement(){
+    	for (let i = (balls.length - 1); i >= 0; i--){
+    		let ball = balls[i];
+    		if (ball.readyToLaunch){
+    			continue;}
+    		ball.centerX = (ball.centerX - (ball.speedX * ((canvas.width / gridSizeX) / 4)));
+    		ball.centerY = (ball.centerY - (ball.speedY * ((canvas.height / gridSizeY) / 4)));
+    		if ((ball.centerX - ball.radius) <= 0){
+    			ball.speedX = (ball.speedX * -1);
+    			ball.centerX = (0 + ball.radius);
+    			}
+    		else if ((ball.centerX + ball.radius) >= canvas.width){
+    			ball.speedX = (ball.speedX * -1);
+    			ball.centerX = (canvas.width - ball.radius);
+    			}
+    		else if ((ball.centerY - ball.radius) <= 0){
+    			ball.speedY = (ball.speedY * -1);
+    			ball.centerY = (0 + ball.radius);
+    			}
+    		else if ((ball.centerY + ball.radius) >= canvas.height){
+    			balls.splice(i, 1);
+    			ballLost();
+    			}
+    		else if ((ball.centerY + ball.radius) >= (canvas.height - canvasGridSizeY)){
+	    		for (let bumper of bumpers){
+	    			let bumperMinX = ((bumper.center - (bumper.width / 2)) * canvasGridSizeX);
+	    			let bumperMaxX = ((bumper.center + (bumper.width / 2)) * canvasGridSizeX);
+	    			let bumperCenterLeftX = ((bumper.center - (bumper.width / 4)) * canvasGridSizeX);
+	    			let bumperCenterRightX = ((bumper.center + (bumper.width / 4)) * canvasGridSizeX);
+	    			if (((ball.centerX - ball.radius) <= bumperMaxX) && ((ball.centerX + ball.radius) >= bumperMinX)){
+	    				ball.speedY = (ball.speedY * -1);
+    					ball.centerY = ((canvas.height - canvasGridSizeY) - ball.radius);
+    					if ((angleOnDirection == true) && (bumper.direction)){
+    						if (bumper.direction == "left"){
+    							ball.speedX = (ball.speedX + 1);}
+    						else if (bumper.direction == "right"){
+    							ball.speedX = (ball.speedX - 1);}
+    						else{
+    							ball.centerX = (bumper.center * canvasGridSizeX);}
+    						}
+    					if (angleOnPosition == true){
+    						if (ball.centerX <= bumperCenterLeftX){
+    							ball.speedX = (ball.speedX + 1);}
+    						else if (ball.centerX >= bumperCenterRightX){
+    							ball.speedX = (ball.speedX - 1);}
+    						else{
+    							ball.centerX = (bumper.center * canvasGridSizeX);}
+    						}
+    					if (powerups.includes("sticky")){
+    						ball.readyToLaunch = true;}
+	    				}
+	    			}
+	    		}
+	    	else{
+		    	for (let j = (bricks.length - 1); j >= 0; j--){
+		    		let brick = bricks[j];
+		    		let brickMinX = ((brick.points[0] * canvasGridSizeX) + 5);
+		    		let brickMaxX = (((brick.points[0] * canvasGridSizeX) + 5) + (canvasGridSizeX - 5));
+		    		let brickMinY = ((brick.points[1] * canvasGridSizeY) + 5);
+		    		let brickMaxY = (((brick.points[1] * canvasGridSizeY) + 5) + (canvasGridSizeY - 5));
+					if (((ball.centerX - ball.radius) <= brickMaxX) && ((ball.centerX + ball.radius) >= brickMinX) && ((ball.centerY - ball.radius) <= brickMaxY) && ((ball.centerY + ball.radius) >= brickMinY)){
+						// console.log("start " + ball.speedY);
+					// if ((ball.centerX - ball.radius) <= brickMaxX){
+						
+					// 	}
+					// if ((ball.centerX + ball.radius) >= brickMinX){
+						
+					// 	}
+					// if ((ball.centerY - ball.radius) <= brickMaxY){
+						
+					// 	}
+					// if ((ball.centerY + ball.radius) >= brickMinY){
+						
+					// 	}
+						// ball.speedX = (ball.speedX * -1);
+						// ball.speedY = (ball.speedY * -1);
+						// ball.centerX = (ball.centerX - (ball.speedX * ((canvas.width / gridSizeX) / 4)));
+	    	// 			ball.centerY = (ball.centerY - (ball.speedY * ((canvas.height / gridSizeY) / 4)));
+						let ballDifferenceMaxX = (brickMaxX - (ball.centerX - ball.radius));
+						let ballDifferenceMinX = ((ball.centerX + ball.radius) - brickMinX);
+						let ballDifferenceMaxY = (brickMaxY - (ball.centerY - ball.radius));
+						let ballDifferenceMinY = ((ball.centerY + ball.radius) - brickMinY);
+						let ballDifferenceX;
+						let ballDifferenceY;
+						if (ballDifferenceMaxX >= ballDifferenceMinX){
+							ballDifferenceX = ballDifferenceMaxX;}
+						else{
+							ballDifferenceX = ballDifferenceMinX;}
+						if (ballDifferenceMaxY >= ballDifferenceMinY){
+							ballDifferenceY = ballDifferenceMaxY;}
+						else{
+							ballDifferenceY = ballDifferenceMinY;}
+						if (ballDifferenceX > ballDifferenceY){
+							ball.speedX = (ball.speedX * -1);
+							// if (ballDifferenceMaxX >= ballDifferenceMinX){
+							// 	ball.centerX = (ball.centerX - (ball.speedX * ((canvas.width / gridSizeX) / 4)));
+							// }
+							// else{
+							// 	ball.centerX = (ball.centerX - (ball.speedX * ((canvas.width / gridSizeX) / 4)));
+							// }
+							}
+						else{
+	    					ball.speedY = (ball.speedY * -1);
+	    		// 			if (ballDifferenceMaxY >= ballDifferenceMinY){
+							// 	ball.centerY = (ball.centerY - (ball.speedY * ((canvas.height / gridSizeY) / 4)));
+	    		// 				}
+							// else{
+							// 	ball.centerY = (ball.centerY - (ball.speedY * ((canvas.height / gridSizeY) / 4)));
+							// 	}
+							}
+						ball.centerX = (ball.centerX - (ball.speedX * ((canvas.width / gridSizeX) / 4)));
+	    				ball.centerY = (ball.centerY - (ball.speedY * ((canvas.height / gridSizeY) / 4)));
+						// console.log("finish " + ball.speedY);
+						if (brick.powerup){
+							if (!powerups.includes(brick.powerup)){
+								powerups.push(brick.powerup);}
+							}
+						bricks.splice(j, 1);
+						bricksBroken++;
+	    				}
+		    		}
+		    	}
+	    	}
+    	}
+    function ballLost(){
+    	availableBallsCount = (availableBallsCount - 1);
+    	updateScore();
+    	if (balls.length == 0){
+	    	if (availableBallsCount <= 0){
+	    		gameOver();
+	    		return;
+	    		}
+	    	else{
+	    		powerups = [];
+	    		createBall();
+	    		}
+	    	}
+    }
+    function gameOver(){
+    	animating = false;
+    	redrawBoard();
+    	}
+    function updateScore(){
+    	scoreBox.innerText = `Bricks Broken: ${bricksBroken}\tLevel: ${level}\tAvailable Balls: ${availableBallsCount}`;
+    	}
+    function launchBall(){
+    	for (let ball of balls){
+    		if (ball.readyToLaunch){
+    			ball.readyToLaunch = null;}
+    		}
+    	if (animating != true){
+    		animating = true;
+    		animate();}
+    	}
+   	function moveBumper(direction){
+    	if (animating == false){
+    		return;}
+    	for (let bumper of bumpers){
+    		if ((direction == "left") || (direction == "right")){
+		    	if (direction == "left"){
+		    		bumper.center = (bumper.center - 1);}
+		    	else if (direction == "right"){
+		    		bumper.center = (bumper.center + 1);}
+		    	if (bumper.center - (bumper.width / 2) < 0){
+		    		bumper.center = (bumper.width / 2);}
+		    	if (bumper.center + (bumper.width / 2) > gridSizeX){
+		    		bumper.center = (gridSizeX - (bumper.width / 2));}
+		    	if (((bumper.center - (bumper.width / 2)) > 0) && ((bumper.center + (bumper.width / 2)) < gridSizeX)){
+				    for (let ball of balls){
+				    	if (ball.readyToLaunch){
+					    	if (direction == "left"){
+					    		ball.centerX = (ball.centerX - canvasGridSizeX);}
+					    	else if (direction == "right"){
+					    		ball.centerX = (ball.centerX + canvasGridSizeX);}
+				    		}
+				    	}
+				    }
+		    	bumper.direction = direction;
+		    	if (bumperDirectionTimeout){
+		    		clearTimeout(bumperDirectionTimeout);}
+		    	bumperDirectionTimeout = setTimeout(clearBumperDirection, 500, bumper);
+		    	}
+	    	}
+    	}
+    function clearBumperDirection(bumper){
+    	bumper.direction = null;
+    	}
+    function createBumper(center="", width=""){
+    	let bumper = new Bumper(center, width);
+    	bumpers.push(bumper);
+    	}
+    function createBall(radius=null, color=null, speedX=null, speedY=null, centerX=null, centerY=null){
+    	let ball = new Ball(radius=radius, color=color, speedX=speedX, speedY=speedY, centerX=centerX, centerY=centerY);
+    	balls.push(ball);
+    	}
+    function createBricks(rows=1){
+    	if (rows > (gridSizeY - 1)){
+    		rows = (gridSizeY - 1);}
+    	for (let y = 0; y < rows; y++){
+    		for (let x = 0; x < gridSizeX; x++){
+    			let brick = new Brick();
+    			brick.points = [x, y];
+    			bricks.push(brick);
+    			}
+    		}
+    	}
+    class Brick {
+        constructor(pieceIndex=null) {
+        	let pieceVariations = [];
+        	for (let i = 0; i < 5; i++){
+        		pieceVariations.push({"name": "basic", "color": "grey", "powerup": null});}
+        	for (let i = 0; i < 1; i++){
+        		pieceVariations.push({"name": "sticky", "color": "blue", "powerup": "sticky"});}
+            if (pieceIndex == null){
+                pieceIndex = Math.round(Math.random() * (pieceVariations.length - 1));}
+            this.name = pieceVariations[pieceIndex]["name"];
+            this.color = pieceVariations[pieceIndex]["color"];
+            this.powerup = pieceVariations[pieceIndex]["powerup"];
+            this.points = null;
+            }
+        }
+    class Bumper {
+        constructor(center="", width="") {
+        	if (width == ""){
+        		width = 6;}
+        	if (center == ""){
+        		center = (gridSizeX / 2);}
+            this.center = parseInt(center);
+            this.width = parseInt(width);
+            this.color = "white";
+            this.direction = null;
+            }
+        }
+    class Ball {
+        constructor(radius=null, color=null, speedX=null, speedY=null, centerX=null, centerY=null) {
+            if (radius == null) {
+                radius = 10;}            
+            if (color == null) {
+                color = pickColor((balls.length + 1), true);}
+            if (centerX == null){
+            	if (bumpers.length > 0){
+            		let bumperPosMin = ((bumpers[0].center - (bumpers[0].width / 2)) * canvasGridSizeX);
+            		let bumperPosMax = ((bumpers[0].center + (bumpers[0].width / 2)) * canvasGridSizeX);
+            		centerX = ((Math.random() * (bumperPosMax - bumperPosMin)) + bumperPosMin);
+            		}
+            	else{
+	            	centerX = (canvas.width / 2);}
+	            }
+            if (centerY == null){
+            	if (bumpers.length > 0){
+            		centerY = ((canvas.height - canvasGridSizeY) - radius);}
+            	else{
+	            	centerY = (canvas.height / 2);}
+	            }
+            if (speedX == null){
+            	speedX = 0;}
+            if (speedY == null){
+            	speedY = (speedMin * 1);}
+            this.radius = parseInt(radius);
+            this.color = color;
+            this.speedX = parseInt(speedX)
+            this.speedY = parseInt(speedY)
+            this.centerX = parseInt(centerX);
+            this.centerY = parseInt(centerY);
+            this.readyToLaunch = true;
+            }
+        }
+    function pickColor(index, random=false) {
+        let color = "";
+        let colors = ["#000000","#FFFF00","#1CE6FF","#FF34FF","#FF4A46","#008941","#006FA6","#A30059","#FFDBE5","#7A4900","#0000A6","#63FFAC","#B79762","#004D43","#8FB0FF","#997D87","#5A0007","#809693","#FEFFE6","#1B4400","#4FC601","#3B5DFF","#4A3B53","#FF2F80","#61615A","#BA0900","#6B7900","#00C2A0","#FFAA92","#FF90C9","#B903AA","#D16100","#DDEFFF","#000035","#7B4F4B","#A1C299","#300018","#0AA6D8","#013349","#00846F","#372101","#FFB500","#C2FFED","#A079BF","#CC0744","#C0B9B2","#C2FF99","#001E09","#00489C","#6F0062","#0CBD66","#EEC3FF","#456D75","#B77B68","#7A87A1","#788D66","#885578","#FAD09F","#FF8A9A","#D157A0","#BEC459","#456648","#0086ED","#886F4C","#34362D","#B4A8BD","#00A6AA","#452C2C","#636375","#A3C8C9","#FF913F","#938A81","#575329","#00FECF","#B05B6F","#8CD0FF","#3B9700","#04F757","#C8A1A1","#1E6E00","#7900D7","#A77500","#6367A9","#A05837","#6B002C","#772600","#D790FF","#9B9700","#549E79","#FFF69F","#201625","#72418F","#BC23FF","#99ADC0","#3A2465","#922329","#5B4534","#FDE8DC","#404E55","#0089A3","#CB7E98","#A4E804","#324E72","#6A3A4C","#83AB58","#001C1E","#D1F7CE","#004B28","#C8D0F6","#A3A489","#806C66","#222800","#BF5650","#E83000","#66796D","#DA007C","#FF1A59","#8ADBB4","#1E0200","#5B4E51","#C895C5","#320033","#FF6832","#66E1D3","#CFCDAC","#D0AC94","#7ED379","#012C58","#7A7BFF","#D68E01","#353339","#78AFA1","#FEB2C6","#75797C","#837393","#943A4D","#B5F4FF","#D2DCD5","#9556BD","#6A714A","#001325","#02525F","#0AA3F7","#E98176","#DBD5DD","#5EBCD1","#3D4F44","#7E6405","#02684E","#962B75","#8D8546","#9695C5","#E773CE","#D86A78","#3E89BE","#CA834E","#518A87","#5B113C","#55813B","#E704C4","#00005F","#A97399","#4B8160","#59738A","#FF5DA7","#F7C9BF","#643127","#513A01","#6B94AA","#51A058","#A45B02","#1D1702","#E20027","#E7AB63","#4C6001","#9C6966","#64547B","#97979E","#006A66","#391406","#F4D749","#0045D2","#006C31","#DDB6D0","#7C6571","#9FB2A4","#00D891","#15A08A","#BC65E9","#FFFFFE","#C6DC99","#203B3C","#671190","#6B3A64","#F5E1FF","#FFA0F2","#CCAA35","#374527","#8BB400","#797868","#C6005A","#3B000A","#C86240","#29607C","#402334","#7D5A44","#CCB87C","#B88183","#AA5199","#B5D6C3","#A38469","#9F94F0","#A74571","#B894A6","#71BB8C","#00B433","#789EC9","#6D80BA","#953F00","#5EFF03","#E4FFFC","#1BE177","#BCB1E5","#76912F","#003109","#0060CD","#D20096","#895563","#29201D","#5B3213","#A76F42","#89412E","#1A3A2A","#494B5A","#A88C85","#F4ABAA","#A3F3AB","#00C6C8","#EA8B66","#958A9F","#BDC9D2","#9FA064","#BE4700","#658188","#83A485","#453C23","#47675D","#3A3F00","#061203","#DFFB71","#868E7E","#98D058","#6C8F7D","#D7BFC2","#3C3E6E","#D83D66","#2F5D9B","#6C5E46","#D25B88","#5B656C","#00B57F","#545C46","#866097","#365D25","#252F99","#00CCFF","#674E60","#FC009C","#92896B"];
+        if (random == true) {
+            color = colors[(Math.floor(Math.random() * colors.length))];}
+        else {
+        	while (index > colors.length){
+                index = (index - colors.length);}
+            color = colors[index];
+            }
+        return color;
+        }
+    function setEventListeners(){
+    	document.getElementById("optionsButton").addEventListener("click", function(event){
+            if (document.getElementById("options").style.display != "block") {
+                document.getElementById("options").style.display = "block"; }
+            else {
+                document.getElementById("options").style.display = "none"; }
+    		});
+    	document.getElementById("startButton").addEventListener("click", function(event){
+            if (animating == true) {
+                animating = false;
+                }
+            else {
+                animating = true;
+                animate();
+                }
+    		});
+        document.getElementById("resetButton").addEventListener("click", function(event){
+            animating = false;
+            reset();
+    		});
+    	document.getElementById("gridSizeX").addEventListener("change", function(event){
+    		if (!isNaN(parseFloat(document.getElementById("gridSizeX").value))){
+	            gridSizeX = parseFloat(document.getElementById("gridSizeX").value);
+	            changeCanvasSize();
+	    		}
+    		});
+    	document.getElementById("gridSizeY").addEventListener("change", function(event){
+    		if (!isNaN(parseFloat(document.getElementById("gridSizeY").value))){
+	            gridSizeY = parseFloat(document.getElementById("gridSizeY").value);
+	            changeCanvasSize();
+    			}
+	    	});
+    	document.getElementById("speedMin").addEventListener("change", function(event){
+    		if (!isNaN(parseFloat(document.getElementById("speedMin").value))){
+            	speedMin = parseFloat(document.getElementById("speedMin").value);}
+            });
+    	document.getElementById("speedMax").addEventListener("change", function(event){
+    		if (!isNaN(parseFloat(document.getElementById("speedMax").value))){
+            	speedMax = parseFloat(document.getElementById("speedMax").value);}
+            });
+    	document.getElementById("availableBallsCount").addEventListener("change", function(event){
+    		if (!isNaN(parseFloat(document.getElementById("availableBallsCount").value))){
+            	availableBallsCount = parseFloat(document.getElementById("availableBallsCount").value);}
+            });
+        document.getElementById("angleOnPosition").addEventListener("change", function(event){
+            if (document.getElementById("angleOnPosition").checked == true){
+            	angleOnPosition = true;
+            	angleOnDirection = false;
+            	}
+    		});
+    	document.getElementById("angleOnDirection").addEventListener("change", function(event){
+            if (document.getElementById("angleOnDirection").checked == true){
+            	angleOnPosition = false;
+            	angleOnDirection = true;
+            	}
+    		});
+    	document.getElementById("canvasWidth").addEventListener("change", function(event){
+    		if (!isNaN(parseFloat(document.getElementById("canvasWidth").value))){
+	    		let width = parseFloat(document.getElementById("canvasWidth").value);
+	    		let height = "";
+	    		if (document.getElementById("keepAspectRatio").checked != true){
+	    			height = parseFloat(document.getElementById("canvasHeight").value);}
+	            changeCanvasSize(width, height);
+    			}
+    		});
+    	document.getElementById("canvasHeight").addEventListener("change", function(event){
+    		if (!isNaN(parseFloat(document.getElementById("canvasHeight").value))){
+	    		let height = parseFloat(document.getElementById("canvasHeight").value);
+	            let width = "";
+	    		if (document.getElementById("keepAspectRatio").checked != true){
+	    			width = parseFloat(document.getElementById("canvasWidth").value);}
+	            changeCanvasSize(width, height);
+	    		}
+    		});
+        document.getElementById("upButton").addEventListener("click", function(event){
+            });
+        document.getElementById("downButton").addEventListener("click", function(event){
+            });
+        document.getElementById("leftButton").addEventListener("click", function(event){
+            moveBumper("left");});
+        document.getElementById("rightButton").addEventListener("click", function(event){
+            moveBumper("right");});
+        document.getElementById("holdButton").addEventListener("click", function(event){
+            });
+        document.addEventListener('keydown', function(event) {
+			if (event.key == "ArrowUp") {
+				event.preventDefault();
+				launchBall();
+				}
+			else if (event.key == "ArrowDown") {
+				event.preventDefault();
+				
+				}
+			else if (event.key == "ArrowLeft") {
+				event.preventDefault();
+				moveBumper("left");
+				}
+			else if (event.key == "ArrowRight") {
+				event.preventDefault();
+				moveBumper("right");
+				}			
+			else if ((event.key == "w") || (event.key == "W")) {
+				event.preventDefault();
+				launchBall();
+				}
+			else if ((event.key == "s") || (event.key == "S")) {
+				event.preventDefault();
+				
+				}
+			else if ((event.key == "a") || (event.key == "A")) {
+				event.preventDefault();
+				moveBumper("left");
+				}
+			else if ((event.key == "d") || (event.key == "D")) {
+				event.preventDefault();
+				moveBumper("right");
+				}			
+			else if (event.key == " ") {
+				event.preventDefault();
+				launchBall();
+				}
+			else if ((event.key == "f") || (event.key == "F")) {
+				event.preventDefault();
+				
+				}
+			else if ((event.key == "g") || (event.key == "G")) {
+				event.preventDefault();
+				
+				}
+			else if ((event.key == "r") || (event.key == "R")) {
+				event.preventDefault();
+				reset();
+				}
+			else if ((event.key == "q") || (event.key == "Q")) {
+				event.preventDefault();
+				animating = false;
+				}
+			else if ((event.key == "h") || (event.key == "H")) {
+				event.preventDefault();
+				
+				}
+			else if ((event.key == "x") || (event.key == "X")) {
+				event.preventDefault();
+				
+				}
+			else if (event.key == "Enter") {
+				event.preventDefault();
+				if (animating == false){
+					animating = true;
+	                animate();
+					}
+				else{
+					animating = false;}
+				}
+			// else{
+			// 	console.log(event.key);}
+			});
+		window.addEventListener("blur", function(event){
+            animating = false;});
+    	}
+    window.addEventListener("load", load);
+</script>
+</body>
+</html>
