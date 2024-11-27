@@ -1,9 +1,9 @@
 # JarodJ.github.io
 
-[Binary_Converter](./Polyomino.html)
+[Polyomino](./Polyomino.html)
 > Polyomino Game
 
-[Binary_Converter](./Boom_Detector.html)
+[Boom_Detector](./Boom_Detector.html)
 > Boom_Detector Game
 
 [Binary_Converter](./Binary_Converter.html)
