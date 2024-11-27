@@ -1,0 +1,1223 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+	<meta charset="utf-8">
+	<title>Polyomino</title>
+	<meta name="description" content="Polyomino Game">
+	<meta name="theme-color" content="#2A2B2F">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<style>
+    body { 
+    	background: #2A2B2F;
+    	color: rgba(255,255,255,0.85); 
+    	font-size: 1.75rem; 
+    	}
+    .container { 
+    	width: 90%; 
+    	margin: auto; 
+    	display: grid; 
+    	grid-template-columns: 
+    		[canvas_area-start left_column-start] 1fr 
+    		[left_column-end middle_column-start] 2fr 
+    		[middle_column-end right_column-start] 1fr 
+    		[right_column-end canvas_area-end]; 
+    	grid-template-rows: 
+    		[canvas_area-start] 1fr 
+    		[canvas_area-end controls-start] 10em 
+    		[controls-end button_box-start] 4em 
+    		[button_box-end controls-start] 2em 
+    		[controls-end options-start] 1em
+    		[options-end]; 
+    	}
+    .canvas_area { 
+    	grid-area: canvas_area; 
+    	margin: auto; 
+    	display: grid;
+    	grid-template-columns: 
+    		[main_canvas_area-start] 2fr 
+    		[main_canvas_area-end upNextCanvas_area-start heldCanvas_area-start score_area-start] 1fr 
+    		[upNextCanvas_area-end heldCanvas_area-end score_area-end];
+    	grid-template-rows: 
+    		[main_canvas_area-start upNextCanvas_area-start] 1fr 
+    		[upNextCanvas_area-end heldCanvas_area-start] 1fr 
+    		[heldCanvas_area-end score_area-start] 1fr 
+    		[score_area-end main_canvas_area-end]; 
+    	}
+    .main_canvas_area {
+    	grid-area: main_canvas_area;
+    	margin-right: .25em;
+    	text-align: center;
+    	}
+    .upNextCanvas_area {
+    	grid-area: upNextCanvas_area;
+    	}    
+    .heldCanvas_area {
+    	grid-area: heldCanvas_area;
+    	}
+    .score_area {
+    	grid-area: score_area;
+    	text-align: center;
+    	}
+    .controls { 
+    	grid-column-start: middle_column-start; 
+    	grid-column-end: middle_column-end; 
+    	grid-row-start: controls-start; 
+    	grid-row-end: controls-end; 
+    	margin: auto; 
+    	font-size: 2em; 
+    	display: grid; 
+    	grid-template-columns: 
+    		[left_button-start] 1fr 
+    		[left_button-end middle_button-start] 1fr 
+    		[middle_button-end right_button-start] 1fr 
+    		[right_button-end]; 
+    	grid-template-rows: 
+    		[top_button-start] 1fr 
+    		[top_button-end middle_button-start] 1fr 
+    		[middle_button-end bottom_button-start] 1fr 
+    		[bottom_button-end]; 
+    	z-index: 3;
+    	}
+    .button_box { 
+    	grid-column-start: middle_column-start; 
+    	grid-column-end: middle_column-end; 
+    	grid-row-start: button_box-start; 
+    	grid-row-end: button_box-end; 
+    	margin: auto;
+    	z-index: 3;
+    	}
+    .options { 
+    	grid-column-start: middle_column-start; 
+    	grid-column-end: middle_column-end; 
+    	grid-row-start: options-start; 
+    	grid-row-end: options-end; 
+    	margin: auto; 
+    	/*text-align: center; */
+    	border-top: 2px solid black;
+    	padding-top: 1em;
+    	padding-bottom: 5em;
+    	z-index: 3;
+    	}
+    canvas { 
+    	border: 3px solid red; 
+    	}
+    .left_box, .right_box, .up_box, .down_box { 
+    	width: 1.5em; 
+    	}
+    .left_box { 
+    	grid-column-start: left_button-start; 
+    	grid-column-end: left_button-end; 
+    	grid-row-start: middle_button-start; 
+    	grid-row-end: middle_button-end; 
+    	}
+    .right_box { 
+    	grid-column-start: right_button-start; 
+    	grid-column-end: right_button-end; 
+    	grid-row-start: middle_button-start; 
+    	grid-row-end: middle_button-end; 
+    	}
+    .up_box { 
+    	grid-column-start: middle_button-start; 
+    	grid-column-end: middle_button-end; 
+    	grid-row-start: top_button-start; 
+    	grid-row-end: top_button-end; 
+    	}
+    .down_box { 
+    	grid-column-start: middle_button-start; 
+    	grid-column-end: middle_button-end; 
+    	grid-row-start: bottom_button-start; 
+    	grid-row-end: bottom_button-end; 
+    	}
+    .middle_box { 
+    	grid-column-start: middle_button-start; 
+    	grid-column-end: middle_button-end; 
+    	grid-row-start: middle_button-start; 
+    	grid-row-end: middle_button-end; 
+    	}
+    .up_down_text { 
+    	padding-left: .2em; 
+    	}
+    .left_right_text { 
+    	padding-left: .5em; 
+    	}
+    .middle_text { 
+    	padding-left: .385em; 
+    	}
+    .button_box > div { 
+    	margin-bottom: 1em; 
+    	}    
+    .button_box > .button { 
+    	display: inline-block; 
+    	}
+    .up_down_text { 
+    	writing-mode: vertical-rl; 
+    	}
+    .control_button_box { 
+    	background: #3F3F3F; 
+    	width: 1.5em; 
+    	cursor: pointer;
+    	user-select: none;
+    	}
+    .options_div { 
+    	margin-bottom: 1em; 
+    	}
+    .options_sub_div { 
+    	margin-bottom: .5em; 
+    	display: inline-block; 
+    	margin-right: .5em; 
+    	}
+    input { 
+    	font-size: 1.75rem; 
+    	}
+    .num_input { 
+    	width: 4rem; 
+    	}
+    .hotkeysList {
+    	max-width: 20em;
+    	}
+    .hotkeyTitle {
+    	text-align: center;
+    	border-bottom: 2px solid black;
+    	margin-bottom: 1em;
+    	padding-bottom: .5em;
+    	}
+    .hotkeyText {
+    	float: right;
+    	}
+    .controlOverlays {
+    	position: absolute;
+    	left: 0;
+    	right: 0;
+    	width: 99.5vw;
+    	height: 100vh;
+    	z-index: 2;
+    	/*border: 1px solid green;*/
+    	}
+    .overlayUp {
+    	display: inline-block;
+    	width: 100%;
+    	height: 20%;
+    	border-bottom: .1px solid rgba(255,255,255,0.85);
+    	/*border: 1px solid blue;*/
+    	}
+    .overlayLeft {
+    	display: inline-block;
+    	width: 49%;
+    	height: 50%;
+    	border-right: .1px solid rgba(255,255,255,0.85);
+    	/*border: 1px solid yellow;*/
+    	}
+    .overlayRight {
+    	float: right;
+    	display: inline-block;
+    	width: 48%;
+    	height: 50%;
+    	/*border: 1px solid orange;*/
+    	}
+    .overlayDown {
+    	display: inline-block;
+    	width: 100%;
+    	height: 28%;
+    	border-top: .1px solid rgba(255,255,255,0.85);
+    	/*border: 1px solid purple;*/
+    	}
+    .overlayHold {
+    	position: absolute;
+    	float: left;
+    	top: 30%;
+    	left: 37%;
+    	width: 25%;
+    	height: 30%;
+    	/*border: 1px solid pink;*/
+    	}
+    .removed {
+    	display: none;
+    	}
+    
+    @media screen and (max-width:40em) {
+        .container { 
+        	grid-template-columns: 
+        		[canvas_area-start left_column-start middle_column-start right_column-start] 1fr 
+        		[left_column-end middle_column-end right_column-end canvas_area-end]; }
+        .canvas_area_small { 
+	    	grid-template-columns: 
+	    		[main_canvas_area-start upNextCanvas_area-start score_area-start] 1fr 
+	    		[upNextCanvas_area-end heldCanvas_area-start] 1fr 
+	    		[heldCanvas_area-end main_canvas_area-end score_area-end];
+	    	grid-template-rows: 
+	    		[main_canvas_area-start] 2.6fr 
+	    		[upNextCanvas_area-start heldCanvas_area-start] 1fr 
+	    		[upNextCanvas_area-end heldCanvas_area-end score_area-start] 1fr 
+	    		[score_area-end main_canvas_area-end]; 
+	    	}
+    	}
+</style>
+<body>
+	<div class="container">
+		<div class="canvas_area" id="canvas_area">
+			<div class="main_canvas_area">
+			    <canvas id="canvas" width="300" height="600"></canvas>
+			</div>
+			<div class="upNextCanvas_area">
+				<div>
+					<span class="text">Up Next</span>
+				</div>
+			    <canvas id="upNextCanvas" width="100" height="100"></canvas>
+			</div>
+			<div class="heldCanvas_area">
+				<div>
+					<span class="text">Hold (h)</span>
+				</div>
+			    <canvas id="heldCanvas" width="100" height="100"></canvas>
+			</div>
+			<div class="score_area">
+				<div>
+				    <span class="text" id="rowsCleared"></span>
+				</div>
+			</div>
+		</div>
+		<div class="controls" id="controls">
+			<div class="up_box">
+				<div class="control_button_box" id="upButton">
+		    		<span class="control_button up_down_text"><</span>
+				</div>
+			</div>
+			<div class="left_box">
+		    	<div class="control_button_box" id="leftButton">
+		    		<span class="control_button left_right_text"><</span>
+		    	</div>
+			</div>
+			<div class="right_box">
+		    	<div class="control_button_box" id="rightButton">
+		    		<span class="control_button left_right_text">></span>
+		    	</div>
+			</div>
+			<div class="down_box">
+		    	<div class="control_button_box" id="downButton">
+		    		<span class="control_button up_down_text">></span>
+		    	</div>
+			</div>
+			<div class="middle_box">
+		    	<div class="control_button_box" id="holdButton">
+		    		<span class="control_button middle_text">H</span>
+		    	</div>
+			</div>
+		</div>
+		<div class="button_box">
+			<div class="button">
+			    <input type="button" id="startButton" value="Start/Stop Game">
+			</div>
+			<div class="button">
+			    <input type="button" id="resetButton" value="Reset">
+			</div>
+			<div class="optionsButtonBox">
+			    <span class="text" id="optionsButton">Options (click to toggle)</span>
+			</div>
+		</div>
+		<div class="options" id="options">
+		    <div class="options_div">
+		        <label for="overlayControls">Use Overlay Controls:</label>
+		        <input class="input" type="checkbox" id="overlayControls">
+		    </div>
+		    <div class="options_div">
+		        <label for="pieceCount">Number of Blocks for each Piece:</label>
+		        <input class="input num_input" type="number" id="pieceCount" min="1" max="5" value="5">
+		    </div>
+		    <div class="options_div">
+		        <label for="includeSmallerPieces">Include Smaller Pieces:</label>
+		        <input class="input" type="checkbox" id="includeSmallerPieces" checked="True">
+		    </div>
+		    <div class="radios options_div">
+			    <div class="options_sub_div">
+					<label for="normalClearingTrue">Normal Row Clearing</label>
+					<input type="radio" id="normalClearingTrue" name="normalClearing" value="normalClearingTrue" checked=True>
+				</div>
+			    <div class="options_sub_div">
+					<label for="normalClearingFalse">Whole Piece Clearing</label>
+					<input type="radio" id="normalClearingFalse" name="normalClearing" value="normalClearingFalse">
+				</div>
+			</div>
+		    <div class="options_div">
+		        <label for="fps">FPS:</label>
+		        <input class="input num_input" type="number" id="fps" min="1" max="120" value="5">
+		    </div>
+		    <div class="options_div">
+			    <div class="options_sub_div">
+			        <label for="speedMin">Starting Level:</label>
+			        <input class="input num_input" type="number" id="speedMin" min="0" value="0">
+			    </div>
+			    <div class="options_sub_div">
+			        <label for="speedMax">Maximum Level:</label>
+			        <input class="input num_input" type="number" id="speedMax" min="1">
+			    </div>
+		    </div>
+		    <div class="options_div">
+		        <label for="speedUp">Speed Up for each Level:</label>
+		        <input class="input" type="checkbox" id="speedUp" checked="true">
+			</div>
+		    <div class="options_div">
+			    <div class="options_sub_div">
+			        <label for="gridSizeX">Grid Size X:</label>
+			        <input class="input num_input" type="number" id="gridSizeX" min="1" value="10">
+			    </div>
+			    <div class="options_sub_div">
+			        <label for="gridSizeY">Grid Size Y:</label>
+			        <input class="input num_input" type="number" id="gridSizeY" min="1" value="20">
+			    </div>
+		    </div>
+		    <div class="options_div">
+			    <div class="options_sub_div">
+			        <label for="canvasWidth">Canvas Width:</label>
+			        <input class="input num_input" type="number" id="canvasWidth" min="10">
+			    </div>
+			    <div class="options_sub_div">
+			        <label for="canvasWidth">Canvas Height:</label>
+			        <input class="input num_input" type="number" id="canvasHeight" min="10">
+			    </div>
+			    <div class="options_sub_div">
+			        <label for="keepAspectRatio">Keep Aspect Ratio:</label>
+			        <input class="input" type="checkbox" id="keepAspectRatio" checked="True">
+			    </div>
+		    </div>
+			<div class="hotkeysList" id="hotkeysList">
+				<div class="hotkeyTitle">
+					<span>HotKeys List</span>
+				</div>
+				<div>
+					<span class="hotkeyLabel">Move Piece</span>
+					<span class="hotkeyText">Arrows</span>
+				</div>
+				<div>
+					<span class="hotkeyLabel">Move Piece</span>
+					<span class="hotkeyText">WASD</span>
+				</div>
+				<div>
+					<span class="hotkeyLabel">Drop Piece</span>
+					<span class="hotkeyText">Space</span>
+				</div>
+				<div>
+					<span class="hotkeyLabel">Rotate</span>
+					<span class="hotkeyText">F</span>
+				</div>
+				<div>
+					<span class="hotkeyLabel">Rotate Reverse</span>
+					<span class="hotkeyText">G</span>
+				</div>
+				<div>
+					<span class="hotkeyLabel">Hold Piece</span>
+					<span class="hotkeyText">H</span>
+				</div>
+				<div>
+					<span class="hotkeyLabel">Hold Piece</span>
+					<span class="hotkeyText">X</span>
+				</div>
+				<div>
+					<span class="hotkeyLabel">Pause</span>
+					<span class="hotkeyText">Enter</span>
+				</div>
+				<div>
+					<span class="hotkeyLabel">Pause</span>
+					<span class="hotkeyText">Q</span>
+				</div>
+				<div>
+					<span class="hotkeyLabel">Reset</span>
+					<span class="hotkeyText">R</span>
+				</div>
+			</div>
+		</div>
+		<div class="controlOverlays removed" id="overlayControlsBox">
+			<div class="controlOverlay overlayUp" id="overlayUp"></div>
+			<div class="controlOverlay overlayLeft" id="overlayLeft"></div>
+			<div class="controlOverlay overlayRight" id="overlayRight"></div>
+			<div class="controlOverlay overlayDown" id="overlayDown"></div>
+			<div class="controlOverlay overlayHold" id="overlayHold"></div>
+		</div>
+	</div>
+<script>
+    let canvas, ctx, upNextCanvas, upNextCanvasContext, heldCanvas, heldCanvasContext, animating, frameRate, gridSizeX, gridSizeY, speed, speedMin, speedMax, speedUp, normalClearing, pieceSquareSizeX, pieceSquareSizeY, pieceVariations, rowsCleared, level, movingPiece, upNextPiece, heldPiece, animationTimeout, pieces=[];
+    function load() {
+        frameRate = 5;
+        gridSizeX = 10;
+        gridSizeY = 20;
+        speedMin = 0;
+        speedUp = true;
+        normalClearing = true;
+        pieceVariations = createPieceVariations();
+        rowsClearedBox = document.getElementById("rowsCleared");
+        canvas = document.getElementById("canvas");
+        if (!canvas.getContext) {
+            alert("Canvas not */supported by browser\n\nPlease try another browser");
+        	return;
+        	}
+        ctx = canvas.getContext("2d", { alpha: false });
+        upNextCanvas = document.getElementById("upNextCanvas");
+        upNextCanvasContext = upNextCanvas.getContext("2d", { alpha: false });
+        heldCanvas = document.getElementById("heldCanvas");
+        heldCanvasContext = heldCanvas.getContext("2d", { alpha: false });
+        changeCanvasSize();
+        document.getElementById("options").style.display = "none";
+        setEventListeners();
+        reset();
+        }
+    function reset() {
+        pieces = [];
+        animating = false;
+    	speed = speedMin;
+    	rowsCleared = 0;
+    	level = speed;
+    	movingPiece = null;
+    	upNextPiece = null;
+    	heldPiece = null;
+    	updateScore();
+    	redrawBoard();
+        }
+    function changeCanvasSize(width="", height="", height_multiplier=1.05, width_multiplier=.5){
+    	if (isNaN(width)){
+    		width = "";}
+    	if (isNaN(height)){
+    		height = "";}
+    	if ((width == "") && (height == "")){
+			let window_height = (window.innerHeight / height_multiplier);
+			let window_width = (window.innerWidth * width_multiplier);
+	    	if (window_width < window_height){
+	    		width = window_width;}
+	    	else{
+	    		height = window_height;}
+    		}
+    	if ((width == "") && (height != "")){
+    		width = (height / (gridSizeY / gridSizeX));}
+    	if ((height == "") && (width != "")){
+    		height = (width * (gridSizeY / gridSizeX));}
+    	// [width, height] = checkCanvasSize(width, height, height_multiplier, width_multiplier);
+    	canvas.width = Math.round(width);
+    	canvas.height = Math.round(height);
+    	document.getElementById("canvasWidth").value = canvas.width;
+    	document.getElementById("canvasHeight").value = canvas.height;
+    	changePieceSize();
+    	}
+    function checkCanvasSize(width, height, height_multiplier=1.05, width_multiplier=.5){
+    	let window_height = (window.innerHeight / height_multiplier);
+		let window_width = (window.innerWidth * width_multiplier);
+		if (height > window_height){
+    		let difference = (window_height / height);
+    		height = (height * difference);
+    		width = (width * difference);
+    		}
+    	if (width > window_width){
+    		let difference = (window_width / width);
+    		height = (height * difference);
+    		width = (width * difference);
+    		}
+    	return [Math.round(width), Math.round(height)];
+    	}
+    function changePieceSize(){
+    	if (gridSizeX < gridSizeY){
+			pieceSquareSizeX = Math.round(canvas.width / gridSizeX);
+			pieceSquareSizeY = pieceSquareSizeX;
+	    	}
+	    else{
+			pieceSquareSizeY = Math.round(canvas.height / gridSizeY);
+			pieceSquareSizeX = pieceSquareSizeY;
+	    	}
+	    let width = (pieceSquareSizeX * gridSizeX);
+	    let height = (pieceSquareSizeY * gridSizeY);
+		// [width, height] = checkCanvasSize(width, height);
+		if ((width != canvas.width) || (height != canvas.height)){
+	    	changeCanvasSize(width=width, height=height);
+			return;
+			}
+		changeSmallCanvasSize();
+		redrawBoard();
+    	}
+    function changeSmallCanvasSize(){
+    	let squareCount = 6;
+    	let width = (squareCount * pieceSquareSizeX);
+    	let height = (squareCount * pieceSquareSizeY);
+    	upNextCanvas.width = width;
+    	upNextCanvas.height = height;
+    	heldCanvas.width = width;
+    	heldCanvas.height = height;
+    	}
+    function animate() {
+    	if (movingPiece != null){
+        	movePiece("down");}
+        if (upNextPiece == null){
+        	upNextPiece = new Piece();}
+    	if (movingPiece == null){
+    		movingPiece = upNextPiece;
+    		upNextPiece = new Piece();
+    		}
+        if (animating == true) {
+        	redrawBoard();
+            let delay = (1000 / (frameRate + speed));
+            animationTimeout = setTimeout(animate, delay);
+            }
+        }
+    function drawPiece(piece) {
+    	let fillX;
+    	let fillY;
+    	for (let point of piece.points){
+	        ctx.fillStyle = piece.color;
+	        fillX = (point[0] * pieceSquareSizeX);
+	        fillY = (point[1] * pieceSquareSizeY);
+	        ctx.fillRect(fillX, fillY, pieceSquareSizeX, pieceSquareSizeY);
+    		}
+        }
+    function drawSmallPiece(piece, canvasContext) {
+    	let fillX;
+    	let fillY;
+    	let offset = 3;
+    	for (let coordinate of piece.coordinates){
+	        canvasContext.fillStyle = piece.color;
+	        fillX = ((coordinate[0] + offset) * pieceSquareSizeX);
+	        fillY = ((coordinate[1] + offset) * pieceSquareSizeY);
+	        canvasContext.fillRect(fillX, fillY, pieceSquareSizeX, pieceSquareSizeY);
+    		}
+        }
+    function redrawBoard(){
+    	let fillX;
+    	let fillY;
+    	ctx.clearRect(0, 0, canvas.width, canvas.height);
+    	ctx.fillStyle = "#2A2B2F"
+    	ctx.fillRect(0, 0, canvas.width, canvas.height);
+		ctx.strokeStyle = "black";
+    	for (let y = 0; y < gridSizeY; y++){
+    		for (let x = 0; x < gridSizeX; x++){
+    			fillX = (x * pieceSquareSizeX);
+		        fillY = (y * pieceSquareSizeY);
+    			ctx.strokeRect(fillX, fillY, pieceSquareSizeX, pieceSquareSizeY);
+    			}
+    		}
+    	for (let piece of pieces){
+			drawPiece(piece);}
+    	if (movingPiece){
+        	drawPiece(movingPiece);}
+        drawSmallCanvas();
+    	}
+    function drawSmallCanvas(){
+    	let squareCount = 6;
+    	let fillX;
+    	let fillY;
+    	let selectedCanvas;
+    	let canvasContext;
+    	let piece;
+    	for (let i = 0; i < 2; i++){
+    		if (i == 0){
+    			selectedCanvas = upNextCanvas;
+	    		canvasContext = upNextCanvasContext;
+    			piece = upNextPiece;
+    			}
+	    	else if (i == 1){
+	    		selectedCanvas = heldCanvas;
+	    		canvasContext = heldCanvasContext;
+	    		piece = heldPiece;
+	    		}
+	    	canvasContext.clearRect(0, 0, selectedCanvas.width, selectedCanvas.height);
+	    	canvasContext.fillStyle = "#2A2B2F"
+    		canvasContext.fillRect(0, 0, selectedCanvas.width, selectedCanvas.height);
+			canvasContext.strokeStyle = "black";
+	    	for (let y = 0; y < squareCount; y++){
+	    		for (let x = 0; x < squareCount; x++){
+	    			fillX = (x * pieceSquareSizeX);
+			        fillY = (y * pieceSquareSizeY);
+	    			canvasContext.strokeRect(fillX, fillY, pieceSquareSizeX, pieceSquareSizeY);
+	    			}
+	    		}
+	    	if (piece){
+	    		drawSmallPiece(piece, canvasContext);}
+	    	}
+    	}
+    function checkForCollision(direction=""){
+    	if (movingPiece){
+    		let bottomHit = false;
+    		let topHit = false;
+    		while (true){
+    			let hit = false;
+				for (let point of movingPiece.points){
+			    	if (point[1] >= gridSizeY){
+				    	for (let i = 0; i < movingPiece.points.length; i++){
+			    			let point = movingPiece.points[i];
+			    			point[1] = (point[1] - 1);
+			    			}
+				    	hit = true;
+				    	bottomHit = true;
+			    		break;
+				    	}
+				    else if (point[0] >= gridSizeX){
+				    	for (let i = 0; i < movingPiece.points.length; i++){
+			    			let point = movingPiece.points[i];
+			    			point[0] = (point[0] - 1);
+			    			}
+				    	hit = true;
+			    		break;
+				    	}
+				    else if (point[0] < 0){
+				    	for (let i = 0; i < movingPiece.points.length; i++){
+			    			let point = movingPiece.points[i];
+			    			point[0] = (point[0] + 1);
+			    			}
+				    	hit = true;
+			    		break;
+				    	}
+				    else {
+				    	for (let piece of pieces){
+				    		for (let checkPoint of piece.points){
+						    	if ((point[0] == checkPoint[0]) && (point[1] == checkPoint[1])){
+						    		if ((direction == "right") || (direction == "left")){
+						    			for (let i = 0; i < movingPiece.points.length; i++){
+							    			let point = movingPiece.points[i];
+							    			if (direction == "right"){
+							    				point[0] = (point[0] - 1);}
+							    			else{
+							    				point[0] = (point[0] + 1);}
+							    			}
+								 		hit = true;
+							    		break;
+						    		}
+						    		else{
+								    	for (let i = 0; i < movingPiece.points.length; i++){
+							    			let point = movingPiece.points[i];
+							    			point[1] = (point[1] - 1);
+							    			}
+								 		hit = true;
+								 		bottomHit = true;
+							    		break;
+							    		}
+							    	}
+							    if (hit == true){
+							    	break;}
+					    		}
+					    	}
+					    }
+					}
+				if (hit == false){
+					break;}
+	    		}
+	    	if (bottomHit == true){
+		    	for (let point of movingPiece.points){
+			    	if (point[1] <= 0){
+						topHit = true;
+			    		break;
+			    		}
+			    	}
+		    	pieces.push(movingPiece);
+	    		movingPiece = null;
+	    		checkForClearedLines();
+	    		if (topHit == true){
+	    			gameOver();}
+		    	}
+	    	}
+	    return;
+    	}
+    function checkForClearedLines(){
+    	if (pieces.length > 0){
+    		let filled;
+    		let rowFilled;
+    		let clearedRows = [];
+    		let pointsToRemove = [];
+    		let piecesToRemove = [];
+	    	for (let y = 0; y < gridSizeY; y++){
+	    		rowFilled = true;
+	    		for (let x = 0; x < gridSizeX; x++){
+	    			filled = false;
+	    			for (let piece of pieces){
+	    				for (let point of piece.points){
+		    				if ((point[0] == x) && (point[1] == y)){
+		    					filled = true;
+		    					break;
+		    					}
+		    				}
+	    				}
+	    			if (filled != true){
+	    				rowFilled = false;
+	        			break;
+	    				}
+	    			}
+	    		if (rowFilled == true){
+	    			clearedRows.push(y);}
+	    		}
+	    	// if (clearedRows.length > 0){
+	    	// 	clearedRowAnimation();}
+	    	for (let y of clearedRows){
+	    		for (let j = 0; j < pieces.length; j++){
+	    			let piece = pieces[j];
+	    			pointsToRemove = [];
+	    			for (let i = 0; i < piece.points.length; i++){
+	    				let point = piece.points[i];
+				        if (point[1] == y){
+				        	if (normalClearing != false){
+		    					pointsToRemove.push(i);}
+		    				else{
+		    					// piecesToRemove.push(j);
+		    					for (let k = 0; k < piece.points.length; k++){
+		    						pointsToRemove.push(k);}
+		    					break;
+		    					}
+				        	}
+			    		}
+			    	if (pointsToRemove.length > 0){
+		    			pointsToRemove.sort(function(a,b){return a - b});
+		    			pointsToRemove.reverse();
+		    			for (let indexToRemove of pointsToRemove){
+		    				piece.points.splice(indexToRemove, 1);}
+		    			// if (piece.points.length == 0){
+		    			// 	piecesToRemove.push(j);
+		    			// 	console.log("removed piece " + j + " of " + pieces.length);
+		    			// }
+				    	}
+	    			for (let i = 0; i < piece.points.length; i++){
+	    				let point = piece.points[i];
+				        if (point[1] < y){
+		    				point[1] = (point[1] + 1);}
+			    		}
+	    			}
+	    		if (piecesToRemove.length > 0){
+	    			piecesToRemove.sort(function(a,b){return a - b});
+		    		piecesToRemove.reverse();
+		    		console.log(piecesToRemove);
+	    			for (let indexToRemove of piecesToRemove){
+	    				pieces.splice(indexToRemove, 1);}
+	    			}
+	    		}
+	    	if (clearedRows.length > 0){
+	    		for (let i = 0; i < clearedRows.length; i++){
+		    		rowsCleared++;
+			    	if ((speedUp == true) && ((isNaN(speedMax)) || (speed < speedMax))){
+					    if ((rowsCleared % 5) == 0){
+					    	speed = (speed + 1);
+					    	level++;
+					    	}
+					   	}
+		    		}
+		    	for (let i = (pieces.length - 1); i >= 0; i--){
+		    		if (pieces[i].points.length == 0){
+		    			pieces.splice(i, 1);}
+		    		}
+	    		updateScore();
+		    	}
+    		}
+    	}
+    function clearedRowAnimation(){
+    	return;
+    	}
+    function gameOver(){
+    	animating = false;
+    	// console.log(pieces);
+    	redrawBoard();
+    	}
+    function updateScore(){
+    	rowsClearedBox.innerText = `Rows Cleared: ${rowsCleared}\nLevel: ${level}`;
+    	}
+   	function movePiece(direction){
+    	if (animating == false){
+    		return;}
+    	if (movingPiece){
+	    	if (direction == "down"){
+	    		for (let i = 0; i < movingPiece.points.length; i++){
+	    			let point = movingPiece.points[i];
+	    			point[1] = (point[1] + 1);
+	    			}
+	    		checkForCollision(direction);
+	    		}
+	    	else if (direction == "down_fast"){
+	    		for (let j = 0; j < 2; j++){
+		    		for (let i = 0; i < movingPiece.points.length; i++){
+		    			let point = movingPiece.points[i];
+		    			point[1] = (point[1] + 1);
+		    			}
+		    		checkForCollision(direction);
+		    		}
+	    		}
+	    	else if (direction == "down_bottom"){
+	    		while (movingPiece){
+		    		for (let i = 0; i < movingPiece.points.length; i++){
+		    			let point = movingPiece.points[i];
+		    			point[1] = (point[1] + 1);
+		    			}
+		    		checkForCollision(direction);
+		    		}
+	    		}
+	    	else if (direction == "left"){
+	    		for (let i = 0; i < movingPiece.points.length; i++){
+	    			let point = movingPiece.points[i];
+	    			point[0] = (point[0] - 1);
+	    			}
+	    		checkForCollision(direction);
+	    		}
+	    	else if (direction == "right"){
+	    		for (let i = 0; i < movingPiece.points.length; i++){
+	    			let point = movingPiece.points[i];
+	    			point[0] = (point[0] + 1);
+	    			}
+	    		checkForCollision(direction);
+	    		}
+	    	}
+    	}
+    function rotatePiece(direction="clockwise"){
+    	if (animating == false){
+    		return;}
+		if (!movingPiece){
+			return;}
+		if (movingPiece.points.length <= 1){
+			return;}
+		if ((movingPiece.name == "square_4") || (movingPiece.name == "cross_5")){
+			return;}
+		let rotationPointIndex = null;
+		for (let i = 0; i < movingPiece.coordinates.length; i++){
+			let coordinate = movingPiece.coordinates[i];
+			if ((coordinate[0] == 0) && (coordinate[1] == 0)){
+				rotationPointIndex = i;}
+			}
+		if (rotationPointIndex == null){
+			return;}
+		let rotatedCoordinates = [];
+		let rotatedPoints = [];
+		for (let i = 0; i < movingPiece.coordinates.length; i++){
+			let coordinate = movingPiece.coordinates[i];
+			let point = movingPiece.points[i];
+			let rotationCoordinate;
+			if ((movingPiece.rotation == 0) || (movingPiece.rotation == 180)){
+				if (direction == "clockwise"){
+					rotationCoordinate = [coordinate[1], coordinate[0]];}
+				else{
+					rotationCoordinate = [(coordinate[1] * -1), (coordinate[0] * -1)];}
+				if (((rotationCoordinate[0] == -1)) || ((rotationCoordinate[0] == 1)) || ((rotationCoordinate[0] == -2)) || ((rotationCoordinate[0] == 2))){
+					rotationCoordinate = [(rotationCoordinate[0] * -1), rotationCoordinate[1]];}
+				}
+			else if ((movingPiece.rotation == 90) || (movingPiece.rotation == 270)){
+				if (direction == "clockwise"){
+					rotationCoordinate = [(coordinate[1] * -1), (coordinate[0] * -1)];}
+				else{
+					rotationCoordinate = [coordinate[1], coordinate[0]];}
+				if (((i == 0) && ((movingPiece.name == "left_bracket_4") || (movingPiece.name == "left_bracket_5") || (movingPiece.name == "left_t_5") || (movingPiece.name == "left_bottom_bracket_5") || (movingPiece.name == "u_5")))
+					|| ((i <= 1) && ((movingPiece.name == "angle_3") || (movingPiece.name == "z_4") || (movingPiece.name == "angle_5") || (movingPiece.name == "z_5") || (movingPiece.name == "elongated_z_5")))
+					|| ((i == 2) && (movingPiece.name == "t_4") || (movingPiece.name == "t_5"))
+					|| ((i >= 2) && ((movingPiece.name == "reverse_z_4") || (movingPiece.name == "reverse_z_5") || (movingPiece.name == "elongated_reverse_z_5")))
+					|| ((i >= 3) && ((movingPiece.name == "right_bracket_4") || (movingPiece.name == "right_bracket_5") || (movingPiece.name == "elongated_z_5") || (movingPiece.name == "right_t_5") || (movingPiece.name == "right_bottom_bracket_5") || (movingPiece.name == "t_5")))
+					|| ((i == 4) && ((movingPiece.name == "u_5") || (movingPiece.name == "left_bottom_bracket_5")))
+					|| ((movingPiece.name == "left_square_5") || (movingPiece.name == "right_square_5") || (movingPiece.name == "w_5"))){
+						rotationCoordinate = [rotationCoordinate[0], (rotationCoordinate[1] * -1)];}
+				}
+			rotatedPoints.push([(point[0] + (rotationCoordinate[0] - coordinate[0])), (point[1] + (rotationCoordinate[1] - coordinate[1]))]);
+			rotatedCoordinates.push(rotationCoordinate);
+			}
+		movingPiece.points = []
+		for (let rotatedPoint of rotatedPoints){
+			movingPiece.points.push([rotatedPoint[0], rotatedPoint[1]]);
+			}
+		movingPiece.coordinates = []
+		for (let rotatedCoordinate of rotatedCoordinates){
+			movingPiece.coordinates.push([rotatedCoordinate[0], rotatedCoordinate[1]]);
+			}
+		if (direction == "clockwise"){
+			movingPiece.rotation += 90;
+			if (movingPiece.rotation >= 360){
+				movingPiece.rotation = (movingPiece.rotation - 360);}
+			}
+		else{
+			movingPiece.rotation -= 90;
+			if (movingPiece.rotation < 0){
+				movingPiece.rotation = (movingPiece.rotation + 360);}
+			}
+    	}
+    function holdPiece(){
+    	let heldPieceTemp;
+    	if (heldPiece){
+    		heldPieceTemp = heldPiece;}
+    	if (movingPiece){
+    		heldPiece = movingPiece;
+    		if (heldPieceTemp){
+    			let pointOffsetX;
+    			let pointOffsetY;
+    			for (let i = 0; i < movingPiece.coordinates.length; i++){
+    				let coordinate = movingPiece.coordinates[i];
+    				let point = movingPiece.points[i];
+    				if ((coordinate[0] == 0) && (coordinate[1] == 0)){
+    					pointOffsetX = (point[0] - (Math.round(gridSizeX / 2)));
+    					pointOffsetY = (point[1] - 0);
+    					}
+    				}
+    			for (let i = 0; i < heldPieceTemp.coordinates.length; i++){
+    				let coordinate = heldPieceTemp.coordinates[i];
+    				heldPieceTemp.points[i][0] = ((Math.round(gridSizeX / 2)) + pointOffsetX + coordinate[0]);
+    				heldPieceTemp.points[i][1] = (0 + pointOffsetY + coordinate[1]);
+    				}
+	    		movingPiece = heldPieceTemp;
+	    		heldPieceTemp = null;
+	    		}
+	    	else{
+	    		movingPiece = null;
+	    		}
+    		}
+    	}
+    function createPieceVariations(){
+    	pieceVariations = [];
+    	let includeSmallerPieces = document.getElementById("includeSmallerPieces").checked;
+    	let pieceCount =  parseFloat(document.getElementById("pieceCount").value);
+   		if ((pieceCount == 1) || ((includeSmallerPieces == true) && (pieceCount > 1))){
+        	pieceVariations.push({"name": "square_1", "color": "#FFB500", "coordinates": [[0,0]]});}
+        if ((pieceCount == 2) || ((includeSmallerPieces == true) && (pieceCount > 2))){
+        	pieceVariations.push({"name": "line_2", "color": "#00A6AA", "coordinates": [[0,0],[1,0]]});}
+        if ((pieceCount == 3) || ((includeSmallerPieces == true) && (pieceCount > 3))){
+        	pieceVariations.push({"name": "line_3", "color": "#0AA3F7", "coordinates": [[-1,0],[0,0],[1,0]]});
+        	pieceVariations.push({"name": "angle_3", "color": "#FF34FF", "coordinates": [[0, -1],[0,0],[1,0]]});
+        	}
+        if ((pieceCount == 4) || ((includeSmallerPieces == true) && (pieceCount > 4))){
+        	pieceVariations.push({"name": "line_4", "color": "#1CE6FF", "coordinates": [[-2,0],[-1,0],[0,0],[1,0]]});
+        	pieceVariations.push({"name": "left_bracket_4", "color": "#0045D2", "coordinates": [[-1,-1],[-1,0],[0,0],[1,0]]});
+        	pieceVariations.push({"name": "right_bracket_4", "color": "#BE4700", "coordinates": [[-1,0],[0,0],[1,0],[1,-1]]});
+        	pieceVariations.push({"name": "square_4", "color": "#FDDA0D", "coordinates": [[0,-1],[0,0],[1,0],[1,-1]]});
+        	pieceVariations.push({"name": "reverse_z_4", "color": "#00B433", "coordinates": [[-1,0],[0,0],[0,-1],[1,-1]]});
+        	pieceVariations.push({"name": "z_4", "color": "#BA0900", "coordinates": [[-1,-1],[0,-1],[0,0],[1,0]]});
+        	pieceVariations.push({"name": "t_4", "color": "#7900D7", "coordinates": [[-1,0],[0,0],[0,-1],[1,0]]});
+        	}
+        if ((pieceCount == 5) || ((includeSmallerPieces == true) && (pieceCount > 5))){
+        	pieceVariations.push({"name": "line_5", "color": "#8CD0FF", "coordinates": [[-2,0],[-1,0],[0,0],[1,0],[2,0]]});
+        	pieceVariations.push({"name": "angle_5", "color": "#E704C4", "coordinates": [[0,-2],[0,-1],[0,0],[1,0],[2,0]]});
+        	pieceVariations.push({"name": "left_bracket_5", "color": "#0000A6", "coordinates": [[-1,-1],[-1,0],[0,0],[1,0],[2,0]]});
+        	pieceVariations.push({"name": "right_bracket_5", "color": "#D16100", "coordinates": [[-2,0],[-1,0],[0,0],[1,0],[1,-1]]});
+        	pieceVariations.push({"name": "reverse_z_5", "color": "#008941", "coordinates": [[-2,0],[-1,0],[0,0],[0,-1],[1,-1]]});
+        	pieceVariations.push({"name": "z_5", "color": "#E20027", "coordinates": [[-1,-1],[0,-1],[0,0],[1,0],[2,0]]});
+        	pieceVariations.push({"name": "elongated_reverse_z_5", "color": "#1E6E00", "coordinates": [[-1,0],[0,0],[0,-1],[0,-2],[1,-2]]});
+        	pieceVariations.push({"name": "elongated_z_5", "color": "#CC0744", "coordinates": [[-1,-1],[0,-1],[0,0],[0,1],[1,1]]});
+        	pieceVariations.push({"name": "left_square_5", "color": "#F4D749", "coordinates": [[0,-2],[0,-1],[0,0],[1,0],[1,-1]]});
+        	pieceVariations.push({"name": "right_square_5", "color": "#CCAA35", "coordinates": [[0,-1],[0,0],[1,0],[1,-1],[1,-2]]});
+        	pieceVariations.push({"name": "t_5", "color": "#6F0062", "coordinates": [[-1,0],[0,0],[0,-1],[0,-2],[1,0]]});
+        	pieceVariations.push({"name": "left_t_5", "color": "#962B75", "coordinates": [[-1,-1],[-2,0],[-1,0],[0,0],[1,0]]});
+        	pieceVariations.push({"name": "right_t_5", "color": "#671190", "coordinates": [[-1,0],[0,0],[1,0],[2,0],[1,-1]]});
+        	pieceVariations.push({"name": "u_5", "color": "#0CBD66", "coordinates": [[-1,-1],[-1,0],[0,0],[1,0],[1,-1]]});
+        	pieceVariations.push({"name": "cross_5", "color": "#DA007C", "coordinates": [[0,-1],[-1,0],[0,0],[1,0],[0,1]]});
+        	pieceVariations.push({"name": "w_5", "color": "#006FA6", "coordinates": [[-1,-1],[-1,0],[0,0],[0,1],[1,1]]});
+        	pieceVariations.push({"name": "left_bottom_bracket_5", "color": "#00005F", "coordinates": [[-1,-1],[-1,0],[0,0],[1,0],[0,1]]});
+        	pieceVariations.push({"name": "right_bottom_bracket_5", "color": "#E83000", "coordinates": [[-1,0],[0,0],[1,0],[1,-1],[0,1]]});
+        	}
+        return pieceVariations;
+   		}
+    class Piece {
+        constructor(pieceIndex=null, rotation=0) {
+            if (pieceIndex == null){
+            	if (pieceVariations.length > 11){
+            		let limitLargePieces = Math.round(Math.random() * 4);
+            		if (limitLargePieces == 0){
+            			pieceIndex = Math.round(Math.random() * (pieceVariations.length - 1));}
+            		else{
+            			pieceIndex = Math.round(Math.random() * (pieceVariations.length - (pieceVariations.length - 11)));}
+            		}
+            	else{
+                	pieceIndex = Math.round(Math.random() * (pieceVariations.length - 1));}
+            	}
+            this.coordinates = pieceVariations[pieceIndex]["coordinates"];
+            this.name = pieceVariations[pieceIndex]["name"];
+            this.color = pieceVariations[pieceIndex]["color"];
+            this.rotation = rotation;
+            this.points = [];
+            let pointTemp = [];
+            for (let coordinate of this.coordinates){
+            	pointTemp = [];
+		    	pointTemp[0] = ((Math.round(gridSizeX / 2)) + coordinate[0]);
+		    	pointTemp[1] = (0 + coordinate[1]);
+		    	this.points.push(pointTemp);
+		    	}
+            }
+        }
+    function setEventListeners(){
+    	document.getElementById("optionsButton").addEventListener("click", function(event){
+            if (document.getElementById("options").style.display != "block") {
+                document.getElementById("options").style.display = "block"; }
+            else {
+                document.getElementById("options").style.display = "none"; }
+    		});
+    	document.getElementById("startButton").addEventListener("click", function(event){
+            if (animating == true) {
+                animating = false;
+                }
+            else {
+                animating = true;
+                animate();
+                }
+    		});
+        document.getElementById("resetButton").addEventListener("click", function(event){
+            animating = false;
+            reset();
+    		});
+    	document.getElementById("fps").addEventListener("change", function(event){
+    		if (!isNaN(parseFloat(document.getElementById("fps").value))){
+            	frameRate =  parseFloat(document.getElementById("fps").value);}
+    		});
+    	document.getElementById("pieceCount").addEventListener("change", function(event){
+            pieceVariations = createPieceVariations();});
+    	document.getElementById("includeSmallerPieces").addEventListener("change", function(event){
+            pieceVariations = createPieceVariations();});
+    	document.getElementById("gridSizeX").addEventListener("change", function(event){
+    		if (!isNaN(parseFloat(document.getElementById("gridSizeX").value))){
+	            gridSizeX = parseFloat(document.getElementById("gridSizeX").value);
+	    		changePieceSize();
+	    		}
+    		});
+    	document.getElementById("gridSizeY").addEventListener("change", function(event){
+    		if (!isNaN(parseFloat(document.getElementById("gridSizeY").value))){
+	            gridSizeY = parseFloat(document.getElementById("gridSizeY").value);
+	    		changePieceSize();
+    			}
+	    	});
+    	document.getElementById("speedMin").addEventListener("change", function(event){
+    		if (!isNaN(parseFloat(document.getElementById("speedMin").value))){
+            	speedMin = parseFloat(document.getElementById("speedMin").value);
+            	if (speed < speedMin){
+    				speed = speedMin;
+            		level = speed;
+            		updateScore();
+            		}
+    			}
+            });
+    	document.getElementById("speedMax").addEventListener("change", function(event){
+    		if (!isNaN(parseFloat(document.getElementById("speedMax").value))){
+            	speedMax = parseFloat(document.getElementById("speedMax").value);
+    			if (speed > speedMax){
+    				speed = speedMax;
+    				level = speed;
+    				updateScore();
+    				}
+    			}
+            });
+    	document.getElementById("speedUp").addEventListener("change", function(event){
+            speedUp = document.getElementById("speedUp").checked;});
+    	document.getElementById("canvasWidth").addEventListener("change", function(event){
+    		if (!isNaN(parseFloat(document.getElementById("canvasWidth").value))){
+	    		let width = parseFloat(document.getElementById("canvasWidth").value);
+	    		let height = "";
+	    		if (document.getElementById("keepAspectRatio").checked != true){
+	    			height = parseFloat(document.getElementById("canvasHeight").value);}
+	            changeCanvasSize(width, height);
+    			}
+    		});
+    	document.getElementById("canvasHeight").addEventListener("change", function(event){
+    		if (!isNaN(parseFloat(document.getElementById("canvasHeight").value))){
+	    		let height = parseFloat(document.getElementById("canvasHeight").value);
+	            let width = "";
+	    		if (document.getElementById("keepAspectRatio").checked != true){
+	    			width = parseFloat(document.getElementById("canvasWidth").value);}
+	            changeCanvasSize(width, height);
+	    		}
+    		});
+    	document.getElementById("normalClearingTrue").addEventListener("change", function(event){
+            if (document.getElementById("normalClearingTrue").checked == true){
+            	normalClearing = true;}
+    		});
+    	document.getElementById("normalClearingFalse").addEventListener("change", function(event){
+            if (document.getElementById("normalClearingFalse").checked == true){
+            	normalClearing = false;}
+    		});
+        document.getElementById("upButton").addEventListener("click", function(event){
+            rotatePiece();});
+        document.getElementById("downButton").addEventListener("click", function(event){
+            movePiece("down_fast");});
+        document.getElementById("leftButton").addEventListener("click", function(event){
+            movePiece("left");});
+        document.getElementById("rightButton").addEventListener("click", function(event){
+            movePiece("right");});
+        document.getElementById("holdButton").addEventListener("click", function(event){
+            holdPiece();});
+        document.getElementById("overlayUp").addEventListener("click", function(event){
+            rotatePiece();});
+        document.getElementById("overlayDown").addEventListener("click", function(event){
+            movePiece("down_fast");});
+        document.getElementById("overlayLeft").addEventListener("click", function(event){
+            movePiece("left");});
+        document.getElementById("overlayRight").addEventListener("click", function(event){
+            movePiece("right");});
+        document.getElementById("overlayHold").addEventListener("click", function(event){
+            holdPiece();});
+        document.getElementById("overlayControls").addEventListener("change", function(event){
+            if (document.getElementById("overlayControls").checked == true){
+            	document.getElementById("overlayControlsBox").classList.remove("removed");
+            	document.getElementById("canvas_area").classList.add("canvas_area_small");
+            	changeCanvasSize("", "", 1.05, .63);
+            	}
+            else{
+            	document.getElementById("overlayControlsBox").classList.add("removed");
+            	document.getElementById("canvas_area").classList.remove("canvas_area_small");
+            	changeCanvasSize("", "", 1.05, .48);
+            	}
+        	});
+        document.addEventListener('keydown', function(event) {
+			if (event.key == "ArrowUp") {
+				event.preventDefault();
+				rotatePiece();
+				}
+			else if (event.key == "ArrowDown") {
+				event.preventDefault();
+				movePiece("down_fast");
+				}
+			else if (event.key == "ArrowLeft") {
+				event.preventDefault();
+				movePiece("left");
+				}
+			else if (event.key == "ArrowRight") {
+				event.preventDefault();
+				movePiece("right");
+				}			
+			else if ((event.key == "w") || (event.key == "W")) {
+				event.preventDefault();
+				rotatePiece();
+				}
+			else if ((event.key == "s") || (event.key == "S")) {
+				event.preventDefault();
+				movePiece("down_fast");
+				}
+			else if ((event.key == "a") || (event.key == "A")) {
+				event.preventDefault();
+				movePiece("left");
+				}
+			else if ((event.key == "d") || (event.key == "D")) {
+				event.preventDefault();
+				movePiece("right");
+				}			
+			else if (event.key == " ") {
+				event.preventDefault();
+				movePiece("down_bottom");
+				}
+			else if ((event.key == "f") || (event.key == "F")) {
+				event.preventDefault();
+				rotatePiece();
+				}
+			else if ((event.key == "g") || (event.key == "G")) {
+				event.preventDefault();
+				rotatePiece("counter_clockwise");
+				}
+			else if ((event.key == "r") || (event.key == "R")) {
+				event.preventDefault();
+				reset();
+				}
+			else if ((event.key == "q") || (event.key == "Q")) {
+				event.preventDefault();
+				animating = false;
+				}
+			else if ((event.key == "h") || (event.key == "H")) {
+				event.preventDefault();
+				holdPiece();
+				}
+			else if ((event.key == "x") || (event.key == "X")) {
+				event.preventDefault();
+				holdPiece();
+				}
+			else if (event.key == "Enter") {
+				event.preventDefault();
+				if (animating == false){
+					animating = true;
+	                animate();
+					}
+				else{
+					animating = false;}
+				}
+			// else{
+			// 	console.log(event.key);}
+			});
+		window.addEventListener("blur", function(event){
+            animating = false;});
+    	}
+    window.addEventListener("load", load);
+</script>
+</body>
+</html>
