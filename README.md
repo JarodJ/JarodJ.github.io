@@ -1,5 +1,11 @@
 # JarodJ.github.io
 
+[Binary_Converter](./Polyomino.html)
+> Polyomino Game
+
+[Binary_Converter](./Boom_Detector.html)
+> Boom_Detector Game
+
 [Binary_Converter](./Binary_Converter.html)
 > Convert to and from binary
 
