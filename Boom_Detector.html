@@ -184,6 +184,10 @@
 					<span class="hotkeyText">Right Click</span>
 				</div>
 				<div>
+					<span class="hotkeyLabel">Question</span>
+					<span class="hotkeyText">Middle Click</span>
+				</div>
+				<div>
 					<span class="hotkeyLabel">Move</span>
 					<span class="hotkeyText">Arrows</span>
 				</div>
@@ -196,12 +200,28 @@
 					<span class="hotkeyText">Enter</span>
 				</div>
 				<div>
+					<span class="hotkeyLabel">Reveal</span>
+					<span class="hotkeyText">R</span>
+				</div>
+				<div>
 					<span class="hotkeyLabel">Mark</span>
 					<span class="hotkeyText">Space</span>
 				</div>
 				<div>
+					<span class="hotkeyLabel">Mark</span>
+					<span class="hotkeyText">F</span>
+				</div>
+				<div>
+					<span class="hotkeyLabel">Question</span>
+					<span class="hotkeyText">Q</span>
+				</div>
+				<div>
 					<span class="hotkeyLabel">Reset</span>
-					<span class="hotkeyText">R</span>
+					<span class="hotkeyText">Control + R</span>
+				</div>
+				<div>
+					<span class="hotkeyLabel">Reset</span>
+					<span class="hotkeyText">P</span>
 				</div>
 			</div>
 		</div>
@@ -459,7 +479,7 @@
 						}
 					else{
 						if (square.isMarked == true){
-							textColor = "red";}
+							textColor = "purple";}
 						else if (square.isQuestion == true){
 							textColor = "blue";}
 						else{
@@ -477,6 +497,11 @@
 					markedCount++;
 					}
 				else if (square.isQuestion == true){
+					if ((markCompletedSquares == true) && ((markSelectedSquare != true) || (selectedSquareX != x) || (selectedSquareY != y))){
+						let touchingCompletedSquare = checkForCompletedTouchingSquares(square);
+						if (touchingCompletedSquare == true){
+							fillColor = "rgb(100,100,100)";}
+						}
 					ctx.fillStyle = fillColor;
 					ctx.fillRect(fillX, fillY, pieceSquareSizeX, pieceSquareSizeY);
 					textColor = "blue";
@@ -485,7 +510,7 @@
 					coveredCount++;
 					}
 				else{
-					if (markCompletedSquares == true){
+					if ((markCompletedSquares == true) && ((markSelectedSquare != true) || (selectedSquareX != x) || (selectedSquareY != y))){
 						let touchingCompletedSquare = checkForCompletedTouchingSquares(square);
 						if (touchingCompletedSquare == true){
 							fillColor = "rgb(100,100,100)";}
@@ -709,14 +734,32 @@
 				let piecePosition = selectedSquareX + "," + selectedSquareY;
 				pieceClicked(piecePosition, 2);
 				}
-			else if ((event.key == "r") || (event.key == "R")) {
+			else if ((event.key == "f") || (event.key == "F")) {
+				event.preventDefault();
+				let piecePosition = selectedSquareX + "," + selectedSquareY;
+				pieceClicked(piecePosition, 2);
+				}
+			else if ((event.ctrlKey) && ((event.key == "r") || (event.key == "R")) ){
 				event.preventDefault();
 				reset();
+				}
+			else if ((event.key == "p") || (event.key == "P")) {
+				event.preventDefault();
+				reset();
+				}
+			else if ((event.key == "r") || (event.key == "R")) {
+				event.preventDefault();
+				let piecePosition = selectedSquareX + "," + selectedSquareY;
+				pieceClicked(piecePosition, 0);
 				}
 			else if ((event.key == "q") || (event.key == "Q")) {
 				event.preventDefault();
 				let piecePosition = selectedSquareX + "," + selectedSquareY;
 				pieceClicked(piecePosition, 1);
+				}
+			else if ((event.key == "u") || (event.key == "U")) {
+				event.preventDefault();
+				markSelectedSquare = false;
 				}
 			else if (event.key == "Enter") {
 				event.preventDefault();
